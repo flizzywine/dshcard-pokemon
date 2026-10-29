@@ -203,10 +203,8 @@ function finishStoryAction(variables,input,turn) {
     world.剧情.行动提示='';
     // 遭遇一旦成立，就把「该写什么」放进下一轮喂给模型的行动提示里：否则模型
     // 常在正文里打完一场却不写【进入本轮战斗】，玩家只能点那个必然报错的按钮。
-    if(world.战斗?.状态==='pending'&&world.遭遇){
-      const lead=world.遭遇.队伍?.[0];
-      world.剧情.行动提示=`已遭遇${world.遭遇.训练家||'对手'}${lead?`（${lead.昵称} Lv.${lead.等级}）`:''}：本轮正文让对手现身、写清交手前的准备，并在正文最后单独一行写【进入本轮战斗】；不要替玩家出招，也不要写战斗结果。`;
-    }
+    // 只在真正触发遭遇的动作上写；选御三家这类回合留着空，不假装已经有对手。
+    if(['wild','explore','legendary','trainer-battle','challenge-gym','special-battle'].includes(last?.action))world.剧情.行动提示=encounterCue(world);
     if(last?.action==='quest-inquire'&&world.委托?.上次生成故事轮次!==turn){
       const context=quests.generationContext(world);
       if(context.eligible){
@@ -363,6 +361,13 @@ function recoverBattleIntent(variables,input,prose){
   if(world.战斗?.状态==='pending')return {type:'pending',action:'start-battle',payload:{}};
   return null;
 }
+// 遭遇成立时给模型看的唯一一句话：由调用方写进 剧情.行动提示，只影响下一轮正文。
+function encounterCue(world){
+  const foe=world&&world.遭遇;
+  if(!foe||world.战斗?.状态!=='pending')return '';
+  const lead=Array.isArray(foe.队伍)?foe.队伍[0]:null;
+  return `已遭遇${foe.训练家||'对手'}${lead?`（${lead.昵称} Lv.${lead.等级}）`:''}：本轮正文让对手现身、写清交手前的准备，并在正文最后单独一行写【进入本轮战斗】；不要替玩家出招，也不要写战斗结果。`;
+}
 function reconcileNarrativeEncounter(variables,input,text,turn){
   const world=variables.stat_data.宝可梦;
   if(world.战斗?.状态!=='finished')return variables;
@@ -371,6 +376,8 @@ function reconcileNarrativeEncounter(variables,input,text,turn){
   let next=target.node===world.地图.节点?variables:travelByLegalRoute(variables,target.node);
   next=applyAction(next,'wild',{speciesId:target.id,scripted:target.scripted===true},turn);
   next.stat_data.宝可梦.战斗.剧情来源={故事轮次:turn,物种:target.id,地点:target.node};
+  const settled=next.stat_data.宝可梦;
+  if(settled.剧情)settled.剧情.行动提示=encounterCue(settled)||settled.剧情.行动提示;
   return next;
 }
 // Freeze the complete encounter at settlement time; reads never mutate it.
