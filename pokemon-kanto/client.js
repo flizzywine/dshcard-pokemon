@@ -36,9 +36,9 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
     staticRequests.set(key,entry);while(staticRequests.size>STATIC_REQUEST_LIMIT)staticRequests.delete(staticRequests.keys().next().value);
     return entry.promise;
   }
-  function documentFor(bundle,base,query){
+  function documentFor(bundle,base,query,musicManaged=false){
     const q=value=>String(value).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
-    const boot=JSON.stringify({query}).replace(/</g,'\\u003c');
+    const boot=JSON.stringify({query,musicManaged}).replace(/</g,'\\u003c');
     // 素材在人物卡的素材包里；插件页面本身仍从 plugins/<插件>/assets/web/ 读。
     const assetRoot=String(bundle.assetRoot||'');
     const assetBoot=`window.__KANTO_ASSET_ROOT__=${JSON.stringify(assetRoot).replace(/</g,'\\u003c')};window.__KANTO_ANIMATED_ROOT__=${JSON.stringify(String(bundle.animatedAssetRoot||assetRoot)).replace(/</g,'\\u003c')};window.__KANTO_FX_ASSET_ROOT__=${JSON.stringify(String(bundle.fxAssetRoot||'')).replace(/</g,'\\u003c')};`;
@@ -47,14 +47,14 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
       .replace(/<head>/i,()=>`<head><base href="${q(base)}"><style>${bundle.css.replace(/<\/style/gi,'<\\/style')}</style><script>${assetBoot}window.__KANTO_EMBED__=${boot};<\/script>`)
       .replace(/<\/body>/i,()=>`<script>${bundle.js.replace(/<\/script/gi,'<\\/script')}<\/script></body>`);
   }
-  function BattleFrame({ctx,gameId,mode,onChange,onRefresh,onPrepare,onPreferences,musicEnabled=true,effectsEnabled=true,animationSpeed=1,reducedEffects=false}){
+  function BattleFrame({ctx,gameId,mode,onChange,onRefresh,onPrepare,onPreferences,musicEnabled=true,musicManaged=false,effectsEnabled=true,animationSpeed=1,reducedEffects=false}){
     const ui=ctx.tavernUi,frame=useRef(null),port=useRef(null),head=useRef({}),handler=useRef(null);
     const nonce=useRef(globalThis.crypto?.randomUUID?.()||`kanto-${Date.now()}-${Math.random()}`);
     const [bundle,setBundle]=useState(null),[error,setError]=useState(''),[retry,setRetry]=useState(0),[connected,setConnected]=useState(false);
     const battle=mode==='battle',query=`?native=1&mvu=1&battle=${battle?1:0}&roster=${battle?0:1}&tab=${encodeURIComponent(mode)}&bridge=${nonce.current}`;
-    const audioSettings=useRef({});audioSettings.current={music:musicEnabled,effects:effectsEnabled,speed:animationSpeed,reducedEffects};
-    const base=ASSET_ROOT+'index.html',doc=useMemo(()=>bundle?documentFor(bundle,base,query):'',[bundle,base,query]);
-    useEffect(()=>{if(port.current)port.current.postMessage({channel:CHANNEL,bridge:nonce.current,type:'audio-settings',...audioSettings.current});},[musicEnabled,effectsEnabled,animationSpeed,reducedEffects]);
+    const audioSettings=useRef({});audioSettings.current={music:musicManaged?false:musicEnabled,...(musicManaged?{musicManaged:true}:{}),effects:effectsEnabled,speed:animationSpeed,reducedEffects};
+    const base=ASSET_ROOT+'index.html',doc=useMemo(()=>bundle?documentFor(bundle,base,query,musicManaged):'',[bundle,base,query,musicManaged]);
+    useEffect(()=>{if(port.current)port.current.postMessage({channel:CHANNEL,bridge:nonce.current,type:'audio-settings',...audioSettings.current});},[musicEnabled,musicManaged,effectsEnabled,animationSpeed,reducedEffects]);
     useEffect(()=>{let active=true;setError('');staticRequest('view',gameId,()=>ui.callHost(PLUGIN+'/view',{gameId})).then(v=>{if(active){PACK_ROOT=v?.assetRoot||PACK_ROOT;setBundle(v);}}).catch(e=>{if(active)setError(e.message);});return()=>{active=false;};},[gameId,retry]);
     useEffect(()=>ui.watchTurnState?.(gameId,value=>{
       const old=head.current;head.current=value||{};
@@ -66,7 +66,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
       if(data.type==='story-intent'&&['travel','heal','starter','bond','care','train','camp','quest-accept','quest-turn-in','deep-quest-accept','deep-quest-advance','deep-quest-claim'].includes(data.action)){onChange('story');onPrepare?.({id:data.action,label:data.label||'继续旅程',payload:data.payload||{}});return;}
       if(data.type==='open-battle'){onChange('battle');return;}
       if(data.type==='open-roster'){onChange(modes.has(data.tab)?data.tab:'party');return;}
-      if(data.type==='music-change'){ui.setMusicEnabled?.(data.enabled);return;}
+      if(data.type==='music-change'){if(!musicManaged)ui.setMusicEnabled?.(data.enabled);return;}
       if(data.type==='presentation-change'){onPreferences?.(data);return;}
       if(typeof data.requestId!=='string'||data.requestId.length>120)return;
       const route=String(data.path||'').replace(/^\/api\//,''),answer=(body,error)=>{try{reply({channel:CHANNEL,bridge:nonce.current,requestId:data.requestId,body,error});}catch{}};
@@ -549,8 +549,12 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
     useEffect(()=>{if(!data||data.writable||typeof ui.watchTurnState==='function')return;const timer=setTimeout(refresh,4000);return()=>clearTimeout(timer);},[data,revision]);
     const world=data?.world,theater=data?.theater,options=theater?.options||[],starters=options.filter(option=>option.id==='starter');
     const finished=world?.战斗?.状态==='finished';
+    // API 7 stage data carries the native BGM cue (including null for silence).
+    // The host owns that player in chat and fullscreen; legacy plugin music is
+    // a separate transport, so never start it alongside the native owner.
+    const musicManaged=Number(ui.apiVersion)>=7&&Object.prototype.hasOwnProperty.call(stage||{},'music');
     const track=storyTrack(data,stageAssets?.audio,shared.serviceScene||beat),trackUrl=track?asset(ui,track.file):'';
-    useEffect(()=>{if(mode==='battle')ui.stopMusic?.();else if(trackUrl)ui.playMusic?.({url:trackUrl,title:track.track,volume:.42});},[gameId,mode==='battle',trackUrl]);
+    useEffect(()=>{if(musicManaged||mode==='battle'||!trackUrl)ui.stopMusic?.();else ui.playMusic?.({url:trackUrl,title:track.track,volume:.42});},[gameId,musicManaged,mode==='battle',trackUrl]);
     useEffect(()=>()=>ui.stopMusic?.(),[gameId]);
     const hiddenNow=isStageDataRow(beat,beats);
     const advanceScene=()=>{if((sessions.get(gameId)||{}).serviceScene){sessions.set(gameId,{...(sessions.get(gameId)||{}),serviceScene:null});notify(gameId);return;}let target=index+1;while(target<(beats?.length||0)-1&&isStageDataRow(beats[target],beats))target++;for(let n=0;n<Math.min(400,Math.max(1,target-index));n++)advance?.();};
@@ -696,7 +700,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
           h('label',null,'难度',h('select',{'aria-label':'对手难度',value:difficulty,disabled:busy||!data?.writable||world?.战斗?.状态==='active',onChange:e=>setting({difficulty:e.target.value})},[['easy','容易'],['normal','中等'],['hard','困难'],['expert','极难'],['hell','地狱'],['ai','AI 对手']].map(([id,label])=>h('option',{key:id,value:id},label)))),
           h('label',null,'版本',h('select',{'aria-label':'野生宝可梦版本',value:world?.设置?.版本||'firered',disabled:busy||!data?.writable||world?.战斗?.状态==='active',onChange:e=>setting({version:e.target.value})},h('option',{value:'firered'},'火红'),h('option',{value:'leafgreen'},'叶绿'))),
           difficulty==='ai'?h('label',null,'对手模型',h('select',{'aria-label':'AI对手模型',value:world?.设置?.对手模型?JSON.stringify(world.设置.对手模型):'',disabled:busy||!data?.writable||world?.战斗?.状态==='active'||!modelCatalog?.available,onChange:e=>setting({aiModel:e.target.value?JSON.parse(e.target.value):null})},h('option',{value:''},'本局后台模型'+(modelCatalog?.current?.model?' · '+modelCatalog.current.model:'')),(modelCatalog?.groups||[]).map(group=>h('optgroup',{key:group.provider,label:group.providerName||group.provider},group.models.map(model=>h('option',{key:model.id,value:JSON.stringify({provider:group.provider,model:model.id})},model.name||model.id)))))):null,
-          button(musicEnabled?'音乐 开':'音乐 关',()=>{ui.setMusicEnabled?.(!musicEnabled);setMusic(v=>!v);}),
+          musicManaged?h('span',{className:'kanto-native-music-note'},'音乐由原生舞台控制'):button(musicEnabled?'音乐 开':'音乐 关',()=>{ui.setMusicEnabled?.(!musicEnabled);setMusic(v=>!v);}),
           button(effectsEnabled?'音效 开':'音效 关',()=>setEffects(v=>!v)),
           h('details',{className:'kanto-difficulty-rules'},h('summary',null,'难度规则'),h('p',null,data?.progression?.difficultyDescription||'')),
           h('details',{className:'kanto-stage-settings'},h('summary',null,'旅程设置'),h('div',null,
@@ -708,7 +712,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
             h('label',null,h('input',{type:'checkbox',checked:world?.设置?.道馆等级上限!==false,disabled:busy||!data?.writable||world?.战斗?.状态==='active',onChange:e=>setting({levelCap:e.target.checked})}),'道馆前等级上限'))))),
       h('div',{className:'kanto-stage-viewport'},mode==='story'
         ?h(TheaterScene,{ctx,gameId,stage,theater,stageAssets,beat,beats,index,scene:data?.presentation?.scene,service:shared.serviceScene,busy,reducedMotion:reducedEffects,playerName:world?.训练家?.姓名,onServiceChoice:prepare,advance:advanceScene,footer:readableStageFooter(footer,beats,index),notice:journal,onMode:requestMode,sceneRef})
-        :h(BattleFrame,{ctx,gameId,mode,musicEnabled,effectsEnabled,animationSpeed,reducedEffects,onChange:change,onRefresh:refresh,onPrepare:prepare,onPreferences:value=>{if([1,2,4].includes(value.speed))setSpeed(value.speed);if(typeof value.effects==='boolean')setEffects(value.effects);if(typeof value.reducedEffects==='boolean')setReduced(value.reducedEffects);}})),
+        :h(BattleFrame,{ctx,gameId,mode,musicEnabled,musicManaged,effectsEnabled,animationSpeed,reducedEffects,onChange:change,onRefresh:refresh,onPrepare:prepare,onPreferences:value=>{if([1,2,4].includes(value.speed))setSpeed(value.speed);if(typeof value.effects==='boolean')setEffects(value.effects);if(typeof value.reducedEffects==='boolean')setReduced(value.reducedEffects);}})),
       h('div',{className:'kanto-stage-dock',onClick:e=>e.stopPropagation()},
         mode==='story'&&preview?h('div',{className:'kanto-stage-prompt',role:'region','aria-label':'准备行动'},h('label',{className:'kanto-draft-label'},'编辑这次行动',h('textarea',{'aria-label':'行动草稿',value:preview.text,maxLength:4000,onChange:e=>setPreview({...preview,text:e.target.value}),disabled:busy})),h('div',{className:'kanto-draft-actions'},h('small',null,'可以改写。只有点发送，剧情才会继续。'),button(busy?'正在发送…':'发送并继续剧情',confirm,busy||!data?.writable||!preview.text.trim(),'kanto-action is-primary'),button('放到输入框',()=>{ui.setInput?.({gameId,text:preview.text});setPreview(null);}),button('取消',()=>setPreview(null)))):null,
         mode==='story'&&!preview&&starters.length?h('div',{className:'kanto-stage-starters','aria-label':'选择最初的伙伴'},starters.map(option=>h('button',{key:option.payload.id,type:'button',className:'kanto-starter',disabled:busy||!data?.writable||!option.enabled,onClick:()=>prepare(option)},h('img',{src:asset(ui,`assets/pokemon/artwork/${option.payload.id}.png`),alt:option.label}),h('span',null,option.label)))):null,
@@ -747,16 +751,10 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
   return{name:PLUGIN,inject:['tavernUi'],apply(ctx){
     const ui=ctx.tavernUi;
     ui.registerStageView?.({id:'kanto-native',label:'关都剧场',render:input=>h(NativeStage,{ctx,...input})});
-    ui.registerTextMarker?.({pattern:/【查看训练家状态】|【打开背包】|【打开商店】|【查看任务】|【进入本轮战斗】|进入本轮战斗/g,render:({gameId,turn,streaming,match})=>streaming?h('span',null,match):h(Entry,{ctx,gameId,turn,label:String(match).replace(/[【】]/g,''),mode:markerMode(match)})});
-    // Keep the host's native dialogue presentation; markers only add an action.
-    ui.registerTextMarker?.({pattern:/("[^"\r\n]+"|“[^”\r\n]+”|「[^」\r\n]+」|『[^』\r\n]+』|＂[^＂\r\n]+＂)/g,render:({gameId,turn,match,streaming})=>{
-      const invite=/(?:真打(?:一个|一场)|来(?:一场|打一场|一局)(?:.{0,8})?(?:对战|战斗|切磋)|(?:和我|跟我|与你|和你).{0,8}(?:对战|打一场|切磋))/u.test(match)&&!/不(?:会|想|能|要|再)?(?:打|战|对战|挑战)|如果|假如|要是|以前|上次/u.test(match);
-      return !streaming&&invite?h('span',null,match,h(Entry,{ctx,gameId,turn,natural:true,naturalQuote:match,label:'接受对战'})):h('span',null,match);
-    }});
-    ui.registerTextMarker?.({pattern:/[^\r\n“”「」『』"＂]{0,100}(?:真打(?:一个|一场)|来(?:一场|打一场|一局)(?:.{0,8})?(?:对战|战斗|切磋)|(?:和我|跟我|与你|和你).{0,8}(?:对战|打一场|切磋)|[\u4e00-\u9fa5]{2,4}[^。！？\r\n]{0,35}(?:准备|摆出|拿出|握住)[^。！？\r\n]{0,35}(?:与你|和你|跟你|对你)[^。！？\r\n]{0,12}(?:对战|战斗|交手))[^\r\n“”「」『』"＂]{0,100}/g,render:({gameId,turn,match,streaming})=>{
-      const safe=!/不(?:会|想|能|要|再)?(?:打|战|对战|挑战)|如果|假如|要是|以前|上次|曾经|回忆|听说/u.test(match);
-      return !streaming&&safe?h('span',null,match,h(Entry,{ctx,gameId,turn,natural:true,naturalQuote:match.trim(),label:'接受对战'})):h('span',null,match);
-    }});
+    // Host text markers run before its bubble parser: replacing any slice of
+    // a spoken line breaks @bubble. Only a standalone control line is ours;
+    // natural invitations use the message action and the native stage dock.
+    ui.registerTextMarker?.({pattern:/^[\t ]*(?:【(?:查看训练家状态|打开背包|打开商店|查看任务|进入本轮战斗)】|进入本轮战斗)[\t ]*\r?$/gm,render:({gameId,turn,streaming,match})=>streaming?h('span',null,match):h(Entry,{ctx,gameId,turn,label:String(match).trim().replace(/[【】]/g,''),mode:markerMode(match)})});
     ui.registerMessageAction?.({id:'kanto-check-battle',label:'接受剧情对战',when:({gameId,settled})=>Boolean(gameId&&settled),run:async({gameId,turn})=>{await ui.callHost(PLUGIN+'/enter-battle',{gameId,turn,natural:true});sessions.set(gameId,{...(sessions.get(gameId)||{}),actionDraft:null});open(ctx,gameId,'battle');}});
     ui.registerComposerAction?.({id:'kanto-native-battle',label:'关都剧场',when:({busy})=>!busy,run:({gameId})=>open(ctx,gameId,'story')});
   }};

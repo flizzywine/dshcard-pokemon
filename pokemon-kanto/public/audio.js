@@ -2,13 +2,13 @@
   'use strict';
   // All sources are bundled media; no synthesized sound is labelled as game audio.
   let manifest = window.__KANTO_AUDIO_MANIFEST__ || null;
-  let musicEnabled = true, effectsEnabled = true, track = '', currentBattle = null, currentWorld = null;
+  let musicEnabled = true, musicManaged = window.__KANTO_EMBED__?.musicManaged === true, effectsEnabled = true, track = '', currentBattle = null, currentWorld = null;
   let blocked = false, finishedId = '', enabled = false, effectiveness = 'hit';
   const bgm = new Audio();
   bgm.preload = 'auto'; bgm.volume = .36;
   const activeEffects = new Set();
   const stateListeners = new Set();
-  const status = () => ({ blocked, playing: !bgm.paused, musicEnabled, enabled, track, needsGesture: blocked && bgm.paused && musicEnabled && enabled && Boolean(track) });
+  const status = () => ({ blocked, playing: !bgm.paused, musicEnabled, enabled, track, needsGesture: !musicManaged && blocked && bgm.paused && musicEnabled && enabled && Boolean(track) });
   const label = () => {
     const button = document.getElementById('musicToggle');
     if (!button) return;
@@ -28,7 +28,7 @@
   }
   function playMusic(key, loop = true) {
     const source = url(manifest?.bgm?.[key]);
-    if (!source || !enabled || !musicEnabled) return;
+    if (!source || !enabled || !musicEnabled || musicManaged) return;
     if (track !== key) { track = key; bgm.src = source; bgm.loop = loop; }
     if (!bgm.paused) return;
     bgm.play().then(() => { blocked = false; label(); }).catch(() => { blocked = true; label(); });
@@ -66,7 +66,7 @@
   }
   function unlock() { blocked = false; label(); sync(); }
   async function resumeMusic() {
-    if (!musicEnabled || !enabled) return false;
+    if (!musicEnabled || !enabled || musicManaged) return false;
     if (!track) sync();
     if (!track) return false;
     try { blocked = false; await bgm.play(); label(); return true; }
@@ -78,7 +78,8 @@
   window.KantoAudio = {
     init,
     battle(snapshot, world, active = true) { currentBattle = snapshot; currentWorld = world; enabled = active; if (!active) { bgm.pause(); return; } sync(); },
-    music(on) { musicEnabled = Boolean(on); if (!musicEnabled) bgm.pause(); else sync(); label(); return musicEnabled; },
+    music(on) { musicEnabled = Boolean(on); if (!musicEnabled || musicManaged) bgm.pause(); else sync(); label(); return musicEnabled; },
+    managed(on) { musicManaged = on === true; if (musicManaged) { bgm.pause(); track = ''; } else sync(); label(); },
     toggleMusic() { return this.music(!musicEnabled); },
     resumeMusic,
     status,

@@ -132,10 +132,12 @@
     state.camera?.configure({speed:state.animationSpeed,reduced:state.reducedEffects});
     if(typeof nativeMode!=='undefined'&&nativeMode&&embedded)sendBridgeMessage({type:'presentation-change',speed:state.animationSpeed});
   }
+  state.musicManaged=window.__KANTO_EMBED__?.musicManaged===true;
+  if (state.musicManaged) $('musicToggle').hidden=true;
   function syncBattleMusicButton() {
     if (!els.musicResume) return;
     const status = window.KantoAudio?.status?.();
-    els.musicResume.hidden = !(state.battleFocus && state.battle && !state.battle.ended && status?.needsGesture);
+    els.musicResume.hidden = state.musicManaged===true || !(state.battleFocus && state.battle && !state.battle.ended && status?.needsGesture);
   }
   function showPersistentError(message, retryAction) {
     els.errorText.textContent = String(message || '操作失败，请重试。');
@@ -336,6 +338,12 @@
   function handleBridgeMessage(data) {
     if (!data || data.channel !== 'kanto-mvu' || (bridgeNonce && String(data.bridge || '') !== bridgeNonce)) return;
     if (data.type === 'audio-settings') {
+      if (typeof data.musicManaged === 'boolean') {
+        state.musicManaged=data.musicManaged;
+        window.KantoAudio?.managed?.(data.musicManaged);
+        $('musicToggle').hidden=data.musicManaged;
+        if (els.musicResume) els.musicResume.hidden=data.musicManaged;
+      }
       if (typeof data.music === 'boolean') window.KantoAudio?.music(data.music);
       if (typeof data.effects === 'boolean') { window.KantoAudio?.effects(data.effects); state.muted=!data.effects; els.sound.setAttribute('aria-pressed',String(state.muted)); els.soundLabel.textContent=state.muted?'音效 关':'音效 开'; }
       if ([1,2,4].includes(data.speed)) { state.animationSpeed=data.speed; els.speed.value=String(data.speed); if (els.speedAction) els.speedAction.value=String(data.speed); document.body.style.setProperty('--battle-speed',String(data.speed)); }
@@ -3125,6 +3133,7 @@
   $('skipBattleEffects')?.addEventListener('click', skipBattlePresentation);
   els.sound.addEventListener('click', () => { state.muted = !state.muted; window.KantoAudio?.effects(!state.muted); els.sound.setAttribute('aria-pressed', String(state.muted)); els.soundLabel.textContent = state.muted ? '音效 关' : '音效 开'; if(nativeMode&&embedded)sendBridgeMessage({type:'presentation-change',effects:!state.muted}); });
   $('musicToggle').addEventListener('click', () => {
+    if (state.musicManaged) return;
     const enabled = window.KantoAudio?.toggleMusic();
     if (embedded && typeof enabled === 'boolean') sendBridgeMessage({ type: 'music-change', enabled });
   });

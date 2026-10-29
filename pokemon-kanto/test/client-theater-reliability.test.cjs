@@ -269,14 +269,10 @@ test('unannotated quoted dialogue identifies only clearly attributed non-player 
 
 test('ordinary and historical quotations retain native text without plugin bubbles', () => {
   const app = makeHarness({ turnState: { turn: 5, textVersion: 'latest-v5', settled: false, busy: true } });
-  const marker = app.ui.markers.find(item => item.pattern.source.includes('＂'));
-  assert.ok(marker);
+  assert.equal(app.ui.markers.length,1,'only standalone controls are registered');
   for (const [turn, streaming] of [[4, false], [5, true]]) {
     const match = '“你好。”';
-    const tree = marker.render({ match, groups: [match], gameId: 'pokemon-game', turn, streaming });
-    assert.equal(tree.type, 'span');
-    assert.equal(tree.props.children, match);
-    assert.equal(walk(tree, node => node.props?.className === 'kanto-body-dialogue-bubble').length, 0);
+    for(const marker of app.ui.markers){marker.pattern.lastIndex=0;assert.equal(marker.pattern.exec(match),null,'native quotation is not split before bubble rendering');}
   }
   assert.equal(app.hostCalls.some(route => route.endsWith('/dialogue')), false);
   assert.notEqual(app.ui.messageAction?.id, 'kanto-dialogue-bubbles-toggle');

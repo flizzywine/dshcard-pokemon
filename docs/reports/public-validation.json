@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "date": "2026-10-29",
   "node": {
-    "tests": 905,
-    "pass": 904,
+    "tests": 907,
+    "pass": 906,
     "fail": 0,
     "skip": 1,
     "skipReason": "Optional historical engine benchmark requires KANTO_ENGINE_BASELINE"
@@ -38,7 +38,7 @@
       }
     ],
     "providerRegistered": true,
-    "viewBytes": 974048,
+    "viewBytes": 974793,
     "ok": true
   },
   "browser": {

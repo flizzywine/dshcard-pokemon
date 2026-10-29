@@ -162,37 +162,22 @@ test('without a programmatic stage API the composer uses the existing native sta
  const missing=browserPlugin({noShowStage:true});assert.throws(()=>missing.ui.action.run({gameId:'game-2'}),/页面顶部的「舞台」/);
 });
 
-test('a direct spoken invitation retains the dialogue and sends the source turn on click',async()=>{
- const app=browserPlugin(), marker=app.ui.markers[1],match='“来吧。真打一个！”';
- const element=marker.render({gameId:'game-1',turn:4,match,groups:[match],streaming:false});
- const entry=walk(element,node=>node.type?.name==='Entry')[0];assert.ok(entry);
- const button=walk(app.render(entry.type,entry.props,'natural-entry'),node=>node.type==='button')[0];
- await button.props.onClick({stopPropagation(){}});
- assert.ok(app.apiCalls.some(call=>call.route.endsWith('/enter-battle')&&call.data.turn===4&&call.data.natural===true));
- const refused='“不要打，来吧。真打一个！”';
- assert.equal(walk(marker.render({gameId:'game-1',turn:4,match:refused,groups:[refused],streaming:false}),node=>node.type?.name==='Entry').length,0);
+test('native dialogue and invitations stay intact for the host bubble parser',()=>{
+ const app=browserPlugin();assert.equal(app.ui.markers.length,1);
+ const lines=['@bubble:oak|大木博士|平静|[选择与你一起旅行的伙伴吧！]',
+  '@bubble:gary|小茂|得意|[选好了吗？出发之前，先和我打一场！]',
+  '@bubble:leaf|叶子|期待|[“来吧。真打一个！”]',
+  '@bubble:leaf|叶子|期待|[【进入本轮战斗】]',
+  '叶子握住精灵球，准备与你对战。'];
+ for(const line of lines){for(const marker of app.ui.markers){marker.pattern.lastIndex=0;assert.equal(marker.pattern.exec(line),null,line);}}
+ assert.ok(app.ui.messageAction,'natural invitations retain the separate turn action');
 });
 
-test('native bubble unquoted segment exposes an invitation without replacing the text',async()=>{
- const app=browserPlugin(),marker=app.ui.markers[2],segment='来吧。真打一个，点到为止。';
- const match=segment.match(marker.pattern)?.[0];assert.equal(match,segment);
- const rendered=marker.render({gameId:'game-1',turn:7,match,streaming:false});
- assert.ok(rendered.children.includes(segment));
- const entry=walk(rendered,node=>node.type?.name==='Entry')[0];assert.ok(entry);
- const button=walk(app.render(entry.type,entry.props,'bubble-entry'),node=>node.type==='button')[0];
- await button.props.onClick({stopPropagation(){}});
- assert.ok(app.apiCalls.some(call=>call.route.endsWith('/enter-battle')&&call.data.turn===7&&call.data.naturalQuote===segment));
-});
-
-test('prepared trainer narration offers a battle without replacing native text',async()=>{
- const app=browserPlugin(),marker=app.ui.markers[2],sentence='叶子握住精灵球，准备与你对战。';
- const match=sentence.match(marker.pattern)?.[0];assert.equal(match,sentence);
- const rendered=marker.render({gameId:'game-1',turn:7,match,streaming:false});
- const entry=walk(rendered,node=>node.type?.name==='Entry')[0];assert.ok(entry);
- const button=walk(app.render(entry.type,entry.props,'prepared-entry'),node=>node.type==='button')[0];
- await button.props.onClick({stopPropagation(){}});
- assert.ok(app.apiCalls.some(call=>call.route.endsWith('/enter-battle')&&call.data.naturalQuote===sentence));
- assert.notEqual(app.ui.messageAction?.id,'kanto-dialogue-bubbles-toggle');
+test('only standalone markers become controls, leaving neighboring bubble lines whole',()=>{
+ const app=browserPlugin(),line='@bubble:gary|小茂|得意|[先和我打一场！]';
+ const source=line+'\n\n【进入本轮战斗】\n';
+ const transformed=source.replace(app.ui.marker.pattern,'<CONTROL>');
+ assert.equal(transformed,line+'\n\n<CONTROL>\n');
 });
 
 test('message action submits the whole settled turn for host validation',async()=>{
@@ -371,6 +356,25 @@ test('native stage maps story music by scene and stops it when the battle view o
   app.render(addon.type, addon.props, 'music-stage');
   await tick();
   assert.ok(app.musicCalls.some(call => call.type === 'stop'), 'opening battle playback stops native stage music');
+});
+
+test('API 7 native BGM remains the sole owner in story and battle, including director silence',async()=>{
+ const app=browserPlugin();app.ui.apiVersion=7;
+ const input={gameId:'native-bgm-game',stage:{music:null},beats:[],index:0,beat:null};
+ let node=app.ui.stageView.render(input);app.render(node.type,node.props,'native-bgm');
+ await tick();await tick();node=app.ui.stageView.render(input);const story=app.render(node.type,node.props,'native-bgm');await tick();
+ assert.equal(app.musicCalls.filter(call=>call.type==='play').length,0);
+ assert.ok(app.musicCalls.some(call=>call.type==='stop'),'legacy plugin transport is released');
+ assert.ok(walk(story,n=>n.type==='span'&&n.props.children==='音乐由原生舞台控制').length);
+ const marker=app.ui.marker.render({gameId:input.gameId,turn:1,match:'【进入本轮战斗】',streaming:false});
+ await walk(app.render(marker.type,marker.props,'native-bgm-entry'),n=>n.type==='button')[0].props.onClick({stopPropagation(){}});
+ node=app.ui.stageView.render({...input,stage:{music:{identity:'native-track',url:'https://native.example/track.ogg'}}});
+ const battleTree=app.render(node.type,node.props,'native-bgm');await tick();
+ const frame=walk(battleTree,n=>n.type?.name==='BattleFrame')[0];assert.equal(frame.props.musicManaged,true);
+ app.render(frame.type,frame.props,'native-bgm-frame');await tick();
+ const loaded=app.render(frame.type,frame.props,'native-bgm-frame');
+ const iframe=walk(loaded,n=>n.type==='iframe')[0];assert.ok(iframe.props.srcDoc.includes('"musicManaged":true'),'ownership is embedded before iframe audio initializes');
+ assert.equal(app.musicCalls.filter(call=>call.type==='play').length,0);
 });
 
 test('battle frame refreshes securely and completion never requests a report or writes composer text', async () => {

@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "releaseTag": "v1.0",
+  "node": {
+    "tests": 907,
+    "pass": 906,
+    "fail": 0,
+    "skip": 1
+  },
+  "nativeBubbleContract": {
+    "installedHostCommit": "84bf905ca02a34f2d66431a76c95c64e7d794a5d",
+    "hostBubbleParser": "unmodified installed native parser",
+    "checks": [
+      {
+        "speaker": "大木博士",
+        "priorMarkerInterference": false,
+        "fixedMarkerInterference": false
+      },
+      {
+        "speaker": "小茂",
+        "priorMarkerInterference": true,
+        "fixedMarkerInterference": false
+      }
+    ],
+    "ok": true
+  },
+  "musicPolicy": {
+    "nativeUiApi7": "host BGM owns playback; local story and battle BGM disabled; one-shot SFX retained",
+    "legacy": "plugin fallback retained",
+    "nativeSettingsChanged": false
+  },
+  "installed": false
+}
