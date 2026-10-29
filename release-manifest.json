@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "bytes": 571108321,
-  "sha256": "d2a02d9b54b1af733aa48e4079386fc60c804c60d3e5f24517ee0a7dea59f928",
-  "asset": "pokemon-frlg-1.0.0.dshcard",
-  "url": "https://github.com/weixinlll/dshcard-pokemon/releases/download/v1.0/pokemon-frlg-1.0.0.dshcard"
+  "version": "1.0.1",
+  "bytes": 571108096,
+  "sha256": "a29a0810fe77e782f9b8263da8b5c4b821efadd1a3ee746cdb88bfe5734b2316",
+  "asset": "pokemon-frlg-1.0.1.dshcard",
+  "url": "https://github.com/weixinlll/dshcard-pokemon/releases/download/v1.0.1/pokemon-frlg-1.0.1.dshcard"
 }
