@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-29",
+  "node": {
+    "tests": 905,
+    "pass": 904,
+    "fail": 0,
+    "skip": 1,
+    "skipReason": "Optional historical engine benchmark requires KANTO_ENGINE_BASELINE"
+  },
+  "nativeImport": {
+    "version": "1.0.0",
+    "installed": false,
+    "checks": [
+      "native card archive parser accepts card and three pack manifests",
+      "extracted plugin imports with compressed map and without development files",
+      "all three packs import through native asset store into isolated temporary storage",
+      "all 3689 packed entries match recorded byte lengths and SHA256 hashes",
+      "trainer, scenery, audio, terrain, animation and ordinary effect references resolve in the imported packs",
+      "packed API4 provider registers and native embedded battle view resolves all resource roots",
+      "personal saves, tests, inspection originals, duplicate map and duplicate embedded app are excluded"
+    ],
+    "packs": [
+      {
+        "id": "kanto-media",
+        "files": 2040,
+        "contentHash": "524c14cef4a0f3b8c92ace76fb6fb1bcde7297ac0f4213b36045c979ff974e08"
+      },
+      {
+        "id": "kanto-animated-096",
+        "files": 1211,
+        "contentHash": "6b8c3f572dbba7f8649134183ff66792f755e07c61a91d99e99509a1243a799f"
+      },
+      {
+        "id": "kanto-fx-1027",
+        "files": 85,
+        "contentHash": "143910979ba4d6eb19642a8a03e6c9af9ff7618363e019b7e9a5e90fb9328361"
+      }
+    ],
+    "providerRegistered": true,
+    "viewBytes": 974048,
+    "ok": true
+  },
+  "browser": {
+    "exceptions": [],
+    "failedResources": [
+      {
+        "status": 404,
+        "url": "<LOCAL_PREVIEW>/favicon.ico"
+      },
+      {
+        "status": 404,
+        "url": "<LOCAL_PREVIEW>/favicon.ico"
+      }
+    ],
+    "checks": [
+      "page initializes and exposes pending battle",
+      "battle opens with enabled moves",
+      "move resolves and controls return",
+      "one UI click commits exactly one action",
+      "reload restores active battle controls",
+      "both battle sprite assets decode",
+      "390px layout retains enabled controls without horizontal overflow"
+    ],
+    "mobileLayout": {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "height": 98,
+        "scrollHeight": 96,
+        "style": "",
+        "display": "flex",
+        "rows": "none"
+      },
+      "buttons": [
+        {
+          "width": 178,
+          "disabled": false
+        },
+        {
+          "width": 178,
+          "disabled": false
+        }
+      ]
+    },
+    "ok": true
+  },
+  "bootstrap": {
+    "localArchiveSHA256Verified": true,
+    "extractedMediaFiles": 3336,
+    "installed": false
+  }
+}

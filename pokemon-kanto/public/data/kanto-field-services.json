@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "sources": {
+    "repository": "pret/pokefirered",
+    "revision": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982"
+  },
+  "locations": {
+    "route11": {"services": ["itemfinder"]},
+    "route12": {"services": ["snorlax", "leftovers"]},
+    "route16": {"services": ["snorlax", "leftovers"]},
+    "pokemon-tower": {"services": ["soothebell"]},
+    "viridian": {"services": ["machobrace"]},
+    "pewter": {"services": ["oldamber"]},
+    "mt-moon": {"services": ["fossil-researcher"]},
+    "cinnabar": {"services": ["fossil-revival"]},
+    "saffron": {"services": ["dojo"]}
+  },
+  "items": {
+    "itemfinder": {"name": "探宝器", "kind": "key", "route11CaughtSpecies": 30},
+    "leftovers": {"name": "剩饭", "kind": "bag", "requires": ["itemfinder", "snorlax-cleared-at-location"]},
+    "soothebell": {"name": "安抚之铃", "kind": "bag", "requires": ["fuji-rescued", "itemfinder"]},
+    "machobrace": {"name": "强制锻炼器", "kind": "bag", "requires": ["eight-badges", "itemfinder"]},
+    "oldamber": {"name": "秘密琥珀", "kind": "key", "requires": ["cut", "blue-badge"]},
+    "helixfossil": {"name": "贝壳化石", "kind": "key", "speciesId": 138, "level": 5},
+    "domefossil": {"name": "甲壳化石", "kind": "key", "speciesId": 140, "level": 5},
+    "oldamber-fossil": {"name": "秘密琥珀", "kind": "key", "speciesId": 142, "level": 5}
+  },
+  "encounters": {
+    "route12-snorlax": {"speciesId": 143, "level": 30, "name": "卡比兽"},
+    "route16-snorlax": {"speciesId": 143, "level": 30, "name": "卡比兽"},
+    "mt-moon-researcher": {"trainer": "化石研究员", "team": [{"speciesId": 88, "level": 12}, {"speciesId": 100, "level": 12}, {"speciesId": 109, "level": 12}]},
+    "saffron-dojo": {"trainer": "空手道大王", "team": [{"speciesId": 106, "level": 37}, {"speciesId": 107, "level": 37}], "gifts": [106, 107], "giftLevel": 25}
+  },
+  "references": {
+    "route11Itemfinder": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/Route11_EastEntrance_2F/scripts.inc",
+    "snorlaxLeftovers": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/Route12/scripts.inc",
+    "soothebell": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/PokemonTower_7F/map.json",
+    "machobrace": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/ViridianCity_Gym/map.json",
+    "oldamber": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/PewterCity_Museum_1F/scripts.inc",
+    "fossils": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc",
+    "trainers": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/data/trainer_parties.h"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "original-oak-lab",
+      "name": "研究所 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "oak-lab"
+      ],
+      "image": "assets/backgrounds/original/oak-lab-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9f10180adda001d05d71fffec81fcea33ba150a37922b08cc3d75444fac93a7",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-pokemon-center",
+      "name": "宝可梦中心 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "pokemon-center"
+      ],
+      "image": "assets/backgrounds/original/pokemon-center-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b0f0efaa46ef904ed29377e1cc4dc31bb9b32ad67d486f8df592dbb61914c681",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-mart",
+      "name": "友好商店 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "mart"
+      ],
+      "image": "assets/backgrounds/original/mart-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2ff83971edf08b56bef9776f99348d8ac85094e29571000e9c087814dde9bb26",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-ss-anne",
+      "name": "圣安奴号船长室 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "ss-anne"
+      ],
+      "image": "assets/backgrounds/original/ss-anne-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "945960ec4812993724dd088ecf0ec19fc5cf0dca494b4f1953155f7c2e2e531f",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-rock-gym",
+      "name": "尼比岩石道馆 · 原创演绎",
+      "sceneType": "stadium",
+      "sceneTags": [
+        "gym:pewter"
+      ],
+      "image": "assets/backgrounds/original/rock-gym-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d221f10396768d492f1867a2441618a8a69254d0432b7fe5994cd7fd13bfc030",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-department-store",
+      "name": "玉虹百货大厦 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "department-store"
+      ],
+      "locations": [],
+      "image": "assets/backgrounds/original/department-store-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "954dbce78a29c3f5d71413fd812e9571ed950080345568310b513451de23903d",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方截图或逐格地图。"
+    },
+    {
+      "id": "original-safari-zone",
+      "name": "浅红狩猎地带 · 原创演绎",
+      "sceneType": "forest",
+      "sceneTags": [
+        "safari-zone"
+      ],
+      "locations": [],
+      "image": "assets/backgrounds/original/safari-zone-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "157af114fdadee25f3f20bb88ab5b0e14662b827237cd8028ea1104b9b0f06b8",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方截图或逐格地图。"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+/* Shiny Pokémon: a restrained edge glint plus a brief, local entry burst. */
+.kanto-shiny-pokemon {
+  isolation: isolate;
+}
+
+.kanto-shiny-pokemon > img,
+.kanto-shiny-pokemon > svg {
+  position:relative;
+  z-index:5;
+  filter: drop-shadow(0 0 1px rgba(255, 250, 213, .7)) drop-shadow(0 0 3px rgba(112, 238, 255, .28));
+}
+
+.kanto-shiny-entry::before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  inset: 22% 22% 18%;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(ellipse at 50% 48%, #fff 0 2%, rgba(255, 250, 218, .88) 3%, transparent 13%),
+    radial-gradient(ellipse at 27% 40%, rgba(255, 255, 255, .98) 0 1.1%, transparent 4.8%),
+    radial-gradient(ellipse at 76% 53%, rgba(184, 247, 255, .96) 0 1%, transparent 4.4%),
+    radial-gradient(ellipse at 62% 28%, rgba(255, 226, 144, .94) 0 .9%, transparent 4.1%);
+  mix-blend-mode: screen;
+  animation: kanto-shiny-fallback-burst 820ms ease-out both;
+}
+
+.kanto-shiny-pokemon::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 28%;
+  right: 28%;
+  width: 9px;
+  height: 9px;
+  pointer-events: none;
+  opacity: 0;
+  clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%);
+  background: linear-gradient(135deg, #fff 0 34%, #fff1a8 50%, #baf6ff 78%, #fff 100%);
+  filter: drop-shadow(0 0 3px rgba(255, 255, 229, .9));
+  animation: kanto-shiny-idle-glint 5.8s ease-in-out 1.4s infinite;
+}
+
+.kanto-shiny-pokemon.kanto-shiny-reduced-motion::after { animation: none; opacity: .36; }
+.kanto-shiny-reduced-motion::before { animation: none; opacity: 0; }
+
+.kanto-shiny-fx-layer {
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+  contain: layout style;
+}
+
+.kanto-shiny-fx-core,
+.kanto-shiny-fx-halo,
+.kanto-shiny-fx-star {
+  position: absolute;
+  left: var(--fx-origin-x, 50%);
+  top: var(--fx-origin-y, 49%);
+  pointer-events: none;
+}
+
+.kanto-shiny-fx-core {
+  width: 24px;
+  height: 24px;
+  margin: -12px;
+  border-radius: 50%;
+  opacity: 0;
+  background: radial-gradient(circle, #fff 0 8%, #fffbd2 16%, rgba(255, 220, 112, .92) 24%, rgba(177, 246, 255, .42) 36%, transparent 72%);
+  filter: drop-shadow(0 0 6px rgba(255, 244, 184, .9));
+  animation: kanto-shiny-core var(--fx-duration, 900ms) cubic-bezier(.16,.7,.22,1) both;
+}
+
+.kanto-shiny-fx-halo {
+  width: 18px;
+  height: 18px;
+  margin: -9px;
+  border: 1px solid rgba(255, 250, 219, .92);
+  border-right-color: rgba(166, 245, 255, .92);
+  border-bottom-color: rgba(247, 200, 94, .9);
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 5px rgba(235, 250, 255, .64), inset 0 0 4px rgba(255, 226, 136, .38);
+  animation: kanto-shiny-halo var(--fx-duration, 900ms) cubic-bezier(.2,.65,.25,1) both;
+}
+
+.kanto-shiny-fx-star {
+  left: var(--fx-x, 50%);
+  top: var(--fx-y, 50%);
+  width: var(--fx-size, 8px);
+  height: var(--fx-size, 8px);
+  margin: calc(var(--fx-size, 8px) / -2);
+  opacity: 0;
+  clip-path: polygon(50% 0, 60% 38%, 100% 50%, 60% 62%, 50% 100%, 40% 62%, 0 50%, 40% 38%);
+  animation: kanto-shiny-star var(--fx-duration, 900ms) cubic-bezier(.15,.6,.2,1) var(--fx-delay, 0ms) both;
+}
+
+.kanto-shiny-fx-star.is-gold {
+  background: linear-gradient(135deg, #fff 0 20%, #fff2a2 43%, #e6a82d 56%, #fffbdc 74%, #9beaff 100%);
+  filter: drop-shadow(0 0 3px rgba(255, 218, 112, .9));
+}
+
+.kanto-shiny-fx-star.is-ice {
+  background: linear-gradient(135deg, #fff 0 30%, #d5fbff 48%, #94e9ff 62%, #fff8d0 100%);
+  filter: drop-shadow(0 0 3px rgba(174, 244, 255, .92));
+}
+
+.kanto-shiny-fx-star.is-white {
+  background: linear-gradient(135deg, #fff 0 42%, #fff5c9 56%, #c6f8ff 100%);
+  filter: drop-shadow(0 0 2px rgba(255, 255, 238, .9));
+}
+
+@keyframes kanto-shiny-idle-glint {
+  0%, 78%, 100% { opacity: 0; transform: scale(.28) rotate(0deg); }
+  82% { opacity: .88; transform: scale(1) rotate(20deg); }
+  86% { opacity: .28; transform: scale(.66) rotate(36deg); }
+}
+
+@keyframes kanto-shiny-fallback-burst {
+  0% { opacity: 0; transform: scale(.55); }
+  18% { opacity: .9; transform: scale(1.12); }
+  46% { opacity: .62; transform: scale(.88); }
+  100% { opacity: 0; transform: scale(1.32); }
+}
+
+@keyframes kanto-shiny-core {
+  0% { opacity: 0; transform: scale(.12); }
+  13% { opacity: 1; transform: scale(1.18); }
+  28% { opacity: .84; transform: scale(.72); }
+  52% { opacity: .2; transform: scale(1.42); }
+  100% { opacity: 0; transform: scale(1.7); }
+}
+
+@keyframes kanto-shiny-halo {
+  0% { opacity: 0; transform: scale(.32) rotate(-18deg); }
+  16% { opacity: .94; transform: scale(.9) rotate(20deg); }
+  68% { opacity: .34; transform: scale(3.4) rotate(126deg); }
+  100% { opacity: 0; transform: scale(4.2) rotate(170deg); }
+}
+
+@keyframes kanto-shiny-star {
+  0% { opacity: 0; transform: translate(0, 0) scale(.16) rotate(-24deg); }
+  17% { opacity: .98; transform: translate(0, 0) scale(1.12) rotate(0deg); }
+  72% { opacity: .8; transform: translate(var(--fx-dx), var(--fx-dy)) scale(.68) rotate(34deg); }
+  100% { opacity: 0; transform: translate(calc(var(--fx-dx) * 1.18), calc(var(--fx-dy) * 1.18)) scale(.18) rotate(70deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kanto-shiny-pokemon::after { animation: none; opacity: .36; }
+  .kanto-shiny-entry::before { animation: none; opacity: 0; }
+  .kanto-shiny-fx-core,
+  .kanto-shiny-fx-halo,
+  .kanto-shiny-fx-star { animation: none; }
+}

@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "potion",
+    "name": "伤药",
+    "category": "medicine",
+    "price": 300,
+    "description": "恢复20点HP。",
+    "actionKey": "item potion",
+    "target": true,
+    "battle": {
+      "heal": 20
+    },
+    "outside": {
+      "heal": 20
+    },
+    "image": "assets/items/potion.png"
+  },
+  {
+    "id": "superpotion",
+    "name": "好伤药",
+    "category": "medicine",
+    "price": 700,
+    "description": "恢复50点HP。",
+    "actionKey": "item superpotion",
+    "target": true,
+    "battle": {
+      "heal": 50
+    },
+    "outside": {
+      "heal": 50
+    },
+    "image": "assets/items/superpotion.png"
+  },
+  {
+    "id": "antidote",
+    "name": "解毒药",
+    "category": "medicine",
+    "price": 100,
+    "description": "治愈中毒。",
+    "actionKey": "item antidote",
+    "target": true,
+    "battle": {
+      "status": [
+        "psn",
+        "tox"
+      ]
+    },
+    "outside": {
+      "status": [
+        "psn",
+        "tox"
+      ]
+    },
+    "image": "assets/items/antidote.png"
+  },
+  {
+    "id": "paralyzeheal",
+    "name": "解麻药",
+    "category": "medicine",
+    "price": 200,
+    "description": "治愈麻痹。",
+    "actionKey": "item paralyzeheal",
+    "target": true,
+    "battle": {
+      "status": [
+        "par"
+      ]
+    },
+    "outside": {
+      "status": [
+        "par"
+      ]
+    },
+    "image": "assets/items/paralyzeheal.png"
+  },
+  {
+    "id": "awakening",
+    "name": "解眠药",
+    "category": "medicine",
+    "price": 250,
+    "description": "治愈睡眠。",
+    "actionKey": "item awakening",
+    "target": true,
+    "battle": {
+      "status": [
+        "slp"
+      ]
+    },
+    "outside": {
+      "status": [
+        "slp"
+      ]
+    },
+    "image": "assets/items/awakening.png"
+  },
+  {
+    "id": "burnheal",
+    "name": "灼伤药",
+    "category": "medicine",
+    "price": 250,
+    "description": "治愈灼伤。",
+    "actionKey": "item burnheal",
+    "target": true,
+    "battle": {
+      "status": [
+        "brn"
+      ]
+    },
+    "outside": {
+      "status": [
+        "brn"
+      ]
+    },
+    "image": "assets/items/burnheal.png"
+  },
+  {
+    "id": "iceheal",
+    "name": "解冻药",
+    "category": "medicine",
+    "price": 250,
+    "description": "治愈冰冻。",
+    "actionKey": "item iceheal",
+    "target": true,
+    "battle": {
+      "status": [
+        "frz"
+      ]
+    },
+    "outside": {
+      "status": [
+        "frz"
+      ]
+    },
+    "image": "assets/items/iceheal.png"
+  },
+  {
+    "id": "fullheal",
+    "name": "万灵药",
+    "category": "medicine",
+    "price": 600,
+    "description": "治愈所有异常状态。",
+    "actionKey": "item fullheal",
+    "target": true,
+    "battle": {
+      "status": [
+        "brn",
+        "psn",
+        "tox",
+        "par",
+        "slp",
+        "frz"
+      ]
+    },
+    "outside": {
+      "status": [
+        "brn",
+        "psn",
+        "tox",
+        "par",
+        "slp",
+        "frz"
+      ]
+    },
+    "image": "assets/items/fullheal.png"
+  },
+  {
+    "id": "revive",
+    "name": "活力碎片",
+    "category": "medicine",
+    "price": 1500,
+    "description": "复活一只倒下的宝可梦，并恢复一半最大HP。",
+    "actionKey": "item revive",
+    "target": true,
+    "battle": {
+      "revive": 0.5
+    },
+    "outside": {
+      "revive": 0.5
+    },
+    "image": "assets/items/revive.png"
+  },
+  {
+    "id": "xattack",
+    "name": "攻击增强",
+    "category": "battle",
+    "price": 500,
+    "description": "战斗中令当前宝可梦的攻击提升1级；换下后效果消失。",
+    "actionKey": "item xattack",
+    "target": false,
+    "battle": {
+      "boost": {
+        "atk": 1
+      }
+    },
+    "outside": null
+  },
+  {
+    "id": "xdefend",
+    "name": "防御增强",
+    "category": "battle",
+    "price": 550,
+    "description": "战斗中令当前宝可梦的防御提升1级；换下后效果消失。",
+    "actionKey": "item xdefend",
+    "target": false,
+    "battle": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "outside": null
+  },
+  {
+    "id": "xspeed",
+    "name": "速度增强",
+    "category": "battle",
+    "price": 350,
+    "description": "战斗中令当前宝可梦的速度提升1级；换下后效果消失。",
+    "actionKey": "item xspeed",
+    "target": false,
+    "battle": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "outside": null
+  },
+  {
+    "id": "xspecial",
+    "name": "特攻增强",
+    "category": "battle",
+    "price": 350,
+    "description": "战斗中令当前宝可梦的特攻提升1级；换下后效果消失。",
+    "actionKey": "item xspecial",
+    "target": false,
+    "battle": {
+      "boost": {
+        "spa": 1
+      }
+    },
+    "outside": null
+  },
+  {
+    "id": "xaccuracy",
+    "name": "命中增强",
+    "category": "battle",
+    "price": 950,
+    "description": "战斗中令当前宝可梦的命中率提升1级；换下后效果消失。",
+    "actionKey": "item xaccuracy",
+    "target": false,
+    "battle": {
+      "boost": {
+        "accuracy": 1
+      }
+    },
+    "outside": null
+  },
+  {
+    "id": "direhit",
+    "name": "要害攻击",
+    "category": "battle",
+    "price": 650,
+    "description": "战斗中提高当前宝可梦的击中要害等级；换下后效果消失。",
+    "actionKey": "item direhit",
+    "target": false,
+    "battle": {
+      "volatile": "focusenergy"
+    },
+    "outside": null
+  },
+  {
+    "id": "guardspec",
+    "name": "能力防守",
+    "category": "battle",
+    "price": 700,
+    "description": "保护己方一侧免受对手能力下降，持续5回合。",
+    "actionKey": "item guardspec",
+    "target": false,
+    "battle": {
+      "sideCondition": "mist"
+    },
+    "outside": null
+  },
+  {
+    "id": "pokedoll",
+    "name": "宝可梦娃娃",
+    "category": "battle",
+    "price": 1000,
+    "description": "从野生宝可梦战斗中立即逃离。",
+    "actionKey": "item pokedoll",
+    "target": false,
+    "battle": {
+      "escape": true
+    },
+    "outside": null
+  },
+  {
+    "id": "fluffytail",
+    "name": "蓬松尾巴",
+    "category": "battle",
+    "price": 1000,
+    "description": "从野生宝可梦战斗中立即逃离。",
+    "actionKey": "item fluffytail",
+    "target": false,
+    "battle": {
+      "escape": true
+    },
+    "outside": null
+  },
+  {
+    "id": "pokeball",
+    "name": "精灵球",
+    "category": "ball",
+    "price": 200,
+    "description": "捕捉野生宝可梦。",
+    "actionKey": "capture pokeball",
+    "battle": {
+      "capture": 1
+    },
+    "outside": null,
+    "image": "assets/items/pokeball.png"
+  },
+  {
+    "id": "greatball",
+    "name": "超级球",
+    "category": "ball",
+    "price": 600,
+    "description": "捕捉野生宝可梦，捕获率更高。",
+    "actionKey": "capture greatball",
+    "battle": {
+      "capture": 1.5
+    },
+    "outside": null,
+    "image": "assets/items/greatball.png"
+  },
+  {
+    "id": "ultraball",
+    "name": "高级球",
+    "category": "ball",
+    "price": 1200,
+    "description": "捕捉野生宝可梦，捕获率大幅提高。",
+    "actionKey": "capture ultraball",
+    "battle": {
+      "capture": 2
+    },
+    "outside": null,
+    "image": "assets/items/ultraball.png"
+  },
+  {
+    "id": "oranberry",
+    "name": "橙橙果",
+    "price": 200,
+    "category": "held",
+    "description": "携带时HP降至一半后恢复10点HP；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "heal": 10
+    },
+    "image": "assets/items/oranberry.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "sitrusberry",
+    "name": "文柚果",
+    "price": 500,
+    "category": "held",
+    "description": "第三世代携带时HP降至一半后恢复30点HP；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "heal": 30
+    },
+    "image": "assets/items/sitrusberry.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "lumberry",
+    "name": "木子果",
+    "price": 500,
+    "category": "held",
+    "description": "携带时治愈主要异常状态；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "status": [
+        "brn",
+        "psn",
+        "tox",
+        "par",
+        "slp",
+        "frz"
+      ]
+    },
+    "image": "assets/items/lumberry.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "leftovers",
+    "name": "吃剩的东西",
+    "price": 4800,
+    "category": "held",
+    "description": "携带时每回合结束恢复最大HP的1/16。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/leftovers.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "quickclaw",
+    "name": "先制之爪",
+    "price": 3000,
+    "category": "held",
+    "description": "携带时有20%概率在同一优先度内先行动。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/quickclaw.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "charcoal",
+    "name": "木炭",
+    "price": 1800,
+    "category": "held",
+    "description": "第三世代：火属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/charcoal.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "mysticwater",
+    "name": "神秘水滴",
+    "price": 1800,
+    "category": "held",
+    "description": "第三世代：水属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/mysticwater.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "miracleseed",
+    "name": "奇迹种子",
+    "price": 1800,
+    "category": "held",
+    "description": "第三世代：草属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/miracleseed.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "silverpowder",
+    "name": "银粉",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：虫属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "hardstone",
+    "name": "硬石头",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：岩石属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "magnet",
+    "name": "磁铁",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：电属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "nevermeltice",
+    "name": "不融冰",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：冰属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "blackbelt",
+    "name": "黑带",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：格斗属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "poisonbarb",
+    "name": "毒针",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：毒属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "sharpbeak",
+    "name": "锐利鸟嘴",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：飞行属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "twistedspoon",
+    "name": "弯曲的汤匙",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：超能力属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "spelltag",
+    "name": "咒符",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：幽灵属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "dragonfang",
+    "name": "龙之牙",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：龙属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "silkscarf",
+    "name": "丝绸围巾",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：一般属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "blackglasses",
+    "name": "黑色眼镜",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：恶属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "softsand",
+    "name": "柔软沙子",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：地面属性招式威力提高10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "metalcoat",
+    "name": "金属膜",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：钢属性招式威力提高10%；本项目暂不模拟通信进化。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "cheriberry",
+    "name": "樱子果",
+    "price": 20,
+    "category": "held",
+    "description": "携带时自动治愈麻痹；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "status": [
+        "par"
+      ]
+    },
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "chestoberry",
+    "name": "零余果",
+    "price": 20,
+    "category": "held",
+    "description": "携带时自动治愈睡眠；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "status": [
+        "slp"
+      ]
+    },
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "pechaberry",
+    "name": "桃桃果",
+    "price": 20,
+    "category": "held",
+    "description": "携带时自动治愈中毒；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "status": [
+        "psn",
+        "tox"
+      ]
+    },
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "rawstberry",
+    "name": "苦莓",
+    "price": 20,
+    "category": "held",
+    "description": "携带时自动治愈灼伤；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "status": [
+        "brn"
+      ]
+    },
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "aspearberry",
+    "name": "利木果",
+    "price": 20,
+    "category": "held",
+    "description": "携带时自动治愈冰冻；也可从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "status": [
+        "frz"
+      ]
+    },
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "persimberry",
+    "name": "柿仔果",
+    "price": 20,
+    "category": "held",
+    "description": "携带时自动治愈混乱；FRLG战斗外没有持久混乱状态，不能从背包使用。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "leppaberry",
+    "name": "蕉香果",
+    "price": 20,
+    "category": "held",
+    "description": "携带时PP耗尽后恢复10点；也可从背包为指定招式恢复10点PP。",
+    "target": false,
+    "battle": null,
+    "outside": {
+      "pp": 10
+    },
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "expshare",
+    "name": "学习装置",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：持有者获得经验值与努力值。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/expshare.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "smokeball",
+    "name": "烟雾球",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：携带者在野生对战中必定成功逃跑。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/smokeball.png",
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "firestone",
+    "name": "火之石",
+    "price": 2100,
+    "category": "evolution",
+    "description": "使符合条件的宝可梦进化。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/firestone.png"
+  },
+  {
+    "id": "waterstone",
+    "name": "水之石",
+    "price": 2100,
+    "category": "evolution",
+    "description": "使符合条件的宝可梦进化。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/waterstone.png"
+  },
+  {
+    "id": "leafstone",
+    "name": "叶之石",
+    "price": 2100,
+    "category": "evolution",
+    "description": "使符合条件的宝可梦进化。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/leafstone.png"
+  },
+  {
+    "id": "thunderstone",
+    "name": "雷之石",
+    "price": 2100,
+    "category": "evolution",
+    "description": "使符合条件的宝可梦进化。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/thunderstone.png"
+  },
+  {
+    "id": "moonstone",
+    "name": "月之石",
+    "price": 2100,
+    "category": "evolution",
+    "description": "使符合条件的宝可梦进化。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "image": "assets/items/moonstone.png"
+  },
+  {
+    "id": "amuletcoin",
+    "name": "护符金币",
+    "price": 0,
+    "category": "held",
+    "description": "FRLG：持有者在训练家战斗中登场后，胜利奖金翻倍。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "luckyegg",
+    "name": "幸运蛋",
+    "price": 0,
+    "category": "held",
+    "description": "FRLG：持有者在获得经验时，该份经验提高50%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "tinymushroom",
+    "name": "小蘑菇",
+    "price": 0,
+    "category": "held",
+    "description": "野生宝可梦可能携带；可作为战利品收下。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "bigmushroom",
+    "name": "大蘑菇",
+    "price": 0,
+    "category": "held",
+    "description": "野生宝可梦可能携带；可作为战利品收下。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "nugget",
+    "name": "金珠",
+    "price": 0,
+    "category": "held",
+    "description": "野生宝可梦可能携带；可作为战利品收下。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "focusband",
+    "name": "气势头带",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：携带后有机会承受原本会令其倒下的一击。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "thickclub",
+    "name": "粗骨头",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：携带者为可识别的卡拉卡拉或嘎啦嘎啦时提高攻击。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "metalpowder",
+    "name": "金属粉",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：百变怪未变身时携带可提高防御。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "stick",
+    "name": "大葱",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：大葱鸭携带时提升击中要害的机会。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "brightpowder",
+    "name": "光粉",
+    "price": 10,
+    "category": "held",
+    "description": "第三世代：对手命中持有者的招式命中率降低10%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "whiteherb",
+    "name": "白色香草",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：能力下降时自动复原一次。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "mentalherb",
+    "name": "心灵香草",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：自动治愈着迷一次。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "scopelens",
+    "name": "焦点镜",
+    "price": 200,
+    "category": "held",
+    "description": "第三世代：提高持有者击中要害的机会。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "kingsrock",
+    "name": "王者之证",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：符合条件的攻击招式有10%几率使目标畏缩。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "shellbell",
+    "name": "贝壳之铃",
+    "price": 200,
+    "category": "held",
+    "description": "第三世代：造成伤害后按伤害的1/8回复HP。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "choiceband",
+    "name": "拘束头带",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：攻击提高50%，使用首个招式后只能继续使用该招式。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "soothebell",
+    "name": "安抚之铃",
+    "price": 100,
+    "category": "held",
+    "description": "第三世代：提升持有者获得的亲密度；本包覆盖升级事件。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "berryjuice",
+    "name": "果汁",
+    "price": 0,
+    "category": "held",
+    "description": "战斗中HP不高于一半时恢复20HP；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "laxincense",
+    "name": "悠闲薰香",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：对手对持有者的招式命中率降低5%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "seaincense",
+    "name": "海潮薰香",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：水属性招式威力提高5%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "lightball",
+    "name": "电气球",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：皮卡丘携带时特攻翻倍。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "luckypunch",
+    "name": "吉利拳",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：吉利蛋携带时要害等级提高2级。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "deepseascale",
+    "name": "深海鳞片",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：珍珠贝携带时特防翻倍。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "deepseatooth",
+    "name": "深海之牙",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：珍珠贝携带时特攻翻倍。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "souldew",
+    "name": "心之水滴",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：拉帝亚斯或拉帝欧斯携带时特攻与特防提高50%。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "figyberry",
+    "name": "勿花果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于一半时恢复最大HP的1/8；性格降低攻击时会混乱。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "wikiberry",
+    "name": "异奇果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于一半时恢复最大HP的1/8；性格降低特攻时会混乱。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "magoberry",
+    "name": "芒芒果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于一半时恢复最大HP的1/8；性格降低速度时会混乱。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "aguavberry",
+    "name": "乐芭果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于一半时恢复最大HP的1/8；性格降低特防时会混乱。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "iapapaberry",
+    "name": "芭亚果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于一半时恢复最大HP的1/8；性格降低防御时会混乱。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "liechiberry",
+    "name": "枝荔果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时攻击提升1级；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "ganlonberry",
+    "name": "龙睛果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时防御提升1级；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "salacberry",
+    "name": "沙鳞果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时速度提升1级；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "petayaberry",
+    "name": "龙火果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时特攻提升1级；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "apicotberry",
+    "name": "杏仔果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时特防提升1级；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "lansatberry",
+    "name": "兰萨果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时获得聚气效果；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "starfberry",
+    "name": "星桃果",
+    "price": 0,
+    "category": "held",
+    "description": "HP不高于最大值的四分之一时随机能力提升2级；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "enigmaberry",
+    "name": "谜芝果",
+    "price": 0,
+    "category": "held",
+    "description": "本包采用第三世代效果：受到效果绝佳的攻击后恢复最大HP的四分之一；一次性消耗。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "belueberry",
+    "name": "玉黍果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "blukberry",
+    "name": "蓝橘果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "cornnberry",
+    "name": "玉黍果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "durinberry",
+    "name": "玉黍果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "grepaberry",
+    "name": "萄葡果",
+    "price": 0,
+    "category": "held",
+    "description": "战斗外可用于降低努力值；本包暂未模拟该效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "hondewberry",
+    "name": "哈密果",
+    "price": 0,
+    "category": "held",
+    "description": "战斗外可用于降低努力值；本包暂未模拟该效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "kelpsyberry",
+    "name": "藻根果",
+    "price": 0,
+    "category": "held",
+    "description": "战斗外可用于降低努力值；本包暂未模拟该效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "magostberry",
+    "name": "岳竹果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "nanabberry",
+    "name": "娜娜果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "nomelberry",
+    "name": "檬柠果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "pamtreberry",
+    "name": "榴石果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "pinapberry",
+    "name": "凰梨果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "pomegberry",
+    "name": "榴石果",
+    "price": 0,
+    "category": "held",
+    "description": "战斗外可用于降低努力值；本包暂未模拟该效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "qualotberry",
+    "name": "藻根果",
+    "price": 0,
+    "category": "held",
+    "description": "战斗外可用于降低努力值；本包暂未模拟该效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "rabutaberry",
+    "name": "兰萨果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "razzberry",
+    "name": "树果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "spelonberry",
+    "name": "刺角果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "tamatoberry",
+    "name": "烛木果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "watmelberry",
+    "name": "西梨果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "wepearberry",
+    "name": "利卡果",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代树果；本作战斗中没有额外持有者效果。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "machobrace",
+    "name": "强制锻炼器（Macho Brace）",
+    "price": 0,
+    "category": "held",
+    "description": "第三世代：持有者速度减半，战斗获得的努力值翻倍（仍受单项255与总计510上限约束）。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "blueflute",
+    "name": "蓝色玻璃哨",
+    "price": 100,
+    "category": "battle",
+    "description": "可重复使用。治愈战斗中的睡眠；战斗外也可用于治愈睡眠。",
+    "actionKey": "item blueflute",
+    "target": true,
+    "battle": {
+      "status": [
+        "slp"
+      ]
+    },
+    "outside": {
+      "status": [
+        "slp"
+      ]
+    },
+    "reusable": true
+  },
+  {
+    "id": "yellowflute",
+    "name": "黄色玻璃哨",
+    "price": 200,
+    "category": "battle",
+    "description": "可重复使用。战斗中解除目标的混乱；仅能在战斗中使用。",
+    "actionKey": "item yellowflute",
+    "target": true,
+    "battle": {
+      "cureVolatile": "confusion"
+    },
+    "outside": null,
+    "reusable": true
+  },
+  {
+    "id": "redflute",
+    "name": "红色玻璃哨",
+    "price": 300,
+    "category": "battle",
+    "description": "可重复使用。战斗中解除目标的着迷；仅能在战斗中使用。",
+    "actionKey": "item redflute",
+    "target": true,
+    "battle": {
+      "cureVolatile": "attract"
+    },
+    "outside": null,
+    "reusable": true
+  },
+  {
+    "id": "dragonscale",
+    "name": "龙之鳞片",
+    "price": 2100,
+    "category": "held",
+    "description": "第三世代通信进化携带材料；本关都151单打版不开放刺龙王或通信进化，没有战斗能力加成。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "upgrade",
+    "name": "升级数据",
+    "price": 2100,
+    "category": "held",
+    "description": "第三世代通信进化携带材料；本关都151版不开放多边兽Ⅱ或通信进化，没有战斗能力加成。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  },
+  {
+    "id": "everstone",
+    "name": "不变之石",
+    "price": 200,
+    "category": "held",
+    "description": "携带时阻止进化；取下后可正常进化。按火红叶绿规则，也会阻止进化石的实际使用。",
+    "target": false,
+    "battle": null,
+    "outside": null,
+    "generation": 3,
+    "ruleset": "pokemon-frlg"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "dsh-card-pokemon-frlg-stage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "火红叶绿关都MVU原生剧场、单打双打与本地结算",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "dsh-tavern-plugin"
+      ]
+    }
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test test/*.test.*"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "type": "module"
+}
+

@@ -1,0 +1,231 @@
+{
+  "repository": "https://github.com/PokeAPI/sprites",
+  "directory": "sprites/items/",
+  "entries": [
+    {
+      "id": "potion",
+      "image": "assets/items/potion.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "db5a0fa2343c5761599d9efd4514a30125164ced094b55f760a763ed0c9c64d5"
+    },
+    {
+      "id": "superpotion",
+      "image": "assets/items/superpotion.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "81280672b68b5f8c0e4bf7b7d39567ce170d840296f7812935f740203da66fd5"
+    },
+    {
+      "id": "antidote",
+      "image": "assets/items/antidote.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/antidote.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "efb20083fb01637ef6a1cb40f915f2b077a5f275ada59348f4cb81c56afc1581"
+    },
+    {
+      "id": "paralyzeheal",
+      "image": "assets/items/paralyzeheal.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paralyze-heal.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "fe3c35089c2be77bb364c9de2bdbdc8fa89d19a1ba2b3457186ea72c9fbc2c58"
+    },
+    {
+      "id": "awakening",
+      "image": "assets/items/awakening.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/awakening.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "2d45dbca4dbfb4e54177eaeeb5d43a455dcae92b9f3aa4de03c8a698f2163f0b"
+    },
+    {
+      "id": "burnheal",
+      "image": "assets/items/burnheal.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/burn-heal.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "b9ceaa0f24332b138de4ccf9b632e7f70c12bbb2e7327f8e6b1da3dfef3fd2d2"
+    },
+    {
+      "id": "iceheal",
+      "image": "assets/items/iceheal.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-heal.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "215aab7f1f823e079e9e4a4f7870fe513a99caa82475d3b4724ce598ac8968df"
+    },
+    {
+      "id": "fullheal",
+      "image": "assets/items/fullheal.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-heal.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "fc471f27e944e7ce3dc5894981c09faccf9371940e6c2f1355a62a72b9a88466"
+    },
+    {
+      "id": "revive",
+      "image": "assets/items/revive.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "8ed02f56fcd0a8d2525811fbc33d82aebbe7af902ec6752b4857de821505a224"
+    },
+    {
+      "id": "pokeball",
+      "image": "assets/items/pokeball.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "a4c7b9e8ff5727d10e6f679bcf16a963a95b2a36480d3bd9156d9808bdf54dff"
+    },
+    {
+      "id": "greatball",
+      "image": "assets/items/greatball.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "4d0a614eebb4aef6b02a3620e4262f471b620cc8bc81cfeebeb3cbb995727ac6"
+    },
+    {
+      "id": "ultraball",
+      "image": "assets/items/ultraball.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "4dbf6751968bd3b96d3036da1a55e5a764c792e780a5fa5cd2391bc155224a10"
+    },
+    {
+      "id": "oranberry",
+      "image": "assets/items/oranberry.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "4d4d31e7c29a4540d5f438b87bb1762bf3cd7b0920e523fc9020f6c0bace1c1a"
+    },
+    {
+      "id": "sitrusberry",
+      "image": "assets/items/sitrusberry.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "934d9dcfdc189fd01987f1e0356e079cf32d4d3aafac89ca3e77158c8f44c10e"
+    },
+    {
+      "id": "lumberry",
+      "image": "assets/items/lumberry.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "eab0124365d18b7439b553edd5cf02e17297b72495a79e37114ee5398d0e3996"
+    },
+    {
+      "id": "leftovers",
+      "image": "assets/items/leftovers.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "3ea874aaa17bbcb682131876763ca2f9a896644f7a2b5d9c51ea234f7aace558"
+    },
+    {
+      "id": "quickclaw",
+      "image": "assets/items/quickclaw.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "7495a24979a42b3995d079b4e4931580000df56c9105a8380ca2b068b9d5192f"
+    },
+    {
+      "id": "charcoal",
+      "image": "assets/items/charcoal.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charcoal.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "c5182215d365c29a3d604c69ec3e2dd269f5a4b9d50a85d820c9c0dc70011c6e"
+    },
+    {
+      "id": "mysticwater",
+      "image": "assets/items/mysticwater.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "50db9161bf64687ab5998060c3b08f36300d1eef059e50b11cd36c4c3a58b789"
+    },
+    {
+      "id": "miracleseed",
+      "image": "assets/items/miracleseed.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "2fa7c32270c089d858976f0f262b436d1feca44d6469dabdb4c8250444163cf1"
+    },
+    {
+      "id": "firestone",
+      "image": "assets/items/firestone.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "79b9f7aa7adf5f43465545cfb7b510789c90215b27680d91acaa0690c57f2507"
+    },
+    {
+      "id": "waterstone",
+      "image": "assets/items/waterstone.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "a213ec2d62b816073a9a78bf659b436de8e196df3b14437b3d768f466b3e9616"
+    },
+    {
+      "id": "leafstone",
+      "image": "assets/items/leafstone.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "f7987d279723736d568ada3cece6936d441c61f3ccec401a7e236020bacd7f5e"
+    },
+    {
+      "id": "thunderstone",
+      "image": "assets/items/thunderstone.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "74fa4c73cad9285a250f8f7e8e434409b3e89670adc6f30b419b709fce1bad10"
+    },
+    {
+      "id": "moonstone",
+      "image": "assets/items/moonstone.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png",
+      "repository": "PokeAPI/sprites",
+      "width": 30,
+      "height": 30,
+      "sha256": "44757f9cc107f23cc6775c93edc5b0eea429f2e08c5e547ee325c699d77c2742"
+    }
+  ]
+}

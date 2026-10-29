@@ -1,0 +1,1993 @@
+[
+  {
+    "id": "oak-open-field",
+    "location": "pallet",
+    "npcId": "oak",
+    "npcName": "大木博士",
+    "requiredBadges": 0,
+    "title": "把观察带回森林",
+    "description": "大木博士希望研究记录能反映训练家与伙伴共同探索的过程，而不只是图鉴数字。",
+    "stages": [
+      {
+        "title": "走出研究室",
+        "description": "沿常青森林的道路实地观察一次。",
+        "objective": {
+          "kind": "visit",
+          "node": "viridian-forest",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录第一批样本",
+        "description": "接取后收服两只新的野生伙伴，比较它们面对环境的不同反应。",
+        "objective": {
+          "kind": "caught",
+          "target": 2
+        }
+      },
+      {
+        "title": "确认伙伴的节奏",
+        "description": "通过伙伴休整／露营行动增加至少2点信赖；一次露营带来的真实信赖增量会计入，不要求反复刷羁绊。",
+        "objective": {
+          "kind": "bond",
+          "target": 2
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付300元整理公开版记录",
+        "cost": {
+          "coins": 300
+        },
+        "echo": "公开记录让更多训练家看见全队共同成长的价值。"
+      },
+      {
+        "id": "private",
+        "label": "保留为研究室内部笔记（不花钱）",
+        "cost": {},
+        "echo": "这份记录留在研究室，细小的共同经历没有被简化成数字。"
+      }
+    ],
+    "reward": {
+      "gadget": "partyExpShare"
+    },
+    "rewardPreview": "解锁全队经验分享装置",
+    "afterimage": "旅程结束后，研究室仍会收到伙伴们留下的新观察。"
+  },
+  {
+    "id": "ash-path-notes",
+    "location": "viridian",
+    "npcId": "trainer_ash",
+    "npcName": "小智",
+    "requiredBadges": 0,
+    "title": "沿着足迹找答案",
+    "description": "小智把一张被雨水打湿的路线草图交给你。他说先看它们往哪儿走，再写下我们看见了什么；记录要保留伙伴自己的节奏，而不是把每次相遇都变成捕捉清单。",
+    "stages": [
+      {
+        "title": "核对路线",
+        "description": "亲自走过常青森林。",
+        "objective": {
+          "kind": "visit",
+          "node": "viridian-forest",
+          "target": 1
+        }
+      },
+      {
+        "title": "补足观察样本",
+        "description": "接取后收服一只飞行属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Flying",
+          "target": 1
+        }
+      },
+      {
+        "title": "留下照护记号",
+        "description": "完成一次伙伴休整；小智先确认伙伴是否准备继续走，再把它主动休息的记号补进草图。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "field-kit",
+        "label": "支付250元做防水与标记整理",
+        "cost": {
+          "coins": 250
+        },
+        "echo": "草图上留下了耐用的防水标记，下一位旅人也能读懂；小智把敏感栖息点改成了安全范围。"
+      },
+      {
+        "id": "hand-copy",
+        "label": "亲手誊写并带走一份（不花钱）",
+        "cost": {},
+        "echo": "手写副本保留了路上临时添改的痕迹；小智把原稿留给研究室，免得只有一份记录能作证。"
+      }
+    ],
+    "reward": {
+      "gadget": "fieldRadar"
+    },
+    "rewardPreview": "解锁野外生态雷达",
+    "afterimage": "小智把新路线记在自己的笔记边角；下次相遇时，他会拿出被雨水洇开的原稿，和你逐处核对，而不把没看清的部分补成结论。"
+  },
+  {
+    "id": "brock-stone-practice",
+    "location": "pewter",
+    "npcId": "brock",
+    "npcName": "小刚",
+    "requiredBadges": 0,
+    "title": "让招式练习有根据",
+    "description": "小刚想整理一套安全的招式研修方法，要求每条建议都能从实际训练和图鉴资料中核实。",
+    "stages": [
+      {
+        "title": "走访月见山",
+        "description": "亲自探访月见山，记录洞窟地形。",
+        "objective": {
+          "kind": "visit",
+          "node": "mt-moon",
+          "target": 1
+        }
+      },
+      {
+        "title": "寻找岩石伙伴",
+        "description": "接取后收服一只小拳石。",
+        "objective": {
+          "kind": "catch-species",
+          "species": 74,
+          "target": 1
+        }
+      },
+      {
+        "title": "把方法带进道馆",
+        "description": "接取后获得一枚新的道馆徽章。",
+        "objective": {
+          "kind": "badges",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "careful",
+        "label": "支付400元购置练习用具",
+        "cost": {
+          "coins": 400
+        },
+        "echo": "练习架留下磨痕，提醒后来者先确认伙伴的状态。"
+      },
+      {
+        "id": "improvise",
+        "label": "用现有器材完成记录（不花钱）",
+        "cost": {},
+        "echo": "简朴的练习场证明，好方法不靠昂贵器材。"
+      }
+    ],
+    "reward": {
+      "gadget": "trainingTerminal"
+    },
+    "rewardPreview": "解锁合法招式研修终端",
+    "afterimage": "小刚把研修记录留给后来挑战者，愿它先帮助伙伴变得更自信。"
+  },
+  {
+    "id": "misty-water-memory",
+    "location": "cerulean",
+    "npcId": "misty",
+    "npcName": "小霞",
+    "requiredBadges": 1,
+    "title": "水道边的观察册",
+    "description": "小霞想知道训练家是否能观察水边伙伴的习惯，而不是只记录它们的战斗表现。",
+    "stages": [
+      {
+        "title": "找到新的水边样本",
+        "description": "接取后收服一只水属性野生伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Water",
+          "target": 1
+        }
+      },
+      {
+        "title": "沿北侧水道核查",
+        "description": "亲自探访24号道路。",
+        "objective": {
+          "kind": "visit",
+          "node": "route24",
+          "target": 1
+        }
+      },
+      {
+        "title": "建立照护记录",
+        "description": "通过一次伙伴休整照看队伍伙伴，并记下它恢复平静所需的时间。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "share",
+        "label": "支付300元公开印制观察册",
+        "cost": {
+          "coins": 300
+        },
+        "echo": "公开版在水道边留下几本，其他训练家开始补充自己的观察。"
+      },
+      {
+        "id": "keep",
+        "label": "把原稿交还小霞保存（不花钱）",
+        "cost": {},
+        "echo": "原稿回到小霞手中，纸边还留着水珠干掉后的浅痕。"
+      }
+    ],
+    "reward": {
+      "gadget": "terminalArchive"
+    },
+    "rewardPreview": "解锁升级招式与合法TM研修档案",
+    "afterimage": "水道旁的讨论声慢慢散去，观察册却一直留在馆内。",
+    "requiresGadget": "trainingTerminal"
+  },
+  {
+    "id": "rocket-cargo-ledger",
+    "location": "celadon",
+    "npcId": "rocket_grunt_m",
+    "npcName": "火箭队员",
+    "requiredBadges": 3,
+    "title": "没有写进货单的货物",
+    "description": "一名脱离火箭队的队员交来一张残缺货单。他承认自己替人搬箱，却不知道箱里装了什么；是否交警方由你决定，先查清被搬走的货物有没有伤到栖地。",
+    "stages": [
+      {
+        "title": "复核旧线索",
+        "description": "亲自探访紫苑镇，核对货单背面的路线记号。",
+        "objective": {
+          "kind": "visit",
+          "node": "lavender",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录野外影响",
+        "description": "接取后收服一只毒属性野生伙伴，只把可观察到的栖地变化记下来；队员拒绝把野生伙伴当作指认货物的证物。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Poison",
+          "target": 1
+        }
+      },
+      {
+        "title": "决定证据去向",
+        "description": "在取得下一枚道馆徽章后回来处理这项调查。",
+        "objective": {
+          "kind": "badges",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "report",
+        "label": "支付500元整理证据并交给警方",
+        "cost": {
+          "coins": 500
+        },
+        "echo": "正式记录进入档案，线索来源与交货时间一并留存；队员接受警方问询，但货单仍须由受影响者补充核验。"
+      },
+      {
+        "id": "protect",
+        "label": "不公开证人身份，保留内部副本（不花钱）",
+        "cost": {},
+        "echo": "证人姓名被封存，货物流向仍可追查；他答应在调查员在场时辨认签收笔迹，不以保密换取免责。"
+      }
+    ],
+    "reward": {
+      "gadget": "fieldRadarPlus"
+    },
+    "rewardPreview": "升级生态雷达：可按属性筛查记录",
+    "afterimage": "空白货单不再只是沉默的纸。莉佳收到受影响栖地的副本；队员仍要面对自己的搬运记录，受害者也不必因他配合调查就原谅他。",
+    "requiresGadget": "fieldRadar"
+  },
+  {
+    "id": "erika-garden-rest",
+    "location": "celadon",
+    "npcId": "erika",
+    "npcName": "莉佳",
+    "requiredBadges": 3,
+    "title": "庭园里的安静时刻",
+    "description": "莉佳发现温室外缘的野生伙伴避开了常走的小径。她反对把它们赶回镜头前作展示；庭园若要开放观察，须先给伙伴留出不被追看的休息处。",
+    "stages": [
+      {
+        "title": "记录庭园访客",
+        "description": "接取后收服一只草属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Grass",
+          "target": 1
+        }
+      },
+      {
+        "title": "留心恢复节奏",
+        "description": "完成一次伙伴休整，记录伙伴主动恢复活动的时机；莉佳不会以训练家的行程替它决定休息多久。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      },
+      {
+        "title": "沿外缘巡查",
+        "description": "亲自探访16号道路，确认城市绿地与野外的连接。",
+        "objective": {
+          "kind": "visit",
+          "node": "route16",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "build",
+        "label": "支付350元添置耐候露营工具",
+        "cost": {
+          "coins": 350
+        },
+        "echo": "新工具收进柜子，庭园没有变成训练场；莉佳开放耐候垫给夜间巡护员使用，但不开放受惊伙伴的精确位置。"
+      },
+      {
+        "id": "simple",
+        "label": "沿用庭园旧物（不花钱）",
+        "cost": {},
+        "echo": "旧布垫洗净后继续使用，熟悉的气味让伙伴更放松；莉佳把庭园留作安静区，观察者须从外缘记录。"
+      }
+    ],
+    "reward": {
+      "gadget": "campKit"
+    },
+    "rewardPreview": "解锁野外营地工具",
+    "afterimage": "离开时庭园恢复安静。莉佳仍会检查外缘小径的脚印；若伙伴继续绕行，她会调整人类路线，不要求它们适应观众。"
+  },
+  {
+    "id": "sabrina-focus-ledger",
+    "location": "saffron",
+    "npcId": "sabrina",
+    "npcName": "娜姿",
+    "requiredBadges": 6,
+    "title": "专注，而不是预言",
+    "description": "娜姿提出一组专注训练。记录只看真实发生的交流，不把心灵感应或推测当作伙伴已经同意的事。",
+    "stages": [
+      {
+        "title": "认识新的观察对象",
+        "description": "接取后收服一只凯西。",
+        "objective": {
+          "kind": "catch-species",
+          "species": 63,
+          "target": 1
+        }
+      },
+      {
+        "title": "从日常交流开始",
+        "description": "通过伙伴休整／露营行动增加至少2点信赖；一次露营带来的真实信赖增量会计入，不要求反复刷羁绊。",
+        "objective": {
+          "kind": "bond",
+          "target": 2
+        }
+      },
+      {
+        "title": "用徽章检验判断",
+        "description": "接取后取得一枚新的道馆徽章。",
+        "objective": {
+          "kind": "badges",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付450元整理成公开练习册",
+        "cost": {
+          "coins": 450
+        },
+        "echo": "练习册强调倾听与同意，娜姿把旧预测页留在抽屉里。"
+      },
+      {
+        "id": "private",
+        "label": "只保存个人练习记录（不花钱）",
+        "cost": {},
+        "echo": "记录被收好，没有被包装成任何人都能套用的答案。"
+      }
+    ],
+    "reward": {
+      "gadget": "bondLens"
+    },
+    "rewardPreview": "解锁羁绊观察档案",
+    "afterimage": "练习结束后，房间恢复安静，伙伴的选择仍由它自己表达。"
+  },
+  {
+    "id": "koga-safari-watch",
+    "location": "fuchsia",
+    "npcId": "koga",
+    "npcName": "阿桔",
+    "requiredBadges": 5,
+    "title": "不惊扰的巡查",
+    "description": "阿桔要求巡查狩猎地带时保持距离：只记录能亲自确认的足迹、地点与伙伴状态。",
+    "stages": [
+      {
+        "title": "进入狩猎地带",
+        "description": "亲自探访狩猎地带。",
+        "objective": {
+          "kind": "visit",
+          "node": "safari",
+          "target": 1
+        }
+      },
+      {
+        "title": "确认新的野外样本",
+        "description": "接取后收服一只地面属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Ground",
+          "target": 1
+        }
+      },
+      {
+        "title": "检查伙伴状态",
+        "description": "通过一次伙伴休整确认队伍状态，巡查不以伙伴疲惫为代价。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "reinforce",
+        "label": "支付300元添置结实的帐篷部件",
+        "cost": {
+          "coins": 300
+        },
+        "echo": "修补件收进工具包，下一次露营不必担心突然落雨。"
+      },
+      {
+        "id": "repair",
+        "label": "回收并修补旧部件（不花钱）",
+        "cost": {},
+        "echo": "旧部件经过修补继续使用，没有再增加一份废弃物。"
+      }
+    ],
+    "reward": {
+      "gadget": "campKitPlus"
+    },
+    "rewardPreview": "升级营地工具：可作更充分的旅途休整",
+    "afterimage": "巡查记录没有留下惊扰野生伙伴的痕迹。",
+    "requiresGadget": "campKit"
+  },
+  {
+    "id": "blaine-move-records",
+    "location": "cinnabar",
+    "npcId": "blaine",
+    "npcName": "夏伯",
+    "requiredBadges": 7,
+    "title": "火山实验的安全记录",
+    "description": "夏伯请你用真实的训练经历完善安全记录，避免把冒险误写成鲁莽的勇气。",
+    "stages": [
+      {
+        "title": "复查海蚀洞地形",
+        "description": "亲自探访双子岛。",
+        "objective": {
+          "kind": "visit",
+          "node": "seafoam",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录适应炎热的伙伴",
+        "description": "接取后收服一只火属性野生伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Fire",
+          "target": 1
+        }
+      },
+      {
+        "title": "通过下一道实战考核",
+        "description": "接取后取得一枚新的道馆徽章。",
+        "objective": {
+          "kind": "badges",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "archive",
+        "label": "支付500元制作安全档案副本",
+        "cost": {
+          "coins": 500
+        },
+        "echo": "副本标注了风险和撤退条件，火山入口不再只展示成功故事。"
+      },
+      {
+        "id": "notes",
+        "label": "把手写原稿留在实验室（不花钱）",
+        "cost": {},
+        "echo": "原稿留在实验室，页脚有夏伯补上的几条撤退路线。"
+      }
+    ],
+    "reward": {
+      "gadget": "moveMemory"
+    },
+    "rewardPreview": "解锁招式记忆检索",
+    "afterimage": "实验室熄灯后，安全档案还在门边，等下一位训练家先读完再出发。",
+    "requiresGadget": "trainingTerminal"
+  },
+  {
+    "id": "blue-league-ledger",
+    "location": "indigo",
+    "npcId": "rival_late",
+    "npcName": "小茂",
+    "requiredBadges": 8,
+    "title": "冠军之后的空白页",
+    "description": "小茂把联盟战报摊开，却把自己的冠军签名留在页外：头衔能说明胜负，不能替其他挑战者作证。他要一份能让后来者复核的记录，也要求你把走过的路写回来。",
+    "stages": [
+      {
+        "title": "开始联盟挑战",
+        "description": "接取后完成四天王与冠军的五场联盟对战；小茂只认可实际结算的胜场，不接受练习赛或口头报数。",
+        "objective": {
+          "kind": "league",
+          "target": 5
+        }
+      },
+      {
+        "title": "补上旅途样本",
+        "description": "接取后收服两种新的野生宝可梦。",
+        "objective": {
+          "kind": "dex",
+          "target": 2
+        }
+      },
+      {
+        "title": "回看旧路线",
+        "description": "再次探访23号道路，回到联盟前的最后一段路。",
+        "objective": {
+          "kind": "visit",
+          "node": "route23",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付800元公开印成训练家年鉴",
+        "cost": {
+          "coins": 800
+        },
+        "echo": "年鉴列出每位挑战者的实际赛程和判定依据；小茂的冠军页也列明对手，不再把头衔写成独自抵达的故事。"
+      },
+      {
+        "id": "keep",
+        "label": "不出版，把原稿交给下一位挑战者（不花钱）",
+        "cost": {},
+        "echo": "原稿没有封面，交给下一位挑战者接写；小茂保留可核对的原始战报，不用冠军的名字替别人填空。"
+      }
+    ],
+    "reward": {
+      "gadget": "leagueNotes"
+    },
+    "rewardPreview": "解锁联盟记录与复盘档案",
+    "afterimage": "联盟的灯光暗下来，空白页仍留给下一段旅程。小茂把复盘终端留在挑战者休息区；再见面时，他会拿自己的失误和你的记录一起复盘。"
+  },
+  {
+    "id": "joy-triage-ledger",
+    "location": "vermilion",
+    "npcId": "nurse_joy",
+    "npcName": "乔伊",
+    "requiredBadges": 1,
+    "title": "急救台旁的回访表",
+    "description": "乔伊发现不少训练家只记下治疗结果，却忘了记录伙伴何时愿意重新出发。她请你补完三份真实回访。",
+    "stages": [
+      {
+        "title": "找到能协助观察的伙伴",
+        "description": "接取后收服一只波波或其进化形。",
+        "objective": {
+          "kind": "catch-species",
+          "species": 16,
+          "target": 1
+        }
+      },
+      {
+        "title": "按伙伴的节奏照料",
+        "description": "完成两次伙伴休整，为每位伙伴留下自己的恢复记录，不以战斗胜负替代休息。",
+        "objective": {
+          "kind": "care",
+          "target": 2
+        }
+      },
+      {
+        "title": "核实回访路线",
+        "description": "亲自探访地鼠洞，确认伤患常走的近路。",
+        "objective": {
+          "kind": "visit",
+          "node": "diglett-cave",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "public",
+        "label": "支付250元制作诊所副本",
+        "cost": {
+          "coins": 250
+        },
+        "echo": "公开副本删去了训练家的姓名，却保留了每次重新出发前的停顿。"
+      },
+      {
+        "id": "private",
+        "label": "交回乔伊保管（不花钱）",
+        "cost": {},
+        "echo": "表格被收进诊所抽屉，等待下一次由伙伴自己决定的回访。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "maxpotion": 2,
+        "ppup": 1
+      }
+    },
+    "rewardPreview": "获得全满药×2、PP提升剂×1",
+    "afterimage": "治疗室重新安静下来；乔伊没有催任何伙伴立刻上路。"
+  },
+  {
+    "id": "gentleman-garden-ecology",
+    "location": "celadon",
+    "npcId": "gentleman",
+    "npcName": "园艺收藏家",
+    "requiredBadges": 2,
+    "title": "花圃里的夜间访客",
+    "description": "收藏家愿意开放温室记录，但不想把野生宝可梦变成展品。你需要用新的生态样本与照护记录说明观察可以有边界。",
+    "stages": [
+      {
+        "title": "记录夜色中的访客",
+        "description": "接取后收服一只虫属性野生伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Bug",
+          "target": 1
+        }
+      },
+      {
+        "title": "比较两种栖息地",
+        "description": "亲自探访常青森林，核对温室边缘的记录。",
+        "objective": {
+          "kind": "visit",
+          "node": "viridian-forest",
+          "target": 1
+        }
+      },
+      {
+        "title": "不打扰也能照料",
+        "description": "通过一次伙伴休整建立观察者回访记录。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "restore",
+        "label": "支付400元修复温室遮蔽网",
+        "cost": {
+          "coins": 400
+        },
+        "echo": "遮蔽网修好后，访客可以离开，观察者也看不见它们的每一步。"
+      },
+      {
+        "id": "leave",
+        "label": "停止夜间照明并留下记录（不花钱）",
+        "cost": {},
+        "echo": "灯灭了，记录少了几行，却更接近访客原本的生活。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm12": 1,
+        "rarecandy": 1
+      }
+    },
+    "rewardPreview": "获得 TM 12×1、神奇糖果×1",
+    "afterimage": "温室只留下植物的影子，夜间访客不再被灯光围住。"
+  },
+  {
+    "id": "scientist-cinnabar-recovery",
+    "location": "cinnabar",
+    "npcId": "scientist",
+    "npcName": "红莲研究员",
+    "requiredBadges": 5,
+    "title": "撤离名单上的空格",
+    "description": "研究员拒绝把火山观测写成英雄故事。他需要一份能查证的撤离名单，也需要有人承认中途撤回同样算作判断。",
+    "stages": [
+      {
+        "title": "走访安全出口",
+        "description": "亲自探访双子岛，核对撤离路线。",
+        "objective": {
+          "kind": "visit",
+          "node": "seafoam",
+          "target": 1
+        }
+      },
+      {
+        "title": "照顾同行伙伴",
+        "description": "完成两次伙伴休整，确认队伍在远行后得到恢复。",
+        "objective": {
+          "kind": "care",
+          "target": 2
+        }
+      },
+      {
+        "title": "收集耐热样本",
+        "description": "接取后收服一只水属性伙伴，作为对照样本。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Water",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "archive",
+        "label": "支付500元制作可公开的撤离图",
+        "cost": {
+          "coins": 500
+        },
+        "echo": "图上先标出口和水源，再标观测点；研究员把撤退路线放在第一页。"
+      },
+      {
+        "id": "hold",
+        "label": "保留内部名单并删除个人信息（不花钱）",
+        "cost": {},
+        "echo": "内部名单少了几个名字，却没有删除那些曾经选择撤回的人。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "maxrevive": 1,
+        "maxelixir": 1
+      }
+    },
+    "rewardPreview": "获得活力块×1、PP多项全补剂×1",
+    "afterimage": "火山边的灯逐盏熄灭，最后一名研究员也按名单安全离开。"
+  },
+  {
+    "id": "hiker-mtmoon-footprints",
+    "location": "pewter",
+    "npcId": "hiker",
+    "npcName": "月见山登山者",
+    "requiredBadges": 1,
+    "title": "月见山的脚印并不相同",
+    "description": "登山者想区分宝可梦留下的足迹与游客踩出的岔路。他请你带回可核对的样本、路线和照护记录。",
+    "stages": [
+      {
+        "title": "找到洞窟居民",
+        "description": "接取后收服一只小拳石。",
+        "objective": {
+          "kind": "catch-species",
+          "species": 74,
+          "target": 1
+        }
+      },
+      {
+        "title": "沿洞道复核",
+        "description": "亲自探访月见山。",
+        "objective": {
+          "kind": "visit",
+          "node": "mt-moon",
+          "target": 1
+        }
+      },
+      {
+        "title": "处理长途后的疲惫",
+        "description": "在继续登山前通过伙伴休整照看一位伙伴。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "mark",
+        "label": "支付200元补做安全路标",
+        "cost": {
+          "coins": 200
+        },
+        "echo": "路标画出可绕行的路段，脚印也不再被当成游客留下的箭头。"
+      },
+      {
+        "id": "quiet",
+        "label": "不刻新标记，只交换手绘路线（不花钱）",
+        "cost": {},
+        "echo": "没有新刻痕，手绘路线仍标出了那些需要安静经过的洞室。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm28": 1,
+        "ppmax": 1
+      }
+    },
+    "rewardPreview": "获得 TM 28×1、PP极限提升剂×1",
+    "afterimage": "脚印最终淡进尘土里，登山者没有追着问每一只宝可梦去了哪里。"
+  },
+  {
+    "id": "swimmer-fuchsia-tide",
+    "location": "fuchsia",
+    "npcId": "swimmer_f",
+    "npcName": "浅红海岸巡护员",
+    "requiredBadges": 4,
+    "title": "退潮后留下的浅滩",
+    "description": "巡护员不想把海岸调查变成捕捉竞赛。你需要记录水边生态、伙伴状态和一段亲自走过的潮间路线。",
+    "stages": [
+      {
+        "title": "收集海岸样本",
+        "description": "接取后收服一只水属性野生伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Water",
+          "target": 1
+        }
+      },
+      {
+        "title": "照看长途同行者",
+        "description": "完成一次伙伴休整记录。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      },
+      {
+        "title": "沿浅滩实地核查",
+        "description": "亲自探访19号道路。",
+        "objective": {
+          "kind": "visit",
+          "node": "route19",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "barrier",
+        "label": "支付300元补充临时隔离绳",
+        "cost": {
+          "coins": 300
+        },
+        "echo": "绳线只挡住游客，不围住栖息地；退潮后便会收走。"
+      },
+      {
+        "id": "observe",
+        "label": "不设绳线，改用远距离观察（不花钱）",
+        "cost": {},
+        "echo": "少了一条醒目的边界，巡护员却更容易看出谁正在靠近。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm03": 1,
+        "maxpotion": 1
+      }
+    },
+    "rewardPreview": "获得 TM 03×1、全满药×1",
+    "afterimage": "海水涨回浅滩，临时标记也被一并收起。"
+  },
+  {
+    "id": "rocket-lavender-transparency",
+    "location": "lavender",
+    "npcId": "rocket_grunt_m",
+    "npcName": "匿名线人",
+    "requiredBadges": 2,
+    "title": "那张没有署名的收据",
+    "description": "线人带来一张证明火箭队曾收购栖息地样本的收据。公开它可能暴露证人；压下它又会让旧交易继续无人负责。",
+    "stages": [
+      {
+        "title": "找回货物经过的地点",
+        "description": "亲自探访宝可梦塔。",
+        "objective": {
+          "kind": "visit",
+          "node": "pokemon-tower",
+          "target": 1
+        }
+      },
+      {
+        "title": "核验受影响物种",
+        "description": "接取后收服一只幽灵属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Ghost",
+          "target": 1
+        }
+      },
+      {
+        "title": "留下照护回访",
+        "description": "通过伙伴休整记录调查后队伍的状态。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "report",
+        "label": "支付350元制作匿名证据副本并上报",
+        "cost": {
+          "coins": 350
+        },
+        "echo": "证据副本进入档案，证人的身份仍被遮去，责任却没有一并消失。"
+      },
+      {
+        "id": "protect",
+        "label": "不公开原件，交给可信调查员保管（不花钱）",
+        "cost": {},
+        "echo": "原件没有公开，但它被放进不会被火箭队轻易找到的地方。"
+      }
+    ],
+    "reward": {
+      "gadget": "researchTerminalFreeTM",
+      "items": {
+        "tm06": 1
+      }
+    },
+    "rewardPreview": "升级研修终端：合法兼容TM研究不消耗机器；另获 TM 06×1",
+    "afterimage": "收据上的名字仍然空着，调查却终于有了可以追下去的凭据。",
+    "requiresGadget": "trainingTerminal"
+  },
+  {
+    "id": "ash-silph-rescue",
+    "location": "saffron",
+    "npcId": "trainer_ash",
+    "npcName": "小智",
+    "requiredBadges": 4,
+    "title": "电梯停下之后",
+    "description": "小智想整理西尔佛大厦的救援笔记。他不把救出某人当成独自完成的功劳，记录里必须写清伙伴的协助和照护。",
+    "stages": [
+      {
+        "title": "核实大厦附近路线",
+        "description": "亲自探访8号道路，补齐避开拥堵的入口记录。",
+        "objective": {
+          "kind": "visit",
+          "node": "route8",
+          "target": 1
+        }
+      },
+      {
+        "title": "照料救援后的伙伴",
+        "description": "完成两次伙伴休整，确认救援后队伍都能按自己的节奏恢复。",
+        "objective": {
+          "kind": "care",
+          "target": 2
+        }
+      },
+      {
+        "title": "记录新的同行伙伴",
+        "description": "接取后收服一只电属性野生伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Electric",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付500元复制成救援手册",
+        "cost": {
+          "coins": 500
+        },
+        "echo": "手册把每个协助者的名字留在同一页，没有把救援写成一个人的胜利。"
+      },
+      {
+        "id": "share",
+        "label": "把原稿交给大厦工作人员内部传阅（不花钱）",
+        "cost": {},
+        "echo": "原稿在工作人员之间传开，页角仍有伙伴爪子压出的折痕。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm24": 1,
+        "rarecandy": 2
+      }
+    },
+    "rewardPreview": "获得 TM 24×1、神奇糖果×2",
+    "afterimage": "人群散去后，小智把笔记留在门边，等下一次真正需要它的人取走。"
+  },
+  {
+    "id": "erika-seed-bank",
+    "location": "celadon",
+    "npcId": "erika",
+    "npcName": "莉佳",
+    "requiredBadges": 4,
+    "title": "把种子留给下一个季节",
+    "description": "莉佳准备把庭园种子分给周边训练家，却担心稀少的栖息地只剩下被带走的记录。她请你证明采集与照护可以同时有界限。",
+    "stages": [
+      {
+        "title": "记录草木伙伴",
+        "description": "接取后收服一只草属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Grass",
+          "target": 1
+        }
+      },
+      {
+        "title": "确认种子原生地",
+        "description": "亲自探访常青森林，记录一处不应被翻动的土壤。",
+        "objective": {
+          "kind": "visit",
+          "node": "viridian-forest",
+          "target": 1
+        }
+      },
+      {
+        "title": "照顾而不催促",
+        "description": "完成一次伙伴休整，不催促伙伴立刻继续赶路。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "share",
+        "label": "支付300元制作可交换种子包",
+        "cost": {
+          "coins": 300
+        },
+        "echo": "种子包附上了归还与不采集的说明，莉佳把最后一份留给庭园。"
+      },
+      {
+        "id": "reserve",
+        "label": "只登记、不采走种子（不花钱）",
+        "cost": {},
+        "echo": "没有种子离开原地，名单上却多出一片可以留给未来的空白。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm19": 1,
+        "ppmax": 1
+      }
+    },
+    "rewardPreview": "获得 TM 19×1、PP极限提升剂×1",
+    "afterimage": "下一季的芽还没有出现，庭园已经为它留出位置。"
+  },
+  {
+    "id": "sabrina-signal-map",
+    "location": "saffron",
+    "npcId": "sabrina",
+    "npcName": "娜姿",
+    "requiredBadges": 5,
+    "title": "信号图上标不出心意",
+    "description": "娜姿让你整理一份异常信号图，并提醒你：它只能记录地点与实际行动，不能替任何伙伴解释沉默。",
+    "stages": [
+      {
+        "title": "找到新的对照样本",
+        "description": "接取后收服一只超能力属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Psychic",
+          "target": 1
+        }
+      },
+      {
+        "title": "建立双向交流",
+        "description": "通过伙伴休整／露营行动增加至少2点信赖；一次露营带来的真实信赖增量会计入，不要求反复刷羁绊。",
+        "objective": {
+          "kind": "bond",
+          "target": 2
+        }
+      },
+      {
+        "title": "在城市外复核记录",
+        "description": "亲自探访10号道路。",
+        "objective": {
+          "kind": "visit",
+          "node": "route10",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付450元印制不含预测的公开版",
+        "cost": {
+          "coins": 450
+        },
+        "echo": "公开版删去了所谓的预言，只留下能由每个人亲自确认的信号。"
+      },
+      {
+        "id": "private",
+        "label": "不公开，只将原图交还研究者（不花钱）",
+        "cost": {},
+        "echo": "原图回到抽屉，没人再要求它替伙伴说出没有表达的话。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm04": 1,
+        "ppup": 2
+      }
+    },
+    "rewardPreview": "获得 TM 04×1、PP提升剂×2",
+    "afterimage": "图纸上仍有无法解释的空白，娜姿没有再为它们写下答案。"
+  },
+  {
+    "id": "blue-champion-rematch",
+    "location": "indigo",
+    "npcId": "rival_late",
+    "npcName": "小茂",
+    "requiredBadges": 8,
+    "title": "把挑战邀请留给后来者",
+    "description": "小茂想为新的挑战者留下正式邀请，同时拒绝用一封信承诺胜利。邀请必须建立在真实联盟记录、旅程样本和伙伴状态上。",
+    "stages": [
+      {
+        "title": "完成一轮联盟挑战",
+        "description": "接取后完成四天王与冠军的五场联盟对战。",
+        "objective": {
+          "kind": "league",
+          "target": 5
+        }
+      },
+      {
+        "title": "补录新的图鉴样本",
+        "description": "接取后收服三种不同的野生宝可梦。",
+        "objective": {
+          "kind": "dex",
+          "target": 3
+        }
+      },
+      {
+        "title": "确认伙伴的旅后状态",
+        "description": "完成两次伙伴休整，为同行伙伴分别记录旅后的状态。",
+        "objective": {
+          "kind": "care",
+          "target": 2
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "formal",
+        "label": "支付1000元制作正式挑战邀请与副本",
+        "cost": {
+          "coins": 1000
+        },
+        "echo": "邀请没有写谁会获胜，只写下接受挑战前可以提出的条件。"
+      },
+      {
+        "id": "personal",
+        "label": "把唯一原件交给下一位挑战者（不花钱）",
+        "cost": {},
+        "echo": "信封没有副本，下一位挑战者可以决定何时拆开。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "ppmax": 2,
+        "rarecandy": 3
+      }
+    },
+    "rewardPreview": "获得 PP极限提升剂×2、神奇糖果×3",
+    "afterimage": "邀请被收进背包，不再替任何人安排挑战的结局。"
+  },
+  {
+    "id": "oak-custodian-protocol",
+    "location": "pallet",
+    "npcId": "oak",
+    "npcName": "大木博士",
+    "requiredBadges": 3,
+    "title": "研究档案也需要守门人",
+    "description": "大木博士收到一批关于非法捕捉与过度训练的传闻。他请你用新样本、真实访问和伙伴交流来制定一套不伤害观察对象的档案规则。",
+    "stages": [
+      {
+        "title": "补充生态样本",
+        "description": "接取后收服两种新的野生宝可梦。",
+        "objective": {
+          "kind": "dex",
+          "target": 2
+        }
+      },
+      {
+        "title": "回访森林边界",
+        "description": "亲自探访常青森林，核实档案里标记的边界。",
+        "objective": {
+          "kind": "visit",
+          "node": "viridian-forest",
+          "target": 1
+        }
+      },
+      {
+        "title": "尊重伙伴的表达",
+        "description": "通过真实的伙伴互动增加至少3点信赖；一次伙伴休整带来的信赖增量会计入，不要求反复刷羁绊。",
+        "objective": {
+          "kind": "bond",
+          "target": 3
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "public",
+        "label": "支付600元公开档案使用原则",
+        "cost": {
+          "coins": 600
+        },
+        "echo": "原则写明记录者也要承担责任，档案没有任何捕捉配额。"
+      },
+      {
+        "id": "limited",
+        "label": "将规则只交给研究室审核（不花钱）",
+        "cost": {},
+        "echo": "规则留在研究室继续审查，尚未准备好的内容没有被匆忙公开。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm27": 1,
+        "rarecandy": 1
+      }
+    },
+    "rewardPreview": "获得 TM 27×1、神奇糖果×1",
+    "afterimage": "研究室的灯还亮着，大木博士把最后一个签名位置留给伙伴的照护者。"
+  },
+  {
+    "id": "koga-no-trace-camp",
+    "location": "fuchsia",
+    "npcId": "koga",
+    "npcName": "阿桔",
+    "requiredBadges": 6,
+    "title": "不留痕的营地演练",
+    "description": "阿桔要求在浅红市附近的15号道路做一次完整的营地演练：不追逐野生伙伴、不把临时营火留给下一位旅人，还要允许队伍决定何时收帐。",
+    "stages": [
+      {
+        "title": "露营并收好营地",
+        "description": "使用现有营地工具完成一次野外露营。阿桔检查火种、垃圾和伙伴的休息空间，不以营地是否热闹评分。",
+        "objective": {
+          "kind": "camp",
+          "target": 1
+        }
+      },
+      {
+        "title": "核实营地边界",
+        "description": "亲自探访浅红市附近的15号道路。",
+        "objective": {
+          "kind": "visit",
+          "node": "route15",
+          "target": 1
+        }
+      },
+      {
+        "title": "照料同行伙伴",
+        "description": "完成一次伙伴休整；队伍主动停下时再进行，不把疲惫当作意志薄弱。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      },
+      {
+        "title": "建立新的野外观察",
+        "description": "接取后收服一只地面属性野生伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Ground",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "repair",
+        "label": "支付350元补充可重复使用的营地部件",
+        "cost": {
+          "coins": 350
+        },
+        "echo": "部件按清单收回，营地没有留下标记；阿桔允许护林员沿营地边界巡查，但不许公开野生伙伴的窝点。"
+      },
+      {
+        "id": "reuse",
+        "label": "修好现有工具并复用（不花钱）",
+        "cost": {},
+        "echo": "旧工具修好后继续使用；阿桔将修补方法写进轮值本，不把添置装备当作负责任的证明。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm28": 1,
+        "maxelixir": 1
+      }
+    },
+    "rewardPreview": "获得 TM 28×1、PP多项全补剂×1",
+    "afterimage": "最后一处营火熄灭，地面没有多出东西。阿桔把下一轮检查交给当地巡护员；你若再经过这里，营地边界与伙伴的安静距离都仍按这次约定执行。",
+    "requiresGadget": "campKit"
+  },
+  {
+    "id": "blaine-community-lab",
+    "location": "cinnabar",
+    "npcId": "blaine",
+    "npcName": "夏伯",
+    "requiredBadges": 6,
+    "title": "研究室的撤退演练",
+    "description": "夏伯把旧实验室的撤离图交给你。他承认过去的记录把坚持写得太像美德；这次要先验证出口、照护方案和停止实验的条件，再讨论研究能否继续。",
+    "stages": [
+      {
+        "title": "核对海蚀洞出口",
+        "description": "亲自探访双子岛，确认潮汐变化后的退路。",
+        "objective": {
+          "kind": "visit",
+          "node": "seafoam",
+          "target": 1
+        }
+      },
+      {
+        "title": "测试队伍照护计划",
+        "description": "完成两次伙伴休整，复核长途实验后的恢复安排；夏伯要求记录每次暂停的理由，不把伙伴的拒绝改写成故障。",
+        "objective": {
+          "kind": "care",
+          "target": 2
+        }
+      },
+      {
+        "title": "找一只新的耐热观察对象",
+        "description": "接取后收服一只火属性伙伴。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Fire",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付700元印制撤退流程图",
+        "cost": {
+          "coins": 700
+        },
+        "echo": "流程图把暂停步骤画在最醒目的位置，实验记录注明伙伴可退出；夏伯在副本首页签名承担旧流程的疏漏。"
+      },
+      {
+        "id": "keep",
+        "label": "只将流程留在实验室（不花钱）",
+        "cost": {},
+        "echo": "流程图留在实验室，任何人都可要求停下；夏伯把旧记录副本一并封存，供后来者检查他是否照约执行。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm38": 1,
+        "ppup": 2
+      }
+    },
+    "rewardPreview": "获得 TM 38×1、PP提升剂×2",
+    "afterimage": "图纸贴在门内侧，出口比实验结果更醒目。夏伯以后每次开实验前都会先复核撤退流程；若他跳过这一步，值班记录会留下空格供你追问。"
+  },
+  {
+    "id": "viridian-crossing-log",
+    "location": "viridian",
+    "npcId": "gentleman",
+    "npcName": "绅士",
+    "requiredBadges": 0,
+    "title": "林缘的两种脚印",
+    "description": "常青市的绅士每天在城门整理旧路线图；他担心把森林里的伙伴都写成危险。请你比较不同脚印并交回可复核的观察。",
+    "stages": [
+      {
+        "title": "核对林缘路线",
+        "description": "亲自探访常青森林，标出安全的绕行路。",
+        "objective": {
+          "kind": "visit",
+          "node": "viridian-forest",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录林中访客",
+        "description": "接取后收服一只虫属性伙伴，作为脚印辨认的实际样本。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Bug",
+          "target": 1
+        }
+      },
+      {
+        "title": "检查观察方式",
+        "description": "通过伙伴休整检查队伍伙伴状态，确认记录过程没有让它疲惫。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付200元印制公共路线页",
+        "cost": {
+          "coins": 200
+        },
+        "echo": "路线图新增了避让说明，访客可以选择不进入栖息地。"
+      },
+      {
+        "id": "keep",
+        "label": "把手绘稿还给城门管理员（不花钱）",
+        "cost": {},
+        "echo": "管理员保留了有修改痕迹的原稿，避免把临时路线说成绝对安全。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm12": 1,
+        "greatball": 2
+      }
+    },
+    "rewardPreview": "获得 TM 12×1、超级球×2",
+    "afterimage": "城门的地图旁留下了一张空白页，供下一位观察者补记。"
+  },
+  {
+    "id": "cerulean-waterline-test",
+    "location": "cerulean",
+    "npcId": "lass",
+    "npcName": "少女",
+    "requiredBadges": 1,
+    "title": "水道测线与回声",
+    "description": "华蓝市的少女在照看一条常被误报为“捷径”的水道。她需要真实水位与伙伴反应，担心匆忙公开路线会把新人带进急流。",
+    "stages": [
+      {
+        "title": "测量北侧岸线",
+        "description": "亲自探访24号道路，复核岸边可停留处。",
+        "objective": {
+          "kind": "visit",
+          "node": "route24",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录水域伙伴",
+        "description": "接取后收服一只水属性伙伴，观察它如何选择浅水边缘。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Water",
+          "target": 1
+        }
+      },
+      {
+        "title": "让伙伴决定停留时间",
+        "description": "通过伙伴休整／露营行动增加至少2点信赖；一次露营带来的真实信赖增量会计入，不要求反复刷羁绊。",
+        "objective": {
+          "kind": "bond",
+          "target": 2
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付300元制作带潮位注记的地图",
+        "cost": {
+          "coins": 300
+        },
+        "echo": "地图标出不适合通行的时段，测线会公开供训练家避险。"
+      },
+      {
+        "id": "keep",
+        "label": "把原图交给少女继续复核（不花钱）",
+        "cost": {},
+        "echo": "路线暂不公开，少女会先找更多当地人验证急流变化。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm03": 1,
+        "maxpotion": 1
+      }
+    },
+    "rewardPreview": "获得 TM 03×1、全满药×1",
+    "afterimage": "岸边的标记只指向安全停留点，没有把水道画成通行承诺。"
+  },
+  {
+    "id": "vermilion-harbor-triage",
+    "location": "vermilion",
+    "npcId": "sailor",
+    "npcName": "水手",
+    "requiredBadges": 1,
+    "title": "港口候船区的照护班",
+    "description": "一名水手请你协助港口候船区的乔伊整理长途航行后的照护流程。他怕把“马上恢复”当成标准，反而催促伙伴带伤出发。",
+    "stages": [
+      {
+        "title": "核对地面通道",
+        "description": "亲自探访11号道路，检查从港口到诊所的步行路线。",
+        "objective": {
+          "kind": "visit",
+          "node": "route11",
+          "target": 1
+        }
+      },
+      {
+        "title": "完成两次回访",
+        "description": "接取后完成两次伙伴休整，为不同伙伴保留自己的休息节奏。",
+        "objective": {
+          "kind": "care",
+          "target": 2
+        }
+      },
+      {
+        "title": "记录返航伙伴",
+        "description": "接取后收服一只飞行属性伙伴，观察它在长途移动后的状态变化。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Flying",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付250元制作候船照护卡",
+        "cost": {
+          "coins": 250
+        },
+        "echo": "卡片列出暂停与求助选项，旅客可自行选择是否公开记录。"
+      },
+      {
+        "id": "keep",
+        "label": "由乔伊保管匿名原表（不花钱）",
+        "cost": {},
+        "echo": "原表只留在诊所，水手不再把个体恢复时间当成旅程指标。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "maxpotion": 2,
+        "ppmax": 1
+      }
+    },
+    "rewardPreview": "获得全满药×2、PP极限提升剂×1",
+    "afterimage": "港口的流程卡提醒每位旅客：先问伙伴，再决定何时启程。"
+  },
+  {
+    "id": "lavender-tower-lanterns",
+    "location": "lavender",
+    "npcId": "nurse_joy",
+    "npcName": "乔伊小姐",
+    "requiredBadges": 2,
+    "title": "塔外的归途灯",
+    "description": "紫苑镇的乔伊担心夜间离开宝可梦塔的训练家只记得恐惧，不记得安全返回的路。她请你把同伴照护和沿途地标一起核实。",
+    "stages": [
+      {
+        "title": "走完塔内回程",
+        "description": "亲自探访宝可梦塔，记录能够辨认的出口地标。",
+        "objective": {
+          "kind": "visit",
+          "node": "pokemon-tower",
+          "target": 1
+        }
+      },
+      {
+        "title": "确认伙伴准备好",
+        "description": "接取后通过伙伴休整检查伙伴是否愿意继续同行。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录塔区夜间访客",
+        "description": "接取后收服一只幽灵属性伙伴，确认夜间栖息记录。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Ghost",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付350元添置可重复使用的灯罩",
+        "cost": {
+          "coins": 350
+        },
+        "echo": "灯罩让路线标记在夜间更清楚，镇民可取用并归还。"
+      },
+      {
+        "id": "keep",
+        "label": "用乔伊诊所的旧灯罩（不花钱）",
+        "cost": {},
+        "echo": "旧灯罩只放在诊所借用，路线图注明照明不足处。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm30": 1,
+        "revive": 2
+      }
+    },
+    "rewardPreview": "获得 TM 30×1、活力碎片×2",
+    "afterimage": "灯罩被收回架上，回程地标仍贴在诊所门口。"
+  },
+  {
+    "id": "route3-moonstone-ledger",
+    "location": "route3",
+    "npcId": "hiker",
+    "npcName": "登山客",
+    "requiredBadges": 0,
+    "title": "山前补给账本",
+    "description": "在3号道路等候同行者的登山客发现补给账本总把路线写得太轻松；他想提醒新手月见山的代价，又不想用夸张故事吓退他们。",
+    "stages": [
+      {
+        "title": "走访山口",
+        "description": "亲自探访月见山，检查入口附近的路况。",
+        "objective": {
+          "kind": "visit",
+          "node": "mt-moon",
+          "target": 1
+        }
+      },
+      {
+        "title": "辨认碎石边的伙伴",
+        "description": "接取后收服一只小拳石，记录它适应碎石路的方式。",
+        "objective": {
+          "kind": "catch-species",
+          "species": 74,
+          "target": 1
+        }
+      },
+      {
+        "title": "整理负重后的照护",
+        "description": "完成一次伙伴休整，把恢复时间写进补给账本。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付250元拓印路况副本",
+        "cost": {
+          "coins": 250
+        },
+        "echo": "副本写明补水点和折返条件，供其他登山者参考。"
+      },
+      {
+        "id": "keep",
+        "label": "把账本留给同行者接着补（不花钱）",
+        "cost": {},
+        "echo": "账本不发布结论，每次同行后都会补上新的路况。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm28": 1,
+        "maxpotion": 3
+      }
+    },
+    "rewardPreview": "获得 TM 28×1、全满药×3",
+    "afterimage": "登山客把折返路线画在账本首页，方便后来者先看到。"
+  },
+  {
+    "id": "mtmoon-fossil-witness",
+    "location": "mt-moon",
+    "npcId": "scientist",
+    "npcName": "研究员",
+    "requiredBadges": 1,
+    "title": "化石不是通行证",
+    "description": "一名研究员在月见山洞口清点化石运输记录；他拒绝把稀有发现当作催促深入洞穴的理由，希望有可验证的样本和撤退安排。",
+    "stages": [
+      {
+        "title": "复核洞外集合点",
+        "description": "亲自探访4号道路，确认离洞后能够集合休整。",
+        "objective": {
+          "kind": "visit",
+          "node": "route4",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录岩层伙伴",
+        "description": "接取后收服一只岩石属性伙伴，记录它在洞口环境中的活动迹象。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Rock",
+          "target": 1
+        }
+      },
+      {
+        "title": "完成一次规范考核",
+        "description": "接取后取得一枚新的道馆徽章，证明你能按规则完成挑战。",
+        "objective": {
+          "kind": "badges",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付400元整理公开的运输清单",
+        "cost": {
+          "coins": 400
+        },
+        "echo": "清单隐藏发现者姓名，同时公开路线风险与撤回办法。"
+      },
+      {
+        "id": "keep",
+        "label": "仅将副本交给馆方封存（不花钱）",
+        "cost": {},
+        "echo": "研究员暂不公开坐标，待确认运输安全后再决定是否开放。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "rarecandy": 2,
+        "ppup": 1
+      }
+    },
+    "rewardPreview": "获得神奇糖果×2、PP提升剂×1",
+    "afterimage": "封存副本附上“不得据此深入”的说明，发现本身不构成许可。"
+  },
+  {
+    "id": "route19-tide-rescue",
+    "location": "route19",
+    "npcId": "swimmer_f",
+    "npcName": "泳者",
+    "requiredBadges": 4,
+    "title": "退潮线之外的求援绳",
+    "description": "19号水道的泳者曾见到训练家误把退潮线当作安全边界。她请你一起复核水道与双子岛之间的求援位置，并坚持先照护队伍。",
+    "stages": [
+      {
+        "title": "核实岛外退路",
+        "description": "亲自探访双子岛，只记录能够安全返回的岸线。",
+        "objective": {
+          "kind": "visit",
+          "node": "seafoam",
+          "target": 1
+        }
+      },
+      {
+        "title": "观察水道伙伴",
+        "description": "接取后收服一只水属性伙伴，核实其出现地点与水流记录。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Water",
+          "target": 1
+        }
+      },
+      {
+        "title": "完成一次同行检查",
+        "description": "通过伙伴休整照看一位伙伴，再决定是否继续水道巡查。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付500元编制防水求援图",
+        "cost": {
+          "coins": 500
+        },
+        "echo": "图上公开求援点和不宜涉水区，副本放在两端诊所。"
+      },
+      {
+        "id": "keep",
+        "label": "把手绘图交给泳者小组审核（不花钱）",
+        "cost": {},
+        "echo": "路线暂缓公开，泳者小组会先比对不同潮汐下的记录。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm13": 1,
+        "maxpotion": 2
+      }
+    },
+    "rewardPreview": "获得 TM 13×1、全满药×2",
+    "afterimage": "求援绳被收回，地图明确写着不能用它替代判断水流。"
+  },
+  {
+    "id": "powerplant-grid-witness",
+    "location": "power-plant",
+    "npcId": "scientist",
+    "npcName": "研究员",
+    "requiredBadges": 5,
+    "title": "断电记录的空白格",
+    "description": "发电厂的研究员拒绝用“意外”一词抹去断电后受影响的野生伙伴。他需要查明电力波动与栖息地变化，也担心修复工程再次惊扰它们。",
+    "stages": [
+      {
+        "title": "核对外部电线走向",
+        "description": "亲自探访10号道路，复核进入发电厂前的线路标记。",
+        "objective": {
+          "kind": "visit",
+          "node": "route10",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录电属性样本",
+        "description": "接取后收服一只电属性伙伴，补齐发电厂周边生态记录。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Electric",
+          "target": 1
+        }
+      },
+      {
+        "title": "完成受惊伙伴回访",
+        "description": "接取后完成一次伙伴休整，记录恢复情况而非只报修复结果。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付600元印制带风险标注的报告",
+        "cost": {
+          "coins": 600
+        },
+        "echo": "报告公开断电范围和暂缓施工区，工程方必须回应受影响记录。"
+      },
+      {
+        "id": "keep",
+        "label": "把含坐标的原稿交给研究室审核（不花钱）",
+        "cost": {},
+        "echo": "研究室暂缓公开精确栖息地点，先请工程方调整施工方案。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "tm24": 1,
+        "maxelixir": 1
+      }
+    },
+    "rewardPreview": "获得 TM 24×1、PP多项全补剂×1",
+    "afterimage": "报告附录保留了未解决的问题，修复结束不等于生态调查结束。"
+  },
+  {
+    "id": "tower-rocket-receipts",
+    "location": "pokemon-tower",
+    "npcId": "rocket_grunt_f",
+    "npcName": "火箭队女队员",
+    "requiredBadges": 3,
+    "title": "塔内没有署名的药箱",
+    "description": "一名脱离火箭队的女队员在宝可梦塔外发现了被挪用的药箱清单。她愿意协助追查，却不肯让证人姓名再次落入组织手中。",
+    "stages": [
+      {
+        "title": "复核交接地点",
+        "description": "亲自回到紫苑镇核对药箱交接时间与地点。",
+        "objective": {
+          "kind": "visit",
+          "node": "lavender",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录塔区野生伙伴",
+        "description": "接取后收服一只幽灵属性伙伴，用图鉴地点核实清单中的活动区域。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Ghost",
+          "target": 1
+        }
+      },
+      {
+        "title": "取得新的道馆凭证",
+        "description": "接取后取得一枚新徽章，以训练家身份继续递交证据。",
+        "objective": {
+          "kind": "badges",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付450元制作匿名证据副本",
+        "cost": {
+          "coins": 450
+        },
+        "echo": "匿名副本交给警方，公开药箱去向但遮蔽证人身份。"
+      },
+      {
+        "id": "keep",
+        "label": "保留原件并只交诊所（不花钱）",
+        "cost": {},
+        "echo": "乔伊保管原件，证人暂不公开，药箱仍会被逐一追回。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "ultraball": 3,
+        "revive": 2
+      }
+    },
+    "rewardPreview": "获得高级球×3、活力碎片×2",
+    "afterimage": "证人没有得到赦免，但清单上的药箱终于回到诊所。"
+  },
+  {
+    "id": "victoryroad-safety-rope",
+    "location": "victory-road",
+    "npcId": "cool_trainer_m",
+    "npcName": "精英训练家",
+    "requiredBadges": 7,
+    "title": "冠军之路的回头标记",
+    "description": "冠军之路入口的精英训练家不接受“只要赢下来就值得”的说法。他请你检查回头标记、伙伴状态和新的路线样本，防止联盟挑战把风险包装成荣誉。",
+    "stages": [
+      {
+        "title": "核对入口退路",
+        "description": "亲自探访23号道路，确认冠军之路入口外的安全集合点。",
+        "objective": {
+          "kind": "visit",
+          "node": "route23",
+          "target": 1
+        }
+      },
+      {
+        "title": "记录洞内岩地伙伴",
+        "description": "接取后收服一只岩石属性伙伴，补充可识别的洞内生态样本。",
+        "objective": {
+          "kind": "catch-type",
+          "type": "Rock",
+          "target": 1
+        }
+      },
+      {
+        "title": "在继续前完成照护",
+        "description": "通过伙伴休整检查队伍状态，再决定是否继续挑战。",
+        "objective": {
+          "kind": "care",
+          "target": 1
+        }
+      }
+    ],
+    "choices": [
+      {
+        "id": "publish",
+        "label": "支付700元添置耐磨回头标记",
+        "cost": {
+          "coins": 700
+        },
+        "echo": "标记设置撤退方向，并要求联盟定期检查是否仍然可见。"
+      },
+      {
+        "id": "keep",
+        "label": "用联盟旧标记重新描绘（不花钱）",
+        "cost": {},
+        "echo": "旧标记继续使用，但你会把磨损位置报告给联盟。"
+      }
+    ],
+    "reward": {
+      "items": {
+        "rarecandy": 2,
+        "fullrestore": 1
+      }
+    },
+    "rewardPreview": "获得神奇糖果×2、全复药×1",
+    "afterimage": "标记同时指向来路和出口，冠军之路的记录不只记录抵达者。"
+  }
+]

@@ -1,0 +1,2434 @@
+{
+  "version": 1,
+  "source": "Pokémon Masters EX generic trainer-class renders (asset library v1.3.0) and official Pokémon game character/class PNGs documented by PokéWiki. Eight project-original anonymous full-body illustrations were added in 0.9.1. Five non-pixel project-original full-body trainer portraits (including an Ash update) were added in 0.9.3. Three named Rocket executive portraits (Ariana, Proton and Petrel) are registered separately for story identity resolution and excluded from generic fallback selection. Twelve matching polished 2D cel-shaded trainer-class illustrations were added in 0.9.7; existing named identities remain separate.",
+  "matchPolicy": "Resolve an explicitly named trainer by exact alias before considering this catalogue. Use these only for anonymous trainer-class/citizen dialogue whose role and visual age/gender are known; never assign the source costume identity as the story NPC name.",
+  "stableIdentitySelection": "For a stable anonymous NPC key, hash UTF-8(gameId + NUL + actorStableId) with SHA-256, then take the first 8 digest bytes as an unsigned integer modulo the lexically sorted IDs matching the requested role/gender/age filter. Persist actorStableId across turns; do not hash dialogue text or turn number.",
+  "unavailableRequestedRoles": [
+    "bug catcher (no matching Masters class art located)",
+    "Pokémon Center receptionist Trista (no verified local image found; an archived 256px half-body image was not retrievable)"
+  ],
+  "entries": [
+    {
+      "id": "hiker",
+      "image": "assets/trainers/project-original/npc/hiker-v2.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "hiker",
+        "outdoors"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "登山者",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Hiker [ch0080]/Hiker [ch0080_00]/Hiker - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 168,
+        "y": 3,
+        "width": 676,
+        "height": 1514,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "c1e4e606aafab7e4e0d7acbc43dbed21846baf36c8d5cb36e791d11a03a86d34",
+      "appearanceTags": [
+        "gray-hair",
+        "beard",
+        "walking-stick",
+        "brown-cardigan"
+      ],
+      "name": "登山者",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/hiker-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "youngster",
+      "image": "assets/trainers/project-original/npc/youngster-v2.png",
+      "gender": "male",
+      "age": "boy",
+      "roles": [
+        "youngster",
+        "child-trainer"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "少年训练家",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Youngster [ch0074]/Parker [ch0074_00]/Parker - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 217,
+        "y": 18,
+        "width": 638,
+        "height": 1490,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "f9c69f5a995fc935d54b9128a53cba25728dc67d0282e04a30a9353f3a0c639e",
+      "appearanceTags": [
+        "brown-hair",
+        "green-shirt",
+        "khaki-shorts",
+        "trainer"
+      ],
+      "name": "少年训练家",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/youngster-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "lass",
+      "image": "assets/trainers/project-original/npc/lass-v2.png",
+      "gender": "female",
+      "age": "girl",
+      "roles": [
+        "lass",
+        "teen-trainer"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "少女训练家",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Lass [ch0079]/Lass [ch0079_00]/Lass - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 242,
+        "y": 12,
+        "width": 511,
+        "height": 1498,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "63f9fafeeafe95d3f4b2745f8fdc3d2b318f7a867156214dce7826c55f178f61",
+      "appearanceTags": [
+        "brown-hair",
+        "yellow-hair-clip",
+        "red-skirt",
+        "trainer"
+      ],
+      "name": "少女训练家",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/lass-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "beauty",
+      "image": "assets/trainers/masters-npc/beauty.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "adult-woman",
+        "beauty"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Beauty",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Beauty [ch0071]/Beauty [ch0071_00]/Beauty - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Beauty%20%5Bch0071%5D/Beauty%20%5Bch0071_00%5D/Beauty%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 339,
+        "y": 227,
+        "width": 355,
+        "height": 797,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "d155c5254f112d395197e5c1ded7938de54ffe581e2fdb8db63747a52fd8684f",
+      "appearanceTags": [
+        "brown-hair",
+        "wide-brim-hat",
+        "dress"
+      ]
+    },
+    {
+      "id": "camper",
+      "image": "assets/trainers/project-original/npc/camper-v2.png",
+      "gender": "male",
+      "age": "boy",
+      "roles": [
+        "camper",
+        "child-trainer",
+        "outdoors"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "露营少年",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Camper [ch0086]/Camper [ch0086_00]/Camper - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 226,
+        "y": 10,
+        "width": 596,
+        "height": 1512,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "c62da79206b3a105049374c77a6f1422423275197935ec136cfd322dd6559f8c",
+      "appearanceTags": [
+        "red-cap",
+        "green-vest",
+        "backpack",
+        "outdoors-clothing"
+      ],
+      "name": "露营少年",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/camper-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "scientist",
+      "image": "assets/trainers/project-original/npc/scientist-v2.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "scientist",
+        "researcher"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "研究员",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Scientist [ch0084]/Scientist [ch0084_00]/Scientist - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 265,
+        "y": 5,
+        "width": 499,
+        "height": 1511,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "5785ede0719787e478b2500f0e63569148b48dca1798fb138ce48a0bdbe37fcb",
+      "appearanceTags": [
+        "glasses",
+        "white-lab-coat",
+        "clipboard"
+      ],
+      "name": "研究员",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/scientist-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "black_belt",
+      "image": "assets/trainers/masters-npc/black_belt.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "black-belt",
+        "martial-artist"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Black Belt",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Black Belt [ch0073]/Black Belt [ch0073_00]/Black Belt - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Black%20Belt%20%5Bch0073%5D/Black%20Belt%20%5Bch0073_00%5D/Black%20Belt%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 366,
+        "y": 232,
+        "width": 368,
+        "height": 792,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "c10bfaa291cf5b65b16622aed836d46d60180d21f8cd15219795cf934145a297",
+      "appearanceTags": [
+        "black-hair",
+        "headband",
+        "martial-arts-uniform"
+      ]
+    },
+    {
+      "id": "pokemon_ranger",
+      "image": "assets/trainers/masters-npc/pokemon_ranger.png",
+      "gender": "unspecified",
+      "age": "adult",
+      "roles": [
+        "ranger",
+        "outdoors"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Pokémon Ranger",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Pokémon Ranger [ch0078]/Pokémon Ranger [ch0078_00]/Pokémon Ranger - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Pok%C3%A9mon%20Ranger%20%5Bch0078%5D/Pok%C3%A9mon%20Ranger%20%5Bch0078_00%5D/Pok%C3%A9mon%20Ranger%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 305,
+        "y": 212,
+        "width": 413,
+        "height": 793,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "9b8519ef9801b8b488affe410445e518e82c0c3ee83c4834eaa9720dcc7d8466",
+      "appearanceTags": [
+        "blue-hair",
+        "red-cap",
+        "uniform",
+        "athletic"
+      ]
+    },
+    {
+      "id": "ace_trainer_female",
+      "image": "assets/trainers/project-original/npc/ace-female-v2.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "ace-trainer",
+        "trainer"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "王牌训练家",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Ace Trainer [ch0070]/Ace Trainer [ch0070_00]/Ace Trainer - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 249,
+        "y": 9,
+        "width": 586,
+        "height": 1517,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "dba1df6263912c7ac2d848f2e2468f3c2ca0a6b0b20fc836ce51888b45999b3b",
+      "appearanceTags": [
+        "forest-jacket",
+        "dark-trousers",
+        "trainer"
+      ],
+      "name": "王牌训练家",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/ace-female-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "ace_trainer_male",
+      "image": "assets/trainers/masters-npc/ace_trainer_male.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "ace-trainer",
+        "trainer"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Ace Trainer (male class variant)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Ace Trainer [ch0069]/Ace Trainer [ch0069_00]/Ace Trainer - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Ace%20Trainer%20%5Bch0069%5D/Ace%20Trainer%20%5Bch0069_00%5D/Ace%20Trainer%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 334,
+        "y": 212,
+        "width": 334,
+        "height": 812,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "474ef5dd0b711dd0d3f5c162dc19011c57f7e19c790c4e3fbd06f47e9ae92ebf",
+      "appearanceTags": [
+        "blond-hair",
+        "athletic",
+        "sportswear",
+        "gloves"
+      ]
+    },
+    {
+      "id": "swimmer_male",
+      "image": "assets/trainers/masters-npc/swimmer_male.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "swimmer",
+        "water-sport"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Swimmer (male class variant)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Swimmer [ch0072]/Swimmer [ch0072_00]/Swimmer - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Swimmer%20%5Bch0072%5D/Swimmer%20%5Bch0072_00%5D/Swimmer%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 339,
+        "y": 232,
+        "width": 358,
+        "height": 792,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "0cca6aba1b81f85de2187ddd5b5afa153afd3e7dc3363dc00cbd1e17da0c35e2",
+      "appearanceTags": [
+        "gray-hair",
+        "swim-cap",
+        "goggles",
+        "swimwear",
+        "athletic"
+      ]
+    },
+    {
+      "id": "swimmer_female",
+      "image": "assets/trainers/masters-npc/swimmer_female.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "swimmer",
+        "water-sport"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Swimmer (female class variant)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Swimmer [ch0075]/Swimmer [ch0075_00]/Swimmer - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Swimmer%20%5Bch0075%5D/Swimmer%20%5Bch0075_00%5D/Swimmer%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 371,
+        "y": 228,
+        "width": 362,
+        "height": 796,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "9f97e33710786df27a44f87a78bf3ca59166d05239d2ee5e54fcae7507d7a214",
+      "appearanceTags": [
+        "blond-hair",
+        "swimwear",
+        "athletic"
+      ]
+    },
+    {
+      "id": "collector",
+      "image": "assets/trainers/masters-npc/collector.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "collector",
+        "hobbyist"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Collector",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Collector [ch0076]/Collector [ch0076_00]/Collector - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Collector%20%5Bch0076%5D/Collector%20%5Bch0076_00%5D/Collector%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 396,
+        "y": 208,
+        "width": 293,
+        "height": 816,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "6c6971c9cb5aa96049b76a1fe1e422dfd22692074dff48a224f5f9fa3d34b111",
+      "appearanceTags": [
+        "brown-hair",
+        "glasses",
+        "suit",
+        "tie",
+        "carrying-case"
+      ]
+    },
+    {
+      "id": "preschooler",
+      "image": "assets/trainers/masters-npc/preschooler.png",
+      "gender": "female",
+      "age": "girl",
+      "roles": [
+        "child",
+        "student"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Preschooler (female class model)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Preschooler [ch0081]/Preschooler [ch0081_00]/Preschooler - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Preschooler%20%5Bch0081%5D/Preschooler%20%5Bch0081_00%5D/Preschooler%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 356,
+        "y": 244,
+        "width": 249,
+        "height": 412,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "838cccc806bc4ffae82ea143f2e1eecf00ab28ebf1f3be9cc1d76d929c98371a",
+      "appearanceTags": [
+        "purple-hair",
+        "yellow-hat",
+        "school-clothes",
+        "shoulder-bag"
+      ]
+    },
+    {
+      "id": "street_thug",
+      "image": "assets/trainers/masters-npc/street_thug.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "street-thug",
+        "urban"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Street Thug",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Street Thug [ch0082]/Street Thug [ch0082_00]/Street Thug - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Street%20Thug%20%5Bch0082%5D/Street%20Thug%20%5Bch0082_00%5D/Street%20Thug%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 343,
+        "y": 230,
+        "width": 396,
+        "height": 794,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "47b39bd264fbb550bcbc30b47c6ee36bca7d4330ecc0e0fd0d13570b9ce678f8",
+      "appearanceTags": [
+        "blond-hair",
+        "varsity-jacket",
+        "casual"
+      ]
+    },
+    {
+      "id": "punk_girl",
+      "image": "assets/trainers/masters-npc/punk_girl.png",
+      "gender": "female",
+      "age": "girl",
+      "roles": [
+        "punk",
+        "urban"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Punk Girl",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Punk Girl [ch0083]/Punk Girl [ch0083_00]/Punk Girl - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Punk%20Girl%20%5Bch0083%5D/Punk%20Girl%20%5Bch0083_00%5D/Punk%20Girl%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 311,
+        "y": 229,
+        "width": 416,
+        "height": 795,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "157dbd4e68baf8e21b1c6889320da691b1a507181252cc5b8da9d4302474aa2d",
+      "appearanceTags": [
+        "pink-hair",
+        "earrings",
+        "dark-outfit"
+      ]
+    },
+    {
+      "id": "rising_star",
+      "image": "assets/trainers/masters-npc/rising_star.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "rising-star",
+        "trainer"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Rising Star (female class model)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Rising Star [ch0085]/Rising Star [ch0085_00]/Rising Star - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Rising%20Star%20%5Bch0085%5D/Rising%20Star%20%5Bch0085_00%5D/Rising%20Star%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 354,
+        "y": 241,
+        "width": 294,
+        "height": 687,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "96aaa401ea2cbbd5d56f6112c894632b00d8c34ece7dd3ce0745e6819e2e7a82",
+      "appearanceTags": [
+        "orange-hair",
+        "headband",
+        "sporty-outfit"
+      ]
+    },
+    {
+      "id": "rocket_grunt_m",
+      "image": "assets/trainers/project-original/npc/rocket-grunt-male-v2.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "villain-grunt",
+        "team-rocket"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "火箭队男队员",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Team Rocket Grunt [ch0640]/Team Rocket Grunt [ch0640_20] - shitappam/Team Rocket Grunt - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 238,
+        "y": 8,
+        "width": 570,
+        "height": 1510,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "798a6b2e5b8fc5e87852b8106a28fb225cf4cac556e93243351a10eba6279c4f",
+      "appearanceTags": [
+        "black-uniform",
+        "crimson-scarf",
+        "gloves"
+      ],
+      "name": "火箭队男队员",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/rocket-grunt-male-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "rocket_grunt_f",
+      "image": "assets/trainers/project-original/npc/rocket-grunt-female-v2.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "villain-grunt",
+        "team-rocket"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "火箭队女队员",
+      "sourceRepository": "Project original art",
+      "sourcePath": "UI/Actor/Trainer/Team Rocket Grunt [ch0641]/Team Rocket Grunt [ch0641_20] - shitappaf/Team Rocket Grunt - 1024.png",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "artBounds": {
+        "x": 281,
+        "y": 8,
+        "width": 514,
+        "height": 1513,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "a93c2666343c0ce32c30ea0bc2f9c507e6d8d29278d47de253ccb5f13d85e7a0",
+      "appearanceTags": [
+        "black-uniform",
+        "crimson-trim",
+        "gloves"
+      ],
+      "name": "火箭队女队员",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/rocket-grunt-female-v2.png",
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "aqua_grunt_m",
+      "image": "assets/trainers/masters-npc/aqua_grunt_m.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "villain-grunt",
+        "team-aqua"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Team Aqua Grunt (male model)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Team Aqua Grunt [ch0502]/Team Aqua Grunt [ch0502_30] - shitappam/Team Aqua Grunt - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Team%20Aqua%20Grunt%20%5Bch0502%5D/Team%20Aqua%20Grunt%20%5Bch0502_30%5D%20-%20shitappam/Team%20Aqua%20Grunt%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 356,
+        "y": 231,
+        "width": 325,
+        "height": 793,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "92b9de404ba2a5fead86e3e4e7c60feb37ce06de3585aff8d91fce8c71109069",
+      "appearanceTags": [
+        "cap",
+        "uniform",
+        "gloves",
+        "goatee"
+      ]
+    },
+    {
+      "id": "aqua_grunt_f",
+      "image": "assets/trainers/masters-npc/aqua_grunt_f.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "villain-grunt",
+        "team-aqua"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Team Aqua Grunt (female model)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Team Aqua Grunt [ch0503]/Team Aqua Grunt [ch0503_30] - shitappaf/Team Aqua Grunt - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Team%20Aqua%20Grunt%20%5Bch0503%5D/Team%20Aqua%20Grunt%20%5Bch0503_30%5D%20-%20shitappaf/Team%20Aqua%20Grunt%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 351,
+        "y": 236,
+        "width": 300,
+        "height": 788,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "ef5707c644afd853613d69849b165595657e0ca0f3ef5361a5c5347029311a0d",
+      "appearanceTags": [
+        "lavender-hair",
+        "cap",
+        "uniform",
+        "gloves"
+      ]
+    },
+    {
+      "id": "magma_grunt_m",
+      "image": "assets/trainers/masters-npc/magma_grunt_m.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "villain-grunt",
+        "team-magma"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Team Magma Grunt (male model)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Team Magma Grunt [ch0626]/Team Magma Grunt [ch0626_30] - shitappam/Team Magma Grunt - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Team%20Magma%20Grunt%20%5Bch0626%5D/Team%20Magma%20Grunt%20%5Bch0626_30%5D%20-%20shitappam/Team%20Magma%20Grunt%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 370,
+        "y": 231,
+        "width": 317,
+        "height": 793,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "e2bc4ccc6f5b86b120bae9f687eba20298a1dc5cb03fa628e2d7632000ec7bf3",
+      "appearanceTags": [
+        "brown-hair",
+        "hood",
+        "uniform",
+        "gloves"
+      ]
+    },
+    {
+      "id": "magma_grunt_f",
+      "image": "assets/trainers/masters-npc/magma_grunt_f.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "villain-grunt",
+        "team-magma"
+      ],
+      "tags": [
+        "generic-trainer-class",
+        "masters-ex",
+        "transparent-fullbody-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "Team Magma Grunt (female model)",
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Team Magma Grunt [ch0627]/Team Magma Grunt [ch0627_30] - shitappaf/Team Magma Grunt - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Team%20Magma%20Grunt%20%5Bch0627%5D/Team%20Magma%20Grunt%20%5Bch0627_30%5D%20-%20shitappaf/Team%20Magma%20Grunt%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 372,
+        "y": 234,
+        "width": 271,
+        "height": 790,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "9dbf41760a7f73f1c4ccba2aa32f08cdb73c35d152569a06b4aa9caf8503bb79",
+      "appearanceTags": [
+        "blue-hair",
+        "hood",
+        "uniform",
+        "gloves"
+      ]
+    },
+    {
+      "id": "elder_man_reference_oak",
+      "image": "assets/trainers/official/professor_oak.png",
+      "gender": "male",
+      "age": "older-adult",
+      "roles": [
+        "elder",
+        "elder-man"
+      ],
+      "tags": [
+        "visual-reference-only",
+        "named-character-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "大木博士 (visual reference only)",
+      "visualReference": true,
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Professor Oak [ch0137]/Professor Oak [ch0137_00]/Professor Oak - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Professor%20Oak%20%5Bch0137%5D/Professor%20Oak%20%5Bch0137_00%5D/Professor%20Oak%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 348,
+        "y": 225,
+        "width": 333,
+        "height": 799,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "e3c7ec26cb5f2d87712abdd959c7aa845b6ffbdb109c7573712fc624e1ee0df4",
+      "appearanceTags": [
+        "silver-hair",
+        "white-coat",
+        "older-adult"
+      ]
+    },
+    {
+      "id": "elder_woman_reference_agatha",
+      "image": "assets/trainers/official/agatha.png",
+      "gender": "female",
+      "age": "older-adult",
+      "roles": [
+        "elder",
+        "elder-woman"
+      ],
+      "tags": [
+        "visual-reference-only",
+        "named-character-render",
+        "portrait-does-not-name-the-story-npc"
+      ],
+      "sourceCharacterOrClass": "菊子 (visual reference only)",
+      "visualReference": true,
+      "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+      "sourcePath": "UI/Actor/Trainer/Agatha [ch0061]/Agatha [ch0061_00]/Agatha - 1024.png",
+      "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Agatha%20%5Bch0061%5D/Agatha%20%5Bch0061_00%5D/Agatha%20-%201024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "artBounds": {
+        "x": 291,
+        "y": 234,
+        "width": 355,
+        "height": 708,
+        "canvasWidth": 1024,
+        "canvasHeight": 1024
+      },
+      "sha256": "0bcb26832b049beb48e5b85a59ab98a981acf89941cc79eaf5f492259e42d603",
+      "appearanceTags": [
+        "light-blond-hair",
+        "older-adult",
+        "long-dress",
+        "cane"
+      ]
+    },
+    {
+      "id": "mother_somo",
+      "image": "assets/trainers/pokewiki-npc/mother_somo.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "mother",
+        "parent",
+        "adult-woman"
+      ],
+      "tags": [
+        "generic-npc-model",
+        "visual-reference",
+        "mother-class",
+        "sun-moon"
+      ],
+      "sourceCharacterOrClass": "Mutter NPC model (Pokémon Sun and Moon)",
+      "visualReference": true,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:3D-Modell_Mutter_SoMo.png",
+      "sourceFile": "3D-Modell Mutter SoMo.png",
+      "sourceGame": "Pokémon Sun and Moon",
+      "source": "https://www.pokewiki.de/images/f/f7/3D-Modell_Mutter_SoMo.png",
+      "width": 428,
+      "height": 1186,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 6,
+        "y": 4,
+        "width": 416,
+        "height": 1178,
+        "canvasWidth": 428,
+        "canvasHeight": 1186
+      },
+      "sha256": "45e98aec2373d03c50c8ae9eda032f1c0c318e6d83b7d00c8114870f1e332345",
+      "appearanceTags": [
+        "brown-hair",
+        "sunglasses-on-head",
+        "long-skirt",
+        "casual"
+      ]
+    },
+    {
+      "id": "mother_swsh",
+      "image": "assets/trainers/pokewiki-npc/mother_swsh.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "mother",
+        "parent",
+        "adult-woman"
+      ],
+      "tags": [
+        "generic-npc-model",
+        "visual-reference",
+        "mother-class",
+        "sword-shield"
+      ],
+      "sourceCharacterOrClass": "Mutter NPC model (Pokémon Sword and Shield)",
+      "visualReference": true,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:3D-Modell_Mutter_SWSH.png",
+      "sourceFile": "3D-Modell Mutter SWSH.png",
+      "sourceGame": "Pokémon Sword and Shield",
+      "source": "https://www.pokewiki.de/images/c/c7/3D-Modell_Mutter_SWSH.png",
+      "width": 271,
+      "height": 448,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 31,
+        "y": 1,
+        "width": 217,
+        "height": 447,
+        "canvasWidth": 271,
+        "canvasHeight": 448
+      },
+      "sha256": "ada412da421501d5cf2c90a2e9c5a06ceaf23f5832b9f0a084fc0df7f48f4afc",
+      "appearanceTags": [
+        "brown-hair",
+        "glasses",
+        "apron",
+        "workwear"
+      ]
+    },
+    {
+      "id": "mother_paldea",
+      "image": "assets/trainers/pokewiki-npc/mother_paldea.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "mother",
+        "parent",
+        "adult-woman"
+      ],
+      "tags": [
+        "generic-npc-model",
+        "visual-reference",
+        "mother-class",
+        "scarlet-violet"
+      ],
+      "sourceCharacterOrClass": "Mutter NPC model (Pokémon Scarlet and Violet)",
+      "visualReference": true,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:3D-Modell_Mutter_KAPU.png",
+      "sourceFile": "3D-Modell Mutter KAPU.png",
+      "sourceGame": "Pokémon Scarlet and Violet",
+      "source": "https://www.pokewiki.de/images/9/94/3D-Modell_Mutter_KAPU.png",
+      "width": 232,
+      "height": 606,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 13,
+        "y": 0,
+        "width": 192,
+        "height": 604,
+        "canvasWidth": 232,
+        "canvasHeight": 606
+      },
+      "sha256": "77fbdf03e692e7fd2cac64a19ae60fdd64fd5ab213f7d5800493a827991cf44b",
+      "appearanceTags": [
+        "brown-hair",
+        "apron",
+        "blue-jacket",
+        "workwear"
+      ]
+    },
+    {
+      "id": "shop_clerk_female",
+      "image": "assets/trainers/pokewiki-npc/shop_clerk_female.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "shop-clerk",
+        "retail-worker"
+      ],
+      "tags": [
+        "generic-npc-model",
+        "visual-reference",
+        "retail-uniform",
+        "lets-go-pikachu-eevee"
+      ],
+      "sourceCharacterOrClass": "female Poké Mart employee model (Let's Go Pikachu and Eevee)",
+      "visualReference": true,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:3D-Modell_Markt-Angestellte_LGPE.png",
+      "sourceFile": "3D-Modell Markt-Angestellte LGPE.png",
+      "sourceGame": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+      "source": "https://www.pokewiki.de/images/e/e2/3D-Modell_Markt-Angestellte_LGPE.png",
+      "width": 750,
+      "height": 650,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 83,
+        "y": 11,
+        "width": 529,
+        "height": 632,
+        "canvasWidth": 750,
+        "canvasHeight": 650
+      },
+      "sha256": "85cf29ebe3a5a9dd7717893490c5171bceea93050c4515d742c7ffb6af083b51",
+      "displayEligible": false,
+      "displayIneligibleReason": "reference-model-t-pose"
+    },
+    {
+      "id": "shop_clerk_male",
+      "image": "assets/trainers/pokewiki-npc/shop_clerk_male.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "shop-clerk",
+        "retail-worker",
+        "male-clerk-pair"
+      ],
+      "tags": [
+        "generic-npc-model",
+        "visual-reference",
+        "retail-uniform",
+        "lets-go-pikachu-eevee",
+        "two-people-on-canvas"
+      ],
+      "sourceCharacterOrClass": "male Poké Mart employee model (two color variants in source image)",
+      "visualReference": true,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:3D-Modell_Markt-Angestellter_LGPE.png",
+      "sourceFile": "3D-Modell Markt-Angestellter LGPE.png",
+      "sourceGame": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+      "source": "https://www.pokewiki.de/images/0/0a/3D-Modell_Markt-Angestellter_LGPE.png",
+      "width": 750,
+      "height": 650,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 5,
+        "y": 3,
+        "width": 739,
+        "height": 640,
+        "canvasWidth": 750,
+        "canvasHeight": 650
+      },
+      "sha256": "730914b242c7fcf62a32bf3f934af6332892883fc6ef5196dba7eee334cc8417",
+      "displayEligible": false,
+      "displayIneligibleReason": "reference-model-t-pose; two-people-on-canvas"
+    },
+    {
+      "id": "fisherman_oras",
+      "image": "assets/trainers/project-original/npc/fisherman-v2.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "fisherman",
+        "outdoors"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "钓鱼人",
+      "visualReference": false,
+      "sourceRepository": "Project original art",
+      "sourcePage": "https://www.pokewiki.de/Datei:Angler_Artwork_ORAS.png",
+      "sourceFile": "Angler Artwork ORAS.png",
+      "sourceGame": "Pokémon Omega Ruby and Alpha Sapphire",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 232,
+        "y": 12,
+        "width": 596,
+        "height": 1510,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "8570f3431a5f567ba5e47932d71fefe1fbb5dd7ae11e7f0c8fd83c79484e9535",
+      "appearanceTags": [
+        "gray-hair",
+        "mustache",
+        "fishing-rod",
+        "blue-vest"
+      ],
+      "name": "钓鱼人",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/fisherman-v2.png",
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "breeder_male_oras",
+      "image": "assets/trainers/pokewiki-npc/breeder_male_oras.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "breeder",
+        "day-care-worker",
+        "rancher"
+      ],
+      "tags": [
+        "trainer-class-art",
+        "official-game-art",
+        "oras"
+      ],
+      "sourceCharacterOrClass": "male Pokémon Breeder trainer class (Omega Ruby and Alpha Sapphire)",
+      "visualReference": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:Pok%C3%A9mon-Z%C3%BCchter_Artwork_ORAS.png",
+      "sourceFile": "Pokémon-Züchter Artwork ORAS.png",
+      "sourceGame": "Pokémon Omega Ruby and Alpha Sapphire",
+      "source": "https://www.pokewiki.de/images/f/ff/Pok%C3%A9mon-Z%C3%BCchter_Artwork_ORAS.png",
+      "width": 167,
+      "height": 371,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 167,
+        "height": 371,
+        "canvasWidth": 167,
+        "canvasHeight": 371
+      },
+      "sha256": "57731c4ab7d4a029248b151f1c9eb3e27df3956ff0b8da0f939edd62cd20d8b5",
+      "appearanceTags": [
+        "blue-hair",
+        "red-bandana",
+        "apron",
+        "workwear"
+      ]
+    },
+    {
+      "id": "breeder_female_oras",
+      "image": "assets/trainers/pokewiki-npc/breeder_female_oras.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "breeder",
+        "day-care-worker",
+        "rancher"
+      ],
+      "tags": [
+        "trainer-class-art",
+        "official-game-art",
+        "oras"
+      ],
+      "sourceCharacterOrClass": "female Pokémon Breeder trainer class (Omega Ruby and Alpha Sapphire)",
+      "visualReference": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:Pok%C3%A9mon-Z%C3%BCchterin_Artwork_ORAS.png",
+      "sourceFile": "Pokémon-Züchterin Artwork ORAS.png",
+      "sourceGame": "Pokémon Omega Ruby and Alpha Sapphire",
+      "source": "https://www.pokewiki.de/images/2/24/Pok%C3%A9mon-Z%C3%BCchterin_Artwork_ORAS.png",
+      "width": 138,
+      "height": 281,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 138,
+        "height": 281,
+        "canvasWidth": 138,
+        "canvasHeight": 281
+      },
+      "sha256": "3f966d312b54a83a5948592a245d72a56ca99df1940b1e5b12bac05b968d3714",
+      "appearanceTags": [
+        "blue-hair",
+        "red-bandana",
+        "apron",
+        "workwear"
+      ]
+    },
+    {
+      "id": "gentleman_oras",
+      "image": "assets/trainers/pokewiki-npc/gentleman_oras.png",
+      "gender": "male",
+      "age": "older-adult",
+      "roles": [
+        "gentleman",
+        "elder",
+        "wealthy-man"
+      ],
+      "tags": [
+        "trainer-class-art",
+        "official-game-art",
+        "oras"
+      ],
+      "sourceCharacterOrClass": "Gentleman trainer class (Omega Ruby and Alpha Sapphire)",
+      "visualReference": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:Gentleman_Artwork_ORAS.png",
+      "sourceFile": "Gentleman Artwork ORAS.png",
+      "sourceGame": "Pokémon Omega Ruby and Alpha Sapphire",
+      "source": "https://www.pokewiki.de/images/5/5d/Gentleman_Artwork_ORAS.png",
+      "width": 142,
+      "height": 405,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 142,
+        "height": 405,
+        "canvasWidth": 142,
+        "canvasHeight": 405
+      },
+      "sha256": "d7b79149d73b330f08392bc4a1332f3b5db220215d292356eddde7be6230e435",
+      "appearanceTags": [
+        "bowler-hat",
+        "mustache",
+        "suit",
+        "monocle"
+      ]
+    },
+    {
+      "id": "elder_couple_oras",
+      "image": "assets/trainers/pokewiki-npc/elder_couple_oras.png",
+      "gender": "unspecified",
+      "age": "older-adult",
+      "roles": [
+        "elder-couple",
+        "elder",
+        "pair"
+      ],
+      "tags": [
+        "trainer-class-art",
+        "official-game-art",
+        "oras",
+        "two-people"
+      ],
+      "sourceCharacterOrClass": "Old Couple trainer class (Omega Ruby and Alpha Sapphire)",
+      "visualReference": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:Altes_Paar_Artwork_ORAS.png",
+      "sourceFile": "Altes Paar Artwork ORAS.png",
+      "sourceGame": "Pokémon Omega Ruby and Alpha Sapphire",
+      "source": "https://www.pokewiki.de/images/7/72/Altes_Paar_Artwork_ORAS.png",
+      "width": 265,
+      "height": 387,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 265,
+        "height": 387,
+        "canvasWidth": 265,
+        "canvasHeight": 387
+      },
+      "sha256": "b21c4982e7544bd866b90cf3850b67987c4462baae41a963744023c0f6f42076",
+      "displayEligible": false,
+      "displayIneligibleReason": "two-people-on-canvas"
+    },
+    {
+      "id": "office_clerk_female_somo",
+      "image": "assets/trainers/pokewiki-npc/office_clerk_female_somo.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "office-clerk",
+        "employee",
+        "service-worker"
+      ],
+      "tags": [
+        "employee-class",
+        "official-vs-portrait",
+        "half-body",
+        "sun-moon",
+        "portrait-does-not-name-story-npc"
+      ],
+      "sourceCharacterOrClass": "Angestellte class, Sun/Moon VS portrait (half-body)",
+      "visualReference": false,
+      "displayEligible": true,
+      "composition": "half-body",
+      "fullBody": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:VS_Angestellte_SoMo.png",
+      "sourceFile": "VS Angestellte SoMo.png",
+      "sourceGame": "Pokémon Sun and Moon",
+      "source": "https://www.pokewiki.de/images/a/ad/VS_Angestellte_SoMo.png",
+      "width": 107,
+      "height": 232,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 2,
+        "y": 2,
+        "width": 102,
+        "height": 230,
+        "canvasWidth": 107,
+        "canvasHeight": 232
+      },
+      "sha256": "eb9567b23308f6463fe979c2c8696b0e43b137d14a7e51f47bc6058ab83e9f1c",
+      "appearanceTags": [
+        "black-hair",
+        "glasses",
+        "office-uniform",
+        "neck-scarf"
+      ]
+    },
+    {
+      "id": "office_clerk_male_somo",
+      "image": "assets/trainers/pokewiki-npc/office_clerk_male_somo.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "office-clerk",
+        "employee",
+        "service-worker"
+      ],
+      "tags": [
+        "employee-class",
+        "official-vs-portrait",
+        "half-body",
+        "sun-moon",
+        "portrait-does-not-name-story-npc"
+      ],
+      "sourceCharacterOrClass": "Angestellter class, Sun/Moon VS portrait (half-body)",
+      "visualReference": false,
+      "displayEligible": true,
+      "composition": "half-body",
+      "fullBody": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:VS_Angestellter_SoMo.png",
+      "sourceFile": "VS Angestellter SoMo.png",
+      "sourceGame": "Pokémon Sun and Moon",
+      "source": "https://www.pokewiki.de/images/8/8a/VS_Angestellter_SoMo.png",
+      "width": 170,
+      "height": 237,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 14,
+        "y": 3,
+        "width": 145,
+        "height": 234,
+        "canvasWidth": 170,
+        "canvasHeight": 237
+      },
+      "sha256": "943453912851fa31cb07f9fcf1edc67b79d8fe27ff5fd3790bc2d67fa34601e8",
+      "appearanceTags": [
+        "black-hair",
+        "office-shirt",
+        "patterned-tie"
+      ]
+    },
+    {
+      "id": "elder_man_v1",
+      "name": "年长旅行者",
+      "image": "assets/trainers/project-original/npc/elder-man-v2.png",
+      "gender": "male",
+      "age": "elder",
+      "roles": [
+        "elder",
+        "gentleman",
+        "citizen"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "sourceCharacterOrClass": "年长旅行者",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "silver-hair",
+        "beard",
+        "walking-stick",
+        "brown-cardigan"
+      ],
+      "artBounds": {
+        "x": 200,
+        "y": 9,
+        "width": 639,
+        "height": 1520,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "ee2c672385a77d6161c5d82e2798b314702019029c6dca9535ed98c0b5d8925c",
+      "preferredGeneric": true,
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/elder-man-v2.png",
+      "fallbackOnly": false,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-06c6814b-a70e-4c46-b105-f8099fdbe282.png",
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    },
+    {
+      "id": "elder_woman_v1",
+      "name": "年长女性居民",
+      "image": "assets/trainers/project-original/npc/elder_woman_v1.png",
+      "gender": "female",
+      "age": "elder",
+      "roles": [
+        "elder",
+        "citizen"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "年长女性居民",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "silver-hair",
+        "basket",
+        "cardigan"
+      ],
+      "artBounds": {
+        "x": 173,
+        "y": 6,
+        "width": 662,
+        "height": 1525,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "c0a062503779cd5377162481b220c20698603f449be8280761ca99eb8214572d",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-4864fe78-2e61-4c18-acf8-6bcbaa6e7fc9.png"
+    },
+    {
+      "id": "adult_male_resident_v1",
+      "name": "成年男性居民",
+      "image": "assets/trainers/project-original/npc/adult_male_resident_v1.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "citizen",
+        "shop-clerk",
+        "clerk"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "成年男性居民",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "apron",
+        "work-clothes"
+      ],
+      "artBounds": {
+        "x": 234,
+        "y": 14,
+        "width": 557,
+        "height": 1496,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "ef491aeb8bc1e666cca7b7d0a7701065d71dc47759b4d1cb4e17b079d9b5c31b",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-504813c7-d7d2-430e-a597-ecae0afe688c.png"
+    },
+    {
+      "id": "adult_female_resident_v1",
+      "name": "成年女性居民",
+      "image": "assets/trainers/project-original/npc/adult_female_resident_v1.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "citizen",
+        "mother",
+        "adult-female",
+        "shop-clerk",
+        "clerk"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "成年女性居民",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "apron",
+        "work-clothes"
+      ],
+      "artBounds": {
+        "x": 284,
+        "y": 12,
+        "width": 490,
+        "height": 1510,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "2b35efe7af4048873f22e17497ee455726d1f69dd746b7b804e938a4ca59f37d",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-f8b3069f-a4e2-4169-8f21-192f625eb3f0.png"
+    },
+    {
+      "id": "boy_trainee_v1",
+      "name": "少年旅行者",
+      "image": "assets/trainers/project-original/npc/boy_trainee_v1.png",
+      "gender": "male",
+      "age": "child",
+      "roles": [
+        "child-trainer",
+        "youngster"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "少年旅行者",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "backpack"
+      ],
+      "artBounds": {
+        "x": 278,
+        "y": 9,
+        "width": 497,
+        "height": 1514,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "be5a277e0a29b96e93bd24409698ee94073cffa44f3d69d5c761e37b9fd7882a",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-0caa0704-408f-4675-bbb9-577824d6442c.png"
+    },
+    {
+      "id": "girl_trainee_v1",
+      "name": "少女旅行者",
+      "image": "assets/trainers/project-original/npc/girl_trainee_v1.png",
+      "gender": "female",
+      "age": "child",
+      "roles": [
+        "child-trainer",
+        "preschooler"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "少女旅行者",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "hat",
+        "backpack"
+      ],
+      "artBounds": {
+        "x": 220,
+        "y": 13,
+        "width": 604,
+        "height": 1501,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "e242e381947bd5d50f7a31fd3642d805fabd3b792153f38eb52b66dc2851b7d4",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-732db447-18ca-4eeb-bfe6-b184c7cdccd0.png"
+    },
+    {
+      "id": "male_researcher_v1",
+      "name": "男性研究员",
+      "image": "assets/trainers/project-original/npc/male_researcher_v1.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "scientist",
+        "researcher"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "男性研究员",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "glasses",
+        "white-coat"
+      ],
+      "artBounds": {
+        "x": 285,
+        "y": 10,
+        "width": 506,
+        "height": 1506,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "a3b561e4afdff312bde082e2382934179fa3e4ee9edd4d5607b7a55b2d8d8b27",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-a9b8ddeb-9c94-4960-96df-b86d432b0ebc.png"
+    },
+    {
+      "id": "female_researcher_v1",
+      "name": "女性研究员",
+      "image": "assets/trainers/project-original/npc/female_researcher_v1.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "scientist",
+        "researcher"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person"
+      ],
+      "source": "Project-original illustration made with the built-in image_gen tool",
+      "sourceCharacterOrClass": "女性研究员",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 64,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "glasses",
+        "white-coat"
+      ],
+      "artBounds": {
+        "x": 277,
+        "y": 10,
+        "width": 471,
+        "height": 1516,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "ff981489e213350ca1e5043ae1af575d12d3389ec91354fb987b21da5253dd32",
+      "preferredGeneric": true,
+      "originalGeneratedFile": "<LOCAL_HOME>/.codex\\generated_images\\01a17166-4a73-7ae0-a1d2-088921b3d355\\exec-81c47224-9965-4a22-93ad-29c08b7d0a72.png"
+    },
+    {
+      "id": "elder_woman_oras_crop",
+      "image": "assets/trainers/pokewiki-npc/elder_couple_oras.png",
+      "gender": "female",
+      "age": "older-adult",
+      "roles": [
+        "elder",
+        "citizen"
+      ],
+      "tags": [
+        "trainer-class-art",
+        "official-game-art",
+        "oras",
+        "single-person-crop"
+      ],
+      "sourceCharacterOrClass": "Anonymous elder woman cropped from the generic Old Couple class render",
+      "visualReference": false,
+      "sourceRepository": "PokéWiki (German)",
+      "sourcePage": "https://www.pokewiki.de/Datei:Altes_Paar_Artwork_ORAS.png",
+      "sourceFile": "Altes Paar Artwork ORAS.png",
+      "sourceGame": "Pokémon Omega Ruby and Alpha Sapphire",
+      "source": "https://www.pokewiki.de/images/7/72/Altes_Paar_Artwork_ORAS.png",
+      "width": 265,
+      "height": 387,
+      "transparent": true,
+      "alphaChannel": true,
+      "artBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 265,
+        "height": 387,
+        "canvasWidth": 265,
+        "canvasHeight": 387
+      },
+      "sha256": "b21c4982e7544bd866b90cf3850b67987c4462baae41a963744023c0f6f42076",
+      "displayEligible": true,
+      "name": "年长女性居民",
+      "displayCrop": {
+        "x": 122,
+        "y": 130,
+        "width": 143,
+        "height": 257,
+        "canvasWidth": 265,
+        "canvasHeight": 387
+      },
+      "appearanceTags": [
+        "white-hair",
+        "traditional-clothing",
+        "elder"
+      ]
+    },
+    {
+      "id": "bug_catcher_v1",
+      "name": "捕虫少年",
+      "image": "assets/trainers/project-original/bug-catcher-v1.png",
+      "gender": "male",
+      "age": "child",
+      "roles": [
+        "bug-catcher",
+        "youngster",
+        "child-trainer",
+        "trainer"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "trainer-class-art"
+      ],
+      "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+      "sourceCharacterOrClass": "Bug Catcher boy trainer",
+      "sourceRepository": "Project original art",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "appearanceTags": [
+        "brown-hair",
+        "hat",
+        "bug-net",
+        "outdoors-clothing"
+      ],
+      "artBounds": {
+        "x": 106,
+        "y": 9,
+        "width": 820,
+        "height": 1509,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "315f9199382bf4049a735a39fa9ac919b75ca9139151ef6033b2ccf9e9ed05d1",
+      "preferredGeneric": true
+    },
+    {
+      "id": "ash_anime_v1",
+      "name": "小智（无印篇）",
+      "image": "assets/trainers/project-original/ash-anime-v1.png",
+      "gender": "male",
+      "age": "child",
+      "roles": [
+        "named-trainer",
+        "anime-trainer"
+      ],
+      "tags": [
+        "project-original",
+        "nonpixel",
+        "single-person",
+        "full-body",
+        "named-character",
+        "original-series-outfit"
+      ],
+      "sourceCharacterOrClass": "Ash Ketchum (Satoshi), original-series outfit",
+      "generationSourcePath": "<LOCAL_HOME>/.codex/generated_images/01a17560-bb55-7b00-b8ae-2362c3842d92/exec-aaee4dae-f979-4a30-ae4a-9668fff9ac60.png",
+      "generationPrompt": "Use case: illustration-story\nAsset type: original full-body game character portrait, transparent PNG cutout\nPrimary request: Ash Ketchum from the original Pokémon anime, depicted as a 10-year-old boy. Classic red-and-white cap with green emblem, blue short jacket over a white T-shirt, green fingerless gloves, blue jeans, red-and-white sneakers. Recognizable bright youthful face, energetic confident expression, relaxed ready-for-adventure stance.\nStyle/medium: polished original 2D anime cel-shaded character art, clean refined linework, smooth confident shapes, vivid but balanced colors; non-pixel art.\nComposition/framing: single character centered, full body with entire cap and both shoes visible, upright portrait proportions, clean silhouette, generous transparent margin.\nScene/backdrop: truly transparent background.\nLighting/mood: even soft illustration lighting, no cast shadow.\nConstraints: age 10, unmistakably a child; preserve the classic outfit details. No background, no halo, no floor, no card frame, no text, no logo, no watermark, no extra props or characters.",
+      "generationEditPrompt": "Preserve Ash Ketchum exactly: same age 10, face, outfit, full-body pose and cel-shaded style. Remove every backdrop effect; keep only the clean character cutout. Everything outside the character silhouette must be truly transparent, including between arms/body and legs. Keep cap and both shoes uncropped. No halo or text.",
+      "width": 1024,
+      "height": 1536,
+      "alphaChannel": true,
+      "transparent": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 157,
+        "y": 5,
+        "width": 746,
+        "height": 1518,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "74d7383e6dbff4a550e043af49d49a74e3a9fbcbcc3c744e554e89b702123f83",
+      "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+      "sourceRepository": "Project original art",
+      "generationTool": "built-in image_gen",
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": false,
+      "fallbackOnly": false,
+      "appearanceTags": [
+        "red-white-cap",
+        "blue-jacket",
+        "green-gloves",
+        "jeans",
+        "red-white-sneakers",
+        "child"
+      ],
+      "ageYears": 10
+    },
+    {
+      "id": "ace_trainer_male_project_v1",
+      "name": "王牌训练家",
+      "image": "assets/trainers/project-original/npc/ace-male-v2.png",
+      "gender": "male",
+      "age": "adult",
+      "roles": [
+        "ace-trainer",
+        "trainer"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "sourceCharacterOrClass": "王牌训练家",
+      "generationSourcePath": "assets/trainers/project-original/npc/ace-male-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "alphaChannel": true,
+      "transparent": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 247,
+        "y": 5,
+        "width": 567,
+        "height": 1520,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "6999bd8aa9ccf5f252012061d0929cd13bb17de8df1b17a52c2d26605ec4fb2a",
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "sourceRepository": "Project original art",
+      "generationTool": "built-in image_gen",
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": true,
+      "appearanceTags": [
+        "navy-jacket",
+        "dark-trousers",
+        "trainer"
+      ],
+      "ageYears": 28,
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness.",
+      "generationEditPrompt": "Preserve the adult male trainer as rendered: same adult face, outfit, held ball, pose and polished cel-shaded style. Remove every backdrop effect; only the full-body character remains, with true transparency outside its silhouette. Keep head and shoes uncropped. No halo or text."
+    },
+    {
+      "id": "traveler_trainer_female_project_v1",
+      "name": "成年旅行训练家（女性）",
+      "image": "assets/trainers/project-original/ace-female-v1.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "traveler",
+        "backpacker",
+        "trainer"
+      ],
+      "tags": [
+        "project-original",
+        "nonpixel",
+        "single-person",
+        "full-body",
+        "fallback-only"
+      ],
+      "sourceCharacterOrClass": "Anonymous adult female traveling trainer",
+      "generationSourcePath": "<LOCAL_HOME>/.codex/generated_images/01a17560-bb55-7b00-b8ae-2362c3842d92/exec-f312a992-6354-4d55-be87-4e993ba77f79.png",
+      "generationPrompt": "Use case: illustration-story\nAsset type: original full-body game character portrait, transparent PNG cutout\nPrimary request: a generic adult female traveling Pokémon trainer in her late twenties, alert self-assured expression and an easy road-ready stance. Distinct original face and silhouette, practical layered travel clothes: rust-red windbreaker, cream shirt, charcoal hiking trousers, fingerless gloves, compact cross-body field pouch and sturdy walking boots; one Poké Ball held casually.\nStyle/medium: same polished original 2D anime cel-shaded character art as a premium adventure game, clean refined linework and vivid balanced color; non-pixel art.\nComposition/framing: one character centered, full body with entire head and both boots visible, upright portrait proportions, generous transparent margin.\nScene/backdrop: truly transparent background.\nLighting/mood: even soft illustration lighting, no cast shadow.\nConstraints: adult woman, functional travel outfit, generic original design, no background, no halo, no floor, no card frame, no text, no logo, no watermark, no other characters.",
+      "generationEditPrompt": "Preserve this adult female travel trainer as rendered: face, rust-red field jacket, field pouch, hiking trousers, boots, ball, pose and cel-shaded style. Remove all backdrop effects; leave only the full-body cutout with true transparency outside the silhouette. Keep head and both boots uncropped. No halo or text.",
+      "width": 1024,
+      "height": 1536,
+      "alphaChannel": true,
+      "transparent": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 259,
+        "y": 8,
+        "width": 524,
+        "height": 1504,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "969d63e7dd21fd0066b753adb3117cede0fd49dd3f52a0d7580cf5ca2b2200dc",
+      "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+      "sourceRepository": "Project original art",
+      "generationTool": "built-in image_gen",
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": false,
+      "fallbackOnly": true,
+      "appearanceTags": [
+        "adult-female",
+        "travel-clothing",
+        "hiking-trousers",
+        "field-pouch",
+        "pokeball"
+      ],
+      "ageYears": 28
+    },
+    {
+      "id": "girl_backpacker_project_v1",
+      "name": "少女背包旅行者",
+      "image": "assets/trainers/project-original/girl-backpacker-v1.png",
+      "gender": "female",
+      "age": "teen",
+      "roles": [
+        "backpacker",
+        "traveler",
+        "teen-trainer",
+        "trainer"
+      ],
+      "tags": [
+        "project-original",
+        "nonpixel",
+        "single-person",
+        "full-body",
+        "fallback-only"
+      ],
+      "sourceCharacterOrClass": "Anonymous teenage girl backpack traveler",
+      "generationSourcePath": "<LOCAL_HOME>/.codex/generated_images/01a17560-bb55-7b00-b8ae-2362c3842d92/exec-a8da4e44-fb33-410b-8108-f64509264f30.png",
+      "generationPrompt": "Use case: illustration-story\nAsset type: original full-body game character portrait, transparent PNG cutout\nPrimary request: a teenage girl Pokémon trainer who enjoys traveling, about 16 years old, cheerful observant expression and friendly hiking pose. Distinct original youthful face and silhouette, practical small hiking backpack, sunny yellow hoodie beneath a teal vest, dark shorts over leggings, trail shoes, simple wrist band; no battle armor.\nStyle/medium: same polished original 2D anime cel-shaded character art as a premium adventure game, clean refined linework and vivid balanced color; non-pixel art.\nComposition/framing: one character centered, full body with entire head and both shoes visible, backpack fully in frame, upright portrait proportions, generous transparent margin.\nScene/backdrop: truly transparent background.\nLighting/mood: even soft illustration lighting, no cast shadow.\nConstraints: teenager, not adult, wholesome age-appropriate styling, no background, no halo, no floor, no card frame, no text, no logo, no watermark, no other characters.",
+      "generationEditPrompt": "Preserve the youthful teenage girl backpacker, her yellow hoodie, teal vest, backpack, leggings, shoes, pose and cel-shaded style. Remove all backdrop effects and retain only the full-body person with true transparency outside her silhouette. Keep backpack and shoes included. No halo or text.",
+      "width": 1024,
+      "height": 1536,
+      "alphaChannel": true,
+      "transparent": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 264,
+        "y": 0,
+        "width": 616,
+        "height": 1533,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "e2bfede2034575ca5ac5852d4b9bc412c35fd124e98ac1f04f81bc5c3f77ff9a",
+      "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+      "sourceRepository": "Project original art",
+      "generationTool": "built-in image_gen",
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": false,
+      "fallbackOnly": true,
+      "appearanceTags": [
+        "teen-girl",
+        "backpack",
+        "yellow-hoodie",
+        "teal-vest",
+        "trail-shoes"
+      ],
+      "ageYears": 16
+    },
+    {
+      "id": "breeder_female_project_v1",
+      "name": "培育家（中年女性）",
+      "image": "assets/trainers/project-original/breeder-female-v1.png",
+      "gender": "female",
+      "age": "adult",
+      "roles": [
+        "breeder",
+        "day-care-worker",
+        "rancher"
+      ],
+      "tags": [
+        "project-original",
+        "nonpixel",
+        "single-person",
+        "full-body",
+        "fallback-only"
+      ],
+      "sourceCharacterOrClass": "Anonymous middle-aged female Pokémon breeder",
+      "generationSourcePath": "<LOCAL_HOME>/.codex/generated_images/01a17560-bb55-7b00-b8ae-2362c3842d92/exec-e2e2b6ca-b7de-4581-a844-09d7ae79d544.png",
+      "generationPrompt": "Use case: illustration-story\nAsset type: original full-body game character portrait, transparent PNG cutout\nPrimary request: a kind middle-aged female Pokémon breeder, around 45 years old, mature welcoming face, gentle smile and warm open posture. Distinct original design with dark auburn hair tied back, modest work shirt, muted green apron with a small utility pocket, practical waist pouch and comfortable sturdy shoes; no animal or extra prop.\nStyle/medium: same polished original 2D anime cel-shaded character art as a premium adventure game, clean refined linework and vivid balanced color; non-pixel art.\nComposition/framing: one character centered, full body with entire head and both shoes visible, upright portrait proportions, generous transparent margin.\nScene/backdrop: truly transparent background.\nLighting/mood: even soft illustration lighting, no cast shadow.\nConstraints: middle-aged woman, mature and kind, apron and waist pouch clearly visible; no background, no halo, no floor, no card frame, no text, no logo, no watermark, no other characters.",
+      "generationEditPrompt": "Preserve this kind middle-aged female breeder: mature friendly face, auburn hair, white work shirt, green apron, waist pouch, trousers, shoes, pose and cel-shaded style. Remove every backdrop effect; keep only the full-body character with true transparency outside the silhouette. Keep head and both shoes uncropped. No halo or text.",
+      "width": 1024,
+      "height": 1536,
+      "alphaChannel": true,
+      "transparent": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 235,
+        "y": 4,
+        "width": 643,
+        "height": 1509,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "7dd8c0261fc4ff786c4c400c60e2a8185c877f4d5ec3df40b8c1b214366dfc65",
+      "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+      "sourceRepository": "Project original art",
+      "generationTool": "built-in image_gen",
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": false,
+      "fallbackOnly": true,
+      "appearanceTags": [
+        "middle-aged-female",
+        "breeder",
+        "green-apron",
+        "waist-pouch"
+      ],
+      "ageYears": 45,
+      "lifeStage": "middle-aged"
+    },
+    {
+      "id": "picnicker_project_v2",
+      "name": "野餐少女",
+      "image": "assets/trainers/project-original/npc/picnicker-v2.png",
+      "gender": "female",
+      "age": "teen",
+      "roles": [
+        "picnicker",
+        "camper",
+        "outdoors",
+        "trainer"
+      ],
+      "tags": [
+        "project-original",
+        "generic-npc",
+        "nonpixel",
+        "single-person",
+        "full-body"
+      ],
+      "source": "Original illustration generated for this project with built-in image_gen, 2026-10-28",
+      "sourceCharacterOrClass": "野餐少女",
+      "sourceRepository": "Project original art",
+      "generationTool": "built-in image_gen",
+      "generationSourcePath": "assets/trainers/project-original/npc/picnicker-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "fullBody": true,
+      "composition": "full-body",
+      "displayEligible": true,
+      "preferredGeneric": true,
+      "fallbackOnly": false,
+      "appearanceTags": [
+        "blue-sunhat",
+        "yellow-jacket",
+        "picnic-basket",
+        "outdoors-clothing"
+      ],
+      "artBounds": {
+        "x": 206,
+        "y": 11,
+        "width": 635,
+        "height": 1476,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "4a51115ec7d0b75366c3ec5fc05f379fde0f3702117db7db57db2c7edae4a698",
+      "generationPrompt": "Full-body original polished 2D anime cel-shaded character illustration, transparent background, single character, consistent clean line art and restrained colors, designed as an anonymous Pokémon trainer class portrait; no pixel art, no text, no franchise character likeness."
+    }
+  ],
+  "sourceCommit": "a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668",
+  "motherPortraitNote": "mother_somo, mother_swsh, and mother_paldea are anonymous mother NPC appearances from different games; they are visual references only and are not Delia/Hanako or named story characters.",
+  "namedCharacters": [
+    {
+      "id": "trainer_ariana",
+      "trainerId": "trainer_ariana",
+      "name": "雅典娜",
+      "aliases": [
+        "雅典娜",
+        "阿黛娜",
+        "Ariana",
+        "Athena"
+      ],
+      "image": "assets/trainers/project-original/ariana-rocket-v1.png",
+      "gender": "female",
+      "age": "adult",
+      "role": "火箭队干部",
+      "fullBody": true,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 277,
+        "y": 15,
+        "width": 556,
+        "height": 1498,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "eb95799913500eff896025cecb01e358677fdd2ca77d2335730ab9d58e22bf96",
+      "displayEligible": false,
+      "fallbackEligible": false,
+      "selection": "named-trainer-only"
+    },
+    {
+      "id": "trainer_proton",
+      "trainerId": "trainer_proton",
+      "name": "兰斯",
+      "aliases": [
+        "兰斯",
+        "Lance (Rocket)",
+        "Proton"
+      ],
+      "image": "assets/trainers/project-original/proton-rocket-v1.png",
+      "gender": "male",
+      "age": "adult",
+      "role": "火箭队干部",
+      "fullBody": true,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 225,
+        "y": 9,
+        "width": 625,
+        "height": 1518,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "f87a80c059c23bafe6b258bdf5342a36418071229cd8f9a80b10677531981c7d",
+      "displayEligible": false,
+      "fallbackEligible": false,
+      "selection": "named-trainer-only"
+    },
+    {
+      "id": "trainer_petrel",
+      "trainerId": "trainer_petrel",
+      "name": "拉姆达",
+      "aliases": [
+        "拉姆达",
+        "Petrel"
+      ],
+      "image": "assets/trainers/project-original/petrel-rocket-v1.png",
+      "gender": "male",
+      "age": "adult",
+      "role": "火箭队干部",
+      "fullBody": true,
+      "transparent": true,
+      "alphaChannel": true,
+      "alphaThreshold": 16,
+      "artBounds": {
+        "x": 249,
+        "y": 5,
+        "width": 621,
+        "height": 1523,
+        "canvasWidth": 1024,
+        "canvasHeight": 1536
+      },
+      "sha256": "a6a8bd7d4012663ed41b125d24326389cbaf8a1807470623a25630d75c64f8f0",
+      "displayEligible": false,
+      "fallbackEligible": false,
+      "selection": "named-trainer-only"
+    }
+  ]
+}

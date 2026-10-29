@@ -1,0 +1,18 @@
+name: 玩法与体验建议
+description: 说明具体场景、想解决的问题和预期体验
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 现在遇到的体验问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望如何变化
+      description: 原作机制请给出处；同人扩展请说明解锁、平衡和旧档影响。
+    validations:
+      required: true

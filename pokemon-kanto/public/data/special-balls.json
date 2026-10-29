@@ -1,0 +1,99 @@
+[
+  {
+    "id": "netball",
+    "name": "捕网球",
+    "category": "ball",
+    "price": 1000,
+    "startingCount": 0,
+    "description": "捕捉野生宝可梦；对水属性或虫属性目标效果更好。",
+    "actionKey": "capture netball",
+    "target": true,
+    "battle": { "capture": 1, "captureRule": "net" },
+    "outside": null
+  },
+  {
+    "id": "diveball",
+    "name": "潜水球",
+    "category": "ball",
+    "price": 1000,
+    "startingCount": 0,
+    "description": "捕捉野生宝可梦；在水下遭遇时效果更好。",
+    "actionKey": "capture diveball",
+    "target": true,
+    "battle": { "capture": 1, "captureRule": "dive" },
+    "outside": null
+  },
+  {
+    "id": "nestball",
+    "name": "巢穴球",
+    "category": "ball",
+    "price": 1000,
+    "startingCount": 0,
+    "description": "捕捉野生宝可梦；目标等级越低效果越好。",
+    "actionKey": "capture nestball",
+    "target": true,
+    "battle": { "capture": 1, "captureRule": "nest" },
+    "outside": null
+  },
+  {
+    "id": "repeatball",
+    "name": "重复球",
+    "category": "ball",
+    "price": 1000,
+    "startingCount": 0,
+    "description": "捕捉曾经登记为收服过的宝可梦时效果更好。",
+    "actionKey": "capture repeatball",
+    "target": true,
+    "battle": { "capture": 1, "captureRule": "repeat" },
+    "outside": null
+  },
+  {
+    "id": "timerball",
+    "name": "计时球",
+    "category": "ball",
+    "price": 1000,
+    "startingCount": 0,
+    "description": "战斗进行得越久，捕捉效果越好，最高为四倍。",
+    "actionKey": "capture timerball",
+    "target": true,
+    "battle": { "capture": 1, "captureRule": "timer" },
+    "outside": null
+  },
+  {
+    "id": "luxuryball",
+    "name": "豪华球",
+    "category": "ball",
+    "price": 1000,
+    "startingCount": 0,
+    "description": "舒适雅致的球；捕获率与普通精灵球相同。",
+    "actionKey": "capture luxuryball",
+    "target": true,
+    "battle": { "capture": 1 },
+    "outside": null
+  },
+  {
+    "id": "premierball",
+    "name": "纪念球",
+    "category": "ball",
+    "price": 200,
+    "startingCount": 0,
+    "description": "为纪念活动制作的稀有球；捕获率与普通精灵球相同。",
+    "actionKey": "capture premierball",
+    "target": true,
+    "battle": { "capture": 1 },
+    "outside": null
+  },
+  {
+    "id": "masterball",
+    "name": "大师球",
+    "category": "ball",
+    "price": 0,
+    "startingCount": 0,
+    "forSale": false,
+    "description": "性能最好的球；捕捉野生宝可梦必定成功。",
+    "actionKey": "capture masterball",
+    "target": true,
+    "battle": { "capture": 1, "captureRule": "master" },
+    "outside": null
+  }
+]

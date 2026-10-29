@@ -1,0 +1,1007 @@
+[
+  {
+    "id": "oaks-lab",
+    "name": "大木研究所",
+    "image": "assets/backgrounds/oaks-lab.png",
+    "locations": [
+      "pallet"
+    ],
+    "source": "RetailRNG FRLG starter guide screenshot: https://retailrng.com/frlg/beginner/frlgstarter/ (image: https://retailrng.com/frlg/beginner/frlgstarterimage1.png)"
+  },
+  {
+    "id": "pallet-town",
+    "name": "真新镇",
+    "image": "assets/backgrounds/pallet-town.png",
+    "locations": [
+      "pallet"
+    ],
+    "source": "Guide Strats FRLG guide screenshot: https://guidestrats.com/pokemon-frlg-friendship-checker/ (image: https://static.guidestrats.com/images/06/24993/01-outside-of-our-rivals-house-in-pallet-town-pokemon-frlg.jpg)"
+  },
+  {
+    "id": "viridian-forest",
+    "name": "常青森林",
+    "image": "assets/backgrounds/viridian-forest.png",
+    "locations": [
+      "viridian-forest"
+    ],
+    "source": "pret/pokefirered Forest map preview; source commit ce6406d8c2eaf46d543c8a2606de0c3cb1951982: https://github.com/pret/pokefirered/tree/ce6406d8c2eaf46d543c8a2606de0c3cb1951982"
+  },
+  {
+    "id": "mt-moon",
+    "name": "月见山",
+    "image": "assets/backgrounds/mt-moon.png",
+    "locations": [
+      "mt-moon"
+    ],
+    "source": "pret/pokefirered Mt. Moon map preview; source commit ce6406d8c2eaf46d543c8a2606de0c3cb1951982: https://github.com/pret/pokefirered/tree/ce6406d8c2eaf46d543c8a2606de0c3cb1951982"
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "岩山隧道",
+    "image": "assets/backgrounds/rock-tunnel.png",
+    "locations": [
+      "rock-tunnel"
+    ],
+    "source": "pret/pokefirered Rock Tunnel map preview; source commit ce6406d8c2eaf46d543c8a2606de0c3cb1951982: https://github.com/pret/pokefirered/tree/ce6406d8c2eaf46d543c8a2606de0c3cb1951982"
+  },
+  {
+    "id": "pokemon-tower",
+    "name": "宝可梦塔",
+    "image": "assets/backgrounds/pokemon-tower.png",
+    "locations": [
+      "pokemon-tower"
+    ],
+    "source": "pret/pokefirered Pokémon Tower map preview; source commit ce6406d8c2eaf46d543c8a2606de0c3cb1951982: https://github.com/pret/pokefirered/tree/ce6406d8c2eaf46d543c8a2606de0c3cb1951982"
+  },
+  {
+    "id": "victory-road",
+    "name": "冠军之路（一层）",
+    "image": "assets/backgrounds/victory-road.png",
+    "locations": [
+      "victory-road"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Victory Road 1F map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-VictoryRoad-1F.png"
+  },
+  {
+    "id": "cerulean-cave",
+    "name": "华蓝洞窟",
+    "image": "assets/backgrounds/cerulean-cave.png",
+    "locations": [
+      "cerulean-cave"
+    ],
+    "source": "pret/pokefirered Cerulean Cave map preview; source commit ce6406d8c2eaf46d543c8a2606de0c3cb1951982: https://github.com/pret/pokefirered/tree/ce6406d8c2eaf46d543c8a2606de0c3cb1951982"
+  },
+  {
+    "id": "pewter-city",
+    "name": "尼比市",
+    "image": "assets/backgrounds/pewter-city.png",
+    "locations": [
+      "pewter"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-PewterCity.png"
+  },
+  {
+    "id": "cerulean-city",
+    "name": "华蓝市",
+    "image": "assets/backgrounds/cerulean-city.png",
+    "locations": [
+      "cerulean"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-CeruleanCity.png"
+  },
+  {
+    "id": "vermilion-city",
+    "name": "枯叶市",
+    "image": "assets/backgrounds/vermilion-city.png",
+    "locations": [
+      "vermilion"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-VermilionCity.png"
+  },
+  {
+    "id": "lavender-town",
+    "name": "紫苑镇",
+    "image": "assets/backgrounds/lavender-town.png",
+    "locations": [
+      "lavender"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-LavenderTown.png"
+  },
+  {
+    "id": "celadon-city",
+    "name": "玉虹市",
+    "image": "assets/backgrounds/celadon-city.png",
+    "locations": [
+      "celadon"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-CeladonCity.png"
+  },
+  {
+    "id": "saffron-city",
+    "name": "金黄市",
+    "image": "assets/backgrounds/saffron-city.png",
+    "locations": [
+      "saffron"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-SaffronCity.png"
+  },
+  {
+    "id": "fuchsia-city",
+    "name": "浅红市",
+    "image": "assets/backgrounds/fuchsia-city.png",
+    "locations": [
+      "fuchsia"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-FuchsiaCity.png"
+  },
+  {
+    "id": "cinnabar-island",
+    "name": "红莲岛",
+    "image": "assets/backgrounds/cinnabar-island.png",
+    "locations": [
+      "cinnabar"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-CinnabarIsland.png"
+  },
+  {
+    "id": "viridian-city",
+    "name": "常青市",
+    "image": "assets/backgrounds/viridian-city.png",
+    "locations": [
+      "viridian"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-ViridianCity.png"
+  },
+  {
+    "id": "route1",
+    "name": "1号道路",
+    "image": "assets/backgrounds/route1.png",
+    "locations": [
+      "route1"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 01 map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route01.png"
+  },
+  {
+    "id": "route2",
+    "name": "2号道路",
+    "image": "assets/backgrounds/route2.png",
+    "locations": [
+      "route2"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 02 map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route02.png"
+  },
+  {
+    "id": "route3",
+    "name": "3号道路",
+    "image": "assets/backgrounds/route3.png",
+    "locations": [
+      "route3"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 03 map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route03.png"
+  },
+  {
+    "id": "route4",
+    "name": "4号道路",
+    "image": "assets/backgrounds/route4.png",
+    "locations": [
+      "route4"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 04 map ripped by Jaromaru; https://www.vgmaps.com/atlas/GBA/index.htm ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route04.png"
+  },
+  {
+    "id": "route5",
+    "name": "5号道路",
+    "image": "assets/backgrounds/route5.png",
+    "locations": [
+      "route5"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 05 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route05.png"
+  },
+  {
+    "id": "route6",
+    "name": "6号道路",
+    "image": "assets/backgrounds/route6.png",
+    "locations": [
+      "route6"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 06 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route06.png"
+  },
+  {
+    "id": "route7",
+    "name": "7号道路",
+    "image": "assets/backgrounds/route7.png",
+    "locations": [
+      "route7"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 07 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route07.png"
+  },
+  {
+    "id": "route8",
+    "name": "8号道路",
+    "image": "assets/backgrounds/route8.png",
+    "locations": [
+      "route8"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 08 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route08.png"
+  },
+  {
+    "id": "route9",
+    "name": "9号道路",
+    "image": "assets/backgrounds/route9.png",
+    "locations": [
+      "route9"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 09 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route09.png"
+  },
+  {
+    "id": "route10",
+    "name": "10号道路",
+    "image": "assets/backgrounds/route10.png",
+    "locations": [
+      "route10"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 10 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route10.png"
+  },
+  {
+    "id": "route11",
+    "name": "11号道路",
+    "image": "assets/backgrounds/route11.png",
+    "locations": [
+      "route11"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 11 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route11.png"
+  },
+  {
+    "id": "route12",
+    "name": "12号道路",
+    "image": "assets/backgrounds/route12.png",
+    "locations": [
+      "route12"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 12 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route12.png"
+  },
+  {
+    "id": "route13",
+    "name": "13号道路",
+    "image": "assets/backgrounds/route13.png",
+    "locations": [
+      "route13"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 13 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route13.png"
+  },
+  {
+    "id": "route14",
+    "name": "14号道路",
+    "image": "assets/backgrounds/route14.png",
+    "locations": [
+      "route14"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 14 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route14.png"
+  },
+  {
+    "id": "route15",
+    "name": "15号道路",
+    "image": "assets/backgrounds/route15.png",
+    "locations": [
+      "route15"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 15 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route15.png"
+  },
+  {
+    "id": "route16",
+    "name": "16号道路",
+    "image": "assets/backgrounds/route16.png",
+    "locations": [
+      "route16"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 16 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route16.png"
+  },
+  {
+    "id": "route17",
+    "name": "17号道路",
+    "image": "assets/backgrounds/route17.png",
+    "locations": [
+      "route17"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 17 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route17.png"
+  },
+  {
+    "id": "route18",
+    "name": "18号道路",
+    "image": "assets/backgrounds/route18.png",
+    "locations": [
+      "route18"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 18 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route18.png"
+  },
+  {
+    "id": "route19",
+    "name": "19号道路",
+    "image": "assets/backgrounds/route19.png",
+    "locations": [
+      "route19"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 19 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route19.png"
+  },
+  {
+    "id": "route20",
+    "name": "20号道路",
+    "image": "assets/backgrounds/route20.png",
+    "locations": [
+      "route20"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 20 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route20.png"
+  },
+  {
+    "id": "route21",
+    "name": "21号道路",
+    "image": "assets/backgrounds/route21.png",
+    "locations": [
+      "route21"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 21 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route21.png"
+  },
+  {
+    "id": "route22",
+    "name": "22号道路",
+    "image": "assets/backgrounds/route22.png",
+    "locations": [
+      "route22"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 22 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route22.png"
+  },
+  {
+    "id": "route23",
+    "name": "23号道路",
+    "image": "assets/backgrounds/route23.png",
+    "locations": [
+      "route23"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 23 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route23.png"
+  },
+  {
+    "id": "route24",
+    "name": "24号道路",
+    "image": "assets/backgrounds/route24.png",
+    "locations": [
+      "route24"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 24 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route24.png"
+  },
+  {
+    "id": "route25",
+    "name": "25号道路",
+    "image": "assets/backgrounds/route25.png",
+    "locations": [
+      "route25"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Route 25 map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Route25.png"
+  },
+  {
+    "id": "diglett-cave",
+    "name": "地鼠洞（地下层）",
+    "image": "assets/backgrounds/diglett-cave.png",
+    "locations": [
+      "diglett-cave"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Diglett's Cave B1F map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Diglett'sCave-B1F.png"
+  },
+  {
+    "id": "safari",
+    "name": "狩猎地带（中央区域）",
+    "image": "assets/backgrounds/safari.png",
+    "locations": [
+      "safari"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Safari Zone Center Area map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-SafariZone-CenterArea.png"
+  },
+  {
+    "id": "seafoam",
+    "name": "双子岛（一层）",
+    "image": "assets/backgrounds/seafoam.png",
+    "locations": [
+      "seafoam"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Seafoam Islands 1F map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-SeafoamIslands-1F.png"
+  },
+  {
+    "id": "power-plant",
+    "name": "发电厂",
+    "image": "assets/backgrounds/power-plant.png",
+    "locations": [
+      "power-plant"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Power Plant map ripped by Jaromaru; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-PowerPlant.png"
+  },
+  {
+    "id": "indigo-overview",
+    "name": "石英高原（关都区域总览回退）",
+    "image": "assets/backgrounds/kanto-overview.png",
+    "locations": [
+      "indigo"
+    ],
+    "fallback": {
+      "type": "regional-overview",
+      "reason": "VGMaps FRLG catalog has no standalone Indigo Plateau scene map; this is the FRLG Kanto overview, not a plateau-specific view."
+    },
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen Kanto overview map; creators Anthony Lin and Samuel Harbord; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-Kanto.png"
+  },
+  {
+    "id": "gym-pewter",
+    "name": "尼比市道馆",
+    "image": "assets/backgrounds/gym-pewter.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:pewter"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 尼比市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-PewterCity-Gym.png"
+  },
+  {
+    "id": "gym-cerulean",
+    "name": "华蓝市道馆",
+    "image": "assets/backgrounds/gym-cerulean.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:cerulean"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 华蓝市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-CeruleanCity-Gym.png"
+  },
+  {
+    "id": "gym-vermilion",
+    "name": "枯叶市道馆",
+    "image": "assets/backgrounds/gym-vermilion.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:vermilion"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 枯叶市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-VermilionCity-Gym.png"
+  },
+  {
+    "id": "gym-celadon",
+    "name": "玉虹市道馆",
+    "image": "assets/backgrounds/gym-celadon.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:celadon"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 玉虹市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-CeladonCity-Gym.png"
+  },
+  {
+    "id": "gym-fuchsia",
+    "name": "浅红市道馆",
+    "image": "assets/backgrounds/gym-fuchsia.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:fuchsia"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 浅红市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-FuchsiaCity-Gym.png"
+  },
+  {
+    "id": "gym-saffron",
+    "name": "金黄市道馆",
+    "image": "assets/backgrounds/gym-saffron.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:saffron"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 金黄市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-SaffronCity-Gym.png"
+  },
+  {
+    "id": "gym-cinnabar",
+    "name": "红莲岛道馆",
+    "image": "assets/backgrounds/gym-cinnabar.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:cinnabar"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 红莲岛道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-CinnabarIsland-Gym.png"
+  },
+  {
+    "id": "gym-viridian",
+    "name": "常青市道馆",
+    "image": "assets/backgrounds/gym-viridian.png",
+    "locations": [],
+    "sceneTags": [
+      "gym:viridian"
+    ],
+    "source": "VGMaps The Video Game Atlas, Pokémon FireRed / LeafGreen 常青市道馆 interior map ripped by Lord RM; catalog: https://vgmaps.de/maps/gba/pokemon-firered-and-leafgreen-versions ; image: https://www.vgmaps.com/atlas/GBA/Pokemon-FireRed%26LeafGreenVersions-ViridianCity-Gym.png"
+  },
+  {
+    "id": "masters-downtown-night",
+    "name": "Masters EX downtown night",
+    "image": "assets/backgrounds/illustrated/downtown-night.png",
+    "locations": [],
+    "sceneTags": [
+      "city"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s031_013_Downtown_night/s031_013_Downtown_night_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s031_013_Downtown_night/s031_013_Downtown_night_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "69c9a11b5cf299c2110ff9125714d21b50232e08df1152ad7ab2f1317e3c55c3",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX night city analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-downtown-alt-1",
+    "name": "Masters EX downtown alt 1",
+    "image": "assets/backgrounds/illustrated/downtown-alt-1.png",
+    "locations": [],
+    "sceneTags": [
+      "city"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s030_200_Downtown_01/s030_200_Downtown_01_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s030_200_Downtown_01/s030_200_Downtown_01_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "775453c05bd89e67c1d47853f70b5ba9b16b8644ce10611836cc424f56738952",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX urban street analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-downtown-cloudy",
+    "name": "Masters EX downtown cloudy",
+    "image": "assets/backgrounds/illustrated/downtown-cloudy.png",
+    "locations": [],
+    "sceneTags": [
+      "city"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s033_200_Downtown_cloudy/s033_200_Downtown_cloudy_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s033_200_Downtown_cloudy/s033_200_Downtown_cloudy_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "bd8467a3630daedd382b53039c1592eebb115e7af06f6ae1810c07fdea57f580",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX cloudy urban street analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-village-alt",
+    "name": "Masters EX village alt",
+    "image": "assets/backgrounds/illustrated/village-alt.png",
+    "locations": [],
+    "sceneTags": [
+      "village"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s060_010_Village_02/s060_010_Village_02_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s060_010_Village_02/s060_010_Village_02_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "46da1567fbc22c92d889e92a81dbcb670f3fd398e22626c051100e77a423938e",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX village analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-village-night",
+    "name": "Masters EX village night",
+    "image": "assets/backgrounds/illustrated/village-night.png",
+    "locations": [],
+    "sceneTags": [
+      "village"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s061_010_Village_night/s061_010_Village_night_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s061_010_Village_night/s061_010_Village_night_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "3a3718b7c8450832f1a92b91cc02fe3020c20f2b044ee784e5d551fefbe13709",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX night village analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-highway",
+    "name": "Masters EX highway",
+    "image": "assets/backgrounds/illustrated/highway.png",
+    "locations": [],
+    "sceneTags": [
+      "road"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s070_010_Highway/s070_010_Highway_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s070_010_Highway/s070_010_Highway_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "db0a1c387b6fe707a641c8e48abff9a8bd3a0bfed5c7837c638e7d04f1c49ecb",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX roadside analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-highway-night",
+    "name": "Masters EX highway night",
+    "image": "assets/backgrounds/illustrated/highway-night.png",
+    "locations": [],
+    "sceneTags": [
+      "road"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s071_010_Highway_night/s071_010_Highway_night_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s071_010_Highway_night/s071_010_Highway_night_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "caf65640bcd733b4be133b173d2d5fc540770171ded62701abba7fdf0da4447d",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX night roadside analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-highway-cloudy",
+    "name": "Masters EX highway cloudy",
+    "image": "assets/backgrounds/illustrated/highway-cloudy.png",
+    "locations": [],
+    "sceneTags": [
+      "road"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s073_010_Highway_cloudy/s073_010_Highway_cloudy_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s073_010_Highway_cloudy/s073_010_Highway_cloudy_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "7e62042332fc58e97162c4b213de48e4ec5f18d92f887fa629e83263d8d62844",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX cloudy roadside analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-forest-alt",
+    "name": "Masters EX forest alt",
+    "image": "assets/backgrounds/illustrated/forest-alt.png",
+    "locations": [],
+    "sceneTags": [
+      "forest"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s080_010_Forest_02/s080_010_Forest_02_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s080_010_Forest_02/s080_010_Forest_02_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "7dfe00fdcc1bb49b5d40cc35eb064d81576819e29151c027662b26e5cc226772",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX forest analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-forest-evening",
+    "name": "Masters EX forest evening",
+    "image": "assets/backgrounds/illustrated/forest-evening.png",
+    "locations": [],
+    "sceneTags": [
+      "forest"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s082_010_Forest_evening/s082_010_Forest_evening_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s082_010_Forest_evening/s082_010_Forest_evening_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "8302b7a7ee2e68c8b5bf54f3a4f09cf351b111914fde37dbce14007f2ef195dd",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX evening forest analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-cave-alt",
+    "name": "Masters EX cave alt",
+    "image": "assets/backgrounds/illustrated/cave-alt.png",
+    "locations": [],
+    "sceneTags": [
+      "cave"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s110_010_Cave_02/s110_010_Cave_02_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s110_010_Cave_02/s110_010_Cave_02_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "c96b5fca08d15c1634fc772b9f9785cc66bb3b41f7cb9b827206faf1b7aab6b5",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX cave analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-cave-large",
+    "name": "Masters EX cave large",
+    "image": "assets/backgrounds/illustrated/cave-large.png",
+    "locations": [],
+    "sceneTags": [
+      "cave"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s110_200_Cave/s110_200_Cave_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s110_200_Cave/s110_200_Cave_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "1f3c46406828e16906047286ac99a51ae7a538e286804fb6cb12cc2ff6795692",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX cave analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-cave-night",
+    "name": "Masters EX cave night",
+    "image": "assets/backgrounds/illustrated/cave-night.png",
+    "locations": [],
+    "sceneTags": [
+      "cave"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s111_200_Cave_night/s111_200_Cave_night_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s111_200_Cave_night/s111_200_Cave_night_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "0b94e8a53bf28fb7e5b712d3fc64202e393f90f398c53caec6cf7fb6626f999e",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX night cave analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-coast-night",
+    "name": "Masters EX coast night",
+    "image": "assets/backgrounds/illustrated/coast-night.png",
+    "locations": [],
+    "sceneTags": [
+      "coast"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s131_010_Coast_night_04/s131_010_Coast_night_04_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s131_010_Coast_night_04/s131_010_Coast_night_04_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "4376a14b43919b23cded8a1983111d01efc4ca2bebd35cbdeba731b629cf8b6c",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX coastal analogue, not a harbor or ship interior; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-arena-night",
+    "name": "Masters EX arena night",
+    "image": "assets/backgrounds/illustrated/arena-night.png",
+    "locations": [],
+    "sceneTags": [
+      "tournament"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s041_400_Arena_night/s041_400_Arena_night_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s041_400_Arena_night/s041_400_Arena_night_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "67977e4a22f5344d54318b20125ba82f8548dd7f37d4bcdebac86f0dbb6ae158",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX night arena tournament analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-sub-arena",
+    "name": "Masters EX sub arena",
+    "image": "assets/backgrounds/illustrated/sub-arena.png",
+    "locations": [],
+    "sceneTags": [
+      "tournament"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s045_401_SubArena/s045_401_SubArena_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s045_401_SubArena/s045_401_SubArena_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "13288702ba3c69e951a3c8d7eac77051875bba1a61fd6329b88f6fa7e1d1cf88",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX battle ring tournament analogue; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "masters-rocket-backyard",
+    "name": "Masters EX rocket backyard",
+    "image": "assets/backgrounds/illustrated/rocket-backyard.png",
+    "locations": [],
+    "sceneTags": [
+      "rocket-base"
+    ],
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s314_211_Backyard_Rocket/s314_211_Backyard_Rocket_512_512.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+    "sourcePath": "UI/Background/s314_211_Backyard_Rocket/s314_211_Backyard_Rocket_512_512.png",
+    "width": 512,
+    "height": 512,
+    "sha256": "c49fd9512ddb48bf2d52881ee2ede3c263d4c987c58e81397efab57cc5e88990",
+    "pngColorType": 6,
+    "note": "Pokémon Masters EX Team Rocket compound exterior analogue, not the FRLG hideout; used only as a visual analogue, not a specific FireRed/LeafGreen or Kanto scene.",
+    "alphaTransparentPixels": 0,
+    "alphaPartialPixels": 0
+  },
+  {
+    "id": "original-oak-lab",
+    "name": "研究所 · 原创演绎",
+    "sceneType": "indoor",
+    "sceneTags": [
+      "oak-lab"
+    ],
+    "image": "assets/backgrounds/original/oak-lab-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e9f10180adda001d05d71fffec81fcea33ba150a37922b08cc3d75444fac93a7",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+  },
+  {
+    "id": "original-pokemon-center",
+    "name": "宝可梦中心 · 原创演绎",
+    "sceneType": "indoor",
+    "sceneTags": [
+      "pokemon-center"
+    ],
+    "image": "assets/backgrounds/original/pokemon-center-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b0f0efaa46ef904ed29377e1cc4dc31bb9b32ad67d486f8df592dbb61914c681",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+  },
+  {
+    "id": "original-mart",
+    "name": "友好商店 · 原创演绎",
+    "sceneType": "indoor",
+    "sceneTags": [
+      "mart"
+    ],
+    "image": "assets/backgrounds/original/mart-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2ff83971edf08b56bef9776f99348d8ac85094e29571000e9c087814dde9bb26",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+  },
+  {
+    "id": "original-ss-anne",
+    "name": "圣安奴号船长室 · 原创演绎",
+    "sceneType": "indoor",
+    "sceneTags": [
+      "ss-anne"
+    ],
+    "image": "assets/backgrounds/original/ss-anne-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "945960ec4812993724dd088ecf0ec19fc5cf0dca494b4f1953155f7c2e2e531f",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+  },
+  {
+    "id": "original-rock-gym",
+    "name": "尼比岩石道馆 · 原创演绎",
+    "sceneType": "stadium",
+    "sceneTags": [
+      "gym:pewter"
+    ],
+    "image": "assets/backgrounds/original/rock-gym-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d221f10396768d492f1867a2441618a8a69254d0432b7fe5994cd7fd13bfc030",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+  },
+  {
+    "id": "original-department-store",
+    "name": "玉虹百货大厦 · 原创演绎",
+    "sceneType": "indoor",
+    "sceneTags": [
+      "department-store"
+    ],
+    "locations": [],
+    "image": "assets/backgrounds/original/department-store-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "954dbce78a29c3f5d71413fd812e9571ed950080345568310b513451de23903d",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方截图或逐格地图。"
+  },
+  {
+    "id": "original-safari-zone",
+    "name": "浅红狩猎地带 · 原创演绎",
+    "sceneType": "forest",
+    "sceneTags": [
+      "safari-zone"
+    ],
+    "locations": [],
+    "image": "assets/backgrounds/original/safari-zone-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "157af114fdadee25f3f20bb88ab5b0e14662b827237cd8028ea1104b9b0f06b8",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；不是官方截图或逐格地图。"
+  },
+  {
+    "id": "original-bill-lighthouse-night",
+    "name": "正辉灯塔 · 雾海夜影",
+    "sceneType": "environment",
+    "sceneTags": [
+      "lighthouse"
+    ],
+    "locations": [],
+    "image": "assets/backgrounds/project-original/bill-lighthouse-night-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7259b40ea1322289bc0216b8b09c65f4bc80c0f30e106d0b752e4979b11ad979",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；非官方画面，非像素画。",
+    "scenePriority": 20
+  },
+  {
+    "id": "original-companion-camp-night",
+    "name": "伙伴野外营地 · 星空夜晚",
+    "sceneType": "environment",
+    "sceneTags": [
+      "camp"
+    ],
+    "locations": [],
+    "image": "assets/backgrounds/project-original/companion-camp-night-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "12c5fe61e139e645d6b3205af66bab41093cd7f39989291b1468184c716ba12d",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；非官方画面，非像素画。",
+    "scenePriority": 20
+  },
+  {
+    "id": "original-rocket-transfer-room",
+    "name": "火箭队地下转运调查室",
+    "sceneType": "environment",
+    "sceneTags": [
+      "rocket-base"
+    ],
+    "locations": [],
+    "image": "assets/backgrounds/project-original/rocket-transfer-room-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "12a2e1ac79624c9560cb7b8947dc2977e831b67e5cfcbf49151dce8b47351089",
+    "generated": true,
+    "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+    "note": "本项目原创场景演绎；非官方画面，非像素画。",
+    "scenePriority": 20
+  }
+]

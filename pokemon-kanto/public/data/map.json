@@ -1,0 +1,909 @@
+[
+  {
+    "id": "pallet",
+    "name": "真新镇",
+    "x": 30,
+    "y": 88,
+    "links": [
+      "route1",
+      "route21"
+    ],
+    "kind": "town",
+    "encounters": [],
+    "level": 0
+  },
+  {
+    "id": "viridian",
+    "name": "常青市",
+    "x": 30,
+    "y": 74,
+    "links": [
+      "route1",
+      "route2",
+      "route22"
+    ],
+    "kind": "town",
+    "encounters": [
+      16,
+      19,
+      21,
+      29,
+      32
+    ],
+    "level": 3,
+    "gym": 7
+  },
+  {
+    "id": "pewter",
+    "name": "尼比市",
+    "x": 31,
+    "y": 34,
+    "links": [
+      "route3",
+      "viridian-forest"
+    ],
+    "kind": "town",
+    "encounters": [
+      16,
+      21,
+      41,
+      46,
+      74
+    ],
+    "level": 6,
+    "gym": 0
+  },
+  {
+    "id": "cerulean",
+    "name": "华蓝市",
+    "x": 67,
+    "y": 34,
+    "links": [
+      "cerulean-cave",
+      "route24",
+      "route4",
+      "route5",
+      "route9"
+    ],
+    "kind": "town",
+    "encounters": [
+      16,
+      19,
+      21,
+      43,
+      63,
+      69
+    ],
+    "level": 10,
+    "gym": 1
+  },
+  {
+    "id": "vermilion",
+    "name": "枯叶市",
+    "x": 53,
+    "y": 73,
+    "links": [
+      "diglett-cave",
+      "route11",
+      "route6"
+    ],
+    "kind": "town",
+    "encounters": [
+      72,
+      98,
+      120,
+      129
+    ],
+    "level": 20,
+    "gym": 2
+  },
+  {
+    "id": "lavender",
+    "name": "紫苑镇",
+    "x": 78,
+    "y": 58,
+    "links": [
+      "pokemon-tower",
+      "route10",
+      "route12",
+      "route8"
+    ],
+    "kind": "town",
+    "encounters": [],
+    "level": 0
+  },
+  {
+    "id": "celadon",
+    "name": "玉虹市",
+    "x": 42,
+    "y": 53,
+    "links": [
+      "route16",
+      "route7"
+    ],
+    "kind": "town",
+    "encounters": [
+      43,
+      45,
+      52,
+      58,
+      69
+    ],
+    "level": 17,
+    "gym": 3
+  },
+  {
+    "id": "fuchsia",
+    "name": "浅红市",
+    "x": 55,
+    "y": 91,
+    "links": [
+      "route15",
+      "route18",
+      "route19",
+      "safari"
+    ],
+    "kind": "town",
+    "encounters": [
+      46,
+      102,
+      111,
+      115,
+      123,
+      127,
+      128
+    ],
+    "level": 25,
+    "gym": 4
+  },
+  {
+    "id": "saffron",
+    "name": "金黄市",
+    "x": 56,
+    "y": 54,
+    "links": [
+      "route5",
+      "route6",
+      "route7",
+      "route8"
+    ],
+    "kind": "town",
+    "encounters": [
+      63,
+      64
+    ],
+    "level": 30,
+    "gym": 5
+  },
+  {
+    "id": "cinnabar",
+    "name": "红莲岛",
+    "x": 22,
+    "y": 96,
+    "links": [
+      "route20",
+      "route21"
+    ],
+    "kind": "town",
+    "encounters": [
+      58,
+      77,
+      78,
+      86,
+      116,
+      117
+    ],
+    "level": 30,
+    "gym": 6
+  },
+  {
+    "id": "indigo",
+    "name": "石英高原",
+    "x": 30,
+    "y": 22,
+    "links": [
+      "victory-road"
+    ],
+    "kind": "town",
+    "encounters": [],
+    "level": 0,
+    "requiresBadges": 8
+  },
+  {
+    "id": "route1",
+    "name": "1号道路",
+    "x": 30,
+    "y": 81,
+    "links": [
+      "pallet",
+      "viridian"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      19
+    ],
+    "level": 2
+  },
+  {
+    "id": "route2",
+    "name": "2号道路",
+    "x": 30,
+    "y": 61,
+    "links": [
+      "diglett-cave",
+      "viridian",
+      "viridian-forest"
+    ],
+    "kind": "route",
+    "encounters": [
+      10,
+      13,
+      16,
+      19,
+      25
+    ],
+    "level": 3
+  },
+  {
+    "id": "route3",
+    "name": "3号道路",
+    "x": 41,
+    "y": 35,
+    "links": [
+      "mt-moon",
+      "pewter"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      21,
+      29,
+      32,
+      39
+    ],
+    "level": 6
+  },
+  {
+    "id": "route4",
+    "name": "4号道路",
+    "x": 59,
+    "y": 35,
+    "links": [
+      "cerulean",
+      "mt-moon"
+    ],
+    "kind": "route",
+    "encounters": [
+      19,
+      21,
+      23,
+      27
+    ],
+    "level": 8
+  },
+  {
+    "id": "route5",
+    "name": "5号道路",
+    "x": 62,
+    "y": 44,
+    "links": [
+      "cerulean",
+      "saffron"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      43,
+      69,
+      52
+    ],
+    "level": 13
+  },
+  {
+    "id": "route6",
+    "name": "6号道路",
+    "x": 54,
+    "y": 65,
+    "links": [
+      "saffron",
+      "vermilion"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      43,
+      69,
+      52
+    ],
+    "level": 13
+  },
+  {
+    "id": "route7",
+    "name": "7号道路",
+    "x": 49,
+    "y": 53,
+    "links": [
+      "celadon",
+      "saffron"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      43,
+      69,
+      52
+    ],
+    "level": 17
+  },
+  {
+    "id": "route8",
+    "name": "8号道路",
+    "x": 68,
+    "y": 55,
+    "links": [
+      "lavender",
+      "saffron"
+    ],
+    "kind": "route",
+    "encounters": [
+      23,
+      37,
+      52,
+      56,
+      58
+    ],
+    "level": 17
+  },
+  {
+    "id": "route9",
+    "name": "9号道路",
+    "x": 73,
+    "y": 42,
+    "links": [
+      "cerulean",
+      "rock-tunnel"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      19,
+      21,
+      23,
+      29,
+      32
+    ],
+    "level": 14
+  },
+  {
+    "id": "route10",
+    "name": "10号道路",
+    "x": 78,
+    "y": 48,
+    "links": [
+      "lavender",
+      "power-plant",
+      "rock-tunnel"
+    ],
+    "kind": "route",
+    "encounters": [
+      74,
+      81,
+      100,
+      125
+    ],
+    "level": 16
+  },
+  {
+    "id": "route11",
+    "name": "11号道路",
+    "x": 61,
+    "y": 72,
+    "links": [
+      "route12",
+      "vermilion"
+    ],
+    "kind": "route",
+    "encounters": [
+      19,
+      21,
+      23,
+      52,
+      96
+    ],
+    "level": 15
+  },
+  {
+    "id": "route12",
+    "name": "12号道路",
+    "x": 77,
+    "y": 70,
+    "links": [
+      "lavender",
+      "route11",
+      "route13"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      72,
+      73,
+      79,
+      86,
+      90,
+      120
+    ],
+    "level": 15
+  },
+  {
+    "id": "route13",
+    "name": "13号道路",
+    "x": 68,
+    "y": 79,
+    "links": [
+      "route12",
+      "route14"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      72,
+      73,
+      84,
+      98,
+      120
+    ],
+    "level": 24
+  },
+  {
+    "id": "route14",
+    "name": "14号道路",
+    "x": 62,
+    "y": 84,
+    "links": [
+      "route13",
+      "route15"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      48,
+      49,
+      72,
+      73,
+      84
+    ],
+    "level": 24
+  },
+  {
+    "id": "route15",
+    "name": "15号道路",
+    "x": 57,
+    "y": 88,
+    "links": [
+      "fuchsia",
+      "route14"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      48,
+      49,
+      72,
+      73,
+      84
+    ],
+    "level": 24
+  },
+  {
+    "id": "route16",
+    "name": "16号道路",
+    "x": 38,
+    "y": 55,
+    "links": [
+      "celadon",
+      "route17"
+    ],
+    "kind": "route",
+    "encounters": [
+      19,
+      20,
+      84,
+      88,
+      109,
+      143
+    ],
+    "level": 22
+  },
+  {
+    "id": "route17",
+    "name": "17号道路",
+    "x": 39,
+    "y": 73,
+    "links": [
+      "route16",
+      "route18"
+    ],
+    "kind": "route",
+    "encounters": [
+      19,
+      20,
+      84,
+      88,
+      109,
+      143
+    ],
+    "level": 25
+  },
+  {
+    "id": "route18",
+    "name": "18号道路",
+    "x": 45,
+    "y": 87,
+    "links": [
+      "fuchsia",
+      "route17"
+    ],
+    "kind": "route",
+    "encounters": [
+      19,
+      20,
+      84,
+      88,
+      109,
+      143
+    ],
+    "level": 25
+  },
+  {
+    "id": "route19",
+    "name": "19号水道",
+    "x": 42,
+    "y": 94,
+    "links": [
+      "fuchsia",
+      "route20"
+    ],
+    "kind": "route",
+    "encounters": [
+      72,
+      73,
+      86,
+      90,
+      98,
+      116,
+      120
+    ],
+    "level": 30
+  },
+  {
+    "id": "route20",
+    "name": "20号水道",
+    "x": 31,
+    "y": 97,
+    "links": [
+      "cinnabar",
+      "route19",
+      "seafoam"
+    ],
+    "kind": "route",
+    "encounters": [
+      72,
+      73,
+      86,
+      90,
+      98,
+      116,
+      120
+    ],
+    "level": 30
+  },
+  {
+    "id": "route21",
+    "name": "21号水道",
+    "x": 24,
+    "y": 89,
+    "links": [
+      "cinnabar",
+      "pallet"
+    ],
+    "kind": "route",
+    "encounters": [
+      16,
+      19,
+      20,
+      72,
+      73,
+      114
+    ],
+    "level": 20
+  },
+  {
+    "id": "route22",
+    "name": "22号道路",
+    "x": 21,
+    "y": 70,
+    "links": [
+      "route23",
+      "viridian"
+    ],
+    "kind": "route",
+    "encounters": [
+      21,
+      29,
+      32,
+      56
+    ],
+    "level": 3
+  },
+  {
+    "id": "route23",
+    "name": "23号道路",
+    "x": 25,
+    "y": 43,
+    "links": [
+      "route22",
+      "victory-road"
+    ],
+    "kind": "route",
+    "encounters": [
+      22,
+      24,
+      42,
+      49,
+      57,
+      70,
+      85,
+      132
+    ],
+    "level": 40,
+    "requiresBadges": 8
+  },
+  {
+    "id": "route24",
+    "name": "24号道路",
+    "x": 70,
+    "y": 27,
+    "links": [
+      "cerulean",
+      "route25"
+    ],
+    "kind": "route",
+    "encounters": [
+      10,
+      13,
+      16,
+      19,
+      25,
+      43,
+      48,
+      63,
+      69
+    ],
+    "level": 10
+  },
+  {
+    "id": "route25",
+    "name": "25号道路",
+    "x": 78,
+    "y": 22,
+    "links": [
+      "route24"
+    ],
+    "kind": "route",
+    "encounters": [
+      10,
+      13,
+      16,
+      19,
+      43,
+      48,
+      63,
+      69
+    ],
+    "level": 10
+  },
+  {
+    "id": "viridian-forest",
+    "name": "常青森林",
+    "x": 30,
+    "y": 48,
+    "links": [
+      "pewter",
+      "route2"
+    ],
+    "kind": "cave",
+    "encounters": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      25
+    ],
+    "level": 3
+  },
+  {
+    "id": "mt-moon",
+    "name": "月见山",
+    "x": 50,
+    "y": 35,
+    "links": [
+      "route3",
+      "route4"
+    ],
+    "kind": "cave",
+    "encounters": [
+      35,
+      41,
+      46,
+      74,
+      95
+    ],
+    "level": 7
+  },
+  {
+    "id": "rock-tunnel",
+    "name": "岩山隧道",
+    "x": 78,
+    "y": 43,
+    "links": [
+      "route10",
+      "route9"
+    ],
+    "kind": "cave",
+    "encounters": [
+      41,
+      42,
+      74,
+      75,
+      81,
+      82
+    ],
+    "level": 16
+  },
+  {
+    "id": "diglett-cave",
+    "name": "地鼠洞",
+    "x": 37,
+    "y": 67,
+    "links": [
+      "route2",
+      "vermilion"
+    ],
+    "kind": "cave",
+    "encounters": [
+      50,
+      51
+    ],
+    "level": 15
+  },
+  {
+    "id": "pokemon-tower",
+    "name": "宝可梦塔",
+    "x": 80,
+    "y": 59,
+    "links": [
+      "lavender"
+    ],
+    "kind": "cave",
+    "encounters": [
+      92,
+      93,
+      104
+    ],
+    "level": 20
+  },
+  {
+    "id": "safari",
+    "name": "狩猎地带",
+    "x": 60,
+    "y": 96,
+    "links": [
+      "fuchsia"
+    ],
+    "kind": "route",
+    "encounters": [
+      46,
+      102,
+      111,
+      113,
+      115,
+      123,
+      127,
+      128,
+      147
+    ],
+    "level": 25
+  },
+  {
+    "id": "seafoam",
+    "name": "双子岛",
+    "x": 16,
+    "y": 91,
+    "links": [
+      "route20"
+    ],
+    "kind": "cave",
+    "encounters": [
+      41,
+      42,
+      54,
+      55,
+      72,
+      73,
+      79,
+      86,
+      87,
+      90,
+      98,
+      116,
+      120
+    ],
+    "level": 30
+  },
+  {
+    "id": "power-plant",
+    "name": "发电厂",
+    "x": 84,
+    "y": 48,
+    "links": [
+      "route10"
+    ],
+    "kind": "cave",
+    "encounters": [
+      25,
+      26,
+      81,
+      82,
+      100,
+      101,
+      125
+    ],
+    "level": 21
+  },
+  {
+    "id": "victory-road",
+    "name": "冠军之路",
+    "x": 31,
+    "y": 32,
+    "links": [
+      "indigo",
+      "route23"
+    ],
+    "kind": "cave",
+    "encounters": [
+      66,
+      67,
+      74,
+      75,
+      95,
+      105,
+      146
+    ],
+    "level": 45,
+    "requiresBadges": 8
+  },
+  {
+    "id": "cerulean-cave",
+    "name": "华蓝洞窟",
+    "x": 72,
+    "y": 31,
+    "links": [
+      "cerulean"
+    ],
+    "kind": "cave",
+    "encounters": [
+      42,
+      82,
+      101,
+      105,
+      112,
+      132,
+      150
+    ],
+    "level": 50,
+    "requiresBadges": 8
+  }
+]

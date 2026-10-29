@@ -1,0 +1,17 @@
+/.cache/
+/dist/
+/resources/
+/node_modules/
+/pokemon-kanto/node_modules/
+/pokemon-kanto/public/assets/
+/pokemon-kanto/save/
+/pokemon-kanto/_npc_inspect_tmp/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.private.*
+*.dshcard
+*.log

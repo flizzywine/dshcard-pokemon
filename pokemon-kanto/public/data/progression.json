@@ -1,0 +1,1814 @@
+{
+  "1": {
+    "growthRate": 4,
+    "baseExperience": 64,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "2": {
+    "growthRate": 4,
+    "baseExperience": 141,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "3": {
+    "growthRate": 4,
+    "baseExperience": 208,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "4": {
+    "growthRate": 4,
+    "baseExperience": 65,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "5": {
+    "growthRate": 4,
+    "baseExperience": 142,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "6": {
+    "growthRate": 4,
+    "baseExperience": 209,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "7": {
+    "growthRate": 4,
+    "baseExperience": 66,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "8": {
+    "growthRate": 4,
+    "baseExperience": 143,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "9": {
+    "growthRate": 4,
+    "baseExperience": 210,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 3,
+      "spe": 0
+    }
+  },
+  "10": {
+    "growthRate": 2,
+    "baseExperience": 53,
+    "effort": {
+      "hp": 1,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "11": {
+    "growthRate": 2,
+    "baseExperience": 72,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "12": {
+    "growthRate": 2,
+    "baseExperience": 160,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "13": {
+    "growthRate": 2,
+    "baseExperience": 52,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "14": {
+    "growthRate": 2,
+    "baseExperience": 71,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "15": {
+    "growthRate": 2,
+    "baseExperience": 159,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "16": {
+    "growthRate": 4,
+    "baseExperience": 55,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "17": {
+    "growthRate": 4,
+    "baseExperience": 113,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "18": {
+    "growthRate": 4,
+    "baseExperience": 172,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 3
+    }
+  },
+  "19": {
+    "growthRate": 2,
+    "baseExperience": 57,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "20": {
+    "growthRate": 2,
+    "baseExperience": 116,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "21": {
+    "growthRate": 2,
+    "baseExperience": 58,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "22": {
+    "growthRate": 2,
+    "baseExperience": 162,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "23": {
+    "growthRate": 2,
+    "baseExperience": 62,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "24": {
+    "growthRate": 2,
+    "baseExperience": 147,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "25": {
+    "growthRate": 2,
+    "baseExperience": 82,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "26": {
+    "growthRate": 2,
+    "baseExperience": 122,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 3
+    }
+  },
+  "27": {
+    "growthRate": 2,
+    "baseExperience": 93,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "28": {
+    "growthRate": 2,
+    "baseExperience": 163,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "29": {
+    "growthRate": 4,
+    "baseExperience": 59,
+    "effort": {
+      "hp": 1,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "30": {
+    "growthRate": 4,
+    "baseExperience": 117,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "31": {
+    "growthRate": 4,
+    "baseExperience": 194,
+    "effort": {
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "32": {
+    "growthRate": 4,
+    "baseExperience": 60,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "33": {
+    "growthRate": 4,
+    "baseExperience": 118,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "34": {
+    "growthRate": 4,
+    "baseExperience": 195,
+    "effort": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "35": {
+    "growthRate": 3,
+    "baseExperience": 68,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "36": {
+    "growthRate": 3,
+    "baseExperience": 129,
+    "effort": {
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "37": {
+    "growthRate": 2,
+    "baseExperience": 63,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "38": {
+    "growthRate": 2,
+    "baseExperience": 178,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 1
+    }
+  },
+  "39": {
+    "growthRate": 3,
+    "baseExperience": 76,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "40": {
+    "growthRate": 3,
+    "baseExperience": 109,
+    "effort": {
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "41": {
+    "growthRate": 2,
+    "baseExperience": 54,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "42": {
+    "growthRate": 2,
+    "baseExperience": 171,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "43": {
+    "growthRate": 4,
+    "baseExperience": 78,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "44": {
+    "growthRate": 4,
+    "baseExperience": 132,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "45": {
+    "growthRate": 4,
+    "baseExperience": 184,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "46": {
+    "growthRate": 2,
+    "baseExperience": 70,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "47": {
+    "growthRate": 2,
+    "baseExperience": 128,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "48": {
+    "growthRate": 2,
+    "baseExperience": 75,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "49": {
+    "growthRate": 2,
+    "baseExperience": 138,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "50": {
+    "growthRate": 2,
+    "baseExperience": 81,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "51": {
+    "growthRate": 2,
+    "baseExperience": 153,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "52": {
+    "growthRate": 2,
+    "baseExperience": 69,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "53": {
+    "growthRate": 2,
+    "baseExperience": 148,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "54": {
+    "growthRate": 2,
+    "baseExperience": 80,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "55": {
+    "growthRate": 2,
+    "baseExperience": 174,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "56": {
+    "growthRate": 2,
+    "baseExperience": 74,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "57": {
+    "growthRate": 2,
+    "baseExperience": 149,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "58": {
+    "growthRate": 1,
+    "baseExperience": 91,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "59": {
+    "growthRate": 1,
+    "baseExperience": 213,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "60": {
+    "growthRate": 4,
+    "baseExperience": 77,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "61": {
+    "growthRate": 4,
+    "baseExperience": 131,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "62": {
+    "growthRate": 4,
+    "baseExperience": 185,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 3,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "63": {
+    "growthRate": 4,
+    "baseExperience": 73,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "64": {
+    "growthRate": 4,
+    "baseExperience": 145,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "65": {
+    "growthRate": 4,
+    "baseExperience": 186,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "66": {
+    "growthRate": 4,
+    "baseExperience": 88,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "67": {
+    "growthRate": 4,
+    "baseExperience": 146,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "68": {
+    "growthRate": 4,
+    "baseExperience": 193,
+    "effort": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "69": {
+    "growthRate": 4,
+    "baseExperience": 84,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "70": {
+    "growthRate": 4,
+    "baseExperience": 151,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "71": {
+    "growthRate": 4,
+    "baseExperience": 191,
+    "effort": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "72": {
+    "growthRate": 1,
+    "baseExperience": 105,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "73": {
+    "growthRate": 1,
+    "baseExperience": 205,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "74": {
+    "growthRate": 4,
+    "baseExperience": 86,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "75": {
+    "growthRate": 4,
+    "baseExperience": 134,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "76": {
+    "growthRate": 4,
+    "baseExperience": 177,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 3,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "77": {
+    "growthRate": 2,
+    "baseExperience": 152,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "78": {
+    "growthRate": 2,
+    "baseExperience": 192,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "79": {
+    "growthRate": 2,
+    "baseExperience": 99,
+    "effort": {
+      "hp": 1,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "80": {
+    "growthRate": 2,
+    "baseExperience": 164,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "81": {
+    "growthRate": 2,
+    "baseExperience": 89,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "82": {
+    "growthRate": 2,
+    "baseExperience": 161,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "83": {
+    "growthRate": 2,
+    "baseExperience": 94,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "84": {
+    "growthRate": 2,
+    "baseExperience": 96,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "85": {
+    "growthRate": 2,
+    "baseExperience": 158,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "86": {
+    "growthRate": 2,
+    "baseExperience": 100,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "87": {
+    "growthRate": 2,
+    "baseExperience": 176,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "88": {
+    "growthRate": 2,
+    "baseExperience": 90,
+    "effort": {
+      "hp": 1,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "89": {
+    "growthRate": 2,
+    "baseExperience": 157,
+    "effort": {
+      "hp": 1,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "90": {
+    "growthRate": 1,
+    "baseExperience": 97,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "91": {
+    "growthRate": 1,
+    "baseExperience": 203,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "92": {
+    "growthRate": 4,
+    "baseExperience": 95,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "93": {
+    "growthRate": 4,
+    "baseExperience": 126,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "94": {
+    "growthRate": 4,
+    "baseExperience": 190,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "95": {
+    "growthRate": 2,
+    "baseExperience": 108,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "96": {
+    "growthRate": 2,
+    "baseExperience": 102,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "97": {
+    "growthRate": 2,
+    "baseExperience": 165,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "98": {
+    "growthRate": 2,
+    "baseExperience": 115,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "99": {
+    "growthRate": 2,
+    "baseExperience": 206,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "100": {
+    "growthRate": 2,
+    "baseExperience": 103,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "101": {
+    "growthRate": 2,
+    "baseExperience": 150,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "102": {
+    "growthRate": 1,
+    "baseExperience": 98,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "103": {
+    "growthRate": 1,
+    "baseExperience": 212,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "104": {
+    "growthRate": 2,
+    "baseExperience": 87,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "105": {
+    "growthRate": 2,
+    "baseExperience": 124,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "106": {
+    "growthRate": 2,
+    "baseExperience": 139,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "107": {
+    "growthRate": 2,
+    "baseExperience": 140,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "108": {
+    "growthRate": 2,
+    "baseExperience": 127,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "109": {
+    "growthRate": 2,
+    "baseExperience": 114,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "110": {
+    "growthRate": 2,
+    "baseExperience": 173,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "111": {
+    "growthRate": 1,
+    "baseExperience": 135,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "112": {
+    "growthRate": 1,
+    "baseExperience": 204,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "113": {
+    "growthRate": 3,
+    "baseExperience": 255,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "114": {
+    "growthRate": 2,
+    "baseExperience": 166,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "115": {
+    "growthRate": 2,
+    "baseExperience": 175,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "116": {
+    "growthRate": 2,
+    "baseExperience": 83,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "117": {
+    "growthRate": 2,
+    "baseExperience": 155,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "118": {
+    "growthRate": 2,
+    "baseExperience": 111,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "119": {
+    "growthRate": 2,
+    "baseExperience": 170,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "120": {
+    "growthRate": 1,
+    "baseExperience": 106,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "121": {
+    "growthRate": 1,
+    "baseExperience": 207,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "122": {
+    "growthRate": 2,
+    "baseExperience": 136,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 2,
+      "spe": 0
+    }
+  },
+  "123": {
+    "growthRate": 2,
+    "baseExperience": 187,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "124": {
+    "growthRate": 2,
+    "baseExperience": 137,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "125": {
+    "growthRate": 2,
+    "baseExperience": 156,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "126": {
+    "growthRate": 2,
+    "baseExperience": 167,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 2,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "127": {
+    "growthRate": 1,
+    "baseExperience": 200,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "128": {
+    "growthRate": 1,
+    "baseExperience": 211,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "129": {
+    "growthRate": 1,
+    "baseExperience": 20,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 1
+    }
+  },
+  "130": {
+    "growthRate": 1,
+    "baseExperience": 214,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "131": {
+    "growthRate": 1,
+    "baseExperience": 219,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "132": {
+    "growthRate": 2,
+    "baseExperience": 61,
+    "effort": {
+      "hp": 1,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "133": {
+    "growthRate": 2,
+    "baseExperience": 92,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 1,
+      "spe": 0
+    }
+  },
+  "134": {
+    "growthRate": 2,
+    "baseExperience": 196,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "135": {
+    "growthRate": 2,
+    "baseExperience": 197,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "136": {
+    "growthRate": 2,
+    "baseExperience": 198,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "137": {
+    "growthRate": 2,
+    "baseExperience": 130,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 1,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "138": {
+    "growthRate": 2,
+    "baseExperience": 120,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "139": {
+    "growthRate": 2,
+    "baseExperience": 199,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "140": {
+    "growthRate": 2,
+    "baseExperience": 119,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "141": {
+    "growthRate": 2,
+    "baseExperience": 201,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "142": {
+    "growthRate": 1,
+    "baseExperience": 202,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 2
+    }
+  },
+  "143": {
+    "growthRate": 1,
+    "baseExperience": 154,
+    "effort": {
+      "hp": 2,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "144": {
+    "growthRate": 1,
+    "baseExperience": 215,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 3,
+      "spe": 0
+    }
+  },
+  "145": {
+    "growthRate": 1,
+    "baseExperience": 216,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "146": {
+    "growthRate": 1,
+    "baseExperience": 217,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "147": {
+    "growthRate": 1,
+    "baseExperience": 67,
+    "effort": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "148": {
+    "growthRate": 1,
+    "baseExperience": 144,
+    "effort": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "149": {
+    "growthRate": 1,
+    "baseExperience": 218,
+    "effort": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "150": {
+    "growthRate": 1,
+    "baseExperience": 220,
+    "effort": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spa": 3,
+      "spd": 0,
+      "spe": 0
+    }
+  },
+  "151": {
+    "growthRate": 4,
+    "baseExperience": 64,
+    "effort": {
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 0
+    }
+  }
+}

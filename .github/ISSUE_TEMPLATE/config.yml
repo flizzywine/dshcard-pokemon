@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: DSH Tavern 本体
+    url: https://github.com/flizzywine/dsh-tavern
+    about: 与角色卡无关的宿主问题可先查看本体文档与问题列表

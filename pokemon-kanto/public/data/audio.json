@@ -1,0 +1,84 @@
+{
+  "bgm": {
+    "wild": {
+      "file": "assets/audio/wild.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 18 Battle (VS Wild Pokemon)"
+    },
+    "trainer": {
+      "file": "assets/audio/trainer.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 11 Battle (VS Trainer)"
+    },
+    "gym": {
+      "file": "assets/audio/gym.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 27 Battle (VS Gym Leader)"
+    },
+    "rival": {
+      "file": "assets/audio/rival.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 70 The Last Battle (VS Rival)"
+    },
+    "wildVictory": {
+      "file": "assets/audio/wild-victory.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 19 Victory (VS Wild Pokemon)"
+    },
+    "trainerVictory": {
+      "file": "assets/audio/trainer-victory.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 12 Victory (VS Trainer)"
+    },
+    "gymVictory": {
+      "file": "assets/audio/gym-victory.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 28 Victory (VS Gym Leader)"
+    }
+  },
+  "sfx": {
+    "hit": {
+      "file": "assets/audio/hit-normal.wav",
+      "source": "https://soundeffects.fandom.com/wiki/Pok%C3%A9mon_Damage",
+      "gameSample": "Ruby_000D.wav (Gen III; FRLG also listed as using this damage sound)"
+    },
+    "capture": {
+      "file": "assets/audio/caught.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 54 Fanfare! Pokemon Caught",
+      "kind": "fanfare/music cue, not a short Poké Ball impact SFX"
+    },
+    "heal": {
+      "file": "assets/audio/heal.ogg",
+      "source": "https://enls.eu/prelooped/album/?game=FRLG",
+      "track": "FRLG 23 Pokemon Recovery",
+      "kind": "original recovery cue"
+    },
+    "superEffective": {
+      "file": "assets/audio/hit-super-effective.wav",
+      "source": "https://soundeffects.fandom.com/wiki/Pok%C3%A9mon_Super_Effective_Damage",
+      "gameSample": "Ruby_000E.wav (Gen III; FRLG also listed as using this sound)"
+    },
+    "notVeryEffective": {
+      "file": "assets/audio/hit-not-effective.wav",
+      "source": "https://soundeffects.fandom.com/wiki/Pok%C3%A9mon_Not_Very_Effective_Damage",
+      "gameSample": "Ruby_000C.wav (Gen III; FRLG also listed as using this sound)"
+    },
+    "menu": null,
+    "fail": null
+  },
+  "moves": {
+    "scratch": {
+      "file": null,
+      "source": "FRLG SE_M_SCRATCH is ID 148 (0x94) in pret/pokefirered; exact firered_0094.wav is listed in The Sounds Resource archive, but that archive download returned HTTP 403 in this environment."
+    },
+    "tackle": {
+      "file": null,
+      "source": "No dedicated SE_M_TACKLE symbol found in the fixed pret/pokefirered song constants; no named original clip was verified."
+    },
+    "growl": {
+      "file": null,
+      "source": "No dedicated SE_M_GROWL symbol found in the fixed pret/pokefirered song constants; no named original clip was verified."
+    }
+  }
+}

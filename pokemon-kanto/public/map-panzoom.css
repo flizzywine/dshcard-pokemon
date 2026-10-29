@@ -1,0 +1,10 @@
+/* Add this stylesheet after style.css to enable the painted-map pan and zoom controls. */
+.map-wrap { overflow: hidden; touch-action: none; }
+.map-panzoom-layer { position: absolute; inset: 0; transform-origin: 0 0; will-change: transform; }
+.map-panzoom-layer .map-art,
+.map-panzoom-layer > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.map-panzoom-layer .map-art { object-fit: contain; pointer-events: none; }
+.map-panzoom-controls { position: absolute; z-index: 5; right: 10px; bottom: 10px; display: flex; gap: 5px; }
+.map-panzoom-controls button { min-width: 36px; min-height: 36px; padding: 5px 9px; border: 1px solid #d8bd82; border-radius: 10px; color: #fff7df; background: #182c29e8; box-shadow: 0 3px 12px #11231f55; font: 700 16px/1 system-ui, sans-serif; cursor: pointer; }
+.map-panzoom-controls button:hover { background: #31534b; }
+.map-wrap.is-panning { cursor: grabbing; }

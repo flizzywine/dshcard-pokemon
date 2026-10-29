@@ -1,0 +1,12 @@
+{
+  "image": "assets/maps/kanto-region-painted-v1.png",
+  "fallback": "assets/maps/kanto-region.svg",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "d04353a2c416c20a7bafbec31a532a61897b4b6742e8f877937e92c7935e8cf5",
+  "generated": true,
+  "tool": "built-in image_gen",
+  "sourcePath": "<LOCAL_HOME>/.codex/generated_images/01a16825-a621-7960-8af3-e26e8fa60297/exec-c1677794-ff42-4134-9dda-8905c194aa0d.png",
+  "promptFile": "generated-art-092.md",
+  "coordinateSystem": "map.json x/y, 0–100; artwork is illustrative and does not change authoritative node coordinates"
+}

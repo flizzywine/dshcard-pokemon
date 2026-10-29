@@ -1,0 +1,404 @@
+/* Kanto native-stage skin. Every rule is scoped to this addon wrapper. */
+.kanto-stage-shell {
+  --kanto-ink: #183149;
+  --kanto-green: #34785e;
+  --kanto-green-dark: #285e4b;
+  --kanto-paper: #fffdf5;
+  --kanto-panel: #f1f4e9;
+  --kanto-line: #b7c6b8;
+  --kanto-red: #bd4c45;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--kanto-ink);
+  background: #e8eee6;
+  font-family: Nunito, "Microsoft YaHei", sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  isolation: isolate;
+}
+
+.kanto-stage-shell *, .kanto-stage-shell *::before, .kanto-stage-shell *::after { box-sizing: border-box; }
+.kanto-stage-shell button, .kanto-stage-shell select { font: inherit; }
+.kanto-stage-shell .encounter-settings { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:10px; padding:8px; border:1px solid var(--kanto-line); border-radius:8px; background:var(--kanto-paper); }
+.kanto-stage-shell .encounter-settings label { display:flex; align-items:center; gap:6px; color:var(--kanto-ink); font-size:12px; }
+.kanto-stage-shell .encounter-settings select { min-height:32px; max-width:150px; border:1px solid var(--kanto-line); border-radius:6px; padding:4px 7px; background:#fff; color:var(--kanto-ink); }
+.kanto-stage-shell .encounter-settings small { flex:1 1 100%; color:#8b5d2d; }
+.kanto-stage-shell .cosmetic-disclosure,.kanto-stage-shell .tile-world-disclosure { margin-top:10px; border:1px solid var(--kanto-line); border-radius:8px; background:var(--kanto-paper); }
+.kanto-stage-shell .cosmetic-disclosure>summary,.kanto-stage-shell .tile-world-disclosure>summary { padding:9px; color:var(--kanto-green-dark); font-weight:800; cursor:pointer; }
+.kanto-stage-shell .rocket-event-card { display:grid; gap:7px; margin:8px 0; padding:10px; border:1px solid var(--kanto-line); border-radius:8px; background:var(--kanto-paper); }
+.kanto-stage-shell .double-active-grid { position:absolute; z-index:3; inset:12% 4%; display:grid; grid-template-columns:1fr 1fr; align-items:center; pointer-events:none; }
+.kanto-stage-shell .double-active-grid[hidden] { display:none; }
+.kanto-stage-shell .double-active-side { display:flex; align-items:center; gap:8px; }
+.kanto-stage-shell .double-active-side[data-side="foe"] { justify-self:end; }
+.kanto-stage-shell .double-active-card { display:grid; justify-items:center; gap:3px; width:clamp(82px,15vw,145px); padding:7px; border:1px solid #ffffff9c; border-radius:10px; color:var(--kanto-ink); background:#f7f8e9dd; box-shadow:0 5px 16px #17202a40; text-align:center; }
+.kanto-stage-shell .double-active-sprite { width:70px; height:70px; object-fit:contain; }
+.kanto-stage-shell .arena.is-doubles .status-card,.kanto-stage-shell .arena.is-doubles>.pokemon-sprite { display:none!important; }
+.kanto-stage-shell .move-grid>.doubles-commands { grid-column:1 / -1; width:100%; }
+.kanto-stage-shell:not(.is-fullscreen) { height: auto; min-height: 540px; }
+.kanto-stage-shell:not(.is-fullscreen) .kanto-stage-viewport { height: 420px; flex: 0 0 auto; }
+.kanto-stage-shell:not(.is-fullscreen):not([data-kanto-mode="story"]) .kanto-stage-viewport { height: 680px; }
+.kanto-stage-shell.is-fullscreen .kanto-stage-viewport { height: 0; }
+
+.kanto-stage-shell .kanto-stage-header {
+  z-index: 3;
+  flex: 0 0 auto;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px clamp(12px, 2.4vw, 28px);
+  color: var(--kanto-ink);
+  background: var(--kanto-paper);
+  border-bottom: 1px solid var(--kanto-line);
+  box-shadow: 0 2px 8px rgba(24, 49, 73, .07);
+}
+.kanto-stage-shell .kanto-stage-brand { flex: 0 0 auto; display: flex; align-items: center; gap: 16px; font-size: 16px; font-weight: 900; letter-spacing: .01em; }
+.kanto-stage-shell .kanto-stage-location {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--kanto-green-dark);
+  font-size: 14px;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.kanto-stage-shell .kanto-stage-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #5f7180;
+  font-size: 13px;
+}
+.kanto-stage-shell .kanto-stage-meta .kanto-action { min-height: 30px; padding: 4px 8px; font-size: 12px; }
+.kanto-stage-shell .kanto-stage-settings label { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-block: 8px; }
+.kanto-stage-shell .kanto-stage-settings select { max-width: 130px; padding: 5px; color: var(--kanto-ink); background: white; }
+.kanto-stage-shell .kanto-stage-settings { flex: 0 0 auto; margin-left: auto; font-size: 13px; }
+.kanto-stage-shell .kanto-stage-settings summary { cursor: pointer; color: #526879; }
+.kanto-stage-shell .kanto-stage-settings[open] { position: relative; }
+.kanto-stage-shell .kanto-stage-settings[open] > :not(summary) {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 220px;
+  padding: 12px;
+  border: 1px solid var(--kanto-line);
+  border-radius: 8px;
+  background: var(--kanto-paper);
+  box-shadow: 0 6px 20px rgba(24, 49, 73, .16);
+}
+
+.kanto-stage-shell .kanto-stage-viewport {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: #dce7dc;
+  scrollbar-gutter: stable;
+}
+.kanto-stage-shell .kanto-stage-viewport > .dsh-tavern-stage-body {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene,
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene.is-fullscreen {
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  aspect-ratio: auto;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: linear-gradient(180deg, #d9e9dd 0%, #b8d2be 100%);
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-backdrop {
+  inset: 0;
+  background-position: center center;
+  background-size: cover;
+  filter: brightness(.72) saturate(.88);
+  transform: none;
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-backdrop.is-scene {
+  background-position: center center;
+  background-size: cover;
+  filter: brightness(.77) saturate(.9);
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-backdrop:not(.is-scene) { background-image: none; }
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene::after {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(21, 46, 55, .06) 0%, transparent 42%, rgba(14, 38, 49, .16) 100%);
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figures {
+  z-index: 1;
+  inset: 0 0 clamp(128px, 21vh, 176px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  gap: clamp(4px, 3vw, 32px);
+  padding: 10px clamp(14px, 5vw, 76px) 0;
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figure {
+  flex: 0 1 min(34%, 390px);
+  width: min(34%, 390px);
+  height: min(100%, 690px);
+  min-width: 0;
+  align-items: flex-end;
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figure-body {
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figure img {
+  display: block;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  max-height: clamp(180px, 34vh, 360px);
+  object-fit: contain;
+  object-position: center bottom;
+  image-rendering: auto;
+  filter: drop-shadow(0 9px 7px rgba(17, 35, 45, .32));
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figure-letter {
+  width: clamp(58px, 10vw, 118px);
+  margin-bottom: 24px;
+  border: 3px solid rgba(255, 253, 245, .92);
+  box-shadow: 0 5px 16px rgba(17, 35, 45, .25);
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-textbox,
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene.is-fullscreen .dsh-tavern-stage-textbox {
+  z-index: 2;
+  left: 50%;
+  right: auto;
+  bottom: 16px;
+  width: min(860px, calc(100% - 32px));
+  height: clamp(108px, 19vh, 150px);
+  min-height: 0;
+  max-height: 25vh;
+  padding: 12px clamp(14px, 2vw, 22px);
+  transform: translateX(-50%);
+  border: 2px solid rgba(255, 253, 245, .86);
+  border-radius: 9px;
+  background: rgba(20, 39, 54, .91);
+  box-shadow: 0 4px 0 rgba(12, 30, 45, .18);
+  backdrop-filter: blur(5px);
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-name,
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene.is-fullscreen .dsh-tavern-stage-name {
+  color: #f1cf78;
+  font-size: 15px;
+}
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-text,
+.kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene.is-fullscreen .dsh-tavern-stage-text {
+  color: #fffdf5;
+  font-size: clamp(14px, 1.15vw, 17px);
+  line-height: 1.55;
+}
+
+.kanto-stage-shell .kanto-stage-dock {
+  z-index: 3;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: min(38vh, 280px);
+  overflow: auto;
+  padding: 10px clamp(12px, 2vw, 22px);
+  border-top: 1px solid var(--kanto-line);
+  background: var(--kanto-paper);
+  box-shadow: 0 -2px 10px rgba(24, 49, 73, .06);
+  scrollbar-gutter: stable;
+}
+.kanto-stage-shell .kanto-stage-actions,
+.kanto-stage-shell .kanto-stage-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.kanto-stage-shell .kanto-action {
+  min-height: 40px;
+  padding: 8px 15px;
+  border: 1px solid #9eafa7;
+  border-radius: 6px;
+  background: #f7f6ec;
+  color: var(--kanto-ink);
+  font-size: 15px;
+  font-weight: 750;
+  cursor: pointer;
+  transition: background-color .14s ease, border-color .14s ease, transform .14s ease;
+}
+.kanto-stage-shell .kanto-action:hover:not(:disabled) { transform: translateY(-1px); border-color: var(--kanto-green); background: #edf4e9; }
+.kanto-stage-shell .kanto-action:disabled { opacity: .55; cursor: default; }
+.kanto-stage-shell .kanto-action.is-primary {
+  border: 2px solid var(--kanto-ink);
+  background: var(--kanto-green);
+  color: #fff;
+  box-shadow: 0 2px 0 var(--kanto-green-dark);
+  font-size: 17px;
+  font-weight: 900;
+}
+.kanto-stage-shell .kanto-action.is-primary:hover:not(:disabled) { border-color: var(--kanto-ink); background: var(--kanto-green-dark); }
+.kanto-stage-shell .kanto-stage-starters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  width: min(760px, 100%);
+  margin: 0 auto;
+}
+.kanto-stage-shell .kanto-starter {
+  min-width: 0;
+  min-height: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 2px solid #a8b9ad;
+  border-radius: 8px;
+  background: #f5f6eb;
+  color: var(--kanto-ink);
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color .15s ease, background-color .15s ease, transform .15s ease;
+}
+.kanto-stage-shell .kanto-starter:hover { transform: translateY(-2px); border-color: var(--kanto-green); background: #eaf3e7; }
+.kanto-stage-shell .kanto-starter[aria-pressed="true"],
+.kanto-stage-shell .kanto-starter.is-selected { border-color: var(--kanto-green-dark); background: #e0efe3; box-shadow: inset 0 0 0 1px var(--kanto-green-dark); }
+.kanto-stage-shell .kanto-starter img {
+  flex: 0 0 auto;
+  width: clamp(54px, 7vw, 76px);
+  height: clamp(54px, 7vw, 76px);
+  object-fit: contain;
+  image-rendering: auto;
+  filter: drop-shadow(0 3px 2px rgba(24, 49, 73, .18));
+}
+.kanto-stage-shell .kanto-starter span { min-width: 0; overflow-wrap: anywhere; }
+.kanto-stage-shell .kanto-stage-notice {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #5b6d77;
+  font-size: 13px;
+  text-align: center;
+}
+.kanto-stage-shell .kanto-stage-dock .dsh-tavern-stage-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  color: #4e6272;
+  font-size: 13px;
+}
+.kanto-stage-shell .kanto-stage-dock .dsh-tavern-stage-controls button {
+  min-width: 40px;
+  min-height: 36px;
+  height: auto;
+  padding: 6px 12px;
+  border: 1px solid var(--kanto-line);
+  border-radius: 6px;
+  background: #f8f7ed;
+  color: var(--kanto-ink);
+  font-size: 14px;
+}
+
+.kanto-stage-shell[data-kanto-mode="battle"] .kanto-stage-viewport {
+  flex: 1 0 auto;
+  min-height: 560px;
+}
+.kanto-stage-shell[data-kanto-mode="battle"] {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.kanto-stage-shell[data-kanto-mode="battle"] .kanto-stage-viewport > .dsh-tavern-stage-body,
+.kanto-stage-shell[data-kanto-mode="battle"] .kanto-stage-viewport .dsh-tavern-stage-scene {
+  min-height: inherit;
+}
+.kanto-stage-shell[data-kanto-mode="battle"] .kanto-stage-dock { max-height: min(30vh, 190px); }
+
+@media (max-width: 680px) {
+  .kanto-stage-shell .kanto-stage-header { min-height: 49px; gap: 8px; padding: 6px 10px; }
+  .kanto-stage-shell .kanto-stage-brand { font-size: 13px; flex-direction: column; align-items: flex-start; gap: 0; }
+  .kanto-stage-shell .kanto-stage-location { font-size: 12px; }
+  .kanto-stage-shell .kanto-stage-meta { display: flex; gap: 5px; }
+  .kanto-stage-shell .kanto-stage-meta > span { display: none; }
+  .kanto-stage-shell .kanto-stage-meta .kanto-action { padding-inline: 5px; font-size: 11px; }
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figures { bottom: 132px; padding-right: 5px; padding-left: 5px; }
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figure { flex-basis: 46%; width: 46%; height: 90%; }
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-textbox,
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene.is-fullscreen .dsh-tavern-stage-textbox {
+    bottom: 8px;
+    width: calc(100% - 16px);
+    height: clamp(108px, 22vh, 142px);
+    padding: 9px 12px;
+  }
+  .kanto-stage-shell .kanto-stage-dock { gap: 7px; max-height: 36vh; padding: 8px; }
+  .kanto-stage-shell .kanto-stage-starters { gap: 6px; }
+  .kanto-stage-shell .kanto-starter { min-height: 72px; flex-direction: column; gap: 2px; padding: 5px 3px; font-size: 13px; text-align: center; }
+  .kanto-stage-shell .kanto-starter img { width: 48px; height: 48px; }
+  .kanto-stage-shell .kanto-action { min-height: 38px; padding: 7px 11px; font-size: 14px; }
+  .kanto-stage-shell .kanto-action.is-primary { font-size: 16px; }
+}
+
+@media (max-height: 620px) {
+  .kanto-stage-shell .kanto-stage-header { min-height: 44px; }
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-figures { bottom: 114px; }
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-textbox,
+  .kanto-stage-shell .kanto-stage-viewport .dsh-tavern-stage-scene.is-fullscreen .dsh-tavern-stage-textbox { height: 104px; bottom: 6px; padding-block: 7px; }
+  .kanto-stage-shell .kanto-stage-dock { gap: 5px; max-height: 34vh; padding-block: 6px; }
+  .kanto-stage-shell[data-kanto-mode="battle"] .kanto-stage-viewport { min-height: clamp(360px, calc(100dvh - 150px), 560px); }
+  .kanto-stage-shell .kanto-starter { min-height: 64px; }
+  .kanto-stage-shell .kanto-starter img { width: 42px; height: 42px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kanto-stage-shell *, .kanto-stage-shell *::before, .kanto-stage-shell *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
+
+.kanto-story-choices{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 8px}.kanto-story-choices .kanto-action{min-height:44px;max-width:100%;white-space:normal;text-align:left;background:#f8f4df;color:#244d42;border-color:#abc2ae}.machine-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.machine-controls small{flex-basis:100%}
+
+/* Keep the scene in view while making nearby actions and travel easy to scan. */
+.kanto-stage-shell .kanto-stage-meta{flex-wrap:wrap;row-gap:5px}
+.kanto-stage-shell .kanto-stage-meta>label{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.kanto-stage-shell .kanto-stage-meta>label select{min-height:30px;max-width:180px;border:1px solid var(--kanto-line);border-radius:5px;background:var(--kanto-paper);color:var(--kanto-ink);padding:3px 5px}
+.kanto-stage-shell .kanto-stage-action-groups{display:grid;gap:6px;max-width:1120px;width:100%;margin-inline:auto}
+.kanto-stage-shell .kanto-action-group{display:grid;grid-template-columns:42px minmax(0,1fr);gap:10px;align-items:start}
+.kanto-stage-shell .kanto-action-group-label{padding-top:11px;font-size:12px;color:#647b6b;letter-spacing:.08em}
+.kanto-stage-shell .kanto-action-group .kanto-stage-actions{justify-content:flex-start;gap:6px}
+.kanto-stage-shell .kanto-action-group .kanto-action{min-height:36px;padding:6px 12px;font-size:14px}
+.kanto-stage-shell .kanto-action-group .kanto-action.is-primary{font-size:15px}
+.kanto-stage-shell .kanto-stage-nav{padding-top:7px;border-top:1px solid #dce5d8}
+.kanto-stage-shell :is(button,select,summary,textarea):focus-visible{outline:3px solid #d5aa4e;outline-offset:3px}
+.kanto-stage-shell .kanto-quest-offers article>strong{display:block;font-size:15px;color:#204c3b}
+.kanto-stage-shell .kanto-quest-offers article>small{line-height:1.5}
+@media(max-width:900px){.kanto-stage-shell .kanto-stage-header{align-items:flex-start}.kanto-stage-shell .kanto-stage-brand{align-items:flex-start;flex-direction:column;gap:1px}.kanto-stage-shell .kanto-stage-meta{gap:5px 8px;font-size:12px}.kanto-stage-shell .kanto-stage-meta>label select{max-width:130px}}
+@media(max-width:520px){.kanto-stage-shell .kanto-stage-header{gap:6px}.kanto-stage-shell .kanto-stage-meta{max-width:70%}.kanto-stage-shell .kanto-stage-brand strong{max-width:90px;font-size:12px}.kanto-stage-shell .kanto-action-group{grid-template-columns:28px minmax(0,1fr);gap:5px}.kanto-stage-shell .kanto-action-group-label{font-size:11px}.kanto-stage-shell .kanto-action-group .kanto-action{min-height:38px;padding:6px 9px;font-size:13px}}

@@ -1,0 +1,217 @@
+[
+  {
+    "id": "grass",
+    "name": "草地战场",
+    "terrain": "grass",
+    "image": "assets/backgrounds/battle/grass.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [
+      "route1",
+      "route2",
+      "route3",
+      "route5",
+      "route6",
+      "route7",
+      "route8",
+      "route9",
+      "route11",
+      "route12",
+      "route13",
+      "route14",
+      "route15",
+      "route16",
+      "route17",
+      "route18",
+      "route22",
+      "route24",
+      "route25"
+    ],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/grass/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/grass/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/grass/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/grass/terrain.pal"
+  },
+  {
+    "id": "longgrass",
+    "name": "高草战场",
+    "terrain": "longgrass",
+    "image": "assets/backgrounds/battle/longgrass.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [
+      "viridian-forest",
+      "route1",
+      "route2",
+      "route3",
+      "route5",
+      "route6",
+      "route7",
+      "route8",
+      "route9",
+      "route11",
+      "route12",
+      "route13",
+      "route14",
+      "route15",
+      "route16",
+      "route17",
+      "route18",
+      "route22",
+      "route24",
+      "route25"
+    ],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/longgrass/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/longgrass/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/longgrass/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/longgrass/terrain.pal"
+  },
+  {
+    "id": "indoor",
+    "name": "室内战场",
+    "terrain": "indoor",
+    "image": "assets/backgrounds/battle/indoor.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [
+      "pallet",
+      "viridian",
+      "pewter",
+      "cerulean",
+      "vermilion",
+      "lavender",
+      "celadon",
+      "fuchsia",
+      "saffron",
+      "cinnabar",
+      "indigo",
+      "pokemon-tower"
+    ],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/indoor/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/terrain.bin",
+    "paletteSources": {
+      "plain": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/plain.pal",
+      "gym": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/gym.pal",
+      "leader": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/leader.pal",
+      "lorelei": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/lorelei.pal",
+      "bruno": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/bruno.pal",
+      "agatha": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/agatha.pal",
+      "lance": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/lance.pal",
+      "champion": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/indoor/champion.pal"
+    }
+  },
+  {
+    "id": "building",
+    "name": "建筑室内战场",
+    "terrain": "building",
+    "image": "assets/backgrounds/battle/building.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [
+      "pallet",
+      "viridian",
+      "pewter",
+      "cerulean",
+      "vermilion",
+      "lavender",
+      "celadon",
+      "fuchsia",
+      "saffron",
+      "cinnabar",
+      "indigo"
+    ],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/building/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/building/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/building/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/building/terrain.pal"
+  },
+  {
+    "id": "cave",
+    "name": "洞窟战场",
+    "terrain": "cave",
+    "image": "assets/backgrounds/battle/cave.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [
+      "mt-moon",
+      "rock-tunnel",
+      "diglett-cave",
+      "seafoam",
+      "victory-road",
+      "cerulean-cave"
+    ],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/cave/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/cave/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/cave/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/cave/terrain.pal"
+  },
+  {
+    "id": "water",
+    "name": "水面战场",
+    "terrain": "water",
+    "image": "assets/backgrounds/battle/water.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [
+      "route19",
+      "route20",
+      "route21",
+      "seafoam"
+    ],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/water/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/water/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/water/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/water/terrain.pal"
+  },
+  {
+    "id": "pond",
+    "name": "池塘战场",
+    "terrain": "pond",
+    "image": "assets/backgrounds/battle/pond.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/pond/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/pond/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/pond/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/pond/terrain.pal"
+  },
+  {
+    "id": "sand",
+    "name": "沙地战场",
+    "terrain": "sand",
+    "image": "assets/backgrounds/battle/sand.png",
+    "renderAs": "terrain-tile-atlas",
+    "locations": [],
+    "source": {
+      "repository": "pret/pokefirered",
+      "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+      "path": "graphics/battle_terrain/sand/terrain.png",
+      "url": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/sand/terrain.png"
+    },
+    "layoutSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/sand/terrain.bin",
+    "paletteSource": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/graphics/battle_terrain/sand/terrain.pal"
+  }
+]

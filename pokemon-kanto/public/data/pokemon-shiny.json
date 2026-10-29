@@ -1,0 +1,3631 @@
+{
+  "sourceRepository": "https://github.com/PokeAPI/sprites",
+  "sourceCommit": "97a7832d307311c0e1c6ea9035308bf80cc94f81",
+  "note": "Shiny official artwork and FireRed/LeafGreen front/back variants; local assets, no recoloring filter.",
+  "entries": [
+    {
+      "id": 1,
+      "back": {
+        "image": "assets/pokemon/shiny/back/1.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/1.png",
+        "sha256": "4b992cbec7d251f640125d2313da2e979878e28e1a60f83faf96545f20b9b8a9",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/1.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/1.png",
+        "sha256": "c954940ab5c4b0e475831ab26844415f1de1f254837c7bf6cb43422feef6f16b",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/1.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/1.png",
+        "sha256": "522504d818f95be0f35f72976cbfe42160de28bc8bab53207b80775b23e2bb6c",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 2,
+      "front": {
+        "image": "assets/pokemon/shiny/2.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/2.png",
+        "sha256": "f2d5656b1b1d34a2f70652f4b5e2d8f565df3c00cd5dc504807566b533734c4b",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/2.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/2.png",
+        "sha256": "0fbd3d59f57e1611746537d51f98f53ff41879293864064fe6c87248ff449b32",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/2.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/2.png",
+        "sha256": "b5184d59da68c4f1f7539637a940c47b88dc7e4024101135af8e01310f634765",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 3,
+      "front": {
+        "image": "assets/pokemon/shiny/3.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/3.png",
+        "sha256": "c79cfb027fd7ecfd303f95954908accdf075f3d0f75e8285e27abe7722477e74",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/3.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/3.png",
+        "sha256": "2ae273f94c8b570f5c733f6443fc3b2be9a2c4f3c516859f78ba4c9245088b00",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/3.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/3.png",
+        "sha256": "cd98105bb21cf579a378d1eda6f17c0b13ad7b12c0e8a48e7262163bb30ae787",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 4,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/4.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/4.png",
+        "sha256": "6625bdeb1c422e728f7ccb9ac743fd09a159f21de0f5bf591e37ddb31e082780",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/4.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/4.png",
+        "sha256": "3ca7f51e09a737f26b8cece93e1234f90365ce0767f10b7bc97eea5af9d561d0",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/4.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/4.png",
+        "sha256": "7a8af7f483787ef3ce92052a811230b4d619d504b4c14d3a5b091dc33417e5ec",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 5,
+      "back": {
+        "image": "assets/pokemon/shiny/back/5.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/5.png",
+        "sha256": "3f1d8b9db67cda712a3699a5da99c2042f79e6bb73b78826a3777140ac73e5f7",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/5.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/5.png",
+        "sha256": "b0ace6a143d61c90f3ffd9c16edc50a1c34c1a4e023674ad1f18ca3acb4c27a2",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/5.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/5.png",
+        "sha256": "3a3f881545f5a02e6d3d42196bf04f04b12d9f98002b4e5f758a149359136ea1",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 6,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/6.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/6.png",
+        "sha256": "797c3ec040f361bf57b7cf6ae9e2ff1367f0d512d29b8b6a869b46fe7d30ffd4",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/6.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/6.png",
+        "sha256": "d7306c16856a32fc5fc5378dd37fa26bb881ae4f5e82747681eda7a0b5793dc3",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/6.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/6.png",
+        "sha256": "e27ae0732401f2aefa734318a4c3c88c011d39877a43a6f42db6a5e274582b44",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 7,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/7.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/7.png",
+        "sha256": "a065c2e574f97941e8f61664116b13133785a6e7d529ebce9539b9ca09ad8788",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/7.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/7.png",
+        "sha256": "1ad5e4a51806d52138d82a1f18553a6622dfe848196d1cf39e163e6918c08854",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/7.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/7.png",
+        "sha256": "4d3b6f4cf78005fff8f00a5d8aaef4acb242488757d25881e0a9adac7620a0b4",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 8,
+      "front": {
+        "image": "assets/pokemon/shiny/8.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/8.png",
+        "sha256": "ea6a52c1645fd694ce3433c35874c7d00464feba7ba35b7035c0153f1223d330",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/8.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/8.png",
+        "sha256": "b298934eadc6cdb2aa20102d9fe38b6ca0f348f64e9f1a7acd8b0bb8cbd5114e",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/8.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/8.png",
+        "sha256": "27048f2b491edf470696dcd2d1e87427ebaf0c0dd68af11dc3b163932133e91a",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 9,
+      "back": {
+        "image": "assets/pokemon/shiny/back/9.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/9.png",
+        "sha256": "9a04e4ba3e4460b93e6c0d07154dd768c6bea59b17ebb4d5a59d257d9ee67dbb",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/9.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/9.png",
+        "sha256": "0fd013e95618369daaa9e638d87de58107613ba5afc4ed80a01cfef2fdc52998",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/9.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/9.png",
+        "sha256": "0584bcf7b9daf065d30a9aa9acad383676bafff08d24aab16f6a16d47932d7b5",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 10,
+      "front": {
+        "image": "assets/pokemon/shiny/10.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/10.png",
+        "sha256": "e05aab6440d74e45fe3ac98427a5481e4c1e77143938d9bd00feb6e22189e95f",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/10.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/10.png",
+        "sha256": "8c60a4381c338fa92bc45c24d723ea6896ed17b75f29f16b51c283298ce49b3a",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/10.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/10.png",
+        "sha256": "2c561e6734cdda8fb39eed07e6697ddbfbb2a87c9d74b1ffb4405018cc4c1c76",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 11,
+      "front": {
+        "image": "assets/pokemon/shiny/11.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/11.png",
+        "sha256": "54e10a610d4346da345d869ff63fa250f2d54c1dad88893122bd338542a3bfe9",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/11.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/11.png",
+        "sha256": "814fb5309c5062ac1763bab222e99f1f2b97d3e68681e5f5bfaed999faaea64a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/11.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/11.png",
+        "sha256": "93b5020dda6b84f3b877d20cf4b6442d5f56ec9f98235e75ef9bcf2b3602beb6",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 12,
+      "front": {
+        "image": "assets/pokemon/shiny/12.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/12.png",
+        "sha256": "eb7323009ef98bfffa96254f685e9abe902b83fbddc5392ac8afcaaa397e5d46",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/12.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/12.png",
+        "sha256": "0be029a87b636dd3c6be2637db8b4795773d782ef5d0bab17dd6b84009e04a38",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/12.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/12.png",
+        "sha256": "a7150607d8e16f6bb1d9dc00191fcb45b475036fccd7cfff4935cfec5acfca88",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 13,
+      "back": {
+        "image": "assets/pokemon/shiny/back/13.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/13.png",
+        "sha256": "c90da59ed57e0449721f9d78cdc4a58b0c3e34db0ed9c60f5722035a374d8ca3",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/13.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/13.png",
+        "sha256": "831120d53b3fa3ad203a6f45be1e8665ee4614078f150a06883bd2c6fdb75521",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/13.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/13.png",
+        "sha256": "12f914a6d7ffc2277f462826a05d65b908e851c87157613f84b62c33fa77d91d",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 14,
+      "front": {
+        "image": "assets/pokemon/shiny/14.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/14.png",
+        "sha256": "046e604066c5827984fe45a669f7d2836477bfc784b6c7998b132c0b2cae5276",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/14.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/14.png",
+        "sha256": "26a76cf25af4138c61ed6a3ff0153a2408e3ae83703cb465259a41aeb4f25504",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/14.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/14.png",
+        "sha256": "6f8380fd4419fdf5f64e450fe9a5c0bc2a04538a0b31c0aa1625bea7eb90ac5d",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 15,
+      "front": {
+        "image": "assets/pokemon/shiny/15.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/15.png",
+        "sha256": "c8b4dce9cdbf602447ab5e3512fd6776946573f3225e50c992d738d5632e7a81",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/15.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/15.png",
+        "sha256": "76756c469e5d1c266cc16be97278a4c092ee4c253804fa227e300e9c3c6969bc",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/15.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/15.png",
+        "sha256": "dae0252f34e0c7a3cccbb9ca6b9e5f39e8dc9ccfded39dc64cfc81303995e34f",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 16,
+      "front": {
+        "image": "assets/pokemon/shiny/16.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/16.png",
+        "sha256": "ad7e93ef09a513b03cf6eaa7f96f16c89a76b9543baee9400dc348b71c658ce7",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/16.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/16.png",
+        "sha256": "3e174b584f818aa0722310666d80b613436c993418f56ecf2af45145ae16e836",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/16.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/16.png",
+        "sha256": "81938dcabd3725cd6408f093643c50c4a094209a8054f9bc55c60dc317126987",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 17,
+      "back": {
+        "image": "assets/pokemon/shiny/back/17.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/17.png",
+        "sha256": "44ad9a9e5010504b385b9eb44f329fe59e447376b911ede25c2d89635639516c",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/17.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/17.png",
+        "sha256": "09903c48823606e405a20b29a16d651250adde564083a47bb508f85314766248",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/17.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/17.png",
+        "sha256": "6c9b5ee8832850a7044627d56b77c36c1491a5da4d4feeb49cf400b89d342c81",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 18,
+      "front": {
+        "image": "assets/pokemon/shiny/18.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/18.png",
+        "sha256": "ffa6a79c8c172ac7110c1c81892bfc917a8c098c697e55a1c77d96df9568c5bb",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/18.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/18.png",
+        "sha256": "9b7bebdc9ddce581b2695ebc8feef686f861347dddf059d92966c7ebe90d38fa",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/18.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/18.png",
+        "sha256": "a383bacd92f733e5a03069da81940ba0534a775af469ecde236dd34b98e2ed98",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 19,
+      "front": {
+        "image": "assets/pokemon/shiny/19.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/19.png",
+        "sha256": "07d1b42faf814c39c7690186f793b99ab99743084aab3218ac84cae8df17b949",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/19.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/19.png",
+        "sha256": "6846cb8a4035b6ae607f02f96bbc52bc6bf9685c3ab58c2a9126ec0588321f04",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/19.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/19.png",
+        "sha256": "05608d7f9561b96b97b445b19353e52662355d462898a74e7384d490b09f29f4",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 20,
+      "front": {
+        "image": "assets/pokemon/shiny/20.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/20.png",
+        "sha256": "2c8313164808fc9b35f0c6400124d7ba4aab76cf97d2667bc81081802a56ba15",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/20.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/20.png",
+        "sha256": "2762fae5b5bc13b714f09da0a98952c3029a57de26e09d463bd00f492a5fcb21",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/20.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/20.png",
+        "sha256": "1ebc7e834ff838174e2718a640c32b90c67091eefb926cc73aefee6a59190fa9",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 21,
+      "front": {
+        "image": "assets/pokemon/shiny/21.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/21.png",
+        "sha256": "8d86991c2874f4ee74ba2495f633fa1ef344e0b0f9101282494b49ba5e114892",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/21.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/21.png",
+        "sha256": "7eea24a2dbb0cde610edb5e3c73d1272957b2e73624e9b671ff4dc3c5730d4b5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/21.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/21.png",
+        "sha256": "8aa67342a6bf836793ea6670635b920dbfa9c5acd1d32451ec2dfddc87073782",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 22,
+      "front": {
+        "image": "assets/pokemon/shiny/22.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/22.png",
+        "sha256": "a6b343ee83649a786b3662d71f2d1269ea30b2b488093d6fabb3cd7a53a80858",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/22.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/22.png",
+        "sha256": "96ca9cafdca7429bb3a6173dc1a3c51f3606375aa7ee4372ad614db1c2fe36ab",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/22.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/22.png",
+        "sha256": "e30990ee97afaa743a19c9d2452df903c74793134e93d2c0227ad433325d86d3",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 23,
+      "front": {
+        "image": "assets/pokemon/shiny/23.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/23.png",
+        "sha256": "a720c492d9134a96b7459d2487f14157a2d58079fd7b85d1fa9e350569e05c68",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/23.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/23.png",
+        "sha256": "a7419b960868bca039c71e4dec9142daa36bc110d4c0ceadf66a6c375982e90d",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/23.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/23.png",
+        "sha256": "3393643a138ac364054e97bc2eb1ccd4994baf60625458ade9d98051bd88fd9a",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 24,
+      "front": {
+        "image": "assets/pokemon/shiny/24.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/24.png",
+        "sha256": "fb9b8770c1546dbc797bc04baf7c7ba5a92e604eabaa37035b4bd017ff2c0fd8",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/24.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/24.png",
+        "sha256": "3fba6454ee1f073bdab395f21135624dab129ccf5a90eb34d30008c5b728003a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/24.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/24.png",
+        "sha256": "c043072c7b152b02e1bd8d43b5fecc3bd96f43dd41ca0f48d9053835c3baa3c1",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 25,
+      "front": {
+        "image": "assets/pokemon/shiny/25.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/25.png",
+        "sha256": "d7e0acf3340e1d3dec340ffdbc62661443a8f79093d5824daa491c26eff83034",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/25.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/25.png",
+        "sha256": "ec41691ad9044bc90c623519f5ca9d6e39b782ce79a56eb361f1e1c226f8229b",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/25.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/25.png",
+        "sha256": "9de578bee6665d1a45884686b1d355f67aedd43522f31e073bfd6e0f58e84a03",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 26,
+      "front": {
+        "image": "assets/pokemon/shiny/26.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/26.png",
+        "sha256": "07dd4c426905bbcb68c5b85a1df8334e8cc98200a91da7646669be37c43b077f",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/26.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/26.png",
+        "sha256": "6f182c2f508e2856ecfcfdd3d51fe0f0d01fb8228041ed23498d0dcb23885691",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/26.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/26.png",
+        "sha256": "e488d484d1da5f622f9c9e3c8135a1c3c1c7cb6c49351b21c8ca414d53ff04fb",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 27,
+      "front": {
+        "image": "assets/pokemon/shiny/27.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/27.png",
+        "sha256": "8a0d67203a924b80b7ef777bb919d21915add7062f0e426182db5219860a5f08",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/27.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/27.png",
+        "sha256": "7d410b4e76fe803915b6bf32eab29a6fde4e3d0310f8a601ddf259e411d4aca4",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/27.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/27.png",
+        "sha256": "455fb0a4f14415653d9d6051bbdb7cad88edb44abb0e593aade8ab1f25b74775",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 28,
+      "back": {
+        "image": "assets/pokemon/shiny/back/28.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/28.png",
+        "sha256": "bad7c5c0db830791ddf0efa63fd294c85870e3424ece3ab9931a76bc166a0e97",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/28.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/28.png",
+        "sha256": "1aa26d5aa2717d17635329d7ef00e724f20c76429c0ecbee32cadebea0cd6e93",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/28.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/28.png",
+        "sha256": "785ad2364f8fd640648f3d47c697049244a1c673288616bc4f050bbfaf4c2813",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 29,
+      "front": {
+        "image": "assets/pokemon/shiny/29.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/29.png",
+        "sha256": "7d6ae8554a269659826ba37ced62af9b9be8cedf0ae3d0ce95aa4c33f7c095d2",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/29.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/29.png",
+        "sha256": "2185fa2a0402a97994331bcb669e1f550eb697977b77cab2bf90e8e6ca3e53da",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/29.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/29.png",
+        "sha256": "48ca5dd95992219b99ac79b3c0b9757eb5b710ce1683b16b9b61ae425da1f25d",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 30,
+      "back": {
+        "image": "assets/pokemon/shiny/back/30.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/30.png",
+        "sha256": "e1dc25f479b07289faadc99d536194812676f890842a796f21e251c501aa7b17",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/30.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/30.png",
+        "sha256": "c46c16e004c1f5be5e880e794d894f62e8a2189aa140a5028a004155fa5f5fe8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/30.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/30.png",
+        "sha256": "33e54a78a313a53ca2c63849e23124573f2bf8fe3b8aa23836a8d03392cc3aa5",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 31,
+      "front": {
+        "image": "assets/pokemon/shiny/31.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/31.png",
+        "sha256": "0a60b26f8f202ab2a99c890525310a8b4b1ee8d166a3c22e4c8cad4649ff8fa8",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/31.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/31.png",
+        "sha256": "384660401db38ca033fa82282c7d62730b54babf01fa18e4d086a491f6182d6a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/31.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/31.png",
+        "sha256": "4ef9a662df688d3c3049be61c0e4dd8677622db3151c483f63e7162efb2c8617",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 32,
+      "front": {
+        "image": "assets/pokemon/shiny/32.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/32.png",
+        "sha256": "22df315d95fa2a805876c6a8c8b0f4550b540a6d48d692afd294db16c69e22d7",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/32.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/32.png",
+        "sha256": "e8302eb13079aa72245dd1de0f55522a4ff2bc45ce36a7f215360127f222db62",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/32.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/32.png",
+        "sha256": "84f4d74a38eaf3053c2729b1593b7de7d664d94842b54b75d246884f0d54d03a",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 33,
+      "front": {
+        "image": "assets/pokemon/shiny/33.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/33.png",
+        "sha256": "339ea3bde2d4200d5339340b2f6fabcf5a04cb2ddc5b9d8dae9a3097f5b4c210",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/33.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/33.png",
+        "sha256": "b906e884af1a69dfef52d5bd616a1f57d7fc2edf24c0d60d22a3a75007d138f6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/33.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/33.png",
+        "sha256": "9c0352411e503ad3c0af11465d32a89963a14b2cd7abd2253581c059b87dcd85",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 34,
+      "front": {
+        "image": "assets/pokemon/shiny/34.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/34.png",
+        "sha256": "43e319154961d4dfdde3fb3c124c1c209afc0f57cc1a9fb469c9026c94a86629",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/34.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/34.png",
+        "sha256": "76d0e9dbf2e1a5e5c0e43e21ff80783b584aa9b882780f3fe38593f52c5f7d13",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/34.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/34.png",
+        "sha256": "7fe8aa744ddf4b21f8da8787f524a14d9310a3b3f2086dbfe175b4574dc01f98",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 35,
+      "front": {
+        "image": "assets/pokemon/shiny/35.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/35.png",
+        "sha256": "5d4fdcad8af5244758be2107dc241b586aaf603d9e2e6784ef544e0611309c9e",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/35.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/35.png",
+        "sha256": "9c8a33416798409327fa5e9ae381eefb9d1e63f60eda06778699d2fa424336f8",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/35.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/35.png",
+        "sha256": "c038773ee9467be783f0b189f1f92effe3ec1930a0b7d9bdab4f74642232c313",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 36,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/36.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/36.png",
+        "sha256": "10e331d32467a14e526c25f5261052c233921ea52b0098cffaa57fe7a03f98f1",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/36.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/36.png",
+        "sha256": "fea19af81229e9430836ced4ad2cf5ada649e82bb1e0753ce08e387d4cf1724e",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/36.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/36.png",
+        "sha256": "5b8d1846016b3b6e27fab41ee333cc466aa95eaff299bcfadec7a50fc52397f7",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 37,
+      "front": {
+        "image": "assets/pokemon/shiny/37.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/37.png",
+        "sha256": "af97c9df284b7b3cc9f5797924554ce2672d8d55eaa63a5fced1cc23973fc187",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/37.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/37.png",
+        "sha256": "b34b81621f63bd033ba66a8ce8118908d7038e5748645909ed4cfa3a7d3bbb08",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/37.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/37.png",
+        "sha256": "fa467c5ce165204f606f1af4d347010c4e0c0bb254bd2737f8a71a49dd1e9119",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 38,
+      "front": {
+        "image": "assets/pokemon/shiny/38.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/38.png",
+        "sha256": "08772a09c1e943e5b95556fcc29ff85a4b61991f96f17fa480c644d255a2de30",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/38.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/38.png",
+        "sha256": "ec8bdc3658bdada9b57779d4ee34f2fd35661edd06726fa68460930c5a49747a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/38.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/38.png",
+        "sha256": "9ca400f4de36a04027ae9f230d624ad9acd9e868ce4844a7fa10af31cf7193d7",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 39,
+      "front": {
+        "image": "assets/pokemon/shiny/39.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/39.png",
+        "sha256": "265c5b25582e42361bab235eeaec64afbd0c88633e0f31c9a73b6b24fb2d19c0",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/39.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/39.png",
+        "sha256": "47c3332e5234394117b9959b2e98208120e693518473998d87513988e325af24",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/39.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/39.png",
+        "sha256": "1ffbe41e24d067ded5f983408e86564c7dcd4920dbeb6717a3fffa30f9ed3ab8",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 40,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/40.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/40.png",
+        "sha256": "ffea7576b6995dad8d12586ee29cc0d982fc9c9579f068bfb9d388a38ca4aff7",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/40.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/40.png",
+        "sha256": "966add3c345efd13bdfd3687d3790f73fe107ca921b337f0370310a16d42a4a4",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/40.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/40.png",
+        "sha256": "46c010f0d4e29484b42143485120ea6af93b18564681f82c927d13fe5004786f",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 41,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/41.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/41.png",
+        "sha256": "b34bc9875663045b697a7e5fae23214ec3d8ea97666aaee23390353985a4a381",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/41.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/41.png",
+        "sha256": "254364d73ec1579686cd09715321fae8761d39efb833f58ec0396382ffe956c7",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/41.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/41.png",
+        "sha256": "dd670c4a1227dcd131aa90539696fbb56d0a5fe21c86660e63d80570f1a6c602",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 42,
+      "front": {
+        "image": "assets/pokemon/shiny/42.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/42.png",
+        "sha256": "4e447b2fceecc199773bc047d843b7f6efafb6f14bd02f216280af9b7014e0f5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/42.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/42.png",
+        "sha256": "75fe783a059da7bb85b83a52d07f71de6214f1290946104169f8a462fe38b43e",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/42.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/42.png",
+        "sha256": "4d9786c28bee10129f50fe6114f651f238491ff76038970d49197228688d41b7",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 43,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/43.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/43.png",
+        "sha256": "bf54feedbc0f53db30850608260b1d2d437fdd22810e44cacc4a5a69fe9d05b6",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/43.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/43.png",
+        "sha256": "73cc6af97cc5d8967ec0d668c5f64046e93f3d33b843502c444a8804b956e1d2",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/43.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/43.png",
+        "sha256": "3768ae3f2645305478f8fd16f841602af8dc6138839500ab1e25c30ef5663497",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 44,
+      "back": {
+        "image": "assets/pokemon/shiny/back/44.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/44.png",
+        "sha256": "ae0e2b178efb624ba18678f88192f800bdb74343e5653c4179587170926dcdeb",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/44.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/44.png",
+        "sha256": "abae59b7f9e404fe1e9ccb477a49359acef751693191bb9e268712a18c81e24d",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/44.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/44.png",
+        "sha256": "1e45adaeea85de19f722a8267bab57bd9b2c5bc661f68813369bab11717e114b",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 45,
+      "front": {
+        "image": "assets/pokemon/shiny/45.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/45.png",
+        "sha256": "2b28f705023031cfcbaec40470a8d66c70d697b8769e09f7fb47d3916baef59d",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/45.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/45.png",
+        "sha256": "4b3cda8e2f0653d6a8c91398c07fdacaaae28c8160c095d07f8613e643602f7f",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/45.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/45.png",
+        "sha256": "a9f1eb0a0904a60ca3a75c2b37876218702486069fe67e78fc27527e5b617bf2",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 46,
+      "back": {
+        "image": "assets/pokemon/shiny/back/46.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/46.png",
+        "sha256": "30245ca67ebf53ed42da08bae5e4f6f111965b4af7af70e64684be2c8dd9ed1e",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/46.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/46.png",
+        "sha256": "8cc2e06ca6ef6d7ce1fd75cdfb3ec8674382857672f81a71c9b877306c4504f3",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/46.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/46.png",
+        "sha256": "5ac21d9855e5f05c12cffafcb6131d39e5b2ead549902306d500ce55869a9a49",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 47,
+      "back": {
+        "image": "assets/pokemon/shiny/back/47.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/47.png",
+        "sha256": "208e2223fa9b0bb3a8871d38fa8e5afe8b9297d1ee8e74b379db12bd96642664",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/47.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/47.png",
+        "sha256": "561ce5c13135e2f517ae0da5a1563cc8343e57d22ba434cf103c2d3509f3b60a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/47.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/47.png",
+        "sha256": "a8cd09ed166b40e6664bbb2e95a04dd2537ee1ef1133e1265342d8c7007ca489",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 48,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/48.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/48.png",
+        "sha256": "66d69621b286188bbf2194b9d5c05dbcdddb21d3fa17d4497c317aa824377f06",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/48.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/48.png",
+        "sha256": "7956d2b1f985a872246e75f55849d8b1183543f6cdb2730e557687f3c722a9ac",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/48.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/48.png",
+        "sha256": "2378916b74f3f5cf6bc102e83548943d25f958d14c904dda6e0975a276b9e363",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 49,
+      "front": {
+        "image": "assets/pokemon/shiny/49.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/49.png",
+        "sha256": "362a6218947804cc90a88c0541bb92cd4b613d590ab7f0106d6c9d6ad4c967db",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/49.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/49.png",
+        "sha256": "2d5edb6542ea25503cd07edc8042687570d60cf0e5e57286ce4874512a221cbe",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/49.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/49.png",
+        "sha256": "c2cbe506be909f0b8aaa22d854f3409c92a1cd73bc3902afccbe42982d7178e6",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 50,
+      "front": {
+        "image": "assets/pokemon/shiny/50.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/50.png",
+        "sha256": "11ee5740a817ff0cb7da09cd992df6872d64e570941bc56191640911159caf5f",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/50.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/50.png",
+        "sha256": "15d5dcb83288a16dc1684481df60226520af8e42820df96d6e5ff5f4d4235d53",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/50.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/50.png",
+        "sha256": "b89cd6c8ffd9c46fc6b0e0b84ef1cc4230c336d260a0afa00d0676a11afd0276",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 51,
+      "front": {
+        "image": "assets/pokemon/shiny/51.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/51.png",
+        "sha256": "2add67f818b71d2ea4aff280a0af84c3fda53b9ce3e62a6b5acc5c5cd9a82675",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/51.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/51.png",
+        "sha256": "55506ea8c36004fee13e37a46ae04bae1b1039e6f5d6d2d90ac72831e30bea16",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/51.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/51.png",
+        "sha256": "e7cbe8709c6dea42e0ca9e7a1fe22d96722c684e6222eeae22d106957b28b7c8",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 52,
+      "front": {
+        "image": "assets/pokemon/shiny/52.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/52.png",
+        "sha256": "28a29f6adf2f32d8601e27153ec0225f975c13ef44a1693ffa08b0f406162965",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/52.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/52.png",
+        "sha256": "4393861a2e2628d273b1eb0abf61fec2a912bec8e966e8e62139725d012b5c9f",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/52.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/52.png",
+        "sha256": "d7f85c5a896d58d89bf9be130f045489dd0d13bc479b614e04d8bf1ed7dcf676",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 53,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/53.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/53.png",
+        "sha256": "3ffb3da05b68c71498c6b6e7a90b446d476db2763e6a8f785ced715f8feb75a1",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/53.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/53.png",
+        "sha256": "7c2d57b0fb67b885a30b017099dd95a6479b4a6b47acf56e88af8a37762bdee5",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/53.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/53.png",
+        "sha256": "ea27d443d71f34d778203ed8e6d04b3ca1b6807633cc0e8f3146b56e185b4331",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 54,
+      "front": {
+        "image": "assets/pokemon/shiny/54.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/54.png",
+        "sha256": "720e1a81defbf5177826e20d57b395a69f7c5ee6f8ae46d57ef7f13e54b29c9c",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/54.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/54.png",
+        "sha256": "f6e2635dca42e79aedab849ac19e334e9e6b141bb90e5d486c05a2c0d726e72c",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/54.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/54.png",
+        "sha256": "5006bc02cc0ed8c8b2dff50671e13f167053afbabf2c53b975d094f9f4cffd40",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 55,
+      "front": {
+        "image": "assets/pokemon/shiny/55.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/55.png",
+        "sha256": "2e8b9051c8ad522a0b09f74bcdbfff81c7f9c9d3f6fdd1399e0dc8d67bc6d519",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/55.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/55.png",
+        "sha256": "d4aebebe3d609592be0aabaeb8002465cd67a05e7aba892c246f33e9ea90b9a2",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/55.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/55.png",
+        "sha256": "6df0cd989975eeb2e6ebce203e42ed32ba955e482d598b29238d12d13d889693",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 56,
+      "back": {
+        "image": "assets/pokemon/shiny/back/56.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/56.png",
+        "sha256": "df8d07ca546606196e4ef20c5b9ec613df3b93c3812881ec0119c1b045c48ee1",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/56.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/56.png",
+        "sha256": "62b2c1dc7c5cba6268a79b77e0d0046032740402f0ab26ff57d6a12183d82855",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/56.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/56.png",
+        "sha256": "2ac4b6fddca981dbcee4ade5a4305f885d210108032b6dace78b956dcef9a4f4",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 57,
+      "front": {
+        "image": "assets/pokemon/shiny/57.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/57.png",
+        "sha256": "ccc0226fa3059cef30aca71fc28065e7a46084bff06109e280ba2b4934362edf",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/57.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/57.png",
+        "sha256": "89589b8a4e8bccc9d70a5b39b62059bedd6913ad0b46c67e67b02d8e5104ec54",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/57.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/57.png",
+        "sha256": "ce4fa46b0484e1a1e4487723c2831aa05352b6f09c361e1669a17a5ade59e7da",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 58,
+      "front": {
+        "image": "assets/pokemon/shiny/58.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/58.png",
+        "sha256": "3f70ff4402d42ef67d14bdaebb7ef77b9ecd9bcf279c4c18a43aeae995e07302",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/58.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/58.png",
+        "sha256": "362f6b051712551959bb5102fc67d956e46a68c5a27560e43a3d48092f0bf566",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/58.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/58.png",
+        "sha256": "58df0591f30f56b63e9b28824015254b6285a4d980b115ad2d9599535284f26c",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 59,
+      "front": {
+        "image": "assets/pokemon/shiny/59.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/59.png",
+        "sha256": "edeca209cf8575401c859ad5c7802cafed6a560cb72702ec2f3bae0d51675cc6",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/59.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/59.png",
+        "sha256": "bc793527404d62672f5c18a3ba4b94dae4c567b2f39fd4926075c2af2016b6f2",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/59.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/59.png",
+        "sha256": "fd517a48f56d2b9a9c2a48860c077a6cc74d8e6ebf7b5c49861106ebb54f17e6",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 60,
+      "front": {
+        "image": "assets/pokemon/shiny/60.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/60.png",
+        "sha256": "f2e00a74936d746f9e82d722ef772bdb113f1bc227f1b93ad4b2f5b8a43b0f0d",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/60.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/60.png",
+        "sha256": "ebc0fe08d52eafbd4ed4fa064273243a898faf661e6421b63ee5787094c9a948",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/60.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/60.png",
+        "sha256": "6732ac28e4dc0c0f002fd3021d88947a219fd125c03e7f1710d6448e46ce22da",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 61,
+      "back": {
+        "image": "assets/pokemon/shiny/back/61.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/61.png",
+        "sha256": "3660c820dfec70e9a6d5485eaf6c770fdf7df350def0bbf392c792b19d6f4b3a",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/61.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/61.png",
+        "sha256": "3153ce4941f77b596770123494420a02d73976ecc3d3d538d390e8e6575497e2",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/61.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/61.png",
+        "sha256": "10096a4ebd1bbc86257f9303a28359395a9edc24bd4b8086afbfa365e2943c87",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 62,
+      "front": {
+        "image": "assets/pokemon/shiny/62.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/62.png",
+        "sha256": "a954e6eb18ddf7d289fa2282b290b550acf55df445e586ca2a0de926b3647bd1",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/62.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/62.png",
+        "sha256": "919a02959367c95937683409bd9a95679593fe4b019f52c753091455ed388fce",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/62.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/62.png",
+        "sha256": "b6a1c15506f3b628cf1d74fda39d845a05e96c58a3f4140a664e2035b02ef1d1",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 63,
+      "back": {
+        "image": "assets/pokemon/shiny/back/63.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/63.png",
+        "sha256": "fdf05a72538271ff75b3112e4e96d60554a655e31abbb240a434dcdd090445a6",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/63.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/63.png",
+        "sha256": "8d7d88654b988c13e1cc63b1fb7ab2a4c9319a12beb7e9f236399621b9f4fca8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/63.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/63.png",
+        "sha256": "e77cdf1773fc11171242e466d9062e8b0ee634735a44746c55d1dbeee0265331",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 64,
+      "front": {
+        "image": "assets/pokemon/shiny/64.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/64.png",
+        "sha256": "9352a8bf30b5f827b40a3977ab155881a4ea6f97b3aff16354b789957416fb35",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/64.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/64.png",
+        "sha256": "48e7051be2198b6111adc3f90aa52d012db761cd403c24a5c8e6aba2eb69fce2",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/64.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/64.png",
+        "sha256": "f99e48bd595898afec7adb19f733215c7b7744058275d3ce78fc2b99c455fd0a",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 65,
+      "front": {
+        "image": "assets/pokemon/shiny/65.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/65.png",
+        "sha256": "fcf16e568f0e5c8f1b0a2ff712c13681b7be810bc27e3c865102bac28654f71d",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/65.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/65.png",
+        "sha256": "62e5725017fc2c94a9741e4d29de00e20c39e4a8e7154611a61a4bd806b4b1ee",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/65.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/65.png",
+        "sha256": "4100743da6d6671277426f21281301f126e8aae290d75b5bc0187b28e0edb652",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 66,
+      "back": {
+        "image": "assets/pokemon/shiny/back/66.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/66.png",
+        "sha256": "39b1992befeae308b5b78ea2233c3dd043e5dff2a7afbdf19a2bf3588403f9c5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/66.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/66.png",
+        "sha256": "c9d4b82875a5c6e7a42070917fc82d90b70402675ef1ec19da27b590eae643c7",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/66.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/66.png",
+        "sha256": "f7003a181d2e82d27f0917b9e6c8e6077873eadbf4237cf19bed1757266db0a1",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 67,
+      "front": {
+        "image": "assets/pokemon/shiny/67.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/67.png",
+        "sha256": "0eb4e7421663f05af62ca9e322313475e92276301eca57530a8872d92935b1ab",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/67.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/67.png",
+        "sha256": "c8a8e1915f77ae7ccdfcec83da38d4663030637117aaa87b726e8157018da24c",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/67.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/67.png",
+        "sha256": "709e51084982e65e01a9bb24708ddaa07205d1a70c3cb1329f7a93c8f5782493",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 68,
+      "back": {
+        "image": "assets/pokemon/shiny/back/68.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/68.png",
+        "sha256": "3be81da6e946a658a917876b0048360565a5349ab49d11fee8ccc18ff7539869",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/68.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/68.png",
+        "sha256": "b1fdd80de544c3824fb45258ddbbf11819d385cf763e0b42b1a923cfb36bd2f7",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/68.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/68.png",
+        "sha256": "965f256eb8597478aec06c4476e57b1e6702d4ff074cfc2efffa90aff37af7e5",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 69,
+      "front": {
+        "image": "assets/pokemon/shiny/69.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/69.png",
+        "sha256": "3a14494d3af85e8e5f9ad361f8ef1ba36fef85ba63ee94c78b7f9d4164c7c5af",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/69.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/69.png",
+        "sha256": "48f40b13c2a648e09fee18983f098a1e69805865b2fb52364759f4d43d19c22d",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/69.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/69.png",
+        "sha256": "9b065bab740422c509d82f518b53de69a13915a8f1a20a3fd7e9c98d6798928c",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 70,
+      "front": {
+        "image": "assets/pokemon/shiny/70.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/70.png",
+        "sha256": "0db86f213e5b50f04d2485fc268fafa3bb4d1a79a0c4360135b9e5f7068ec91d",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/70.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/70.png",
+        "sha256": "e22ec404a38fcd03d1afacf69f8540febb9aa25883dc549a4d0b659a8b90b5fe",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/70.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/70.png",
+        "sha256": "70c82b5dcd549b10974b6e6ef59df38e568a19038e6b653e466eff705018a064",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 71,
+      "front": {
+        "image": "assets/pokemon/shiny/71.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/71.png",
+        "sha256": "9d72bcb34c41f69e034309a8eba22d7a77d6cb702e1946d7bbd98f00e172edca",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/71.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/71.png",
+        "sha256": "96b40d1a0616f72e77f344806e3c0eb23f4f3c1baccb60e664b4f0574475826c",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/71.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/71.png",
+        "sha256": "7b91a618e3645468faf56fd019cc213067472c849696953be735d6e65acf4c65",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 72,
+      "front": {
+        "image": "assets/pokemon/shiny/72.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/72.png",
+        "sha256": "95299556bf41274ac7d40d80ac8d48e53cce99bdb0e6eb31b07467515bc3934a",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/72.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/72.png",
+        "sha256": "4738b51ef4078e16a572de511271a7b2bcea4b84486f2a7bda5980c46db114d8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/72.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/72.png",
+        "sha256": "25f62020a8c28b37492363f8afe98c5661d152fe296b50c4669e96ef88726176",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 73,
+      "front": {
+        "image": "assets/pokemon/shiny/73.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/73.png",
+        "sha256": "504ed467c9ea6704167513c61b6ff518ca389ee43624b91ebdf43ac8fa73e627",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/73.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/73.png",
+        "sha256": "23071722cbdb3d28e1bd283e3b709b9903a991629059aebbc116f83b29885f93",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/73.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/73.png",
+        "sha256": "a5f36cef1f81874838c50697ed6af6a8a83f210a2a4ee46bc143987a39a899bc",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 74,
+      "front": {
+        "image": "assets/pokemon/shiny/74.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/74.png",
+        "sha256": "30cc8428440ffbe18ca1d8dadb4dde907a8ce748a19ceb2969ed23544e2b82b1",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/74.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/74.png",
+        "sha256": "31ef8d9f13aaab6048f05bbbfb5724fe778e0f4b9e2eb8fd56cceb930d3ae550",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/74.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/74.png",
+        "sha256": "9f8cd4ef7e4ab8aa78896a5600a46de1e1e9305ee85eaf2d7916ebc8c54c4651",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 75,
+      "back": {
+        "image": "assets/pokemon/shiny/back/75.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/75.png",
+        "sha256": "94e633f5989a991369b9f204389bacd7430519ef0b627327afd12508ca929f64",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/75.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/75.png",
+        "sha256": "c73e8bf7c56559dbc1fa261594c5e1d94918df64a802a3e9d3fbea9f55c438b5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/75.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/75.png",
+        "sha256": "df328123d616ffb920d25e7e0b799201918e3c979ea3d08635e83effc364fb3a",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 76,
+      "front": {
+        "image": "assets/pokemon/shiny/76.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/76.png",
+        "sha256": "19cc5b83ff41a280f5f6c08860b885d4adcc77c201e56427400f9bd1fb8d8b25",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/76.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/76.png",
+        "sha256": "891fc4267de0b95545d1627bd6099d829e40b0fc0423a8cb33e4f5d338cf8fb2",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/76.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/76.png",
+        "sha256": "5fb830815ef83db21fc5aaac52bcdb930ae416945a9692285e7d98bcd41df740",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 77,
+      "back": {
+        "image": "assets/pokemon/shiny/back/77.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/77.png",
+        "sha256": "a5872a3aa846cdd62cd78b92035404496f4192a8303da2f4a62aad0783ac5c76",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/77.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/77.png",
+        "sha256": "7a3a4dc851fb0d27a3cfcbfd0fad75ad250c050fab51c98f5283d28cb8a679ac",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/77.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/77.png",
+        "sha256": "704b6ace10ae1840d4fdc90094ac3b554290bc07811e453f156a1ee603459514",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 78,
+      "front": {
+        "image": "assets/pokemon/shiny/78.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/78.png",
+        "sha256": "b03358e91a0f60561b7a9ccc2d150c7f15b231b5e8a3e5ace01e0942d24f5680",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/78.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/78.png",
+        "sha256": "92348959c832b25fd433cfad9d3d520f0cd02c9f3c52d890fb7a838bb75ff059",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/78.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/78.png",
+        "sha256": "b29046c967e7229a5b6f6606d57c635310b7071174f9600b8ff8ecd517782ba1",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 79,
+      "front": {
+        "image": "assets/pokemon/shiny/79.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/79.png",
+        "sha256": "c72f65f5abfa838eaf0dbe9a90e44859d60a657c1257f0676ef439c0eb3767c3",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/79.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/79.png",
+        "sha256": "c509f08a81a99e0e2466d26101ce71ed3792c60eec3a7210863b45cb5e51812b",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/79.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/79.png",
+        "sha256": "bee5bbe9b23af89793e47dbc31243cee71754eb8405f77321a1f46c5d8eebebb",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 80,
+      "front": {
+        "image": "assets/pokemon/shiny/80.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/80.png",
+        "sha256": "58a6cddd7ef7dfefe006e906b8ba9608f4301987813c990e4892d432581199bd",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/80.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/80.png",
+        "sha256": "5c54a5096c1f96d18574387a8823f8fba42a2f81ef31d1b88ddcc5cb699c5dc8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/80.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/80.png",
+        "sha256": "d70687f11f91193b20b78b6695b18ed08255c95088b9857e34cf6c2fff6b0fee",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 81,
+      "back": {
+        "image": "assets/pokemon/shiny/back/81.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/81.png",
+        "sha256": "7c7cf5b72d7dc799a32335fd8cbdb8e5b3f2ccdbab8913a5e5b27b69589ce019",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/81.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/81.png",
+        "sha256": "d01528f7deae88fccb30a873b2ff9161283ffb32b49282d94ea8f33e5c27a7e6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/81.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/81.png",
+        "sha256": "6ac4db33e7b7195bed3a1696f80f9aa2bd84dfedb249fbf662b79ee9e4f6eefc",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 82,
+      "back": {
+        "image": "assets/pokemon/shiny/back/82.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/82.png",
+        "sha256": "d905190d9085ef5bcdc3d3dbed4d5265be6ea3e4540f0ef7fc8da86925d315dd",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/82.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/82.png",
+        "sha256": "2ccb761188ad4a434dcc38ae7657fb32bfc0550f7e2856a6d8f3e774049ff36c",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/82.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/82.png",
+        "sha256": "b9254907c20807fea08999de7653d9e2c1187c5194f0878e7fc6099fd5be32f3",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 83,
+      "front": {
+        "image": "assets/pokemon/shiny/83.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/83.png",
+        "sha256": "3683f8366e170d625e43af8649f4b38ddde22d319b8af7a5dd769da7fe13f801",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/83.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/83.png",
+        "sha256": "4dc0c26d0887686c34f4068e3f02af905ad48a2a3ccef72e93e73562cb0f5758",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/83.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/83.png",
+        "sha256": "48a8bbfb2c9e384306279b3441071dee89d90559cd610f866bc846f87cd5fe97",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 84,
+      "front": {
+        "image": "assets/pokemon/shiny/84.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/84.png",
+        "sha256": "9cf1deb646af8ab4d4592b2b22ab26f49f099c480a47562e1f0914738ec5772d",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/84.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/84.png",
+        "sha256": "11bb4d479214cd25916a2cd74cc86cd1e238599b65cdc93824ec0fc09966c921",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/84.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/84.png",
+        "sha256": "18f038ee3d22d125548618d82064afca31840916f4d708cecfced55888fb6ed8",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 85,
+      "front": {
+        "image": "assets/pokemon/shiny/85.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/85.png",
+        "sha256": "eb0b1c5386d4d895fe96eb14adc624b2b23e010ba42999f32e079ae668ffcbde",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/85.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/85.png",
+        "sha256": "e66d4a1dfae4ae96ecae27fc8328dc747188505c17fb1bf8b1a5b63d77b191d0",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/85.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/85.png",
+        "sha256": "5a892eb9ad2ff61b3aeeb1447475114a5c3aeb9c92c83bc7747c9fde2f27b213",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 86,
+      "front": {
+        "image": "assets/pokemon/shiny/86.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/86.png",
+        "sha256": "c9641d80bed7ce357d0547bbad9d21dcdb22b4a6ea00d77538677400ec923ff7",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/86.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/86.png",
+        "sha256": "2c26327ad5628fd767f3b0267ca46cc416912028850c018cd3f0eba92ce37c12",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/86.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/86.png",
+        "sha256": "e718291f2c0b52a82d1b44d796dcf596e5aeac2785f022dfb07ffb75657e39c5",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 87,
+      "front": {
+        "image": "assets/pokemon/shiny/87.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/87.png",
+        "sha256": "27f13070c88203216bb8b7a96efacaef4412258bcd930f40e782cf36ec80dbe5",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/87.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/87.png",
+        "sha256": "1d8b09b40f1bd5ca5f89ae03741c0d3faba29f7634ca78a27ff186285664cd47",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/87.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/87.png",
+        "sha256": "560f6fe029b9c80b8f7abbffed9e70e0eaf8df03f9912cd1d34b5d0b16459589",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 88,
+      "front": {
+        "image": "assets/pokemon/shiny/88.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/88.png",
+        "sha256": "8972bdcf12cf2864753623b7b01647605b76f6b18b93d691b5c0825946564050",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/88.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/88.png",
+        "sha256": "a1a784c69e1a1a969d257ec8f19db6ac65e16e3f0b084ecd49b79198012b870d",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/88.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/88.png",
+        "sha256": "d8aa699cd2dcabb2419c740079df0ad35050de1ff486668c1e2f2cc2a1e53bee",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 89,
+      "front": {
+        "image": "assets/pokemon/shiny/89.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/89.png",
+        "sha256": "61e00a118c7d7fac7111e540b24cbacca50507384481934272e95e490404cdcd",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/89.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/89.png",
+        "sha256": "d80b3f5b5cbcc35b7bc5698261d9e2130de65cbc353834d7675d1c784c0799d4",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/89.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/89.png",
+        "sha256": "9a03ab934636a79cf8d669aedd5827a1f0b04357d47ef4b36c825bfe1439c937",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 90,
+      "front": {
+        "image": "assets/pokemon/shiny/90.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/90.png",
+        "sha256": "e5e81eefb66d708fe841c002e256714b919cf71275d030fa2ee307cf30548596",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/90.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/90.png",
+        "sha256": "9cd9cf750b60543f6d390ab4f7e8b5f211487578bf86e2786a3500a785c02466",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/90.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/90.png",
+        "sha256": "51deea06403d8b928f5d6f3906c176d99558fa601775c01ef605732bb9d3a757",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 91,
+      "front": {
+        "image": "assets/pokemon/shiny/91.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/91.png",
+        "sha256": "bd325f93641c1d3c64f5c2faa5bc419594b02ffbd06459d1e1da31a1b70ee172",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/91.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/91.png",
+        "sha256": "f33be334710a650393f16d03b38108556b5ad54ee6cc5b1442a5522da5e754e6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/91.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/91.png",
+        "sha256": "e75f7562f5eca737dc5a08937d567fed592aceddc098ae2c65c07bab128813a0",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 92,
+      "front": {
+        "image": "assets/pokemon/shiny/92.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/92.png",
+        "sha256": "64a4d6d1b0689127e6d4d85c3273b56c2db41f735db7b642240ddddb061c99d6",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/92.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/92.png",
+        "sha256": "f11781d2415ba613dd35d8e684c2f31052f0a2f7dd636a204e9e9faf06a39a67",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/92.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/92.png",
+        "sha256": "ad8306c62d69f2cfe95888b10a616753d29a6aff83fcb14b5a830b74be32182b",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 93,
+      "front": {
+        "image": "assets/pokemon/shiny/93.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/93.png",
+        "sha256": "d74b1ccfd507691ddf5354a44af48c16a82fad5ec42220496b470f179697b23e",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/93.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/93.png",
+        "sha256": "6e3733e9bceea20db8cbfdb4fe81b99d1319b6a674c6d9ec07bf9184da166197",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/93.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/93.png",
+        "sha256": "119c56a55747afb5742c02f992f8f3955f6d88d54c021babf6944b43c131c922",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 94,
+      "front": {
+        "image": "assets/pokemon/shiny/94.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/94.png",
+        "sha256": "ae4188d275724588b76020f77812b6687b85fe9cf57f0440a007c9577f3770af",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/94.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/94.png",
+        "sha256": "ced0eab2e94291c84a41e9f81d3055c2f80feaaf05f07fa4f90ff37331e36767",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/94.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/94.png",
+        "sha256": "f7e8df52743f754e35dffdf8a0d3baa70f8bc69e51f0b5196197749fc718341d",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 95,
+      "front": {
+        "image": "assets/pokemon/shiny/95.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/95.png",
+        "sha256": "4e49e63881dddc26fa8493bdabf4cbd4badb0e35511fe2ab214363d60a969b14",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/95.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/95.png",
+        "sha256": "e8d64b60e78298005f57dfb5f46c5b94cd00b292281cef94d924eda25cc2bfb8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/95.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/95.png",
+        "sha256": "177bfc72dcf171e28d2f729d4b24d9cd1d56fef8aaf07ae1b8b043a145ae5899",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 96,
+      "front": {
+        "image": "assets/pokemon/shiny/96.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/96.png",
+        "sha256": "e2c08750f38f0f7cbf5de9825fe20853e2696f69a15ba491c5e6e0939e2eb0f7",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/96.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/96.png",
+        "sha256": "d7418d056baf6312152132547067b881015e2880ba79edc1336489c01e4af051",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/96.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/96.png",
+        "sha256": "810d6e5da6b9b8c9ea83ec1760c2b6a3195f31423cb9080778205ae75cc5b148",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 97,
+      "back": {
+        "image": "assets/pokemon/shiny/back/97.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/97.png",
+        "sha256": "91ae74defdc2aeee2d79c8699d79ec81da1758007438559d38fce30b239003e9",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/97.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/97.png",
+        "sha256": "ed70822b58296056b0b961e08a0c1a81b136e8a899187941aed4512479aaa8a6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/97.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/97.png",
+        "sha256": "7c7c9bc83e144fd87d9f791e3e11442b53071988ea7d093d73aa4ed6c3d5a2b6",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 98,
+      "front": {
+        "image": "assets/pokemon/shiny/98.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/98.png",
+        "sha256": "0a8ede4ea6c7c374c9c4481b997804ff57c379a02f7f723c825073b8701efd12",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/98.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/98.png",
+        "sha256": "d51e51afedc48a9473fde44e13b7c293e4220a02933aed44609f3cc5344aab35",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/98.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/98.png",
+        "sha256": "88439e222cb06158282c2a3fc8854d7f65b381032f1e2405305bdb73126cf2d5",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 99,
+      "front": {
+        "image": "assets/pokemon/shiny/99.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/99.png",
+        "sha256": "6655d05f1596601f56162c23a557ccf9d03ab5ceedf6fc66db60ffab23566f44",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/99.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/99.png",
+        "sha256": "851dccf451c856bf6f36baa286e0bc61b9e6c62b4c07bed44bf94fb2f9dbed7d",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/99.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/99.png",
+        "sha256": "cf1720dd38cbb678025d5aa904c9c0f1f7e2e11530860e29e0fcda1723a67fa1",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 100,
+      "back": {
+        "image": "assets/pokemon/shiny/back/100.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/100.png",
+        "sha256": "d54fd02cb8cc6100f93c59a04d4489515aef1f95a07b20c9639f4a631f1da0f2",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/100.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/100.png",
+        "sha256": "cb0b457809fe4af019bed0c82bac596406d9f1063e871b7b368218e7bcf271bb",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/100.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/100.png",
+        "sha256": "ecf6accd7a1a52206ee26b1cece77587a6dbcec57f7dc9baee5f3edf289aaa35",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 101,
+      "front": {
+        "image": "assets/pokemon/shiny/101.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/101.png",
+        "sha256": "317eb1a1f96734e69d783803d514fad49b5ade7569a46c99da1c916abb57e75d",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/101.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/101.png",
+        "sha256": "9104c871bd9f3eef30c664fdb66d489b4fe953845245419c09d3beb3f61265fd",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/101.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/101.png",
+        "sha256": "d75d32d83e035d474a30b3b82cc8d8aa31c14d30e02085c8cfc8fe2c89c394df",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 102,
+      "front": {
+        "image": "assets/pokemon/shiny/102.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/102.png",
+        "sha256": "5d9340ec6bcd70e637685509b7a634cd79eacdbc9c31476a4ed7c334e0d73fb8",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/102.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/102.png",
+        "sha256": "0d1e079c9ac167b609b47f2f7a04b99999ca26e4ca48fcdcc9d77dbb5bb48124",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/102.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/102.png",
+        "sha256": "31e314c56117f90bfc1dddbcdd30d98b190d5fb91cb1363f775cd3967772e975",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 103,
+      "front": {
+        "image": "assets/pokemon/shiny/103.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/103.png",
+        "sha256": "a2a3da84cdad10bc3fbcd2c084625321d3849bd5abcf71f5017ddcc87ee910a8",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/103.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/103.png",
+        "sha256": "d73fc5175f0cbd4ccbaef28a1892a7e0ef0953dc6ad898558dd4ddefa889aeeb",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/103.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/103.png",
+        "sha256": "95de6dbb20887d25f0e59a995049706842e99ce2c31c57ea205c9670087e40e2",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 104,
+      "back": {
+        "image": "assets/pokemon/shiny/back/104.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/104.png",
+        "sha256": "ff8328e38ffcef950cb7d498c45be11501070afa2258e996e9aee74ccb95fdc3",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/104.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/104.png",
+        "sha256": "48bd5ed2fed7c229878ea2fe1e309641248d1ed4aa92a8b59d29b6d8b02c18cb",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/104.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/104.png",
+        "sha256": "c47fdb46353f7e9e36f4ecf111e91e251b8dcadbe98a270beaea8d706344f6b7",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 105,
+      "front": {
+        "image": "assets/pokemon/shiny/105.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/105.png",
+        "sha256": "af8ac6b813c9acbda25ca4bf11af716ae18308c6413cc81874dcc9e8b8a222f0",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/105.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/105.png",
+        "sha256": "82f642de2c143c7c500a2cc7b505d6321402f67e551182968e33e0b10a5a8dd8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/105.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/105.png",
+        "sha256": "36ce2a81d3f770b32dbd58e54ee1a5cba96839eba34f4ef401dcc45e311e9898",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 106,
+      "front": {
+        "image": "assets/pokemon/shiny/106.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/106.png",
+        "sha256": "64541e06ca2a6d3c3236cfd995ad8a25a2543f1633a3135f985a66e4642542c5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/106.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/106.png",
+        "sha256": "a87cf059c32179ab776995e5f5a7c8a91edb134ed76f4cb507918a5bd23b0685",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/106.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/106.png",
+        "sha256": "b5afff8f7482107b710183c4206b2583a5c7737ff8324a1e3cef4bdca2d9fe60",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 107,
+      "front": {
+        "image": "assets/pokemon/shiny/107.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/107.png",
+        "sha256": "d04b20105d064db61674a56126a5e0bb5bb311c4d80bae6d2e3b0e9d37da5724",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/107.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/107.png",
+        "sha256": "c9ed7947a768c6ac02dcc210bcdbc5b2a945fdf22086764181b04dc416ef5710",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/107.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/107.png",
+        "sha256": "fef7f1a5c0315758a1ec64d1f64a5bf9abe81aad959c7f71ee96c9cad68f367d",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 108,
+      "front": {
+        "image": "assets/pokemon/shiny/108.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/108.png",
+        "sha256": "9349dea984572c7f4d989b6bb151ce8a5af79ffb64a2f6530c65db085cc94981",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/108.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/108.png",
+        "sha256": "432c2e9a6a821471cb8d40245845acfb78b34ad81eaaa4902253d938be6680d4",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/108.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/108.png",
+        "sha256": "f5daabcec79a33482d0471c10466945ebec21182a776f51c63a0fd8ac14291ed",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 109,
+      "back": {
+        "image": "assets/pokemon/shiny/back/109.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/109.png",
+        "sha256": "401a97d99cbf32b8b5acbb209951da5de0de3a691d27729cc8a05313e1575236",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/109.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/109.png",
+        "sha256": "1fc805c8b333a370d6aed03ee5f4360b64f6d11a6752ef8371fd2cf1b90ede72",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/109.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/109.png",
+        "sha256": "4b0c361a5f60a4d1ddf6172523626d412f38e908616d2ff8305807a28c7e1341",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 110,
+      "back": {
+        "image": "assets/pokemon/shiny/back/110.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/110.png",
+        "sha256": "cb3e64db6105abb517011d578fba0a1f18d67ccde9637191b9bd787db2de4a1d",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/110.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/110.png",
+        "sha256": "7e6d2a4e300749242aa523855d87e6c06ac0a1e909a81cfb0c563242b2d91900",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/110.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/110.png",
+        "sha256": "88ef21515878f177ff7cebd29242ffc9ee7dd4e502a2275bf24be43eba0fa2b0",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 111,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/111.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/111.png",
+        "sha256": "717a145fcc870bf7c2bfa819caa86769636e9f0a73a6ee7ddfd3240104e941be",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/111.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/111.png",
+        "sha256": "cc8e78464a8c9455cfdf875edde909ab5dfeae07cc526916bb8666af15e3adf7",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/111.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/111.png",
+        "sha256": "cb741dfe3e0a8577c306ac5ead56f0c92273c3186fa56dc09a2816e123aaf298",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 112,
+      "front": {
+        "image": "assets/pokemon/shiny/112.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/112.png",
+        "sha256": "e19e419406c324a8210ce2199133ad80251b598430748be9c79d41fe906ebb58",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/112.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/112.png",
+        "sha256": "1e6cc3229851d50be6c80e87a148d61e33f90f6c3201f9a0b741cbb2fca00c8a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/112.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/112.png",
+        "sha256": "1bc1f965c6455b2c712d4deb6ed9a0538fd9e08e6961a07b9ce437a331f09a4f",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 113,
+      "front": {
+        "image": "assets/pokemon/shiny/113.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/113.png",
+        "sha256": "77b1cc74c23b52f0da74db4f5f1ae8c5f2c992884403ebef94b618475a5d913a",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/113.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/113.png",
+        "sha256": "5cee922c2d97618fb8ccd09d9c364525882274646d63803e132e8eb39a1c11a0",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/113.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/113.png",
+        "sha256": "91f81654ca35999cb0a3ed0b7e905692cb1d72569de66c030193ff212cae8a44",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 114,
+      "front": {
+        "image": "assets/pokemon/shiny/114.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/114.png",
+        "sha256": "d1399602d3a45bcb62f94bcfe9ebdf7862fc5cc8abe2169ee481a068c25d9996",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/114.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/114.png",
+        "sha256": "64cdcdcc6ecea0a380ad9cefad556f46fd3c65c067146110573ceaacb2603e90",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/114.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/114.png",
+        "sha256": "67d9b4a4c83006f8ae7cc0a67c481637efa389f4b1979a43532e43d93dbdf8c6",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 115,
+      "back": {
+        "image": "assets/pokemon/shiny/back/115.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/115.png",
+        "sha256": "fd91219d230ef43c20e72ad4099f03f179ced25f7d5750e4d605b8c43b574a1f",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/115.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/115.png",
+        "sha256": "5e3a22595595c729bc9276141ae2428440cdc567d409c8c6e7d67da66c2f7b34",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/115.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/115.png",
+        "sha256": "793af2b378a6b066476cb3c40b6489a64e926c75389513c6c3e178a7534f3b95",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 116,
+      "front": {
+        "image": "assets/pokemon/shiny/116.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/116.png",
+        "sha256": "b290d0bcde1ac48edd5dcc8fe23ecf4f07ac88ed5d57a91181a15d50f24b7f7f",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/116.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/116.png",
+        "sha256": "ca77953e1184e743e18d93c3befef64ec8d3f950828a10779c6586a5b58ee83f",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/116.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/116.png",
+        "sha256": "03fe965575c9be6105bbe36a0ec7c78bcdbf71f8b87edc75b03ad1c3124ab9b5",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 117,
+      "front": {
+        "image": "assets/pokemon/shiny/117.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/117.png",
+        "sha256": "7631f93cd0ce28aac7e3804509e4f177b8d676520787d2736f20d45a183120b6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/117.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/117.png",
+        "sha256": "7f86807cf15744367e266e2defcfcac4bacfa0343e7761120f8b9c57b09f7622",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/117.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/117.png",
+        "sha256": "b6e09078085278f7f9238485dac4d27258ec46489e863420373fa265f2c5a257",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 118,
+      "back": {
+        "image": "assets/pokemon/shiny/back/118.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/118.png",
+        "sha256": "f74b38f3a20f8ebe77e51c80a3a6c6bf5a6ed97a2783809a5dc15d866447e830",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/118.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/118.png",
+        "sha256": "b03c5207300c92b12dd6bb8398acc1dfa9df0be212940cfad369c521764cb5e8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/118.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/118.png",
+        "sha256": "3071336b190779517fffe264ef38ef99d3b79ab6a43cae64da7161a355358674",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 119,
+      "front": {
+        "image": "assets/pokemon/shiny/119.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/119.png",
+        "sha256": "16f7bcc63c3a4b83cb720d67177ca8ee8f0512b5d2de1ca7a00a23c655a3d1e0",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/119.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/119.png",
+        "sha256": "8bfcaafd3a22d1ec18464e7b993f47a974cef273743c1d60f23f39c3e9f5077c",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/119.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/119.png",
+        "sha256": "cd6a05cc278103b9c3a380b039f99fe20cb1402dee11a29c93898beb6cb86060",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 120,
+      "front": {
+        "image": "assets/pokemon/shiny/120.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/120.png",
+        "sha256": "cdef239e8fc56ee105454f74351b26566c12128a8fbad4eabaa0da2033d4289a",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/120.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/120.png",
+        "sha256": "c061396d6fd41e6fc39bb56109bf1b394d8cb04ce115a8deda402a671f1fe4f5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/120.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/120.png",
+        "sha256": "6dfacb3d9358d9d56b2164e3fbd4ea3fd33bd9d1c45e0649a7d46ef545795905",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 121,
+      "front": {
+        "image": "assets/pokemon/shiny/121.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/121.png",
+        "sha256": "dcbad0eb0522ab33ff52cf8b7833a703d47fe3b23d906def3e9e8249d94b9f6b",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/121.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/121.png",
+        "sha256": "b04e33762d92f0afff6f7daaaf459cac632dcf2caf1963cddd1d33fe1371eb24",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/121.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/121.png",
+        "sha256": "ea13626461327730ae1acfb2708aa646e1a2e606de3e9ce8861d1401f7af9e21",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 122,
+      "back": {
+        "image": "assets/pokemon/shiny/back/122.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/122.png",
+        "sha256": "d2df5a870a6386e445e17f8fb1a11bc220623531c5c778ba8a3dd2a81b423074",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/122.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/122.png",
+        "sha256": "c9a0eda9d04b81212f6a586706752b346e9c4a68f45236f95841dac61a0c6a6b",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/122.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/122.png",
+        "sha256": "0a972b214d95d40acde012e869f87f9b387dabf700a213c601f3d61756295d6f",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 123,
+      "front": {
+        "image": "assets/pokemon/shiny/123.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/123.png",
+        "sha256": "4bfa05713299796db54e5006a015036d9c23a7dff624edd6c991d57b9df49bfa",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/123.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/123.png",
+        "sha256": "70fe497782f47489953fb054edeea768611b19b435206e217df8eecbfcbdc9c8",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/123.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/123.png",
+        "sha256": "448e9641a53b7a83a66b711f9fa383d9653dcb9994e6bd4ac86dcfd7bd28ffa0",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 124,
+      "front": {
+        "image": "assets/pokemon/shiny/124.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/124.png",
+        "sha256": "bd585001a48eb5696bf006cb858318c15c0d98fa1d81fd296870266d8d36a402",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/124.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/124.png",
+        "sha256": "6f3b674905a163eb125b05a0fc1fb1fd54893268b46d33d60f0484051fa2724f",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/124.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/124.png",
+        "sha256": "0a52533781dde6bef01cde1fc58cc88cf7f9ca3162569a136aec16d8c99e0412",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 125,
+      "back": {
+        "image": "assets/pokemon/shiny/back/125.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/125.png",
+        "sha256": "9e4016ca0bd10cf63ec3718b3d6de6c5891ffae1067ce2e8b35c73883acf91c4",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/125.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/125.png",
+        "sha256": "35f5d97ec9ba8be5d3c44dd37eb8a2524ecab84cf7d3b8b173c0303c68c0294d",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/125.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/125.png",
+        "sha256": "c14f1ce81e458ea7a945e50a8bea5fccaeae9e77b4034748c0ed634728ec29ee",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 126,
+      "back": {
+        "image": "assets/pokemon/shiny/back/126.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/126.png",
+        "sha256": "daf49b846edde6e1b6edd230956f164ab4ab7cb271f0e70810db1516904e057e",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/126.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/126.png",
+        "sha256": "8c5eb112ebbb4550e799257d82cf5d0c93ac900ab7a61bbb4e2b30948429ceb7",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/126.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/126.png",
+        "sha256": "6927d2708d96501ea97cf87bb446d8104d8566c9242cdd986266f5bb425ddadd",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 127,
+      "back": {
+        "image": "assets/pokemon/shiny/back/127.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/127.png",
+        "sha256": "b1d2628f7282eacfb2eeea5dba6aee786cb756cc0b7e4e71da360dd5f5a1b627",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/127.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/127.png",
+        "sha256": "6a9318edae35f182b5bb304481bb6c3d8a80cb287549902854d473822df68c39",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/127.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/127.png",
+        "sha256": "16db79612d9a25ba07fa0dab293fb5be3bf5e823efa76721a638ff006c7478d9",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 128,
+      "front": {
+        "image": "assets/pokemon/shiny/128.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/128.png",
+        "sha256": "9e4544e7126885d6628195ca58b99d22b2532a94ca0a47291c6decd498a6db44",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/128.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/128.png",
+        "sha256": "034f04133b71b9c5b866161e8e56abb79053846f038a74564432151d76c88dc5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/128.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/128.png",
+        "sha256": "332d45810c174ee9ae39c4ed82952f9eb17542b28f55807b9bb9cc25dc455232",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 129,
+      "front": {
+        "image": "assets/pokemon/shiny/129.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/129.png",
+        "sha256": "3a99ad281768e6ac7d4c3d769e19991a9e0954e9e6bcaab04ab2e8e0c931c390",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/129.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/129.png",
+        "sha256": "b150107cfa9985643232f577729be807e392f2b8d70d5d43d3646ad251c27bd6",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/129.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/129.png",
+        "sha256": "a8292e2d27d59f9bcb651efd70ac839f34ca57ec3384d21e0eb6a1b0bc71f8a1",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 130,
+      "front": {
+        "image": "assets/pokemon/shiny/130.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/130.png",
+        "sha256": "9034a1ae52105d19cea479d7c85ce36b0d69cfa737290f88d65d31701fce85cd",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/130.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/130.png",
+        "sha256": "85e16346024e2b385ef4939e5f8a3a2c4d14b419d07b7e91105ef434849d6fbd",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/130.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/130.png",
+        "sha256": "058be9e2427c9f5517b014aa8dcf03b571212ec633fd31230b236f1726556a64",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 131,
+      "back": {
+        "image": "assets/pokemon/shiny/back/131.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/131.png",
+        "sha256": "fb9de8284c2d5cf6f5240a9cb467f5a0c6334c1eb58f3a484985d379521b127e",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/131.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/131.png",
+        "sha256": "dd40853d960635a4fc674b4a90947470561a0749e165c54b8f19306a8e88217c",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/131.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/131.png",
+        "sha256": "acd9a9f8553ed659c029f9b94d5ed08fad78cb14254c32422a448559841c8dfd",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 132,
+      "front": {
+        "image": "assets/pokemon/shiny/132.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/132.png",
+        "sha256": "d153071d6a2187f5610adf8867e157e8353b0bb6adda13ce692200f5025279e4",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/132.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/132.png",
+        "sha256": "6f758b2d64f76ba70de51b686d99a5bb730af1b3c2d841c0d4eeb08665f65b75",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/132.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/132.png",
+        "sha256": "2dcc4603b84cd753b480197570b253278eaa52a35227be090b08a6a22f80636e",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 133,
+      "front": {
+        "image": "assets/pokemon/shiny/133.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/133.png",
+        "sha256": "b468a53e251de4acac929dee8b9066addcad1ac214d24544d3290519f9067bbf",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/133.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/133.png",
+        "sha256": "85052b6d604763d85debf8bb88ac8637dbf30e2ba0af450e97875d57a18ed6e6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/133.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/133.png",
+        "sha256": "9f0e6e436912030acf87bd21bc29a70dfe5604e90a0fed94c8e41b898b738f1a",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 134,
+      "front": {
+        "image": "assets/pokemon/shiny/134.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/134.png",
+        "sha256": "5be3b1ed359c7c359ec9407da29dd8708a3a9a19aafe7bfee0258d07297f6ab4",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/134.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/134.png",
+        "sha256": "311850ad7b70ca40a4d8be46ef7ca8727a8e46559032c35d3d5cd1dc4cff411b",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/134.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/134.png",
+        "sha256": "f0c0b76583901441adefc6fa278e5d52e0b8e20cab163537bf0400756b7c0272",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 135,
+      "front": {
+        "image": "assets/pokemon/shiny/135.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/135.png",
+        "sha256": "7e1af90e9171f33ce5d5c3d95e007e7786cd386e615693db1ca2a1ee96439079",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/135.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/135.png",
+        "sha256": "b37cc5858236d583d4dc7443f86e21fc2f7f4474188342c4eddfac718fb64a69",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/135.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/135.png",
+        "sha256": "34d84b612c4f2a5fad0e127a22d491a53fecf5e2f15a770bf09a7cc350d32065",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 136,
+      "front": {
+        "image": "assets/pokemon/shiny/136.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/136.png",
+        "sha256": "132625a591efa03f49f91aa78305b1bb2dd7e8dc7613d0d9f6372dc54d075813",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/136.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/136.png",
+        "sha256": "79a4d06d631948ca22bf6c2ff4fa62a16fc6e4344f6bce9603f8b8c424d0cd2a",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/136.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/136.png",
+        "sha256": "1affad7cdb2f737ea275b971664722fc5981ec4bfeb352c06fc63cfb13e585fd",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 137,
+      "front": {
+        "image": "assets/pokemon/shiny/137.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/137.png",
+        "sha256": "bc330c952383cccbebae9c787c6a2377be95240e0a8eead8922dc3b0bb650161",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/137.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/137.png",
+        "sha256": "7f9621629ea37073541ebcf59c992efb729d1c0e511947e025515941430169c0",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/137.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/137.png",
+        "sha256": "55f7c7d2dbb6daad05edc2adfc4d540828c531a3e9709417af365be8defcaf62",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 138,
+      "front": {
+        "image": "assets/pokemon/shiny/138.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/138.png",
+        "sha256": "345c1519f4ade02f1249214d23f438c5888252e3945523d92721d986f655a137",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/138.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/138.png",
+        "sha256": "a738d1131c233196ec201bdf88d5eb3e11ee944a2f86bd9fff8a3e907d8c3603",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/138.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/138.png",
+        "sha256": "ca4d3142b37f219b2089e1225413c09da406e5dbe1062d3053062d543f2419bb",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 139,
+      "front": {
+        "image": "assets/pokemon/shiny/139.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/139.png",
+        "sha256": "ed6cf616919eef8e0712ecbfb5b139eaa8d732ea0dc0604945d53ad11b0eaea6",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/139.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/139.png",
+        "sha256": "61a1e140547f391e2f5c50fe480d35198b4ee7945af6924141be4f5b9d4d48b1",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/139.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/139.png",
+        "sha256": "dbabe99050a21d1a79563145dd0e0beaaad348b329095e55c1acb83fd8c8d2b8",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 140,
+      "front": {
+        "image": "assets/pokemon/shiny/140.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/140.png",
+        "sha256": "7202fe353de8df4845eacfb17b544fd6a4daad44b467981677323f3f32d54974",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/140.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/140.png",
+        "sha256": "9d13decbaca2f2ce3480122b731cb7955c3ad78b13894f5e67f2d0d77cd97708",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/140.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/140.png",
+        "sha256": "2eb33af9aa6c2a44ca974019e5e9bb74395511b6989809ee82385623ad09be4e",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 141,
+      "back": {
+        "image": "assets/pokemon/shiny/back/141.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/141.png",
+        "sha256": "89c1732b017f142d3d6e6227d50c853f3168a4c52676789cb60109f56c6f9235",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/141.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/141.png",
+        "sha256": "5be03f45c060adcb92e59cb9703061303a43f1dd0f868331d569dff5e498a409",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/141.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/141.png",
+        "sha256": "120cc613dce5e04ee75aa32c04e18f7d209293d8d80fdd142cbb0391f9a4fdbb",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 142,
+      "front": {
+        "image": "assets/pokemon/shiny/142.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/142.png",
+        "sha256": "3e0012232d8f067f1ad13d7190966841432233ebac4daa690f4442b3bb64b3ac",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/142.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/142.png",
+        "sha256": "2d2545f83d8d2d5cd4a1cd5ee85c5d5424da54c6716b8917b1c95b938f0f4e7e",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/142.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/142.png",
+        "sha256": "be573abc9711acb57809af3acfd40b59a37f126dd52aed32478e58b719bb0096",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 143,
+      "front": {
+        "image": "assets/pokemon/shiny/143.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/143.png",
+        "sha256": "fd47579d3763f90d6228f365de7ba828c0b56c2f9bd212ef35f874926424cfd2",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/143.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/143.png",
+        "sha256": "23b8262e9313478734a8499a5ae6e4b6323e4fc41c5ef1416bf8f72ae5c4faed",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/143.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/143.png",
+        "sha256": "80ad7932c4a6def05fa7feb820397124ec21d0b4ba80bd29d7d65b51e19443df",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 144,
+      "front": {
+        "image": "assets/pokemon/shiny/144.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/144.png",
+        "sha256": "6c98a2422b16985a261c7bcff3cb70dc09da669974b094691a36e3640c018ca1",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/144.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/144.png",
+        "sha256": "332b5ea75550f340e6ce53e445213ef2a43110e0f5adc9f0b76ccd87be3cdbef",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/144.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/144.png",
+        "sha256": "4719b96a3d3f8c330e103293c86aabe9e75e21f1ceb4cae67993857b72e5dcdd",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 145,
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/145.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/145.png",
+        "sha256": "a04cccc6c62cbf43acafe99dd409dadaa44f7496c19be9a4b270ca74f0bfbd44",
+        "width": 475,
+        "height": 475
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/145.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/145.png",
+        "sha256": "16ecdd82667f4e1ce3a0f6b02de7a2b2138d8c29ee5ab2532e6a2e7774bd7569",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/145.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/145.png",
+        "sha256": "d57bce366e6067537f4f357684ba61ccde565db1ab92bf2e8ef64033d4e03936",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 146,
+      "front": {
+        "image": "assets/pokemon/shiny/146.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/146.png",
+        "sha256": "62719b5c19e682cbd05477aceb50086d043781077e74c3f4c2bfb49fab6e7372",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/146.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/146.png",
+        "sha256": "692c8ce0683b34fafb2dcdb71b06e2bd4bfd40f600154881c31e7fa5cf4641c1",
+        "width": 475,
+        "height": 475
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/146.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/146.png",
+        "sha256": "48112f3c3973d5df30664ed73658edb45895400d223fd6333bd7aa30088c38de",
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "id": 147,
+      "back": {
+        "image": "assets/pokemon/shiny/back/147.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/147.png",
+        "sha256": "0ed0d2d893576657b47561c2044a6c00e13ee5edc9bd8dc30a46787e0cb435a5",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/147.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/147.png",
+        "sha256": "cbeee3bac80944fe3bafc71ccbb86a97a3ebb0b25c8115f963c753afc652d6a9",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/147.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/147.png",
+        "sha256": "f167da54e2e0a18fba7690c0ca85d5ab9e9cb08a11556a013b792cc2ecae40ba",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 148,
+      "front": {
+        "image": "assets/pokemon/shiny/148.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/148.png",
+        "sha256": "78869748da73e2107c2b59905af6550c66bb7f022a9e9a5368adccc59142c506",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/148.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/148.png",
+        "sha256": "1dd96ab4d4bb65444367a57b63f1718b0b304acfe0682ce406d0c06fab84b6a0",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/148.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/148.png",
+        "sha256": "ef986189d17124d5e7c26e509bf3e814b527b2e7f09a1a18e7a56cb80f2cacc4",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 149,
+      "back": {
+        "image": "assets/pokemon/shiny/back/149.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/149.png",
+        "sha256": "570822520420a723957dc7f533768e52017e19d68d1eac9b8f95e46fa4387f20",
+        "width": 64,
+        "height": 64
+      },
+      "front": {
+        "image": "assets/pokemon/shiny/149.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/149.png",
+        "sha256": "f72633c877b1f9de6e3bcd4a820ed046efe7f7255d32ca28e185570680ba2f57",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/149.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/149.png",
+        "sha256": "9790d46262516e1859a362b6ad12b3a4c149a910bdb86780b1655c2de9c97585",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 150,
+      "front": {
+        "image": "assets/pokemon/shiny/150.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/150.png",
+        "sha256": "0b16f3fc6a8cb560aeadfe9514c13a63da92092985659b8844d496abc80380a9",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/150.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/150.png",
+        "sha256": "8282e64cad154bc5b6e9e6f187b3570313febeed825f80f06ac125ed1d588b78",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/150.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/150.png",
+        "sha256": "85ad7ac6c897f5c7c7fb46faabb740da124799e77fd99ef63f9d12ef3b82775f",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "id": 151,
+      "front": {
+        "image": "assets/pokemon/shiny/151.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/151.png",
+        "sha256": "43b52df11916d48ab569258ae2eec86e45ac0cd85567fe0a86db29601004989d",
+        "width": 64,
+        "height": 64
+      },
+      "back": {
+        "image": "assets/pokemon/shiny/back/151.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/151.png",
+        "sha256": "0f35ed50721cd000869fab3cd9fc6ae721318ccf256df9ef61db4e0e5264f6d5",
+        "width": 64,
+        "height": 64
+      },
+      "artwork": {
+        "image": "assets/pokemon/shiny/artwork/151.png",
+        "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/shiny/151.png",
+        "sha256": "1b60699452c91cb0021ceda926c36d3edd343d93d4a30923a608245f1d7d2037",
+        "width": 475,
+        "height": 475
+      }
+    }
+  ]
+}

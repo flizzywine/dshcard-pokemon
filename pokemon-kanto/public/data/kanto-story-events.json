@@ -1,0 +1,2035 @@
+[
+  {
+    "id": "forest-pikachu-grove",
+    "node": "viridian-forest",
+    "title": "森林深处的电光",
+    "speaker": "小智",
+    "portraitId": "trainer_ash",
+    "requires": {},
+    "stages": [
+      {
+        "id": "approach",
+        "text": "林间传来细碎的电火花声。小智想让皮卡丘独自靠近，身后却有捕虫网拖过落叶的声音。小霞和小刚也赶到了。",
+        "choices": [
+          {
+            "id": "give-space",
+            "label": "陪小智留在树影外，等野生皮卡丘先靠近",
+            "success": true,
+            "text": "小智收起伸出的手。几只皮卡丘从树根后探出头，先围着同伴转了一圈，才把一颗带焦痕的树果推到你们脚边。",
+            "flags": {
+              "forestTrust": true
+            },
+            "reward": {
+              "gadgetIds": [],
+              "items": {
+                "magnet": 1
+              }
+            }
+          },
+          {
+            "id": "protect-grove",
+            "label": "和小霞、小刚一起移开误入林地的捕捉网",
+            "success": true,
+            "text": "小刚固定住绳结，小霞解开网扣；小智的皮卡丘用微弱电光照亮了出口。林子安静下来，三人记住了这条不惊扰野生宝可梦的小路。",
+            "flags": {
+              "forestTrust": true,
+              "forestRescue": true
+            },
+            "reward": {
+              "gadgetIds": [],
+              "items": {
+                "magnet": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "小智想证明森林里的皮卡丘并不怕人，却开始怀疑自己是不是把好奇误当成了欢迎；他愿意停下追问，也怕朋友觉得他临阵退缩。捕虫少年把旧网藏在身后，担心大人会把弹簧损坏算到弟弟头上。小霞警惕任何逼近，皮卡丘仍保留随时离开的空间。",
+      "beats": [
+        "小智想让皮卡丘先靠近，听见叶丛里的电火花后却把手收回来，改为等它自己决定距离。",
+        "捕虫少年露出断了弹簧的网柄，承认他担心弟弟误带走的网扣会让整件事变成责罚；小霞问他愿不愿意先把网放在地上。",
+        "一颗带焦痕的树果滚到鞋边，小智没有拿起它；林间另一声短促电响传来，他问大家要不要留在原地等回应。"
+      ],
+      "questions": [
+        "那只皮卡丘是在求助，还是在给自己的同伴报信？",
+        "捕虫少年愿意把网交出来，但他弟弟会不会因此被责怪？"
+      ],
+      "revisit": "下次经过常青森林时，小黄会记得树果旁那次停手；若曾替捕虫少年保住隐私，他会带来一段新的林间电声记录。"
+    }
+  },
+  {
+    "id": "bill-cottage-ticket",
+    "node": "route25",
+    "title": "岬角小屋的求救信号",
+    "speaker": "小霞",
+    "portraitId": "misty",
+    "requires": {},
+    "stages": [
+      {
+        "id": "find-bill",
+        "text": "小屋里传出一阵慌乱的呼喊。小霞认出是比尔的声音；小智已经冲向控制台，小刚则让大家先确认里面没有受伤的宝可梦。",
+        "choices": [
+          {
+            "id": "check-console",
+            "label": "先检查控制台，再陪比尔完成复原",
+            "success": true,
+            "nextStage": "help-bill",
+            "text": "你们找到了正确的复原开关。比尔从传送舱里出来，喘过气后向大家道谢。"
+          },
+          {
+            "id": "pull-lever",
+            "label": "不检查就拉动显眼的红色拉杆",
+            "success": false,
+            "text": "警报响起，红灯让比尔更难操作。小刚及时切断电源；大家决定先把开关标记清楚，再重新尝试。"
+          }
+        ]
+      },
+      {
+        "id": "help-bill",
+        "text": "比尔恢复了人形，正整理一张枯叶港的船票。他说愿意把船票交给真正帮助过他的人。",
+        "choices": [
+          {
+            "id": "accept-ticket",
+            "label": "接受船票，并答应在枯叶港协助船员",
+            "success": true,
+            "text": "比尔把圣安奴号船票交给你。小霞提醒大家：船离港前要先确认船员和乘客都已安全。",
+            "flags": {
+              "ssTicket": true,
+              "billHelped": true
+            }
+          },
+          {
+            "id": "decline-ticket",
+            "label": "婉拒船票，把它留给下一位旅人",
+            "success": true,
+            "text": "比尔尊重你的决定，将船票收回信封。你们带着一段友谊离开；他把这份心意记在旅程记录里。",
+            "flags": {
+              "billHelped": true
+            }
+          }
+        ],
+        "speaker": "正辉",
+        "portraitId": "bill"
+      }
+    ],
+    "conversation": {
+      "focus": "比尔擅长把失误讲成笑话，真正害怕的是自己的实验让别人受伤；他会在控制台细节上滔滔不绝，却不急着把船票当报酬。小霞不信任未经确认的机器，小刚在意房间里有没有被困的宝可梦。",
+      "beats": [
+        "比尔的呼救声忽然停住，控制台上的三个指示灯以不同节奏闪烁。",
+        "小霞辨出其中一盏是生命支持，拦住小智伸向红色拉杆的手；比尔隔着舱门问里面的宝可梦有没有回应。",
+        "复原后，比尔把枯叶港的船票放在桌上，却先请你看看他记下的错误接线图。"
+      ],
+      "questions": [
+        "你们要先查清实验留下的后果，还是先听比尔讲船票背后的请求？",
+        "帮助一个人之后，接受谢礼会不会改变这份帮助的意义？"
+      ],
+      "revisit": "在圣安奴号上，比尔会问你是否还记得那张错误接线图；无论收不收船票，他都把这次相遇当成信任的开始。"
+    }
+  },
+  {
+    "id": "vermilion-bike-voucher",
+    "node": "vermilion",
+    "title": "宝可梦爱好俱乐部",
+    "speaker": "会长",
+    "portraitId": "gentleman",
+    "requires": {},
+    "stages": [
+      {
+        "id": "listen",
+        "text": "俱乐部会长正兴致勃勃地讲述自己与宝可梦相处的经历。小智看看港口时刻表，小刚却注意到会长似乎很久没喝水了。",
+        "choices": [
+          {
+            "id": "listen-politely",
+            "label": "耐心听完故事，再询问枯叶与玉虹之间的骑行路线",
+            "success": true,
+            "nextStage": "voucher",
+            "text": "会长很高兴有人愿意听他说完。他拿出自行车兑换券，解释华蓝市的店员可以据此交付自行车。"
+          },
+          {
+            "id": "interrupt",
+            "label": "打断会长，直接索要自行车",
+            "success": false,
+            "text": "会长摇头收起了兑换券。小智意识到自己太急了；会长示意等他讲完再谈。"
+          }
+        ]
+      },
+      {
+        "id": "voucher",
+        "text": "会长把自行车兑换券递给你，并在地图上圈出玉虹市的自行车店。",
+        "choices": [
+          {
+            "id": "take-voucher",
+            "label": "收下兑换券，记下华蓝市自行车店的位置",
+            "success": true,
+            "text": "你收下自行车兑换券。旅程记录上标出了玉虹市的兑换地点。",
+            "flags": {
+              "bikeVoucher": true
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "会长把旧故事说得很慢，因为俱乐部最近几乎没人来；他不缺钱，缺的是有人愿意听完。小智看着时刻表心急，小刚听出会长咳嗽时会停顿。",
+      "beats": [
+        "会长说到第一次和宝可梦并肩骑行时，手指在杯沿停住，忘了下一句。",
+        "墙上旧照片里有一辆没有车铃的自行车；会长承认那次摔倒后，他很久没再骑远路。",
+        "听完故事后，他拿出的兑换券背面写着另一条沿海安全路线，还留着一处被擦掉的店名。"
+      ],
+      "questions": [
+        "会长为什么擦掉旧店名？",
+        "你愿意问起他的摔倒，还是先让他把想说的故事说完？"
+      ],
+      "revisit": "日后在华蓝取车时，店员会认出会长的旧路线；如果你愿意带回一次骑行见闻，俱乐部会重新开门。"
+    }
+  },
+  {
+    "id": "celadon-bike-exchange",
+    "node": "cerulean",
+    "title": "华蓝市自行车店",
+    "speaker": "店员",
+    "portraitId": "gentleman",
+    "requires": {
+      "flags": {
+        "bikeVoucher": true
+      }
+    },
+    "stages": [
+      {
+        "id": "exchange",
+        "text": "店员核对了枯叶市会长的兑换券。自行车已经调试好，但小刚提醒大家先确认刹车和车铃。",
+        "choices": [
+          {
+            "id": "safety-check",
+            "label": "检查刹车和车铃后再出发",
+            "success": true,
+            "text": "车铃清脆地响了一声。店员完成兑换，并在地图上标出自行车道入口。",
+            "flags": {
+              "bicycle": true
+            }
+          },
+          {
+            "id": "rush-out",
+            "label": "不检查就立刻骑走",
+            "success": false,
+            "text": "车铃松脱，自行车店员叫住了你。修好车铃后再来取车。"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "店员维护每辆车的刹车和铃铛，因为曾有人赶路摔伤；她怕客人把检查当成拖延。她手腕有旧伤，无法独自搬下最重的车。",
+      "beats": [
+        "店员让你听两辆车的铃声：一辆清脆，另一辆尾音发闷。",
+        "她的手腕在紧固铃铛时发抖，小刚发现车架上有一条新划痕，像是运输途中摔过。",
+        "检查完成后，店员指向车道入口，却问你们是否能帮忙把另一辆未领取的车送到修理台。"
+      ],
+      "questions": [
+        "这辆车是因为赶工受损，还是有人不愿承认摔过？",
+        "要先领取兑换车，还是帮店员找出损伤来源？"
+      ],
+      "revisit": "未来经过华蓝车道时，店员会记得谁认真检查过刹车；未领取的那辆车也可能带出新的维修委托。"
+    }
+  },
+  {
+    "id": "ss-anne-captain",
+    "node": "vermilion",
+    "title": "圣安奴号的最后一班船",
+    "speaker": "水手",
+    "portraitId": "sailor",
+    "requires": {
+      "flags": {
+        "ssTicket": true
+      },
+      "badges": 1
+    },
+    "stages": [
+      {
+        "id": "search-ship",
+        "text": "船舱开始摇晃，船长室里传来一声闷响。小智想马上冲进去，小霞提醒大家先问清船员情况；小刚已经在寻找安全的通道。",
+        "choices": [
+          {
+            "id": "ask-crew",
+            "label": "先询问水手，再沿船员标记寻找船长室",
+            "success": true,
+            "nextStage": "captain",
+            "text": "水手指出了不受摇晃影响的内侧通道。你们终于找到船长室，里面传来一阵虚弱的咳嗽。"
+          },
+          {
+            "id": "rush-deck",
+            "label": "越过水手直接冲上甲板",
+            "success": false,
+            "text": "船员拦住了你们，甲板正在清空。小刚带大家退到安全位置，等船身稳定后再找船长。"
+          }
+        ]
+      },
+      {
+        "id": "captain",
+        "text": "船长晕船得厉害。小刚找来冷水，小霞稳住舱门，小智的皮卡丘安静地靠在床边。",
+        "choices": [
+          {
+            "id": "care-captain",
+            "label": "先照顾船长，等他清醒后再听取请求",
+            "success": true,
+            "text": "船长终于缓过神来。他把HM01居合斩交给你，并说明这份技术不能替代徽章认可；沿途的树木仍须遵守训练家规则。",
+            "items": {
+              "hm01": 1
+            },
+            "flags": {
+              "ssAnneCaptainHelped": true
+            }
+          },
+          {
+            "id": "demand-hm",
+            "label": "催船长立刻交出HM",
+            "success": false,
+            "text": "船长摇了摇头。小霞提醒你先照顾眼前的人；等他恢复后再谈技术传授。"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "水手担心被乘客指责，船长则习惯把晕船藏起来，不想拖慢离港。小霞听得出船舱的摇晃已影响船员判断，小刚担心仓门被浪推开。",
+      "beats": [
+        "一阵横摇让杯子从桌沿滑下，水手仍坚持说自己能带路。",
+        "小霞询问哪位船员最后见过船长，得到的回答和墙上值班表对不上。",
+        "船长清醒后先问乘客有没有受伤，迟迟没有提HM；直到确认船已稳住，他才把技术交给愿意承担规则的人。"
+      ],
+      "questions": [
+        "水手为什么隐瞒值班表上的空缺？",
+        "你愿意在船离港前留下来协助检查，还是先确认船长是否需要休息？"
+      ],
+      "revisit": "船票持有者再次乘船时，水手会记得你先问过船员；船长也会询问你是否遵守了野外使用秘传技术的约定。"
+    }
+  },
+  {
+    "id": "route16-fly-house",
+    "node": "route16",
+    "title": "自行车道旁的小屋",
+    "speaker": "小刚",
+    "portraitId": "brock",
+    "requires": {
+      "flags": {
+        "bicycle": true
+      }
+    },
+    "stages": [
+      {
+        "id": "notice-house",
+        "text": "自行车道旁的小屋窗户半掩着。屋主怕吵闹的人群，不愿见客。小霞提议放慢声音，小智则想让皮卡丘先敲门示意。",
+        "choices": [
+          {
+            "id": "quiet-knock",
+            "label": "轻敲门并说明只是来问路",
+            "success": true,
+            "nextStage": "meet-woman",
+            "text": "屋主听出你们没有恶意，打开门请大家进屋。她说自己很久没和人聊天了。"
+          },
+          {
+            "id": "shout",
+            "label": "大声喊叫，让屋主马上开门",
+            "success": false,
+            "text": "屋主把窗户关上了。小刚建议先退到路边，等屋里安静下来再重新打招呼。"
+          }
+        ]
+      },
+      {
+        "id": "meet-woman",
+        "text": "屋主聊起从空中看见关都海岸的经历。她愿意把HM02飞翔交给懂得尊重旅伴的人。",
+        "choices": [
+          {
+            "id": "accept-fly",
+            "label": "认真听完路线建议，再收下飞翔",
+            "success": true,
+            "text": "你收下HM02飞翔。屋主叮嘱：这项技术要在徽章认可后才能用于旅行。",
+            "items": {
+              "hm02": 1
+            },
+            "flags": {
+              "route16FlyGift": true
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "屋主怕喧闹不是厌恶人，而是曾被骑行者围堵追问飞行路线；她独自照料一只受惊的波波。小霞愿意慢慢谈，小智容易把好奇误当成邀请。",
+      "beats": [
+        "窗边波波拍翅两下又缩回窝里，屋主先关上窗，确认外面没有人追来。",
+        "她在门后问来客是否真的只想问路；小刚留在门外，没有让所有人同时进屋。",
+        "屋主讲起从空中看海岸时漏掉的一段路线，飞行并不总是最短的路。"
+      ],
+      "questions": [
+        "她为什么不愿把常用路线画在地图上？",
+        "你会先问波波是否适应，还是询问屋主曾遇到什么麻烦？"
+      ],
+      "revisit": "获得HM02后回访，她会问旅途中有没有尊重同行伙伴的速度；若森林事件已有低扰动记录，她可能补上一处安全的观察点。"
+    }
+  },
+  {
+    "id": "safari-secret-house-surf",
+    "node": "safari",
+    "title": "狩猎地带的秘密小屋",
+    "speaker": "看守员",
+    "portraitId": "gentleman",
+    "requires": {},
+    "stages": [
+      {
+        "id": "choose-route",
+        "text": "狩猎地带的计时器已经开始倒数。西侧的草地传来求救声，东侧的岔路则通向一座孤零零的小屋。小霞提醒大家先看地图。",
+        "choices": [
+          {
+            "id": "follow-map",
+            "label": "沿路标去秘密小屋，先确认那里是否有人需要帮助",
+            "success": true,
+            "nextStage": "secret-house",
+            "text": "小屋里空无一人，桌上放着HM03冲浪。玻璃上留有看守员的提示：想带走它，请先证明你会遵守狩猎区的规则。"
+          },
+          {
+            "id": "leave-markers",
+            "label": "离开标记小路追逐远处的动静",
+            "success": false,
+            "text": "计时器提醒你们该返回入口。看守员建议下次跟随路标，别让慌乱把大家带散。"
+          }
+        ]
+      },
+      {
+        "id": "secret-house",
+        "text": "秘密小屋门边有一张简短的承诺卡：不追赶、不惊吓，遇到受伤的宝可梦先呼叫看守员。",
+        "choices": [
+          {
+            "id": "promise-care",
+            "label": "读完规则并答应照看受伤的宝可梦",
+            "success": true,
+            "text": "看守员确认了你的承诺，将HM03冲浪交给你。徽章认可仍是使用野外秘传技术的前提。",
+            "items": {
+              "hm03": 1
+            },
+            "flags": {
+              "safariSurfGift": true
+            }
+          },
+          {
+            "id": "ignore-rules",
+            "label": "无视规则，拿起HM后就离开",
+            "success": false,
+            "text": "看守员拦下了你。遵守狩猎区规则后再来领取，才不会惊扰这里的宝可梦。"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "看守员不想靠规则吓退游客，他曾因一张过时的路线图让游客追进繁殖区；他把HM03留在屋里，想确认领取者知道它不是捷径。",
+      "beats": [
+        "计时器的滴声越来越快，屋里的地图却标出一条比最短路更长的安全路线。",
+        "看守员的规则卡有一条手写补注：遇到受伤伙伴先停下，不要为赶时间绕过巡护点。",
+        "他交出技术前想听你说说，在计时结束时如何确保同伴没有被落下。"
+      ],
+      "questions": [
+        "你们要把求救声当成路线偏离的理由，还是先确认是否有人被困？",
+        "规则该由看守员替你决定，还是由你说明自己怎样遵守？"
+      ],
+      "revisit": "浅红市园长会听说你是否按承诺行事；以后再进狩猎地带，看守员会给出与你上次路线相连的地图。"
+    }
+  },
+  {
+    "id": "safari-gold-teeth-strength",
+    "node": "safari",
+    "title": "遗失的金牙",
+    "speaker": "小霞",
+    "portraitId": "misty",
+    "requires": {},
+    "stages": [
+      {
+        "id": "find-teeth",
+        "text": "草丛边有一道拖痕，通向池塘旁的长草。小霞发现一枚金色假牙卡在木桩下；小智想直接拔，小刚担心会伤到藏在旁边的宝可梦。",
+        "choices": [
+          {
+            "id": "lift-post",
+            "label": "先稳住木桩，再轻轻取出金牙",
+            "success": true,
+            "nextStage": "return-teeth",
+            "text": "金牙被安全取出。看守员提醒：失主是浅红市园长之家的老人，请出园后把它交还。",
+            "flags": {
+              "safariGoldTeeth": true
+            }
+          },
+          {
+            "id": "yank-post",
+            "label": "猛拉木桩，不顾周围的巢穴",
+            "success": false,
+            "text": "巢穴晃动起来，你们立刻停手并让宝可梦远离。稳住木桩后再试，才不会惊扰野生宝可梦。"
+          }
+        ]
+      },
+      {
+        "id": "return-teeth",
+        "text": "浅红市园长之家里，老人接过遗失的金牙，终于能清楚地说话。他说这份谢礼属于替他找回金牙的人。",
+        "choices": [
+          {
+            "id": "return-to-keeper",
+            "label": "在浅红市把金牙交还园长，听完他的使用说明",
+            "success": true,
+            "text": "园长把HM04怪力交给你，并嘱咐你下次入园也要留意那些被忽略的小路。小刚提醒：野外使用仍受徽章认可约束。",
+            "items": {
+              "hm04": 1
+            },
+            "flags": {
+              "safariStrengthGift": true
+            }
+          }
+        ],
+        "node": "fuchsia",
+        "speaker": "狩猎地带园长",
+        "portraitId": "gentleman",
+        "musicEvent": "quietReflection"
+      }
+    ],
+    "conversation": {
+      "focus": "失牙的园长怕年轻人把他的迟缓当成无用；小霞希望先保护巢穴，小刚懂得稳住木桩。金牙卡得很紧，强拉可能伤到旁边的宝可梦。",
+      "beats": [
+        "金色反光只出现一瞬，木桩下传来细小刨土声。",
+        "小霞发现拖痕不是金牙留下的，而是附近宝可梦反复把树枝推开。",
+        "园长拿回金牙后没有马上谈谢礼，他先把自己多年来没能照顾好的小路画给你看。"
+      ],
+      "questions": [
+        "你会把找到金牙的过程告诉园长，还是只交还失物？",
+        "那条小路上被忽略的是什么？"
+      ],
+      "revisit": "园长会在未来回访时告诉你哪条小路恢复通行；若你留下了巢穴安全标记，他会把它纳入新的导览图。"
+    }
+  },
+  {
+    "id": "celadon-rocket-hideout",
+    "node": "celadon",
+    "title": "游戏厅的暗门",
+    "speaker": "火箭队队员",
+    "portraitId": "rocket_grunt_m",
+    "requires": {},
+    "stages": [
+      {
+        "id": "find-switch",
+        "text": "游戏厅角落的海报边缘有被反复触碰的痕迹。赤红从柜台边看见一枚火箭队标志；蓝的口袋里正好有一块可以吸住薄钢片的磁石。",
+        "choices": [
+          {
+            "id": "inspect-poster",
+            "label": "检查海报和柜台后方，不惊动大厅的客人",
+            "success": true,
+            "nextStage": "hideout",
+            "text": "赤红和同伴沿着柜台后方的划痕找到一张暗藏的海报。开关一响，楼梯下方传来升降梯启动的声音。"
+          },
+          {
+            "id": "accuse-crowd",
+            "label": "在大厅大声指认每一位客人",
+            "success": false,
+            "text": "顾客被吓得离开，暗门仍然关着。赤红建议先观察被反复触碰的海报。"
+          }
+        ]
+      },
+      {
+        "id": "hideout",
+        "text": "火箭队的地下通道布满滑动地板和锁住的升降梯。你们找到一位被困的研究员；他请求先救出被关起来的人。",
+        "choices": [
+          {
+            "id": "rescue-researcher",
+            "label": "先救研究员，再关闭升降梯的控制台",
+            "success": true,
+            "text": "研究员获救，升降梯控制台也停止运转。他交给你一台可以识别幽灵的西尔佛检视镜，并嘱咐尽快送往紫苑镇。",
+            "flags": {
+              "rocketHideoutCleared": true,
+              "silphScope": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "fieldRadar",
+                "fieldRadarPlus"
+              ],
+              "fallbackItemsByGadget": {
+                "fieldRadar": {
+                  "blackbelt": 1
+                },
+                "fieldRadarPlus": {
+                  "silverpowder": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "take-elevator",
+            "label": "只追赶首领，留下被困的研究员",
+            "success": false,
+            "text": "升降梯锁死了。赤红坚持不能把被困者留在这里；先找到研究员再继续追踪。",
+            "reward": {
+              "gadgetIds": [
+                "fieldRadar",
+                "fieldRadarPlus"
+              ],
+              "fallbackItemsByGadget": {
+                "fieldRadar": {
+                  "blackbelt": 1
+                },
+                "fieldRadarPlus": {
+                  "silverpowder": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "火箭队队员反复触碰海报，是想确认地下通道仍在组织控制之下；他怕同伴泄露后整队被处分，也不愿把大厅顾客误当同谋。被困研究员曾替设备写过安全停机说明，却因怕丢工作没有上报异常；他知道货物被移走，却不知道买家。赤红坚持证据链，蓝在意保留无辜者的隐私。",
+      "beats": [
+        "火箭队队员想把海报边缘新鲜的胶痕擦掉，赤红按住他的手；柜台下的磁石吸住了一小片带编号的薄钢。",
+        "研究员隔着升降梯门报出停机步骤，却拒绝说出同事姓名。",
+        "逃出地下后，他把检视镜交给你；他仍握着那张没提交的安全报告。"
+      ],
+      "questions": [
+        "研究员愿意承担迟报责任吗？",
+        "你们先送他去安全处，还是陪他回去取那份报告？"
+      ],
+      "revisit": "紫苑镇之后，研究员会按你保留的证据路径补交报告；坂木会根据原件是否被带走调整地下通道的警戒。"
+    }
+  },
+  {
+    "id": "lavender-fuji-rescue",
+    "node": "lavender",
+    "title": "宝可梦塔的迷雾",
+    "speaker": "看灵人",
+    "portraitId": "channeler",
+    "requires": {
+      "flags": {
+        "silphScope": true
+      }
+    },
+    "stages": [
+      {
+        "id": "identify-ghost",
+        "text": "塔里的幽灵挡住了楼梯。西尔佛检视镜映出一只受惊的宝可梦；小霞压低声音，小刚让大家别把它当成敌人。",
+        "choices": [
+          {
+            "id": "calm-ghost",
+            "label": "让出通道并安抚幽灵，再寻找被困的富士老人",
+            "success": true,
+            "nextStage": "rescue-fuji",
+            "text": "幽灵安静下来，楼梯恢复通行。塔顶传来富士老人的呼救声。"
+          },
+          {
+            "id": "rush-ghost",
+            "label": "冲过幽灵，不作辨认",
+            "success": false,
+            "text": "雾气再次合拢，楼梯被挡住。先看清检视镜里的身影，再继续前进。"
+          }
+        ]
+      },
+      {
+        "id": "rescue-fuji",
+        "text": "富士老人安全返回紫苑镇。他准备把宝可梦之笛交给帮助过塔中居民的人。",
+        "choices": [
+          {
+            "id": "accept-flute",
+            "label": "护送富士老人离开宝可梦塔",
+            "success": true,
+            "text": "富士老人把宝可梦之笛托付给你。它能唤醒沉睡的宝可梦，但吹响前仍应先确认对方的处境。",
+            "flags": {
+              "fujiRescued": true,
+              "pokeFlute": true
+            },
+            "reward": {
+              "gadgetIds": [],
+              "items": {
+                "spelltag": 1
+              }
+            }
+          }
+        ],
+        "speaker": "富士老人",
+        "portraitId": "fuji"
+      }
+    ],
+    "conversation": {
+      "focus": "富士老人把照顾宝可梦当作自己的责任，却因年纪大而不愿承认需要帮助；塔里的幽灵害怕被人认成危险精灵。小霞和小刚不想把安抚误作控制。",
+      "beats": [
+        "检视镜里的轮廓在楼梯转角停下，不攻击，只挡在一扇贴着旧名字的门前。",
+        "富士老人的呼救声从楼上断断续续传来；幽灵每次听到脚步就往后退。",
+        "获救后，老人把宝可梦之笛放在手心，却先问你知道它会唤醒谁、又会惊扰谁吗。"
+      ],
+      "questions": [
+        "幽灵为什么守着那扇门？",
+        "救人之后，是否要把幽灵的存在告诉整座城？"
+      ],
+      "revisit": "你在路线上的沉睡伙伴前使用笛子时，富士老人会询问你是否先观察对方状态；塔里的幽灵也可能认出那段旋律。"
+    }
+  },
+  {
+    "id": "saffron-silph-rescue",
+    "node": "saffron",
+    "title": "西尔佛公司的避难层",
+    "speaker": "公司职员",
+    "portraitId": "scientist",
+    "requires": {
+      "flags": {
+        "rocketHideoutCleared": true
+      }
+    },
+    "stages": [
+      {
+        "id": "find-shelter",
+        "text": "西尔佛公司楼层的灯光忽明忽暗。职员告诉你，楼下还有人被困；小霞建议逐层询问，小刚则在楼梯边标出安全路线。",
+        "choices": [
+          {
+            "id": "map-route",
+            "label": "跟着楼层图逐层寻找避难室",
+            "success": true,
+            "nextStage": "free-staff",
+            "text": "你们找到被锁住的避难室。火箭队的脚步声正沿走廊逼近。"
+          },
+          {
+            "id": "split-party",
+            "label": "不留联络记号就分头行动",
+            "success": false,
+            "text": "走廊的门锁上了，伙伴一时失去联系。先回到楼梯口，按地图重新集合。"
+          }
+        ]
+      },
+      {
+        "id": "free-staff",
+        "text": "避难室的锁需要从两侧同时松开。小刚固定门轴，小霞引开看守，小智负责把里面的人带出来。",
+        "choices": [
+          {
+            "id": "free-everyone",
+            "label": "按分工同时开锁，先护送职员离开",
+            "success": true,
+            "text": "职员们安全撤出，西尔佛公司的警报重新亮起。火箭队失去控制楼层的机会；这段救援也记入关都旅程。",
+            "flags": {
+              "silphCoSafe": true
+            }
+          },
+          {
+            "id": "chase-rocket",
+            "label": "抛下避难室，先追逐走廊尽头的火箭队",
+            "success": false,
+            "text": "门锁无人处理，追逐很快被防火门截断。你们返回避难室，决定先把职员救出去。"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "职员熟悉每一层避难路线，却怕承认自己忘了检查一扇旧门；小刚愿意按图逐层核实，小霞担心分队失联。火箭队利用了他们不敢犯错的恐惧。",
+      "beats": [
+        "楼层灯每隔七秒熄一次，职员坚持说那是备用电源切换。",
+        "地图上避难室位置被铅笔改过两次，最后一处没有签名。",
+        "获救职员里有人想马上追火箭队，也有人只想回家；没有人替他们统一回答。"
+      ],
+      "questions": [
+        "签名缺失是疏忽，还是有人故意改了路线？",
+        "你会先把人送出去，还是追问谁改了地图？"
+      ],
+      "revisit": "获救职员将向公司提交独立路线复核；火箭队证据线会根据你是否登记签收链改变可公开的人员信息。"
+    }
+  },
+  {
+    "id": "cinnabar-mansion-key",
+    "node": "cinnabar",
+    "title": "红莲岛旧研究所",
+    "speaker": "研究员",
+    "portraitId": "scientist",
+    "requires": {
+      "items": {
+        "hm03": 1
+      }
+    },
+    "stages": [
+      {
+        "id": "read-notes",
+        "text": "旧研究所的实验记录散落在桌上。页角写着一把地下室钥匙的去向；研究员担心贸然触碰机器会让最后的记录损坏。",
+        "choices": [
+          {
+            "id": "organize-notes",
+            "label": "按日期整理记录，并请研究员一起确认线索",
+            "success": true,
+            "nextStage": "find-key",
+            "text": "几页记录拼在一起，指向地下室的备用钥匙柜。"
+          },
+          {
+            "id": "force-cabinet",
+            "label": "直接撬开所有柜子寻找钥匙",
+            "success": false,
+            "text": "柜门被撬歪，研究员制止了你。先整理完整记录，才能找到正确的钥匙柜。"
+          }
+        ]
+      },
+      {
+        "id": "find-key",
+        "text": "钥匙柜锁已打开，里面放着红莲岛道馆地下室的钥匙。",
+        "choices": [
+          {
+            "id": "take-key",
+            "label": "取走钥匙，并把实验记录交还研究员",
+            "success": true,
+            "text": "你获得地下室钥匙的剧情通行记录。它只开启红莲岛旧研究所相关区域，不改变普通地图连通规则。",
+            "flags": {
+              "mansionKey": true
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "研究员害怕被认为毁掉旧实验资料，因而把钥匙柜说成“没必要检查”；钥匙能开一处旧研究区，不应被误写成全岛万能通行证。",
+      "beats": [
+        "页边被水浸开的日期恰好缺了一天，研究员不愿把两页分开。",
+        "柜锁附近没有撬痕，只有一层重复涂抹的灰，说明有人常检查又不取钥匙。",
+        "拿到钥匙后，研究员仍要你把实验记录留在原位置，确认没有遗漏一页。"
+      ],
+      "questions": [
+        "研究员是在保护记录，还是在保护自己的签名？",
+        "你愿意把钥匙用途写清楚，避免别人把它当成任意通行证吗？"
+      ],
+      "revisit": "红莲主线调查时，钥匙柜编号会与研究档案交叉核对；若你保留原件，研究员会更愿意解释缺失日期。"
+    }
+  },
+  {
+    "id": "route3-partner-camp",
+    "node": "route3",
+    "title": "月见山前的搭档练习",
+    "speaker": "小智",
+    "portraitId": "trainer_ash",
+    "sceneTag": "camp",
+    "musicEvent": "quietReflection",
+    "requires": {},
+    "stages": [
+      {
+        "id": "training-plan",
+        "text": "通往月见山的坡路被雨水冲出两道浅沟。小智想用计时赛练伙伴的速度，小刚却注意到几只宝可梦每次经过湿滑石面都会迟疑。",
+        "choices": [
+          {
+            "id": "time-trial",
+            "label": "按原计划计时，记录每只伙伴能完成的距离",
+            "success": true,
+            "nextStage": "camp-reflection",
+            "text": "你们记录下了速度，也发现最慢的伙伴在坡顶停下来等同伴。小智承认成绩表没有记下它们互相照看的那一刻。",
+            "flags": {
+              "route3TrainingMeasured": true
+            }
+          },
+          {
+            "id": "safe-route",
+            "label": "先由小刚标出安全路线，再让伙伴自行决定步速",
+            "success": true,
+            "nextStage": "camp-reflection",
+            "text": "路线更稳妥，但练习时间被压缩了。伙伴们仍完成了往返；小智把剩下的时间留给了营地边的观察。",
+            "flags": {
+              "route3TrainingProtected": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "camp-reflection",
+        "speaker": "小刚",
+        "portraitId": "brock",
+        "sceneTag": "camp",
+        "musicEvent": "quietReflection",
+        "text": "夜色落在月见山前。小智把训练记录摊在营火旁，小刚发现两种练法都留下了有用的信息：一种记下能力边界，一种先确保伙伴能安全同行。",
+        "choices": [
+          {
+            "id": "share-record",
+            "label": "把记录交给下一支旅队，连同练习中的失误一起公开",
+            "success": true,
+            "text": "记录里既有速度，也有滑倒后重新选择路线的经过。小智说，后来者至少不用把一次失误误当成伙伴不可靠。",
+            "flags": {
+              "route3CampShared": true
+            }
+          },
+          {
+            "id": "keep-record",
+            "label": "留下私人笔记，先听每只伙伴愿意继续练什么",
+            "success": true,
+            "text": "你们把记录收进背包，围着营地逐一确认伙伴的意愿。小刚提醒，照顾得再周全也要给伙伴保留选择步速的空间。",
+            "flags": {
+              "route3CampPrivate": true
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "小智相信伙伴会在练习中彼此照应，却容易把互相等待误认为训练成绩；小刚把安全和选择权放在前面。孩子们各有步速，不能替伙伴选目标。",
+      "beats": [
+        "雨水沿两道浅沟流下，一只伙伴在坡边停下观察，另一只回头等它。",
+        "小智先看计时表，随后把秒表扣住，问伙伴想不想再走一次。",
+        "夜里营火映出两份记录：一份有距离，一份记下谁主动等了谁；小刚不替你判断哪份更重要。"
+      ],
+      "questions": [
+        "今天的练习要比较速度，还是理解每只伙伴在哪儿会犹豫？",
+        "把失误公开能帮助后来的旅队，还是让伙伴感到被评判？"
+      ],
+      "revisit": "小智在后续路段会提起那次停步；如果你听过伙伴意见，他会先询问今天是否想训练。"
+    }
+  },
+  {
+    "id": "vermilion-rocket-promise",
+    "node": "vermilion",
+    "title": "港口边的旧约定",
+    "speaker": "武藏",
+    "portraitId": "trainer_jessie",
+    "sceneTag": "city",
+    "musicEvent": "quietReflection",
+    "requires": {},
+    "stages": [
+      {
+        "id": "lost-partner",
+        "text": "港口长椅下压着一张被雨打湿的火箭队排班单。武藏和小次郎没有来抢东西；他们在找一只走散后不肯再靠近制服的宝可梦。武藏把旧徽章握得发白。",
+        "choices": [
+          {
+            "id": "offer-search",
+            "label": "陪他们沿着安静的巷子找，并约定先让伙伴自行接近",
+            "success": true,
+            "nextStage": "promise-choice",
+            "text": "你们在仓库外找到了那只伙伴。它认得武藏的声音，却仍躲在货箱后；武藏没有伸手，只把旧徽章放在地上。",
+            "flags": {
+              "rocketPartnerSearch": true
+            }
+          },
+          {
+            "id": "set-boundary",
+            "label": "帮忙询问港口目击者，但明确拒绝替他们追捕伙伴",
+            "success": true,
+            "nextStage": "promise-choice",
+            "text": "水手提供了最后一次目击的方向。找到伙伴后，小次郎拦住了武藏想靠近的脚步：这次必须由它决定要不要回来。",
+            "flags": {
+              "rocketPartnerBoundary": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "promise-choice",
+        "speaker": "小次郎",
+        "portraitId": "trainer_james",
+        "sceneTag": "city",
+        "musicEvent": "quietReflection",
+        "text": "小次郎承认，过去他们常把同伴当作完成任务的办法。那只宝可梦仍没走出货箱阴影；武藏问，怎样才能证明这次的承诺不是又一句好听的话。",
+        "choices": [
+          {
+            "id": "leave-choice-open",
+            "label": "把旧徽章留下，约定无论它是否回来都不再强迫它",
+            "success": true,
+            "text": "武藏把徽章推到离货箱更远的地方。伙伴没有立刻出来，但它抬头听完了约定；小次郎决定以后把它的选择也写进计划。",
+            "flags": {
+              "rocketPartnerChoiceHonored": true
+            }
+          },
+          {
+            "id": "make-amends-public",
+            "label": "请港口工会见证他们归还误拿的物资，并给伙伴留出安静时间",
+            "success": true,
+            "text": "工会登记了归还清单，也安排仓库暂时清场。伙伴仍可以不回来；小次郎接受了公开道歉会带来的处分，武藏没有再把徽章捡起来。",
+            "flags": {
+              "rocketPartnerRestitution": true
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "武藏把旧徽章攥得发白，怕伙伴不回来就证明她从未改变；小次郎擅长讲计划，却把责任说得太轻。那只走散的伙伴并未答应回队。",
+      "beats": [
+        "货箱后传来一次爪声，武藏立刻停住，没有再向前。",
+        "小次郎承认他们曾把伙伴写进任务清单，却没写它自己的选择。",
+        "港口工会愿意做见证，但要求归还物资时列出具体数量；两人不确定总部会如何回应。"
+      ],
+      "questions": [
+        "如果伙伴不回来，这份约定还算不算兑现？",
+        "你们要把道歉留给一个人听，还是接受公开记录带来的处分？"
+      ],
+      "revisit": "此后遇见武藏、小次郎时，他们会先说明同伴是否自愿同行；若你支持公开归还，港口工会会留下持续监督记录。"
+    }
+  },
+  {
+    "id": "saffron-manga-evidence",
+    "node": "saffron",
+    "title": "避难层之后的证据副本",
+    "speaker": "赤红（特别篇）",
+    "portraitId": "manga-red",
+    "sceneTag": "rocket-base",
+    "musicEvent": "silphCo",
+    "requires": {
+      "flags": {
+        "silphCoSafe": true
+      }
+    },
+    "stages": [
+      {
+        "id": "red-provenance",
+        "speaker": "赤红（特别篇）",
+        "portraitId": "manga-red",
+        "sceneTag": "rocket-base",
+        "musicEvent": "silphCo",
+        "text": "职员撤离后，赤红在清空的档案柜里找到一卷火箭队采购记录。原件能证明货物去向，也写着数位无关职员的住址。",
+        "choices": [
+          {
+            "id": "copy-sealed",
+            "label": "制作封存副本，记录经手人并暂不公开住址",
+            "success": true,
+            "nextStage": "green-review",
+            "text": "副本封好后，原件仍留在西尔佛公司的证据柜。赤红把经手人名单单独交给职员保管。",
+            "flags": {
+              "saffronEvidenceCopied": true
+            }
+          },
+          {
+            "id": "record-chain",
+            "label": "先逐项登记原件位置与签收链，不带走任何资料",
+            "success": true,
+            "nextStage": "green-review",
+            "text": "你们没有复制文件，但职员确认了原件柜号、封条和两名见证人。调查会慢一些，证据链却更容易被独立复核。",
+            "flags": {
+              "saffronEvidenceChainLogged": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "green-review",
+        "speaker": "青绿（特别篇）",
+        "portraitId": "manga-green",
+        "sceneTag": "rocket-base",
+        "musicEvent": "silphCo",
+        "text": "青绿核对了时间戳：记录既能追查火箭队，也可能让不知情的员工遭到报复。他提出把采购编号与私人地址彻底分开，再决定公开范围。",
+        "choices": [
+          {
+            "id": "redact-addresses",
+            "label": "删去私人地址，只保留采购编号、日期和可核实签名",
+            "success": true,
+            "nextStage": "blue-decision",
+            "text": "删节表保住了核查线索。公司职员愿意为缺失字段作证，但原始地址仍需由授权调查者保管。",
+            "flags": {
+              "saffronEvidenceRedacted": true
+            }
+          },
+          {
+            "id": "preserve-original",
+            "label": "维持原件完整封存，另写一份逐项说明供授权调查者核对",
+            "success": true,
+            "nextStage": "blue-decision",
+            "text": "原件没有改动，逐项说明标出了敏感字段。青绿提醒，封存能减少泄露风险，也意味着公众暂时看不到完整证据。",
+            "flags": {
+              "saffronEvidenceSealed": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "blue-decision",
+        "speaker": "小蓝（特别篇）",
+        "portraitId": "manga-blue",
+        "sceneTag": "rocket-base",
+        "musicEvent": "silphCo",
+        "text": "小蓝对照了避难层的签收记录。她认为无论选公开还是封存，都应留下将来复查的路径；职员则担心披露太少会让火箭队否认整条采购链。",
+        "choices": [
+          {
+            "id": "publish-redacted",
+            "label": "公开删节后的编号与签名，并留下申请查阅原件的渠道",
+            "success": true,
+            "text": "职员同意公开核查表，敏感信息仍由公司保管。公众可以追问证据，签名员工也承担了被认出的风险；赤红、青绿和小蓝把复查期限写进记录。",
+            "flags": {
+              "saffronEvidencePublished": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "bondLens"
+              ],
+              "fallbackItemsByGadget": {
+                "bondLens": {
+                  "sitrusberry": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "seal-with-review-date",
+            "label": "继续封存全部材料，设定复核日期并由职员保留异议记录",
+            "success": true,
+            "text": "原件受到保护，但火箭队采购链暂时不能公开核验。职员将异议和复核日期一并归档，三位图鉴持有人留下了共同签署的监督记录。",
+            "flags": {
+              "saffronEvidenceReviewScheduled": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "bondLens"
+              ],
+              "fallbackItemsByGadget": {
+                "bondLens": {
+                  "sitrusberry": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "赤红要求证据可复核，青绿敏感授权链，小蓝把无关职员的隐私放在心上。三人是特别篇图鉴持有人，不等同于小智、小茂、小霞；职员担心曝光后被报复。",
+      "beats": [
+        "赤红核对封条编号时不触碰原件，青绿在旁边记下每次交接的时间。",
+        "小蓝发现地址字段与采购路线混在同一页，提醒公开副本可能让家属被找到。",
+        "签收职员提出保留异议栏，即使他同意封存，也要留下不赞同的理由。"
+      ],
+      "questions": [
+        "公开哪部分才能让证据被审查，又不把员工推到火箭队面前？",
+        "若原件被封存，谁有资格在复核日打开？"
+      ],
+      "revisit": "常青审计时将引用你留下的复核日期与隐私边界；坂木会根据证据是否公开调整对证人的压力。"
+    }
+  },
+  {
+    "id": "seafoam-autonomous-rescue",
+    "node": "seafoam",
+    "title": "双子岛的回声浮标",
+    "speaker": "小霞",
+    "portraitId": "misty",
+    "sceneTag": "coast",
+    "musicEvent": "surfing",
+    "requires": {
+      "items": {
+        "hm03": 1
+      },
+      "badges": 5
+    },
+    "stages": [
+      {
+        "id": "read-the-signal",
+        "speaker": "小霞",
+        "portraitId": "misty",
+        "sceneTag": "coast",
+        "musicEvent": "surfing",
+        "text": "双子岛外海有一只小型水系宝可梦反复推着浮标，却不肯让船员靠近。小霞从水流方向读出求救信号，小刚看见浮标绳结正缠在一块松动的浮冰上。",
+        "choices": [
+          {
+            "id": "wait-for-signal",
+            "label": "停在安全距离，等它再次发出方向信号",
+            "success": true,
+            "nextStage": "rescue-plan",
+            "text": "它把浮标推向较平静的水道，又退回浮冰旁。信号足够清楚，但等待让船上伤员多受了一会儿寒冷。",
+            "flags": {
+              "seafoamSignalRespected": true
+            }
+          },
+          {
+            "id": "set-rescue-line",
+            "label": "先固定救援绳，再让自己的水系伙伴选择是否靠近协助",
+            "success": true,
+            "nextStage": "rescue-plan",
+            "text": "绳索固定后，伙伴自行游到浮标旁确认水道。救援更快了，但你们也承担了让自家伙伴进入寒流的风险。",
+            "flags": {
+              "seafoamRescueLineSet": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "rescue-plan",
+        "speaker": "小刚",
+        "portraitId": "brock",
+        "sceneTag": "coast",
+        "musicEvent": "surfing",
+        "text": "浮冰上的船员已经能看见岸边灯火。小刚主张先把人带回安全水域；小霞坚持继续观察那只宝可梦的信号，免得救援路线压过它正在保护的巢穴。",
+        "choices": [
+          {
+            "id": "evacuate-first",
+            "label": "沿它标出的水道先救船员，再请护林员检查巢穴",
+            "success": true,
+            "text": "船员被安全接回，巢穴检查留到退潮后进行。小霞记下了信号方向，小刚提醒大家不要把它的协助误写成服从命令。",
+            "flags": {
+              "seafoamCrewRescued": true,
+              "seafoamNestReviewPending": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "fieldRadar",
+                "fieldRadarPlus"
+              ],
+              "fallbackItemsByGadget": {
+                "fieldRadar": {
+                  "tm10": 1
+                },
+                "fieldRadarPlus": {
+                  "seaincense": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "hold-and-observe",
+            "label": "暂缓靠近浮冰，先确认它反复发信号保护的区域",
+            "success": true,
+            "text": "你们确认那一带有幼崽后，请岸上救援队改用更长的绳索接人。船员多等了一会儿，但巢穴没有被船体和浪头惊扰。",
+            "flags": {
+              "seafoamCrewRescued": true,
+              "seafoamNestProtected": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "fieldRadar",
+                "fieldRadarPlus"
+              ],
+              "fallbackItemsByGadget": {
+                "fieldRadar": {
+                  "tm10": 1
+                },
+                "fieldRadarPlus": {
+                  "seaincense": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "小霞相信水系宝可梦的信号有意图，却不敢假装知道它想表达什么；小刚优先救人。浮标同时牵着松动浮冰和巢穴线索。",
+      "beats": [
+        "浮标向平静水域偏了一次，水系伙伴没有立即下水，而是先抬头等训练家回应。",
+        "船员在冷风中发抖，岸边的巢穴标记又被浪盖住一半。",
+        "救援结束后，小霞把自己的推测标上“未证实”，坚持让下一轮潮水再验证。"
+      ],
+      "questions": [
+        "现在的信号够不够安全地接近，还是该等它再指一次方向？",
+        "救人和守住巢穴路线冲突时，谁来决定先后？"
+      ],
+      "revisit": "退潮后的巡护记录会补上巢穴检查；小霞会比较你上次的判断与实际潮流，不把猜测当事实。"
+    }
+  },
+  {
+    "id": "yellow-forest-listening",
+    "node": "viridian-forest",
+    "title": "不把安静当作服从",
+    "speaker": "小黄（特别篇）",
+    "portraitId": "manga-yellow",
+    "sceneTag": "forest",
+    "musicEvent": "quietReflection",
+    "requires": {},
+    "stages": [
+      {
+        "id": "listen",
+        "text": "戴草帽的小女孩没有追赶树根旁发抖的宝可梦。小黄蹲在一段距离外，把钓竿平放下来：它没有攻击，也不表示它已经安心。她想先看清它害怕什么。",
+        "choices": [
+          {
+            "id": "quiet-space",
+            "label": "和小黄退开，留出能自行离开的方向",
+            "success": true,
+            "nextStage": "promise",
+            "text": "你们退开后，它先看了看出口，才低头嗅闻落叶。小黄没有把这当作信任已经完成的证明。",
+            "flags": {
+              "yellowSpaceGiven": true
+            }
+          },
+          {
+            "id": "find-cause",
+            "label": "绕开它的退路，检查附近是否有捕捉网或受伤的同伴",
+            "success": true,
+            "nextStage": "promise",
+            "text": "草后有一截旧网绳。小黄等它移开后才收起绳子；它仍保持警惕，但不再缩在树根下。",
+            "flags": {
+              "yellowCauseChecked": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "promise",
+        "text": "小黄说自己也会判断错。有时伙伴愿意留下，有时它只是还没有力气离开。她问，你愿不愿意把下一步留给它自己决定。",
+        "choices": [
+          {
+            "id": "leave-a-sign",
+            "label": "留下安全路线的标记，约定以后路过时再来看",
+            "success": true,
+            "text": "小黄把标记放在不会妨碍巢穴的地方。你们没有得到一场收服，只多了一处以后还会惦记的树林。",
+            "flags": {
+              "yellowReturnPromise": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "bondLens"
+              ],
+              "items": {
+                "soothebell": 1
+              },
+              "fallbackItemsByGadget": {
+                "bondLens": {
+                  "luckyegg": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "stay-and-care",
+            "label": "先等护林员确认状况，再和伙伴一起离开",
+            "success": true,
+            "text": "等候耽误了赶路。护林员确认它能自行觅食后，小黄才捡起钓竿，向你们挥手。",
+            "flags": {
+              "yellowRangerCare": true
+            },
+            "reward": {
+              "gadgetIds": [
+                "bondLens"
+              ],
+              "items": {
+                "soothebell": 1
+              },
+              "fallbackItemsByGadget": {
+                "bondLens": {
+                  "luckyegg": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "小黄是孩子，能轻松和宝可梦相处，却不该被写成无所不能的治愈者；她的温柔会让她先听再动，意志则让她在同伴需要时坚持留下。她担心别人把安静误当服从。",
+      "beats": [
+        "小黄坐在树根旁，把手掌摊开但不召唤宝可梦；一只皮卡丘先靠近闻了闻，又退回阴影。",
+        "捕虫少年解释自己叫了几声却没有得到回应，小黄指出听不见回应不代表同意。",
+        "她想起自己也会在紧张时不说话，停了一会儿才问你愿不愿意陪她继续听。"
+      ],
+      "questions": [
+        "你会怎样分辨伙伴是在安静休息，还是害怕到不能回应？",
+        "小黄要不要把自己的担心告诉捕虫少年，还是先听完他的解释？"
+      ],
+      "revisit": "如果第一次森林事件留下低扰动路线，小黄会邀请你一同复查；她记住的不是谁最勇敢，而是谁愿意等。"
+    }
+  },
+  {
+    "id": "bill-lighthouse-unknown",
+    "node": "route25",
+    "title": "雾灯之后的回声",
+    "speaker": "正辉",
+    "portraitId": "bill",
+    "sceneTag": "lighthouse",
+    "musicEvent": "lighthouseMystery",
+    "requires": {
+      "flags": {
+        "billHelped": true
+      }
+    },
+    "stages": [
+      {
+        "id": "signal-calibration",
+        "speaker": "正辉",
+        "portraitId": "bill",
+        "sceneTag": "lighthouse",
+        "musicEvent": "lighthouseMystery",
+        "text": "正辉把灯塔喇叭接到一台临时声呐上。雾里传来一段低沉回应，仪器只显示回声超过当前量程；没有参照物、清晰影像或可核对的尺度。他坚持先校准设备，不把想象写成图鉴结论。",
+        "choices": [
+          {
+            "id": "low-power-listen",
+            "label": "降低鸣笛功率并记录回波间隔，等待会更久",
+            "success": true,
+            "nextStage": "echo-return",
+            "text": "小霞把船只留在安全水域，小智记下时间和回声间隔。仪器仍无法换算目标体型；雾中只传回了另一段无法定位的低音。",
+            "flags": {
+              "billSignalLowPower": true
+            }
+          },
+          {
+            "id": "silence-the-horn",
+            "label": "关掉主动鸣笛，只监听自然声；可能错过今晚的回应",
+            "success": true,
+            "nextStage": "quiet-watch",
+            "text": "灯塔停下了规律鸣笛。小刚标出退回岸边的路线，正辉接受今晚未必等得到第二次回应。",
+            "flags": {
+              "billSignalSilenced": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "echo-return",
+        "speaker": "小智",
+        "portraitId": "trainer_ash",
+        "sceneTag": "lighthouse",
+        "musicEvent": "lighthouseMystery",
+        "text": "雾墙里闪过一块高出礁石的影子，随后消失在浪声中。回声很长，但声呐的刻度已经到顶；小智把“巨大”留作目击者的感受，不替未知来客确认种类或真实尺寸。",
+        "choices": [
+          {
+            "id": "log-as-unknown",
+            "label": "交存回波时间与仪器上限，公开记作未确认海上巨影",
+            "success": true,
+            "text": "航海记录新增一条未确认回声，附上设备量程和误差；没有图鉴编号、体长或捕获结论。正辉把监听排班交给愿意继续守夜的人。 正辉另将培育屋托付照顾的一枚大个迷你龙蛋交给你：蛋壳比普通蛋大，带有海浪般的蓝色纹路。它来自救护培育记录，与雾中来客没有已证实的关联；孵化后是巨型迷你龙，体型仅影响外观。",
+            "flags": {
+              "billGiantEchoLogged": true,
+              "billGiantIdentityUnconfirmed": true
+            },
+            "reward": {
+              "lighthouseEgg": true
+            }
+          },
+          {
+            "id": "seal-the-bearing",
+            "label": "封存方位，只向船务发布避雾警示；少了外部复核",
+            "success": true,
+            "text": "正辉封存了粗略方位，只发布临时避雾提醒。记录说明信号尚无身份与尺度，下一次观测仍须由独立设备核对。 正辉另将培育屋托付照顾的一枚大个迷你龙蛋交给你：蛋壳比普通蛋大，带有海浪般的蓝色纹路。它来自救护培育记录，与雾中来客没有已证实的关联；孵化后是巨型迷你龙，体型仅影响外观。",
+            "flags": {
+              "billGiantBearingSealed": true,
+              "billGiantIdentityUnconfirmed": true
+            },
+            "reward": {
+              "lighthouseEgg": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "quiet-watch",
+        "speaker": "小霞",
+        "portraitId": "misty",
+        "sceneTag": "lighthouse",
+        "musicEvent": "lighthouseMystery",
+        "text": "灯塔安静下来后，远处传来几声断续的水下震动，却没有可辨认的轮廓。小霞不肯把沉默当作它拒绝靠近的证据，也不肯说它已经回应了人类。",
+        "choices": [
+          {
+            "id": "wait-another-tide",
+            "label": "等下一次潮汐再监听，放弃今晚追出方位",
+            "success": true,
+            "text": "你们没有追进雾里。正辉把本次记为“无充分观测”，准备改用不会引导来客靠岸的被动接收器。 正辉另将培育屋托付照顾的一枚大个迷你龙蛋交给你：蛋壳比普通蛋大，带有海浪般的蓝色纹路。它来自救护培育记录，与雾中来客没有已证实的关联；孵化后是巨型迷你龙，体型仅影响外观。",
+            "flags": {
+              "billLighthousePassiveListening": true,
+              "billGiantIdentityUnconfirmed": true
+            },
+            "reward": {
+              "lighthouseEgg": true
+            }
+          },
+          {
+            "id": "warn-coastal-boats",
+            "label": "只通知船只绕开回声海域，不公开坐标和猜测",
+            "success": true,
+            "text": "船务收到模糊范围的避雾警示。小霞把确切方位留在安全日志里，航行者知道该绕行，却无法把未知来客当作猎捕目标。 正辉另将培育屋托付照顾的一枚大个迷你龙蛋交给你：蛋壳比普通蛋大，带有海浪般的蓝色纹路。它来自救护培育记录，与雾中来客没有已证实的关联；孵化后是巨型迷你龙，体型仅影响外观。",
+            "flags": {
+              "billLighthouseNavigationWarning": true,
+              "billGiantIdentityUnconfirmed": true
+            },
+            "reward": {
+              "lighthouseEgg": true
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "比尔想用仪器证明远处回声不是幻听，但记录缺口让他怕别人把自己当成追逐传说的人；小智好奇，小刚坚持标出误差。远处轮廓没有经证实的物种或尺寸。",
+      "beats": [
+        "雾灯转到第三圈时，录音出现一个比浪声晚半拍的回应。",
+        "比尔把量程写在纸上，发现两次测量差异超过设备精度。",
+        "他问你愿不愿意只记录“有回声”，而暂不写下来源；灯塔值守人又发现了新的划痕。"
+      ],
+      "questions": [
+        "这段回声来自宝可梦、船只，还是岩壁反射？",
+        "在证据不足时，怎样记录才能既保留线索又不制造传闻？"
+      ],
+      "revisit": "未来雾夜的第三圈灯光可能再次出现回声；比尔会带着校准后的设备回来，并公开测量误差。"
+    }
+  },
+  {
+    "id": "celadon-rocket-trio-ledger",
+    "node": "celadon",
+    "title": "账单上的三个人",
+    "speaker": "武藏",
+    "portraitId": "trainer_jessie",
+    "sceneTag": "rocket-base",
+    "musicEvent": "rocketAppears",
+    "requires": {
+      "flags": {
+        "rocketHideoutCleared": true
+      }
+    },
+    "stages": [
+      {
+        "id": "headquarters-order",
+        "speaker": "武藏",
+        "portraitId": "trainer_jessie",
+        "sceneTag": "rocket-base",
+        "musicEvent": "rocketAppears",
+        "text": "火箭队联络器送来一张按“交付数量”计酬的单子，命令三人把一只受惊的伙伴送进转运箱。喵喵看出总部把大半报酬划给上级，武藏不想再替这种交易跑腿；小次郎担心拒令会让他们和那只伙伴一起被追捕。",
+        "choices": [
+          {
+            "id": "rescue-first",
+            "label": "先带伙伴离开转运点，放弃追问这一班交付名册",
+            "success": true,
+            "nextStage": "partner-exit",
+            "text": "武藏踢开箱门前先问你要不要动手；小次郎等伙伴自己靠近，喵喵挡住门口通讯器。转运名册暂时还在总部手里。",
+            "flags": {
+              "rocketTrioRescueStarted": true
+            }
+          },
+          {
+            "id": "trade-for-route",
+            "label": "让喵喵以一份安全路线换取交接编号，伙伴还要再等一会儿",
+            "success": true,
+            "nextStage": "invoice-clue",
+            "text": "喵喵用单据边角换到一个交接编号。武藏仍盯着箱子，小次郎把交易范围限定为路线线索，不准追加活体交付。",
+            "flags": {
+              "rocketTrioCluePlan": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "partner-exit",
+        "speaker": "小次郎",
+        "portraitId": "trainer_james",
+        "sceneTag": "rocket-base",
+        "musicEvent": "quietReflection",
+        "text": "仓库外的草丛有一条没有火箭队气味的退路。那只伙伴愿意离开箱子，却没有马上信任三人；小次郎提议让你和自己的伙伴先走在前面，武藏留下承担违令的后果。",
+        "choices": [
+          {
+            "id": "escort-partner",
+            "label": "陪它走到护林员接应点，花时间确认它安全",
+            "success": true,
+            "text": "伙伴跟着熟悉的脚步到了接应点。三人交还转运箱和两枚封存精灵球，喵喵把上级扣走佣金的账页留作证据。",
+            "flags": {
+              "rocketTrioPartnerRescued": true,
+              "rocketTrioDefiedOrder": true,
+              "rocketTrioThreadStarted": true
+            },
+            "items": {
+              "maxpotion": 1
+            }
+          },
+          {
+            "id": "leave-choice-open",
+            "label": "打开退路后离远等待，不要求它跟你们走",
+            "success": true,
+            "text": "你们拆掉了箱门锁，却没有围住出口。伙伴自行离开；武藏和小次郎留下箱号供护林员追查，接受它未必再回头。",
+            "flags": {
+              "rocketTrioPartnerReleased": true,
+              "rocketTrioDefiedOrder": true,
+              "rocketTrioThreadStarted": true
+            },
+            "items": {
+              "greatball": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "invoice-clue",
+        "speaker": "小次郎",
+        "portraitId": "trainer_james",
+        "sceneTag": "rocket-base",
+        "musicEvent": "rocketAppears",
+        "text": "喵喵用爪子点出发票上被涂黑的转运编号，小次郎逐项转述：总部按交付数量结算，没给被装箱的伙伴留下任何照护费用。武藏要求先确认伙伴已由临时照护者接手，再决定线索交给谁。",
+        "choices": [
+          {
+            "id": "exchange-redacted-code",
+            "label": "交出脱敏编号换取照护者位置，线索将进入警方记录",
+            "success": true,
+            "text": "你们用不含栖地坐标的编号换到临时照护点，伙伴已经被转交照看；交接人同意把扣佣记录交给调查员。",
+            "flags": {
+              "rocketTrioClueShared": true,
+              "rocketTrioPartnerRescued": true,
+              "rocketTrioThreadStarted": true
+            },
+            "items": {
+              "greatball": 2
+            }
+          },
+          {
+            "id": "keep-code-private",
+            "label": "只保留编号副本并先保护照护者身份，调查会慢一些",
+            "success": true,
+            "text": "照护者的位置没有外传，伙伴仍安全；喵喵把编号副本交给小次郎保管，若日后愿意作证，三人必须承担再次联系的风险。",
+            "flags": {
+              "rocketTrioClueSealed": true,
+              "rocketTrioPartnerRescued": true,
+              "rocketTrioThreadStarted": true
+            },
+            "items": {
+              "maxpotion": 1
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "武藏想把伙伴从组织名单抹掉，小次郎想用清单换安全出口，喵喵懂得账单上的涂改比口供更可靠；三人彼此保护，但并未因此自动脱离火箭队。",
+      "beats": [
+        "坂木的命令把三人的名字列在交付栏，旁边是按批次结算的佣金。",
+        "小次郎提出用离开总部的路线换账本线索，武藏反问这是否又把同伴当筹码。",
+        "喵喵指出涂改前后的墨色不同，愿意交出编号，但要先知道伙伴能不能安全离开。"
+      ],
+      "questions": [
+        "你先救出同伴，还是先保留能证明账目被改写的凭据？",
+        "三人愿意承担多少后果，才算真正停止替组织执行命令？"
+      ],
+      "revisit": "浅红和常青的证据线会回响他们是否留过账本副本；后续相遇时三人会记得你有没有把“离队”当成已经发生的事。"
+    }
+  },
+  {
+    "id": "saffron-viridian-rocket-ledger",
+    "node": "saffron",
+    "title": "从避难层到常青的双线记录",
+    "speaker": "赤红（特别篇）",
+    "portraitId": "manga-red",
+    "sceneTag": "rocket-base",
+    "musicEvent": "silphCo",
+    "requires": {
+      "flags": {
+        "rocketHideoutCleared": true,
+        "silphCoSafe": true
+      }
+    },
+    "stages": [
+      {
+        "id": "saffron-two-trails",
+        "speaker": "赤红（特别篇）",
+        "portraitId": "manga-red",
+        "sceneTag": "rocket-base",
+        "musicEvent": "silphCo",
+        "text": "西尔佛避难层安全后，赤红从一张被截断的火箭队运输单上找到常青交接点；小蓝听出单据还缺一页“人员交接”，青绿认为必须先确认谁会受牵连。救援和证据只能先选一条线，另一条会晚一步。",
+        "choices": [
+          {
+            "id": "follow-the-witness",
+            "label": "先护送最后一名目击职员离开，再到常青补查单据",
+            "success": true,
+            "nextStage": "viridian-rescue",
+            "text": "赤红陪职员走安全楼梯，小蓝留下去向记录；原始编号仍不完整。你们约好在常青的会合点继续核对。",
+            "flags": {
+              "mangaRocketRescueTrack": true
+            }
+          },
+          {
+            "id": "follow-the-ledger",
+            "label": "先把原始交接页送交青绿核验，职员须多等一轮护送",
+            "success": true,
+            "nextStage": "viridian-audit",
+            "text": "青绿封存了交接页并写下经手时间；目击职员暂留在已清理的避难层。小蓝负责与职员保持联络，直到救援路线确认。",
+            "flags": {
+              "mangaRocketEvidenceTrack": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "viridian-rescue",
+        "node": "viridian",
+        "speaker": "青绿（特别篇）",
+        "portraitId": "manga-green",
+        "sceneTag": "village",
+        "musicEvent": "quietReflection",
+        "text": "常青安全屋只收留愿意留下的人。青绿核对楼梯和交接时刻，赤红在门外确认尾随者已经离开，小蓝先问职员是否要公开姓名；救援完成不代表对方必须作证。",
+        "choices": [
+          {
+            "id": "shelter-without-statement",
+            "label": "先安排安全住处，不要求职员提供证词",
+            "success": true,
+            "text": "职员获得临时住处和一条自选联络渠道。赤红把路线留给值守者，青绿封存姓名；调查少了一份证词，但没有把救助变成交换条件。",
+            "flags": {
+              "mangaRocketWitnessSheltered": true,
+              "mangaRocketNamesSealed": true,
+              "mangaRocketRecordReceived": true
+            },
+            "items": {
+              "maxpotion": 2
+            }
+          },
+          {
+            "id": "voluntary-statement",
+            "label": "让职员自愿核对交接时刻，姓名只交独立调查员",
+            "success": true,
+            "text": "职员确认了交接时间，但只向独立调查员署名。小蓝留下复核日期，青绿把可公开的编号与私人身份分开归档。",
+            "flags": {
+              "mangaRocketWitnessSheltered": true,
+              "mangaRocketWitnessStatement": true,
+              "mangaRocketRecordReceived": true
+            },
+            "items": {
+              "greatball": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "viridian-audit",
+        "node": "viridian",
+        "speaker": "小蓝（特别篇）",
+        "portraitId": "manga-blue",
+        "sceneTag": "village",
+        "musicEvent": "silphCo",
+        "text": "小蓝在常青会合点把两页交接单并排放好。青绿指出一处授权空白，赤红确认同一时间确有人员撤离；特别篇三位图鉴持有人各自负责核查、现场确认与隐私边界，不代替玩家决定公开范围。",
+        "choices": [
+          {
+            "id": "publish-redacted-route",
+            "label": "公开脱敏交接路线和可核对时刻，接受外界质疑",
+            "success": true,
+            "text": "公开页保留时间、批次与复核方法，删去了私人姓名和野外伙伴坐标。青绿把更正入口一并登记；赤红保留原件供授权调查员核验。",
+            "flags": {
+              "mangaRocketRoutePublished": true,
+              "mangaRocketNamesSealed": true,
+              "mangaRocketRecordReceived": true
+            },
+            "items": {
+              "greatball": 2
+            }
+          },
+          {
+            "id": "seal-until-review",
+            "label": "封存原件并登记解封期限，暂缓公开完整路线",
+            "success": true,
+            "text": "原件交由独立调查员保管，复核日期和监督人公开登记。小蓝留下异议入口；若期限届满，档案必须重新审议，不能无限期搁置。",
+            "flags": {
+              "mangaRocketRouteSealed": true,
+              "mangaRocketReviewDated": true,
+              "mangaRocketRecordReceived": true
+            },
+            "items": {
+              "maxpotion": 2
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "赤红守现场，青绿核对时序，小蓝保护证人；他们的工作分开但彼此制衡。受困联络员怕名字公开，武藏与小次郎愿意带路，却不能代表证人作决定。",
+      "beats": [
+        "避难层的两条路线在交接单上相交，只有一条有签收人。",
+        "常青会合点的风把纸页掀开，小蓝按住证人姓名，青绿追问空白授权栏。",
+        "审计员愿意复核，但要求明确复核期限；无限封存和马上公开都不是中立选择。"
+      ],
+      "questions": [
+        "证人能否决定名字是否进入公开档案？",
+        "你愿意先救人、先保全路线，还是设定一段有期限的封存？"
+      ],
+      "revisit": "常青复核日会检查这条线路是否兑现；无论公开或封存，证人都保留提出异议的渠道。"
+    }
+  },
+  {
+    "id": "route24-abandoned-partner",
+    "node": "route24",
+    "title": "石墙边的微弱火光",
+    "speaker": "小智",
+    "portraitId": "trainer_ash",
+    "sceneTag": "road",
+    "musicEvent": "quietReflection",
+    "requires": {},
+    "stages": [
+      {
+        "id": "find-the-shelter",
+        "text": "24号道路的石墙后有个避风凹处，一只受过惊的火系伙伴缩在里面，尾端火光被雨淋得很弱。小霞想先递水，小刚提醒别堵住唯一出口；小智的皮卡丘站在两人身后，没有逼近。",
+        "choices": [
+          {
+            "id": "leave-water-and-space",
+            "label": "放下干布和水，留出退路后守在远处",
+            "success": true,
+            "nextStage": "camp-rest",
+            "text": "伙伴没有被球或绳索困住。你们用挡雨布搭好临时遮蔽，记下它仍可自行离开的方向；小刚提议先在前方空地休整，让它自己决定是否靠近。",
+            "flags": {
+              "route24PartnerShelterFound": true
+            }
+          },
+          {
+            "id": "mark-rescue-route",
+            "label": "沿路设置可撤除的求助标记，请巡护员远处观察",
+            "success": true,
+            "nextStage": "camp-rest",
+            "text": "巡护员答应从林缘观察，不会把伙伴带走或登记成你的收服目标。小霞把求助标记留在原地；你们先去安全的空地搭营，避免围观给它压力。",
+            "flags": {
+              "route24PartnerRescueRequested": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "camp-rest",
+        "node": "route25",
+        "requiresEvents": {
+          "camp": 1
+        },
+        "text": "临时营地已搭好一段时间。只有实际完成一次营地休整后，才会留下这段照护记录；小智没有替那只伙伴做决定。天色转亮时，它仍在不远处，出口也一直敞开。",
+        "choices": [
+          {
+            "id": "offer-voluntary-company",
+            "label": "让自己的伙伴在营地边陪伴，等它自行选择去向",
+            "success": true,
+            "text": "那只伙伴走近火光片刻，又自己回到草坡。小霞记下它选择了安全路线；你们没有收服它，巡护员会继续观察它的状况。",
+            "flags": {
+              "route24PartnerChoiceHonored": true,
+              "route24PartnerCareLogged": true
+            },
+            "items": {
+              "maxpotion": 1
+            }
+          },
+          {
+            "id": "hand-over-care-map",
+            "label": "把遮蔽点与补给交给巡护员，继续旅程",
+            "success": true,
+            "text": "巡护员接过照护地图，但伙伴仍有离开的自由。小刚把营地位置和水源标在路线册上；你们不追赶它，也不把善意换成收服。",
+            "flags": {
+              "route24PartnerCareLogged": true,
+              "route24PartnerChoiceHonored": true
+            },
+            "items": {
+              "greatball": 1
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "受惊的火系伙伴仍握有离开的权利；小智愿意陪伴，但不该替它决定留下。巡护员怕被误解成强行带走，因此只从远处观察。",
+      "beats": [
+        "尾端火光被雨打得忽明忽暗，遮蔽处另一侧留着一条畅通的出口。",
+        "小智的皮卡丘把干布推到边缘后退开，没有逼它靠近营火。",
+        "天亮时伙伴走近又退回草坡；巡护员只记录它的路线，不给它套上归属。"
+      ],
+      "questions": [
+        "这只伙伴需要的是陪伴、安静，还是专业救助？",
+        "你们离开后，谁能持续观察又不把它变成收服目标？"
+      ],
+      "revisit": "巡护员会在之后的路段递来匿名健康记录；若伙伴主动靠近，它的选择仍由它自己表达。"
+    }
+  },
+  {
+    "id": "vermilion-butterfree-migration",
+    "node": "vermilion",
+    "title": "港湾上空的粉色队列",
+    "speaker": "小霞",
+    "portraitId": "misty",
+    "sceneTag": "coast",
+    "musicEvent": "quietReflection",
+    "requires": {},
+    "stages": [
+      {
+        "id": "watch-the-tide",
+        "text": "枯叶港外的潮风把一群巴大蝶推向灯塔侧的低空。港务员想立刻拉起防鸟网，小霞指出队列正在等待风向；小智的皮卡丘与队伍里的伙伴安静伏低，没有惊散它们。",
+        "choices": [
+          {
+            "id": "clear-the-cable",
+            "label": "先关掉一段有缠绕风险的信号缆，再从岸边观察",
+            "success": true,
+            "nextStage": "migration-choice",
+            "text": "水手暂时断开信号缆，航线改由旗号提示。巴大蝶群重新排成队列；港务员仍担心航班延误，要你们决定是否继续护送。",
+            "flags": {
+              "vermilionMigrationHazardCleared": true
+            }
+          },
+          {
+            "id": "ask-for-tide-window",
+            "label": "和船员协商短暂停靠窗口，给迁徙队列让出水面",
+            "success": true,
+            "nextStage": "migration-choice",
+            "text": "船员留出一段潮汐窗口并记录延误成本。小霞确认群蝶没有被围困；它们仍可自行改变方向。",
+            "flags": {
+              "vermilionMigrationWindowGranted": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "migration-choice",
+        "text": "风向转稳，巴大蝶群准备越过外海。港务员需要恢复航线；队伍里那只巴大蝶也没有被任何剧情操作带走。现在可以选择短程护送，或只守住不惊扰的离港通道。",
+        "choices": [
+          {
+            "id": "escort-to-breakwater",
+            "label": "乘巡逻艇陪到防波堤外，接受一班货船延后",
+            "success": true,
+            "text": "巡逻艇只护送到安全海域便停下。迁徙群自行飞向远处岛影；船员确认航线延误记在港务账上，小霞把平安离港作为回响记录。",
+            "flags": {
+              "vermilionButterfreeEscorted": true,
+              "vermilionButterfreeFarewellOpen": true
+            },
+            "items": {
+              "greatball": 1
+            }
+          },
+          {
+            "id": "open-the-harbor-lane",
+            "label": "恢复航线并留出无网通道，不追随、不召回迁徙群",
+            "success": true,
+            "text": "港务员撤下防网，货船按安全间隔通过。巴大蝶群自己选择远去；队伍中的伙伴仍留在原位，是否同行始终由它和训练家决定。小智把这次放手写进航海记录。",
+            "flags": {
+              "vermilionButterfreeRouteOpen": true,
+              "vermilionButterfreeFarewellOpen": true
+            },
+            "items": {
+              "maxpotion": 1
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "港务员担心航线延误会有人受伤，小霞关心迁徙队列，水手不想再放一次防网；群蝶可以自行改变路线，队伍里的巴大蝶不会被剧情擅自移出。",
+      "beats": [
+        "潮风让队列突然降低高度，一只巴大蝶折返检查信号缆。",
+        "港务员拿出延误账目，小霞要求同时记下防网造成的缠绕风险。",
+        "队列飞过防波堤后没有回头；水手把空出的通道留到下一次涨潮。"
+      ],
+      "questions": [
+        "是否值得让一班货船晚点，为迁徙队列多留一段窗口？",
+        "你要跟随群蝶，还是只把安全通道留给它们自己选择？"
+      ],
+      "revisit": "港务账会记录这次延误和迁徙结果；下个迁徙季，小霞会回访群蝶是否仍使用这条通道。"
+    }
+  },
+  {
+    "id": "rocket-celadon-saffron-viridian",
+    "node": "celadon",
+    "title": "交付账本的最后一页",
+    "speaker": "坂木",
+    "portraitId": "giovanni",
+    "sceneTag": "rocket-base",
+    "musicEvent": "rocketInvestigation",
+    "requires": {
+      "flags": {
+        "rocketHideoutCleared": true,
+        "rocketTrioThreadStarted": true,
+        "mangaRocketRecordReceived": true
+      }
+    },
+    "stages": [
+      {
+        "id": "celadon-objective",
+        "speaker": "坂木",
+        "portraitId": "giovanni",
+        "sceneTag": "rocket-base",
+        "musicEvent": "rocketInvestigation",
+        "text": "玉虹地下通道里留下的货单把精灵交付数折算成组织收益。坂木没有把目标说成研究或慈善：他要用集中控制与稳定货源扩大火箭队的势力；失去账页会让几个地区的交接被迫停摆。武藏想把同伴从名单上划掉，喵喵认得被涂改的批次，小次郎担心总部会拿避难者作报复筹码。",
+        "choices": [
+          {
+            "id": "secure-hostage-route",
+            "label": "先救出货单上标记的被扣人员，暂缓取走原件",
+            "success": true,
+            "nextStage": "saffron-cost",
+            "text": "武藏和小次郎带人走维修通道，喵喵留下复印编号；账本原件仍在坂木控制区。救援路线暴露给了追兵，西尔佛的接应人必须提前撤离。",
+            "flags": {
+              "rocketFinalRescueFirst": true
+            }
+          },
+          {
+            "id": "copy-cargo-ledger",
+            "label": "先复制批次与交接时间，再由青绿核验原件",
+            "success": true,
+            "nextStage": "saffron-cost",
+            "text": "青绿用独立记录核验货单，赤红负责守住门口。被扣人员还要多等一轮，武藏要求把撤退时限写进计划，小次郎同意绝不把沉默当成同意。",
+            "flags": {
+              "rocketFinalEvidenceFirst": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "saffron-cost",
+        "node": "saffron",
+        "speaker": "小次郎",
+        "portraitId": "trainer_james",
+        "sceneTag": "rocket-base",
+        "musicEvent": "rocketInvestigation",
+        "text": "西尔佛的避难层已经转移人员，但一名联络员被火箭队堵在货梯附近。若现在撤退，能保住人却要交出批次复印件；若保住证据，救援队须走更长的楼梯，小蓝会承担人员去向被追查的风险。武藏不再接受总部按交付数量结算的命令，喵喵却坚持把能证明组织获利的页码留下。",
+        "choices": [
+          {
+            "id": "trade-copy-for-safe-withdrawal",
+            "label": "交出复印件换取联络员安全撤离，失去立即公开的证据",
+            "success": true,
+            "nextStage": "viridian-confrontation",
+            "text": "联络员随青绿先行撤出，复印件交给坂木的代理人；小蓝保留批次记忆与复核人名单。火箭队仍控制原件，之后的调查会更慢。",
+            "flags": {
+              "rocketFinalHostageReleased": true,
+              "rocketFinalCopySurrendered": true
+            }
+          },
+          {
+            "id": "keep-copy-and-take-long-route",
+            "label": "保留复印件走长楼梯，接受撤退途中可能被追踪",
+            "success": true,
+            "nextStage": "viridian-confrontation",
+            "text": "赤红带着复印件先走，武藏与小次郎掩护联络员。路线上的每个停靠点都可能暴露；喵喵将涂改编号交由小蓝封存，不能再靠口头否认抹掉。",
+            "flags": {
+              "rocketFinalHostageReleased": true,
+              "rocketFinalCopyPreserved": true,
+              "rocketFinalLongRoute": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "viridian-confrontation",
+        "node": "viridian",
+        "speaker": "赤红（特别篇）",
+        "portraitId": "manga-red",
+        "sceneTag": "rocket-base",
+        "musicEvent": "rocketInvestigation",
+        "text": "常青道馆外的旧仓库是货单最后一个交接点。赤红确认人员已经离开，青绿按时刻追出坂木的运输链，小蓝将目击者姓名与公开证据分开；坂木要回被扣的账本，并以停止追查换取三人离开。武藏只要求总部别再把同伴当货物，小次郎把撤退条件逐条念给证人，喵喵仍想带走能兑现的一页佣金记录。",
+        "choices": [
+          {
+            "id": "publish-redacted-ledger",
+            "label": "交出原件副本并公开脱敏货运链，承担坂木加紧追查",
+            "success": true,
+            "text": "青绿把批次、时间和经手岗位交给调查员，删去伙伴栖地和目击者姓名。赤红拒绝替坂木宣布组织瓦解；这条证据让火箭队的具体交接难以否认，但并未凭一页账本消灭整个组织。",
+            "flags": {
+              "rocketFinalLedgerPublished": true,
+              "rocketFinalWitnessesProtected": true
+            },
+            "items": {
+              "greatball": 2
+            },
+            "reward": {
+              "gadgetIds": [
+                "leagueNotes"
+              ],
+              "fallbackItemsByGadget": {
+                "leagueNotes": {
+                  "focusband": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "withdraw-with-witnesses",
+            "label": "先把证人与伙伴撤出，封存账页等独立复核",
+            "success": true,
+            "text": "小蓝封存账页并登记复核期限，赤红护送证人离开。坂木保住了部分货运网络，证据暂不能公开；武藏和小次郎则因违令失去组织报酬，喵喵保留一份可核验的副本作为交换筹码。",
+            "flags": {
+              "rocketFinalWitnessesProtected": true,
+              "rocketFinalLedgerSealed": true,
+              "rocketFinalReviewDated": true
+            },
+            "items": {
+              "maxpotion": 2
+            },
+            "reward": {
+              "gadgetIds": [
+                "leagueNotes"
+              ],
+              "fallbackItemsByGadget": {
+                "leagueNotes": {
+                  "focusband": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "focus": "坂木把集中控制和稳定货源视为组织优势；武藏想切断同伴作为货物的名单，小次郎逐条核验撤退条件，喵喵担心佣金记录被毁。证人和伙伴的安全不等于组织已经解散。",
+      "beats": [
+        "玉虹货单把栖境伙伴写成数量，坂木拒绝承认这是压力测试，而称为供应链。",
+        "西尔佛联络员被堵在货梯附近，保住一页副本就会延长撤离路线。",
+        "常青仓库里坂木提出停止追查换账本；证人已经离开，但一页佣金记录仍在喵喵手里。"
+      ],
+      "questions": [
+        "你要先救人、留下证据，还是为公开证据承担被追查的后果？",
+        "即使证据公开，火箭队的网络还会在哪些地方继续运作？"
+      ],
+      "revisit": "常青的证据处置会影响大会期间火箭队的施压方式；无论选择哪条路，后续都必须回应受影响者，而非一句话宣布组织消失。"
+    }
+  }
+]

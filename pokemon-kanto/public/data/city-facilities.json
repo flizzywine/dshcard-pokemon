@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "references": {
+      "gameCornerCoinCase": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_GameCorner/scripts.inc",
+      "gameCornerPrizeRoom": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.inc",
+      "departmentStore1F": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_DepartmentStore_1F/scripts.inc",
+      "departmentStore2F": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_DepartmentStore_2F/scripts.inc",
+      "departmentStore4F": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_DepartmentStore_4F/scripts.inc",
+      "departmentStore5F": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_DepartmentStore_5F/scripts.inc",
+      "departmentStoreRoof": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/CeladonCity_DepartmentStore_Roof/scripts.inc",
+      "safariEntry": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/data/maps/FuchsiaCity_SafariZone_Entrance/scripts.inc",
+      "safariEncounters": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/data/wild_encounters.json",
+      "safariSpecies": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/data/pokemon/species_info.h",
+      "safariBall": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/battle_script_commands.c",
+      "safariActions": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/battle_main.c",
+      "safariFlee": "https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/battle_ai_script_commands.c"
+    }
+  },
+  "towns": {
+    "pallet": {
+      "summary": "大木研究所负责图鉴与初始伙伴剧情。",
+      "facilities": [
+        {
+          "id": "oak-lab",
+          "name": "大木研究所",
+          "kind": "research",
+          "description": "研究与图鉴记录委托。",
+          "primaryAction": "oak-open-field"
+        }
+      ]
+    },
+    "viridian": {
+      "summary": "常青市是通往关都北部道路与道馆的入口。",
+      "facilities": [
+        {
+          "id": "viridian-gym",
+          "name": "常青道馆",
+          "kind": "gym",
+          "description": "按道馆顺序挑战；对战资格由既有徽章规则校验。",
+          "primaryAction": "challenge-gym:7"
+        }
+      ]
+    },
+    "pewter": {
+      "summary": "科学博物馆展示古生物与月之石展品。",
+      "facilities": [
+        {
+          "id": "museum",
+          "name": "科学博物馆",
+          "kind": "museum",
+          "description": "岩石标本记录委托与博物馆展区。",
+          "primaryAction": "brock-stone-practice"
+        }
+      ]
+    },
+    "cerulean": {
+      "summary": "华蓝市围绕水域研究、洞窟道路与自行车兑换店展开。",
+      "facilities": [
+        {
+          "id": "bike-shop",
+          "name": "自行车商店",
+          "kind": "transport",
+          "description": "自行车兑换券由枯叶市自行车俱乐部会长发放，可在此兑换自行车。",
+          "primaryAction": "celadon-bike-exchange"
+        }
+      ]
+    },
+    "vermilion": {
+      "summary": "圣安奴号港口承接海路与船上剧情。",
+      "facilities": [
+        {
+          "id": "seagallop",
+          "name": "圣安奴号港口",
+          "kind": "harbor",
+          "description": "船票、船上剧情与港口补给。",
+          "primaryAction": "ss-anne-captain"
+        }
+      ]
+    },
+    "lavender": {
+      "summary": "宝可梦塔是关都的纪念地与主线探索地点。",
+      "facilities": [
+        {
+          "id": "pokemon-tower",
+          "name": "宝可梦塔",
+          "kind": "memorial",
+          "description": "推进救出富士老人事件。",
+          "primaryAction": "lavender-fuji-rescue"
+        }
+      ]
+    },
+    "celadon": {
+      "summary": "玉虹市设有游戏厅与大型百货商店。",
+      "facilities": [
+        {
+          "id": "game-corner",
+          "name": "玉虹游戏厅",
+          "kind": "game-corner",
+          "description": "领取代币盒、购买代币并兑换奖品与奖品精灵。",
+          "primaryAction": "facility-coin-case"
+        },
+        {
+          "id": "department-store",
+          "name": "玉虹百货大厦",
+          "kind": "department-store",
+          "description": "按楼层选购补给、进化石与战斗用品；顶楼有自动贩卖机和饮料兑换。此处提供楼层服务，不模拟整栋建筑地图。",
+          "primaryAction": "facility-department-floor",
+          "sceneTag": "department-store"
+        },
+        {
+          "id": "celadon-mansion",
+          "name": "玉虹公馆",
+          "kind": "story",
+          "description": "公馆老妇人会赠送茶水；带给金黄市守卫后可开放关卡通行。",
+          "primaryAction": "field-claim-tea"
+        }
+      ]
+    },
+    "fuchsia": {
+      "summary": "浅红市的狩猎地带使用独立步数、狩猎球、诱饵和石头规则。",
+      "facilities": [
+        {
+          "id": "safari-zone",
+          "name": "狩猎地带",
+          "kind": "safari",
+          "description": "在浅红市入口付费进入；园内操作须位于 safari 节点。",
+          "primaryAction": "facility-safari-enter",
+          "sceneTag": "safari-zone"
+        },
+        {
+          "id": "warden-house",
+          "name": "园长之家",
+          "kind": "story",
+          "description": "先付费入园寻找金牙，再出园到浅红市园长之家交还，获得HM04怪力。",
+          "primaryAction": "safari-gold-teeth-strength"
+        }
+      ]
+    },
+    "saffron": {
+      "summary": "金黄市包括格斗道场、宝可梦道馆与西尔佛公司。",
+      "facilities": [
+        {
+          "id": "fighting-dojo",
+          "name": "格斗道场",
+          "kind": "dojo",
+          "description": "与空手道大王进行格斗道场挑战。",
+          "primaryAction": "field-challenge-dojo"
+        },
+        {
+          "id": "silph-co",
+          "name": "西尔佛公司",
+          "kind": "story",
+          "description": "救援行动由既有剧情事件控制。",
+          "primaryAction": "saffron-silph-rescue"
+        }
+      ]
+    },
+    "cinnabar": {
+      "summary": "红莲研究所承接化石复活研究；宝可梦之家记录岛上研究线索。",
+      "facilities": [
+        {
+          "id": "pokemon-mansion",
+          "name": "宝可梦之家",
+          "kind": "research",
+          "description": "废弃宅邸与研究记录探索地点。",
+          "primaryAction": "cinnabar-mansion-key"
+        },
+        {
+          "id": "lab",
+          "name": "红莲宝可梦研究所",
+          "kind": "laboratory",
+          "description": "研究员可复活玩家提交的化石。",
+          "primaryAction": "field-revive-fossil"
+        }
+      ]
+    },
+    "indigo": {
+      "summary": "联盟进度、徽章与队伍由既有联盟挑战规则校验。",
+      "facilities": [
+        {
+          "id": "pokemon-league",
+          "name": "宝可梦联盟",
+          "kind": "league",
+          "description": "冠军衔接委托与四天王挑战入口。",
+          "primaryAction": "blue-league-ledger"
+        }
+      ]
+    }
+  },
+  "gameCorner": {
+    "coinPurchases": [
+      {
+        "coins": 50,
+        "yen": 1000
+      },
+      {
+        "coins": 500,
+        "yen": 10000
+      }
+    ],
+    "coinLimit": 9999,
+    "prizes": [
+      {
+        "id": "smokeball",
+        "name": "烟球",
+        "coins": 800
+      },
+      {
+        "id": "miracleseed",
+        "name": "奇迹种子",
+        "coins": 1000
+      },
+      {
+        "id": "charcoal",
+        "name": "木炭",
+        "coins": 1000
+      },
+      {
+        "id": "mysticwater",
+        "name": "神秘水滴",
+        "coins": 1000
+      },
+      {
+        "id": "tm13",
+        "name": "TM13 冰冻光束",
+        "coins": 4000
+      },
+      {
+        "id": "tm23",
+        "name": "TM23 铁尾",
+        "coins": 3500
+      },
+      {
+        "id": "tm24",
+        "name": "TM24 十万伏特",
+        "coins": 4000
+      },
+      {
+        "id": "tm30",
+        "name": "TM30 暗影球",
+        "coins": 4500
+      },
+      {
+        "id": "tm35",
+        "name": "TM35 喷射火焰",
+        "coins": 4000
+      },
+      {
+        "id": "yellowflute",
+        "name": "黄色玻璃哨",
+        "coins": 1600
+      }
+    ],
+    "pokemonPrizes": [
+      {
+        "speciesId": 63,
+        "name": "凯西",
+        "version": "firered",
+        "coins": 180,
+        "level": 9
+      },
+      {
+        "speciesId": 35,
+        "name": "皮皮",
+        "version": "firered",
+        "coins": 500,
+        "level": 8
+      },
+      {
+        "speciesId": 147,
+        "name": "迷你龙",
+        "version": "firered",
+        "coins": 2800,
+        "level": 18
+      },
+      {
+        "speciesId": 123,
+        "name": "飞天螳螂",
+        "version": "firered",
+        "coins": 5500,
+        "level": 25
+      },
+      {
+        "speciesId": 137,
+        "name": "多边兽",
+        "version": "firered",
+        "coins": 9999,
+        "level": 26
+      },
+      {
+        "speciesId": 63,
+        "name": "凯西",
+        "version": "leafgreen",
+        "coins": 120,
+        "level": 7
+      },
+      {
+        "speciesId": 35,
+        "name": "皮皮",
+        "version": "leafgreen",
+        "coins": 750,
+        "level": 12
+      },
+      {
+        "speciesId": 127,
+        "name": "凯罗斯",
+        "version": "leafgreen",
+        "coins": 2500,
+        "level": 18
+      },
+      {
+        "speciesId": 147,
+        "name": "迷你龙",
+        "version": "leafgreen",
+        "coins": 4600,
+        "level": 24
+      },
+      {
+        "speciesId": 137,
+        "name": "多边兽",
+        "version": "leafgreen",
+        "coins": 6500,
+        "level": 18
+      }
+    ],
+    "slotMachine": {
+      "enabled": false,
+      "note": "本版本没有加入原作老虎机赔率；不提供伪装成原作概率的玩法。"
+    }
+  },
+  "departmentStore": {
+    "floors": [
+      {
+        "id": "1F",
+        "name": "1F 服务台",
+        "description": "入口楼层与楼层导览。"
+      },
+      {
+        "id": "2F",
+        "name": "2F 训练家市场",
+        "description": "精灵球、常用药品与基础补给。"
+      },
+      {
+        "id": "3F",
+        "name": "3F 游戏柜台",
+        "description": "游戏话题与招式教学柜台；当前未模拟教学服务。"
+      },
+      {
+        "id": "4F",
+        "name": "4F 进化石与礼物",
+        "description": "宝可梦娃娃与四种进化石。"
+      },
+      {
+        "id": "5F",
+        "name": "5F 营养品与战斗用品",
+        "description": "能力强化用品。"
+      },
+      {
+        "id": "rooftop",
+        "name": "顶楼广场",
+        "description": "自动贩卖机饮料与口渴女孩的限次兑换。"
+      }
+    ],
+    "activeFloors": [
+      "2F",
+      "4F",
+      "5F",
+      "rooftop"
+    ],
+    "goods": {
+      "2F": [
+        {
+          "id": "greatball",
+          "name": "超级球",
+          "price": 600
+        },
+        {
+          "id": "superpotion",
+          "name": "好伤药",
+          "price": 700
+        },
+        {
+          "id": "revive",
+          "name": "活力碎片",
+          "price": 1500
+        },
+        {
+          "id": "antidote",
+          "name": "解毒药",
+          "price": 100
+        },
+        {
+          "id": "paralyzeheal",
+          "name": "解麻药",
+          "price": 200
+        },
+        {
+          "id": "awakening",
+          "name": "解眠药",
+          "price": 250
+        },
+        {
+          "id": "burnheal",
+          "name": "灼伤药",
+          "price": 250
+        },
+        {
+          "id": "iceheal",
+          "name": "解冻药",
+          "price": 250
+        }
+      ],
+      "4F": [
+        {
+          "id": "pokedoll",
+          "name": "宝可梦娃娃",
+          "price": 1000
+        },
+        {
+          "id": "firestone",
+          "name": "火之石",
+          "price": 2100
+        },
+        {
+          "id": "thunderstone",
+          "name": "雷之石",
+          "price": 2100
+        },
+        {
+          "id": "waterstone",
+          "name": "水之石",
+          "price": 2100
+        },
+        {
+          "id": "leafstone",
+          "name": "叶之石",
+          "price": 2100
+        }
+      ],
+      "5F": [
+        {
+          "id": "xattack",
+          "name": "攻击增强",
+          "price": 500
+        },
+        {
+          "id": "xdefend",
+          "name": "防御增强",
+          "price": 550
+        },
+        {
+          "id": "xspeed",
+          "name": "速度增强",
+          "price": 350
+        },
+        {
+          "id": "xspecial",
+          "name": "特攻增强",
+          "price": 350
+        },
+        {
+          "id": "xaccuracy",
+          "name": "命中增强",
+          "price": 950
+        },
+        {
+          "id": "guardspec",
+          "name": "能力防守",
+          "price": 700
+        },
+        {
+          "id": "direhit",
+          "name": "要害攻击",
+          "price": 650
+        },
+        {
+          "id": "hpup",
+          "name": "HP增强剂",
+          "price": 9800
+        },
+        {
+          "id": "protein",
+          "name": "攻击增强剂",
+          "price": 9800
+        },
+        {
+          "id": "iron",
+          "name": "防御增强剂",
+          "price": 9800
+        },
+        {
+          "id": "calcium",
+          "name": "特攻增强剂",
+          "price": 9800
+        },
+        {
+          "id": "zinc",
+          "name": "特防增强剂",
+          "price": 9800
+        },
+        {
+          "id": "carbos",
+          "name": "速度增强剂",
+          "price": 9800
+        }
+      ],
+      "rooftop": [
+        {
+          "id": "freshwater",
+          "name": "美味之水",
+          "price": 200,
+          "kind": "drink"
+        },
+        {
+          "id": "sodapop",
+          "name": "劲爽汽水",
+          "price": 300,
+          "kind": "drink"
+        },
+        {
+          "id": "lemonade",
+          "name": "果汁牛奶",
+          "price": 350,
+          "kind": "drink"
+        }
+      ]
+    },
+    "rooftopTrades": [
+      {
+        "drinkId": "freshwater",
+        "drinkName": "美味之水",
+        "rewardId": "tm16",
+        "rewardName": "TM16 光墙"
+      },
+      {
+        "drinkId": "sodapop",
+        "drinkName": "劲爽汽水",
+        "rewardId": "tm20",
+        "rewardName": "TM20 神秘守护"
+      },
+      {
+        "drinkId": "lemonade",
+        "drinkName": "果汁牛奶",
+        "rewardId": "tm33",
+        "rewardName": "TM33 反射壁"
+      }
+    ],
+    "unmodeledFloors": [
+      "1F",
+      "3F"
+    ],
+    "notes": [
+      "商品列表仅列出本项目背包/招式机器目录可支持的商品。",
+      "顶楼饮料使用MVU统一背包库存。"
+    ]
+  },
+  "safari": {
+    "entryFee": 500,
+    "balls": 30,
+    "steps": 600,
+    "counterRange": [
+      2,
+      6
+    ],
+    "speciesSource": "public/data/frlg-encounters.json#nodes.safari",
+    "speciesMechanics": {
+      "29": {
+        "catchRate": 235,
+        "fleeRate": 50
+      },
+      "30": {
+        "catchRate": 120,
+        "fleeRate": 75
+      },
+      "32": {
+        "catchRate": 235,
+        "fleeRate": 50
+      },
+      "33": {
+        "catchRate": 120,
+        "fleeRate": 75
+      },
+      "47": {
+        "catchRate": 75,
+        "fleeRate": 75
+      },
+      "48": {
+        "catchRate": 190,
+        "fleeRate": 50
+      },
+      "54": {
+        "catchRate": 190,
+        "fleeRate": 50
+      },
+      "60": {
+        "catchRate": 255,
+        "fleeRate": 50
+      },
+      "79": {
+        "catchRate": 190,
+        "fleeRate": 50
+      },
+      "102": {
+        "catchRate": 90,
+        "fleeRate": 75
+      },
+      "111": {
+        "catchRate": 120,
+        "fleeRate": 75
+      },
+      "113": {
+        "catchRate": 30,
+        "fleeRate": 125
+      },
+      "118": {
+        "catchRate": 225,
+        "fleeRate": 50
+      },
+      "119": {
+        "catchRate": 60,
+        "fleeRate": 75
+      },
+      "123": {
+        "catchRate": 45,
+        "fleeRate": 125
+      },
+      "127": {
+        "catchRate": 45,
+        "fleeRate": 125
+      },
+      "129": {
+        "catchRate": 255,
+        "fleeRate": 25
+      },
+      "147": {
+        "catchRate": 45,
+        "fleeRate": 100
+      },
+      "148": {
+        "catchRate": 45,
+        "fleeRate": 125
+      }
+    }
+  }
+}

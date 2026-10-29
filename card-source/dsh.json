@@ -1,0 +1,61 @@
+{
+  "format": "dshcard",
+  "formatVersion": 1,
+  "card": {
+    "version": "1.0.0",
+    "title": "宝可梦·火红叶绿：关都旅程 · 舞台版",
+    "author": "玩家共创"
+  },
+  "requires": {
+    "tavernApi": 4
+  },
+  "plugins": [
+    {
+      "name": "dsh-card-pokemon-frlg-stage",
+      "path": "plugins/pokemon-kanto/",
+      "purpose": "同一原生剧场的剧情、战斗与管理；MVU后台结算、先叙事后行动；资源独立存储"
+    }
+  ],
+  "packs": [
+    {
+      "path": "assets/kanto-media/",
+      "id": "kanto-media",
+      "format": "dsh-kanto-media-v1",
+      "title": "关都人物、背景、像素与剧情音乐",
+      "credits": [
+        "assets/kanto-media/assets/sources.md"
+      ]
+    },
+    {
+      "path": "assets/kanto-animated-096/",
+      "id": "kanto-animated-096",
+      "format": "dsh-kanto-animated-v1",
+      "title": "关都151正背面普通与闪光动态精灵",
+      "credits": [
+        "assets/kanto-animated-096/source.json",
+        "assets/kanto-animated-096/hd-source.json",
+        "assets/kanto-animated-096/ASSET_NOTICES.md"
+      ]
+    },
+    {
+      "path": "assets/kanto-fx-1027/",
+      "id": "kanto-fx-1027",
+      "format": "dsh-kanto-fx-v1",
+      "title": "原创分层演出材质",
+      "credits": [
+        "assets/kanto-fx-1027/source.json",
+        "assets/kanto-fx-1027/authoring-prompt.md"
+      ]
+    }
+  ],
+  "defaults": {
+    "stage": true,
+    "settings": {
+      "statusBarPlacement": "sidebar",
+      "backgroundTasks": {
+        "variables": true,
+        "posture": false
+      }
+    }
+  }
+}

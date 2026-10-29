@@ -1,0 +1,441 @@
+[
+  {
+    "id": "ether",
+    "name": "PP单项小补剂",
+    "price": 0,
+    "category": "medicine",
+    "description": "回复指定招式10点PP。",
+    "target": true,
+    "actionKey": "item ether",
+    "battle": {
+      "pp": 10,
+      "allMoves": false
+    },
+    "outside": {
+      "pp": 10,
+      "allMoves": false
+    }
+  },
+  {
+    "id": "maxether",
+    "name": "PP单项全补剂",
+    "price": 0,
+    "category": "medicine",
+    "description": "回复指定招式全部PP。",
+    "target": true,
+    "actionKey": "item maxether",
+    "battle": {
+      "pp": "all",
+      "allMoves": false
+    },
+    "outside": {
+      "pp": "all",
+      "allMoves": false
+    }
+  },
+  {
+    "id": "elixir",
+    "name": "PP多项小补剂",
+    "price": 0,
+    "category": "medicine",
+    "description": "回复全部招式10点PP。",
+    "target": true,
+    "actionKey": "item elixir",
+    "battle": {
+      "pp": 10,
+      "allMoves": true
+    },
+    "outside": {
+      "pp": 10,
+      "allMoves": true
+    }
+  },
+  {
+    "id": "maxelixir",
+    "name": "PP多项全补剂",
+    "price": 0,
+    "category": "medicine",
+    "description": "回复全部招式全部PP。",
+    "target": true,
+    "actionKey": "item maxelixir",
+    "battle": {
+      "pp": "all",
+      "allMoves": true
+    },
+    "outside": {
+      "pp": "all",
+      "allMoves": true
+    }
+  },
+  {
+    "id": "ppup",
+    "name": "PP提升剂",
+    "price": 0,
+    "category": "medicine",
+    "description": "指定招式PP上限增加基础值的20%，最多使用三次。",
+    "target": true,
+    "actionKey": "item ppup",
+    "battle": null,
+    "outside": {
+      "ppUps": 1
+    }
+  },
+  {
+    "id": "ppmax",
+    "name": "PP极限提升剂",
+    "price": 0,
+    "category": "medicine",
+    "description": "指定招式PP上限提高至基础值的160%。",
+    "target": true,
+    "actionKey": "item ppmax",
+    "battle": null,
+    "outside": {
+      "ppUps": "max"
+    }
+  },
+  {
+    "id": "hpup",
+    "name": "HP增强剂",
+    "price": 9800,
+    "category": "medicine",
+    "description": "第三世代：对应努力值增加至多10，营养品最多补到该项100，总努力值不超过510。",
+    "target": true,
+    "actionKey": "item hpup",
+    "battle": null,
+    "outside": {
+      "ev": "hp",
+      "amount": 10
+    }
+  },
+  {
+    "id": "protein",
+    "name": "攻击增强剂",
+    "price": 9800,
+    "category": "medicine",
+    "description": "第三世代：对应努力值增加至多10，营养品最多补到该项100，总努力值不超过510。",
+    "target": true,
+    "actionKey": "item protein",
+    "battle": null,
+    "outside": {
+      "ev": "atk",
+      "amount": 10
+    }
+  },
+  {
+    "id": "iron",
+    "name": "防御增强剂",
+    "price": 9800,
+    "category": "medicine",
+    "description": "第三世代：对应努力值增加至多10，营养品最多补到该项100，总努力值不超过510。",
+    "target": true,
+    "actionKey": "item iron",
+    "battle": null,
+    "outside": {
+      "ev": "def",
+      "amount": 10
+    }
+  },
+  {
+    "id": "calcium",
+    "name": "特攻增强剂",
+    "price": 9800,
+    "category": "medicine",
+    "description": "第三世代：对应努力值增加至多10，营养品最多补到该项100，总努力值不超过510。",
+    "target": true,
+    "actionKey": "item calcium",
+    "battle": null,
+    "outside": {
+      "ev": "spa",
+      "amount": 10
+    }
+  },
+  {
+    "id": "zinc",
+    "name": "特防增强剂",
+    "price": 9800,
+    "category": "medicine",
+    "description": "第三世代：对应努力值增加至多10，营养品最多补到该项100，总努力值不超过510。",
+    "target": true,
+    "actionKey": "item zinc",
+    "battle": null,
+    "outside": {
+      "ev": "spd",
+      "amount": 10
+    }
+  },
+  {
+    "id": "carbos",
+    "name": "速度增强剂",
+    "price": 9800,
+    "category": "medicine",
+    "description": "第三世代：对应努力值增加至多10，营养品最多补到该项100，总努力值不超过510。",
+    "target": true,
+    "actionKey": "item carbos",
+    "battle": null,
+    "outside": {
+      "ev": "spe",
+      "amount": 10
+    }
+  },
+  {
+    "id": "rarecandy",
+    "name": "神奇糖果",
+    "price": 0,
+    "category": "medicine",
+    "description": "提升一级，并处理升级学招和进化；本局开启的等级上限仍适用。",
+    "target": true,
+    "actionKey": "item rarecandy",
+    "battle": null,
+    "outside": {
+      "level": 1
+    }
+  },
+  {
+    "id": "freshwater",
+    "name": "美味之水",
+    "price": 200,
+    "category": "medicine",
+    "description": "第三世代：恢复50点HP。",
+    "target": true,
+    "actionKey": "item freshwater",
+    "battle": {
+      "heal": 50
+    },
+    "outside": {
+      "heal": 50
+    }
+  },
+  {
+    "id": "sodapop",
+    "name": "劲爽汽水",
+    "price": 300,
+    "category": "medicine",
+    "description": "第三世代：恢复60点HP。",
+    "target": true,
+    "actionKey": "item sodapop",
+    "battle": {
+      "heal": 60
+    },
+    "outside": {
+      "heal": 60
+    }
+  },
+  {
+    "id": "lemonade",
+    "name": "果汁牛奶",
+    "price": 350,
+    "category": "medicine",
+    "description": "第三世代：恢复80点HP。",
+    "target": true,
+    "actionKey": "item lemonade",
+    "battle": {
+      "heal": 80
+    },
+    "outside": {
+      "heal": 80
+    }
+  },
+  {
+    "id": "energypowder",
+    "name": "元气粉",
+    "price": 500,
+    "category": "medicine",
+    "description": "恢复50点HP，味道很苦，会降低亲密度。",
+    "target": true,
+    "actionKey": "item energypowder",
+    "battle": {
+      "heal": 50,
+      "friendship": [
+        -5,
+        -5,
+        -10
+      ]
+    },
+    "outside": {
+      "heal": 50,
+      "friendship": [
+        -5,
+        -5,
+        -10
+      ]
+    }
+  },
+  {
+    "id": "energyroot",
+    "name": "元气根",
+    "price": 800,
+    "category": "medicine",
+    "description": "恢复200点HP，味道很苦，会降低亲密度。",
+    "target": true,
+    "actionKey": "item energyroot",
+    "battle": {
+      "heal": 200,
+      "friendship": [
+        -10,
+        -10,
+        -15
+      ]
+    },
+    "outside": {
+      "heal": 200,
+      "friendship": [
+        -10,
+        -10,
+        -15
+      ]
+    }
+  },
+  {
+    "id": "healpowder",
+    "name": "万能粉",
+    "price": 450,
+    "category": "medicine",
+    "description": "解除主要异常状态，味道很苦，会降低亲密度。",
+    "target": true,
+    "actionKey": "item healpowder",
+    "battle": {
+      "status": [
+        "brn",
+        "frz",
+        "par",
+        "psn",
+        "tox",
+        "slp"
+      ],
+      "friendship": [
+        -5,
+        -5,
+        -10
+      ]
+    },
+    "outside": {
+      "status": [
+        "brn",
+        "frz",
+        "par",
+        "psn",
+        "tox",
+        "slp"
+      ],
+      "friendship": [
+        -5,
+        -5,
+        -10
+      ]
+    }
+  },
+  {
+    "id": "revivalherb",
+    "name": "复活草",
+    "price": 2800,
+    "category": "medicine",
+    "description": "倒下的宝可梦完全恢复HP，味道很苦，会降低亲密度。",
+    "target": true,
+    "actionKey": "item revivalherb",
+    "battle": {
+      "revive": 1,
+      "friendship": [
+        -15,
+        -15,
+        -20
+      ]
+    },
+    "outside": {
+      "revive": 1,
+      "friendship": [
+        -15,
+        -15,
+        -20
+      ]
+    }
+  },
+  {
+    "id": "sacredash",
+    "name": "圣灰",
+    "price": 0,
+    "category": "medicine",
+    "description": "战斗外令所有倒下的同行宝可梦恢复全部HP。",
+    "target": true,
+    "actionKey": "item sacredash",
+    "battle": null,
+    "outside": {
+      "reviveParty": true
+    }
+  },
+  {
+    "id": "hyperpotion",
+    "name": "厉害伤药",
+    "price": 1200,
+    "category": "medicine",
+    "description": "第三世代：恢复200点HP。",
+    "target": true,
+    "actionKey": "item hyperpotion",
+    "battle": {
+      "heal": 200
+    },
+    "outside": {
+      "heal": 200
+    }
+  },
+  {
+    "id": "maxpotion",
+    "name": "全满药",
+    "price": 2500,
+    "category": "medicine",
+    "description": "恢复全部HP。",
+    "target": true,
+    "actionKey": "item maxpotion",
+    "battle": {
+      "heal": 9999
+    },
+    "outside": {
+      "heal": 9999
+    }
+  },
+  {
+    "id": "fullrestore",
+    "name": "全复药",
+    "price": 3000,
+    "category": "medicine",
+    "description": "恢复全部HP并解除主要异常状态。",
+    "target": true,
+    "actionKey": "item fullrestore",
+    "battle": {
+      "heal": 9999,
+      "status": [
+        "brn",
+        "frz",
+        "par",
+        "psn",
+        "tox",
+        "slp"
+      ]
+    },
+    "outside": {
+      "heal": 9999,
+      "status": [
+        "brn",
+        "frz",
+        "par",
+        "psn",
+        "tox",
+        "slp"
+      ]
+    }
+  },
+  {
+    "id": "maxrevive",
+    "name": "活力块",
+    "price": 4000,
+    "category": "medicine",
+    "description": "倒下的宝可梦恢复全部HP。",
+    "target": true,
+    "actionKey": "item maxrevive",
+    "battle": {
+      "revive": 1
+    },
+    "outside": {
+      "revive": 1
+    }
+  }
+]

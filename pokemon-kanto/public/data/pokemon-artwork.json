@@ -1,0 +1,3027 @@
+{
+  "sourceRepository": "https://github.com/PokeAPI/sprites",
+  "sourceDirectory": "sprites/pokemon/other/official-artwork/",
+  "entries": [
+    {
+      "id": 1,
+      "image": "assets/pokemon/artwork/1.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/1.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "7233d8d8b03b5fa91d835a3069d25769155db93c9ef91b6066e215ed3895e9d8",
+      "visibleBounds": {
+        "x": 22,
+        "y": 36,
+        "width": 431,
+        "height": 402,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 2,
+      "image": "assets/pokemon/artwork/2.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/2.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "82013427ae4ef328117f7deccee219e3ff4865dd5768719493628c55392b7ea5",
+      "visibleBounds": {
+        "x": 22,
+        "y": 36,
+        "width": 431,
+        "height": 402,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 3,
+      "image": "assets/pokemon/artwork/3.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/3.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "106d0040aa775f95871706c30ddd4abaef2c962215f5e8bd4141e0caef0ef8e4",
+      "visibleBounds": {
+        "x": 22,
+        "y": 70,
+        "width": 431,
+        "height": 335,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 4,
+      "image": "assets/pokemon/artwork/4.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/4.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "0c8e36e321cbd6578d0b669324edf6cb819f8e510dbac43cee22c4221db80b4d",
+      "visibleBounds": {
+        "x": 46,
+        "y": 22,
+        "width": 382,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 5,
+      "image": "assets/pokemon/artwork/5.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/5.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "6de10f11330f19b507343b06e17b1cc9d650f86de2a0eb962c24b07d19f5be6c",
+      "visibleBounds": {
+        "x": 53,
+        "y": 22,
+        "width": 368,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 6,
+      "image": "assets/pokemon/artwork/6.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/6.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b6d5b8ee9fb05dc6f53294b2cae660dec770b92762cdb19d16bcbd679e1ba43a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 68,
+        "width": 431,
+        "height": 338,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 7,
+      "image": "assets/pokemon/artwork/7.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/7.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "37cda7bf8ad6f4252d539aed3bd989a85c8cb0f8e9d815be12bad08c16f31fe9",
+      "visibleBounds": {
+        "x": 29,
+        "y": 22,
+        "width": 417,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 8,
+      "image": "assets/pokemon/artwork/8.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/8.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "5fc6739ca9f7c5c0eaf0a55761239ab5ebb4982575b9a6f1f29dd3286c430f52",
+      "visibleBounds": {
+        "x": 25,
+        "y": 22,
+        "width": 425,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 9,
+      "image": "assets/pokemon/artwork/9.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/9.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "ba0a6b633e7a5d5a8c52498b0556518005fd4c63ef4564a8b06b79a73905a635",
+      "visibleBounds": {
+        "x": 38,
+        "y": 22,
+        "width": 398,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 10,
+      "image": "assets/pokemon/artwork/10.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/10.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "49eb7f6c88d65d65e938d42df61d5cf47dd46f01c08603b6df620eb003a37457",
+      "visibleBounds": {
+        "x": 22,
+        "y": 22,
+        "width": 431,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 11,
+      "image": "assets/pokemon/artwork/11.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/11.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "945f2aca4d6ae55a77a93d132fee41f3f334cf2b91611d3da6e76715f27e778c",
+      "visibleBounds": {
+        "x": 48,
+        "y": 22,
+        "width": 379,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 12,
+      "image": "assets/pokemon/artwork/12.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/12.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "0d412d9b32b8064f19b414b5f919b2af1ff04f8e2d07bf88e091562ca3583db7",
+      "visibleBounds": {
+        "x": 22,
+        "y": 41,
+        "width": 431,
+        "height": 393,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 13,
+      "image": "assets/pokemon/artwork/13.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/13.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d8cf2e85a0b1b741aedab01cc67c13a4a8dc502e9719a1954228f8346f78f1cd",
+      "visibleBounds": {
+        "x": 68,
+        "y": 22,
+        "width": 339,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 14,
+      "image": "assets/pokemon/artwork/14.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/14.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "75eb591f2c404af55a9b635445d04aa5366177a82b3b0668ec7f7dc7ab3febd2",
+      "visibleBounds": {
+        "x": 121,
+        "y": 22,
+        "width": 233,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 15,
+      "image": "assets/pokemon/artwork/15.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/15.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "87bec9bd0348a95d7b108fb00737c48b3315d51c335b31ec89a471e21c1a1016",
+      "visibleBounds": {
+        "x": 59,
+        "y": 22,
+        "width": 357,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 16,
+      "image": "assets/pokemon/artwork/16.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/16.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "cabe3212d06ce9c59184b84cbf2bcb17396f441d7c857243253502247e637758",
+      "visibleBounds": {
+        "x": 36,
+        "y": 22,
+        "width": 402,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 17,
+      "image": "assets/pokemon/artwork/17.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/17.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "85d27fddfceb90c48d18f6b833a7769446bb369edeeab7fae2308247c3f9ed2a",
+      "visibleBounds": {
+        "x": 51,
+        "y": 22,
+        "width": 373,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 18,
+      "image": "assets/pokemon/artwork/18.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/18.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "0f2cf5f30ee821f867cdced8d64fa87a11ae01643bb48c10296ee1ffdc18ca14",
+      "visibleBounds": {
+        "x": 31,
+        "y": 22,
+        "width": 413,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 19,
+      "image": "assets/pokemon/artwork/19.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/19.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "6e8702f59cde037612c587c0bad7a38bca3b3560af722c036039d54a16d51d6f",
+      "visibleBounds": {
+        "x": 22,
+        "y": 47,
+        "width": 431,
+        "height": 380,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 20,
+      "image": "assets/pokemon/artwork/20.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/20.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d352b859c791d1da10bd5413929e465fb26f44291680b5597aaa1f851e6ad496",
+      "visibleBounds": {
+        "x": 22,
+        "y": 26,
+        "width": 431,
+        "height": 423,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 21,
+      "image": "assets/pokemon/artwork/21.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/21.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4dd0fce599e94bebb323c3bb552174ae399cc73ba30eee6dcd93b578c8fe5136",
+      "visibleBounds": {
+        "x": 27,
+        "y": 22,
+        "width": 420,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 22,
+      "image": "assets/pokemon/artwork/22.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/22.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e34e7a7e619118ee98ece2a95a2d1184bf745b6ee16090dc0a24d6c93b4351d2",
+      "visibleBounds": {
+        "x": 22,
+        "y": 37,
+        "width": 431,
+        "height": 400,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 23,
+      "image": "assets/pokemon/artwork/23.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/23.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "00d8d5e6ec30c6f62622bfd66eeb14cb3683c7626c5f14ec9a50ae231798ac3d",
+      "visibleBounds": {
+        "x": 22,
+        "y": 24,
+        "width": 431,
+        "height": 427,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 24,
+      "image": "assets/pokemon/artwork/24.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/24.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "f1e38593fba1de6e6db3d5db819f1b851307f342abb819f9c2ebfbbea9b93d42",
+      "visibleBounds": {
+        "x": 44,
+        "y": 22,
+        "width": 386,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 25,
+      "image": "assets/pokemon/artwork/25.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/25.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "759ceafdb4b8d637dfcfe673cf672bc3c472354a3b2e7e0835d9cdcacd8d195d",
+      "visibleBounds": {
+        "x": 22,
+        "y": 35,
+        "width": 431,
+        "height": 405,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 26,
+      "image": "assets/pokemon/artwork/26.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/26.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e5671c5f00695fa6f6a3fc08a70d0b53a34e14f5dafcccc66316bdee90d076ac",
+      "visibleBounds": {
+        "x": 22,
+        "y": 46,
+        "width": 431,
+        "height": 383,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 27,
+      "image": "assets/pokemon/artwork/27.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/27.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "6d1a14b1b658a37e766951d75636fc96b95431c4faca96deb6b6f85dfa5fd31d",
+      "visibleBounds": {
+        "x": 41,
+        "y": 22,
+        "width": 393,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 28,
+      "image": "assets/pokemon/artwork/28.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/28.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "071c435e09ac91450bcc5404c9a454521137ed2508629a052f33ad6dac87429a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 31,
+        "width": 431,
+        "height": 413,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 29,
+      "image": "assets/pokemon/artwork/29.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/29.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1fa164a62793e12dbdbd006b3c2b8f81cf6b32a42c02e255575f2184cc56aaef",
+      "visibleBounds": {
+        "x": 22,
+        "y": 31,
+        "width": 431,
+        "height": 413,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 30,
+      "image": "assets/pokemon/artwork/30.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/30.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "c4063d0461782ecf61686f1ba740596371b7464e6dd9495038105669a4d7183e",
+      "visibleBounds": {
+        "x": 47,
+        "y": 22,
+        "width": 381,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 31,
+      "image": "assets/pokemon/artwork/31.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/31.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "811093801d0b6a9323217e393e527c17d2955f4b0aa1a1d6961d3e23a00e4eb8",
+      "visibleBounds": {
+        "x": 28,
+        "y": 22,
+        "width": 418,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 32,
+      "image": "assets/pokemon/artwork/32.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/32.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4216cc685bdb61152f4f551e4d8f7eed0d0e484821528db946eb4bd495d6699b",
+      "visibleBounds": {
+        "x": 42,
+        "y": 22,
+        "width": 390,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 33,
+      "image": "assets/pokemon/artwork/33.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/33.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b90aea26f69bc30829a6f522c68d6a894c3e1a824ed0383b67a64e27fad339d6",
+      "visibleBounds": {
+        "x": 43,
+        "y": 22,
+        "width": 388,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 34,
+      "image": "assets/pokemon/artwork/34.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/34.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b018c1967dd92a298f5c8fc513f23e0fc2c2b74eb15e9a2d28758a9379bd5ae7",
+      "visibleBounds": {
+        "x": 22,
+        "y": 71,
+        "width": 431,
+        "height": 332,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 35,
+      "image": "assets/pokemon/artwork/35.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/35.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4190637ae539df3c5c08cefbe69a6408c8a903811e82b2157298e7f0ba976b62",
+      "visibleBounds": {
+        "x": 22,
+        "y": 22,
+        "width": 430,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 36,
+      "image": "assets/pokemon/artwork/36.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/36.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "7a3c310640c4ba6671fa34ceaf43116745cfc9cc13621660f60d6215cd202eda",
+      "visibleBounds": {
+        "x": 22,
+        "y": 24,
+        "width": 431,
+        "height": 426,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 37,
+      "image": "assets/pokemon/artwork/37.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/37.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "cded4e96e175c05c19380a1226e825f3fb2a0b889f3c011d74570e7503853555",
+      "visibleBounds": {
+        "x": 22,
+        "y": 46,
+        "width": 431,
+        "height": 382,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 38,
+      "image": "assets/pokemon/artwork/38.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/38.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e60b06bf0aa8b23a593958cc32806534a3553707797be10767550a6f4ddb9068",
+      "visibleBounds": {
+        "x": 22,
+        "y": 30,
+        "width": 431,
+        "height": 415,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 39,
+      "image": "assets/pokemon/artwork/39.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/39.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "2d8fa64258727708417495b5ca4d28a148628d962709f58235b9e0837eb41365",
+      "visibleBounds": {
+        "x": 22,
+        "y": 33,
+        "width": 431,
+        "height": 408,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 40,
+      "image": "assets/pokemon/artwork/40.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/40.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "8150678a4be49542717ac2cdc6c18ecf80e6910172b045d15e79f239a8678a5e",
+      "visibleBounds": {
+        "x": 60,
+        "y": 22,
+        "width": 355,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 41,
+      "image": "assets/pokemon/artwork/41.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/41.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "249cd65089f552f51c8da681bb13af267c01c99c2f9d70fdcb3415a82f7c6912",
+      "visibleBounds": {
+        "x": 22,
+        "y": 33,
+        "width": 431,
+        "height": 408,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 42,
+      "image": "assets/pokemon/artwork/42.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/42.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "ad93bff798afe2f1be9abf5900f5825d2cf03be1cfa5d2bb74a5b8fc35e8aa53",
+      "visibleBounds": {
+        "x": 22,
+        "y": 52,
+        "width": 431,
+        "height": 370,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 43,
+      "image": "assets/pokemon/artwork/43.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/43.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "035edf8e0e79148c86ac89fada5b4b6ccd01f6dcbaf7a73b4f086e83d4502b7b",
+      "visibleBounds": {
+        "x": 42,
+        "y": 22,
+        "width": 390,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 44,
+      "image": "assets/pokemon/artwork/44.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/44.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "bc4fdbeac96c93a0c71db866853492e251e81daedf328ed5f4f9aa1d175abb3a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 61,
+        "width": 431,
+        "height": 352,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 45,
+      "image": "assets/pokemon/artwork/45.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/45.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "9c2b9e9a3b91e2400f6e54165d4dcdedf6650f85fcdf552a52d8d68a2129abb1",
+      "visibleBounds": {
+        "x": 22,
+        "y": 41,
+        "width": 431,
+        "height": 392,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 46,
+      "image": "assets/pokemon/artwork/46.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/46.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "7e46da94be6cd2fd2d2a02785f1cc5bc583b1ddfd45dc3e208d655ed1555e09b",
+      "visibleBounds": {
+        "x": 22,
+        "y": 60,
+        "width": 431,
+        "height": 354,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 47,
+      "image": "assets/pokemon/artwork/47.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/47.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "ba02844ee4b17f5285e49f19d04d9bb9f3ad20d76ded64bb8b7557fd3ea2abe3",
+      "visibleBounds": {
+        "x": 22,
+        "y": 34,
+        "width": 431,
+        "height": 406,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 48,
+      "image": "assets/pokemon/artwork/48.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/48.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "9cc1605ada7adf9fc71c5da1bcd90aac23464ff05a87ea22a59ee449726d5767",
+      "visibleBounds": {
+        "x": 53,
+        "y": 22,
+        "width": 368,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 49,
+      "image": "assets/pokemon/artwork/49.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/49.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1558c135e597d8cb325a8d33a66a7ba5fc3c8aadf4a98989e65860c8480f42d3",
+      "visibleBounds": {
+        "x": 22,
+        "y": 97,
+        "width": 431,
+        "height": 281,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 50,
+      "image": "assets/pokemon/artwork/50.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/50.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "f7e2775b5ec38e79323bd045ce20045fc4cdd6c382eb83d1105c94e36332b7c1",
+      "visibleBounds": {
+        "x": 22,
+        "y": 38,
+        "width": 431,
+        "height": 399,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 51,
+      "image": "assets/pokemon/artwork/51.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/51.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "092f3ff577c722a491e33c7fcac00842a677301021c6e01582647a8eb5e9b84a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 29,
+        "width": 431,
+        "height": 416,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 52,
+      "image": "assets/pokemon/artwork/52.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/52.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "893353baec0dd1ac52a62af4465d28660a959e18beb21c17cd6cd9d3cb2d173c",
+      "visibleBounds": {
+        "x": 73,
+        "y": 22,
+        "width": 328,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 53,
+      "image": "assets/pokemon/artwork/53.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/53.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b477fdc0d93c55455908cc1e430d0959203234f85362d60431a0843eaec332e7",
+      "visibleBounds": {
+        "x": 22,
+        "y": 44,
+        "width": 431,
+        "height": 386,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 54,
+      "image": "assets/pokemon/artwork/54.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/54.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "87110a75d9d9c67e0d82b912abcea3c25a96bc394e366812c65639ea1bacdf40",
+      "visibleBounds": {
+        "x": 71,
+        "y": 22,
+        "width": 333,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 55,
+      "image": "assets/pokemon/artwork/55.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/55.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "343e4f5bca573e0fcaaaf32ae1cd4b7495c336fa6524c7da58e65167fb454609",
+      "visibleBounds": {
+        "x": 22,
+        "y": 25,
+        "width": 431,
+        "height": 425,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 56,
+      "image": "assets/pokemon/artwork/56.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/56.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e9b4fcec480f05a61e2e8b9a9f6bd930c3994ac9680da95f4bd309792a327b08",
+      "visibleBounds": {
+        "x": 22,
+        "y": 85,
+        "width": 431,
+        "height": 305,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 57,
+      "image": "assets/pokemon/artwork/57.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/57.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b320fad058841c4a5e8f11a22a0e735082b2d6cb37b5ea6ea0ff2e274da18cae",
+      "visibleBounds": {
+        "x": 30,
+        "y": 22,
+        "width": 414,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 58,
+      "image": "assets/pokemon/artwork/58.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/58.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "05f90f8fec5729ef41ee205acf7d81a97e84cd6a82c5babf6e4eacf5662ee57a",
+      "visibleBounds": {
+        "x": 86,
+        "y": 22,
+        "width": 302,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 59,
+      "image": "assets/pokemon/artwork/59.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/59.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4461b18982bbed0d9384ebcf99015347ff47a4e9dc926476d779c83ebd2d7093",
+      "visibleBounds": {
+        "x": 22,
+        "y": 34,
+        "width": 431,
+        "height": 406,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 60,
+      "image": "assets/pokemon/artwork/60.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/60.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "cdec53c7b6558877cb600b4590206ed81c21dbbb8c7ded56791ff0bbc77d8d3a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 68,
+        "width": 431,
+        "height": 338,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 61,
+      "image": "assets/pokemon/artwork/61.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/61.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "06f1cf555b609f982d61f323323c71fa4e3c8f5de75460f167a63649446ad7b4",
+      "visibleBounds": {
+        "x": 22,
+        "y": 49,
+        "width": 431,
+        "height": 377,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 62,
+      "image": "assets/pokemon/artwork/62.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/62.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "955dd03af636f66f7283eb914a3dec6b7c340e300b5f67771b5af811c946dc9d",
+      "visibleBounds": {
+        "x": 22,
+        "y": 91,
+        "width": 431,
+        "height": 293,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 63,
+      "image": "assets/pokemon/artwork/63.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/63.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e1c271b81c1e1424dded3024977dc07876d270e3f14f84b366b70c73746a87a3",
+      "visibleBounds": {
+        "x": 22,
+        "y": 86,
+        "width": 431,
+        "height": 303,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 64,
+      "image": "assets/pokemon/artwork/64.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/64.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "831d284a281c0d61c1a30cbf9599a4cb34d3957f83d80ac1c5d37e4c93840c8b",
+      "visibleBounds": {
+        "x": 53,
+        "y": 22,
+        "width": 368,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 65,
+      "image": "assets/pokemon/artwork/65.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/65.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "8f1dfebe7855bf0838dc4110629b01a8862370373cabe527adf3f979bc4fa1e0",
+      "visibleBounds": {
+        "x": 22,
+        "y": 46,
+        "width": 431,
+        "height": 383,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 66,
+      "image": "assets/pokemon/artwork/66.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/66.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "699145a859f7aa9412662fb671b8e7ae52af27d4eaf9ab5b4bbf453dde7f41fb",
+      "visibleBounds": {
+        "x": 58,
+        "y": 22,
+        "width": 358,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 67,
+      "image": "assets/pokemon/artwork/67.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/67.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "6c8151497d31a5969ce5a28cb11a18779159cc720794e079cd9194963189d241",
+      "visibleBounds": {
+        "x": 57,
+        "y": 22,
+        "width": 361,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 68,
+      "image": "assets/pokemon/artwork/68.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/68.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "5d124f441d6690e19de8685e30b1e5d375f2fd6dd91be5cfd164dacf6853f7e6",
+      "visibleBounds": {
+        "x": 48,
+        "y": 22,
+        "width": 379,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 69,
+      "image": "assets/pokemon/artwork/69.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/69.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "9e1a107b671e88f605f0c263016b993ce71a3b482dd927cc554c0e938b87165c",
+      "visibleBounds": {
+        "x": 52,
+        "y": 22,
+        "width": 370,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 70,
+      "image": "assets/pokemon/artwork/70.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/70.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "3de54d7cef95195180846770efbc71c237babf3de8da44d7a4350ab008f665f1",
+      "visibleBounds": {
+        "x": 22,
+        "y": 71,
+        "width": 431,
+        "height": 333,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 71,
+      "image": "assets/pokemon/artwork/71.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/71.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "47c1fff808f898e37590ec5c10913efeb8a2593684b9f834a469d6b9991a8fcc",
+      "visibleBounds": {
+        "x": 22,
+        "y": 54,
+        "width": 431,
+        "height": 366,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 72,
+      "image": "assets/pokemon/artwork/72.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/72.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "f3d81b1b278ef105f33a9d4f25dfaad37471b841df5a5b34f99559e25914bec6",
+      "visibleBounds": {
+        "x": 22,
+        "y": 61,
+        "width": 431,
+        "height": 353,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 73,
+      "image": "assets/pokemon/artwork/73.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/73.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "14c5a462583b43fcb26f9831a696b917434114e9c0210c9035aa2e625f4d71eb",
+      "visibleBounds": {
+        "x": 22,
+        "y": 71,
+        "width": 431,
+        "height": 333,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 74,
+      "image": "assets/pokemon/artwork/74.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/74.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "eb32b467700be75da0f9979ca46cdba9a220ec324edaf194a010a8477ca1c84e",
+      "visibleBounds": {
+        "x": 22,
+        "y": 156,
+        "width": 431,
+        "height": 163,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 75,
+      "image": "assets/pokemon/artwork/75.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/75.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "7f5baf80e6e8b381ada946489ee39a58575a9b036865c1998636810e363b82e2",
+      "visibleBounds": {
+        "x": 22,
+        "y": 130,
+        "width": 431,
+        "height": 214,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 76,
+      "image": "assets/pokemon/artwork/76.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/76.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "c9738e2d60f5df047e9fc10d2ebf2a4b8b30bfe6de35d5385881f073e1f9d5a0",
+      "visibleBounds": {
+        "x": 22,
+        "y": 35,
+        "width": 431,
+        "height": 405,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 77,
+      "image": "assets/pokemon/artwork/77.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/77.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "a4e14c8e403f13cdc307d64918c090ecd112cd9e50fe44ac15fa6b10d342a523",
+      "visibleBounds": {
+        "x": 70,
+        "y": 22,
+        "width": 335,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 78,
+      "image": "assets/pokemon/artwork/78.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/78.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "62d6b8432e29da9f5e9b35aa1393dd9df40527cf454e10b300bb61461f630bc9",
+      "visibleBounds": {
+        "x": 51,
+        "y": 22,
+        "width": 372,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 79,
+      "image": "assets/pokemon/artwork/79.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/79.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e0802e526e073469aabd520014267a22f6120ccdccd9e580c0271788cd246708",
+      "visibleBounds": {
+        "x": 22,
+        "y": 64,
+        "width": 431,
+        "height": 347,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 80,
+      "image": "assets/pokemon/artwork/80.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/80.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "78c59860688ec9c386afce52097d4f6ede75401f2bbb492e1a63fd50a0517e95",
+      "visibleBounds": {
+        "x": 42,
+        "y": 22,
+        "width": 391,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 81,
+      "image": "assets/pokemon/artwork/81.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/81.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "dd5162b1fca0be482896e4aec409bd7979457f151bc3fde48b33fbda1837f231",
+      "visibleBounds": {
+        "x": 22,
+        "y": 120,
+        "width": 431,
+        "height": 235,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 82,
+      "image": "assets/pokemon/artwork/82.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/82.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1e68484d42c004af31708f225587d89e99644673ac2306dcd68517208021fe81",
+      "visibleBounds": {
+        "x": 22,
+        "y": 41,
+        "width": 431,
+        "height": 393,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 83,
+      "image": "assets/pokemon/artwork/83.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/83.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "19cb4412f5c6dd4b24e22b9d3286c27c47831a635564ed6b49aa5b8f421a4cbf",
+      "visibleBounds": {
+        "x": 57,
+        "y": 22,
+        "width": 361,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 84,
+      "image": "assets/pokemon/artwork/84.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/84.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "c4081df08c813620ccc00316ced73a2592c195dd0dd4486a0607095e004b0125",
+      "visibleBounds": {
+        "x": 107,
+        "y": 22,
+        "width": 261,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 85,
+      "image": "assets/pokemon/artwork/85.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/85.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "87306fdddb9c21e7aec938743076db2b8192b5bbeaab40936038b6756e8933f2",
+      "visibleBounds": {
+        "x": 61,
+        "y": 22,
+        "width": 353,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 86,
+      "image": "assets/pokemon/artwork/86.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/86.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "cbf86b4b4d959e22fb36c81f4c8467b3ad0bbe9ffb3254570f8a633f53d4679b",
+      "visibleBounds": {
+        "x": 22,
+        "y": 40,
+        "width": 431,
+        "height": 394,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 87,
+      "image": "assets/pokemon/artwork/87.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/87.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d3aea3f5a2aac5e9a98b075932cb9353366b5ad19af5b89357804fcff0fa0066",
+      "visibleBounds": {
+        "x": 22,
+        "y": 23,
+        "width": 431,
+        "height": 429,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 88,
+      "image": "assets/pokemon/artwork/88.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/88.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1d032143f4d902a6a26f8776d194ceb696e4aca1bee23fde512f8eb66d2e4b08",
+      "visibleBounds": {
+        "x": 22,
+        "y": 89,
+        "width": 431,
+        "height": 297,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 89,
+      "image": "assets/pokemon/artwork/89.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/89.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "bbc4d735100cbfdb1e2cb17669d82430d930abe4b3d779de6b679590a68c15f6",
+      "visibleBounds": {
+        "x": 22,
+        "y": 128,
+        "width": 431,
+        "height": 218,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 90,
+      "image": "assets/pokemon/artwork/90.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/90.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d1051fa793cf81c8a88935a79da2f4254f8b703e3299f3b20de1ad5290193452",
+      "visibleBounds": {
+        "x": 22,
+        "y": 27,
+        "width": 431,
+        "height": 420,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 91,
+      "image": "assets/pokemon/artwork/91.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/91.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4510ded0220c2b574078e2b009884b8c3552c12e3bad843c5a120af26ea4d290",
+      "visibleBounds": {
+        "x": 22,
+        "y": 31,
+        "width": 431,
+        "height": 413,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 92,
+      "image": "assets/pokemon/artwork/92.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/92.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "23c69f67ece1dd1724666a4bb94ebea14d53045c6f406faa2963db4f04bd5f4b",
+      "visibleBounds": {
+        "x": 22,
+        "y": 23,
+        "width": 431,
+        "height": 429,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 93,
+      "image": "assets/pokemon/artwork/93.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/93.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "e21bab36fe663028b33f1f73d2dfd50f2f8aa4675fac327f24a0f2a9768ba74f",
+      "visibleBounds": {
+        "x": 22,
+        "y": 50,
+        "width": 431,
+        "height": 375,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 94,
+      "image": "assets/pokemon/artwork/94.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/94.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b6549b80537676fcf4a589c8853b38cce42f42b5f707bbe2e63797666175cf06",
+      "visibleBounds": {
+        "x": 26,
+        "y": 22,
+        "width": 422,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 95,
+      "image": "assets/pokemon/artwork/95.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/95.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4f2496aeb88de932246d4d76516d2e0092abec5d3a0f51ae93181a7b0afc4bac",
+      "visibleBounds": {
+        "x": 32,
+        "y": 22,
+        "width": 411,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 96,
+      "image": "assets/pokemon/artwork/96.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/96.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "a258c5bcd18bd37dd001038584199df450d40b8bc298a81cb4bd30d4f578cb4d",
+      "visibleBounds": {
+        "x": 76,
+        "y": 22,
+        "width": 323,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 97,
+      "image": "assets/pokemon/artwork/97.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/97.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "f874aa2fe043c0362f33ac9dc03c5c30d3e20ffc3bb02fb3596bd9e49d211939",
+      "visibleBounds": {
+        "x": 35,
+        "y": 22,
+        "width": 404,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 98,
+      "image": "assets/pokemon/artwork/98.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/98.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d8c82af68675a957686f1dc5a5a42f796426dbadb049dfeca1033a2e278a543b",
+      "visibleBounds": {
+        "x": 22,
+        "y": 106,
+        "width": 431,
+        "height": 263,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 99,
+      "image": "assets/pokemon/artwork/99.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/99.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "437b0e360946693baf256305826cb95090c15aa5ba0330954cf544c137e7d847",
+      "visibleBounds": {
+        "x": 22,
+        "y": 104,
+        "width": 431,
+        "height": 267,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 100,
+      "image": "assets/pokemon/artwork/100.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/100.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1e56de55241bdef6e6cdaa54a6ded9a92ef053b9bbf3c2ab501e0543d0a64826",
+      "visibleBounds": {
+        "x": 22,
+        "y": 27,
+        "width": 431,
+        "height": 421,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 101,
+      "image": "assets/pokemon/artwork/101.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/101.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "53ba2223c23ef051a83f7ee4849754be796dc88835036f853e3949bac28ef5d0",
+      "visibleBounds": {
+        "x": 23,
+        "y": 22,
+        "width": 429,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 102,
+      "image": "assets/pokemon/artwork/102.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/102.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "20e609dac93de2c42b1ce347939e92abb96c3b12ae52eff6c5c46bc7aca942c7",
+      "visibleBounds": {
+        "x": 22,
+        "y": 68,
+        "width": 431,
+        "height": 338,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 103,
+      "image": "assets/pokemon/artwork/103.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/103.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "ce28697b48b415c205fa61b740334df270af87a9137284eb3bf28ea955c4fb58",
+      "visibleBounds": {
+        "x": 22,
+        "y": 26,
+        "width": 431,
+        "height": 422,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 104,
+      "image": "assets/pokemon/artwork/104.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/104.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "88ead79f1c78f8dec797b7441ea81cfb736ec75faa3aa239d9990fdd908dffb9",
+      "visibleBounds": {
+        "x": 56,
+        "y": 22,
+        "width": 363,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 105,
+      "image": "assets/pokemon/artwork/105.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/105.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "223279b38408779cd62ffde410ba5a5082b9ab01f78855c1d483f78dfe4d64e8",
+      "visibleBounds": {
+        "x": 59,
+        "y": 22,
+        "width": 357,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 106,
+      "image": "assets/pokemon/artwork/106.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/106.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "983cc4ce160b041e2e03f366a3ee06a00df98c3f5164784f269f698c45f20128",
+      "visibleBounds": {
+        "x": 22,
+        "y": 51,
+        "width": 431,
+        "height": 373,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 107,
+      "image": "assets/pokemon/artwork/107.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/107.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1b811ffdd00f97e724243d73b46c6dfce45480534c77bf9c61534f597d2afa24",
+      "visibleBounds": {
+        "x": 75,
+        "y": 22,
+        "width": 325,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 108,
+      "image": "assets/pokemon/artwork/108.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/108.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "76a98212dff09ec686390b6e10bb81293c9b908a8cd563166157900771843de5",
+      "visibleBounds": {
+        "x": 22,
+        "y": 38,
+        "width": 431,
+        "height": 399,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 109,
+      "image": "assets/pokemon/artwork/109.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/109.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "fafb96d013ab7b44989cd86501e3ea78c43c42e0baec37a3c1da826859ec7cac",
+      "visibleBounds": {
+        "x": 22,
+        "y": 57,
+        "width": 431,
+        "height": 361,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 110,
+      "image": "assets/pokemon/artwork/110.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/110.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "2ea5a510c378b6fa2a0fe042bb2cb38ad13c0be17346fd3384acf46544cb9b34",
+      "visibleBounds": {
+        "x": 22,
+        "y": 54,
+        "width": 431,
+        "height": 366,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 111,
+      "image": "assets/pokemon/artwork/111.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/111.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "6a7478554afcbb28fbe2339ab82dcc6d70eeead9364e511304558cf063dfb057",
+      "visibleBounds": {
+        "x": 39,
+        "y": 22,
+        "width": 397,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 112,
+      "image": "assets/pokemon/artwork/112.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/112.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "8fabe62dab35c7f747ff80c073c3ec3dac9a162a20617a83f3b77070c34c8c53",
+      "visibleBounds": {
+        "x": 22,
+        "y": 59,
+        "width": 431,
+        "height": 356,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 113,
+      "image": "assets/pokemon/artwork/113.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/113.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "8233229237ea208457fccd44311aa1efb2401282584fb745a279158e2e2b3cc0",
+      "visibleBounds": {
+        "x": 22,
+        "y": 48,
+        "width": 431,
+        "height": 379,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 114,
+      "image": "assets/pokemon/artwork/114.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/114.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "57e96fb7a3e1a99f89cb5ae5dbe8f212566b49fa04c88e80079d39c16ff18952",
+      "visibleBounds": {
+        "x": 22,
+        "y": 42,
+        "width": 431,
+        "height": 390,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 115,
+      "image": "assets/pokemon/artwork/115.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/115.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "bc2424e71902a870074096821791b089969b88fdf766fc5675927dacd9c29d48",
+      "visibleBounds": {
+        "x": 26,
+        "y": 22,
+        "width": 422,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 116,
+      "image": "assets/pokemon/artwork/116.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/116.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4b610c3adf68de8dfc96756bab275b55cfab2b1a9a507514c64fe97255b7c761",
+      "visibleBounds": {
+        "x": 41,
+        "y": 22,
+        "width": 393,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 117,
+      "image": "assets/pokemon/artwork/117.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/117.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "7c61fbb408242fdfaf72074be222e0554fd4b3b9062ef1648d24dfff13933457",
+      "visibleBounds": {
+        "x": 22,
+        "y": 51,
+        "width": 431,
+        "height": 373,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 118,
+      "image": "assets/pokemon/artwork/118.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/118.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "38f84d1fa374a4775ebbc50c73439e297b02edef80b5796388da7d47bdefd5ca",
+      "visibleBounds": {
+        "x": 22,
+        "y": 117,
+        "width": 431,
+        "height": 241,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 119,
+      "image": "assets/pokemon/artwork/119.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/119.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "44ed5c483773144a22116cc42a9d68758f17af861b38168e325c9422d1e07061",
+      "visibleBounds": {
+        "x": 22,
+        "y": 36,
+        "width": 431,
+        "height": 402,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 120,
+      "image": "assets/pokemon/artwork/120.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/120.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "c6d201593a95accb563277077dab8a6dfe3b84eb8a51eef42eb717aae9826e4f",
+      "visibleBounds": {
+        "x": 34,
+        "y": 22,
+        "width": 406,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 121,
+      "image": "assets/pokemon/artwork/121.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/121.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4e9cebb6042fd5489471341c5d5778a900662be93e343234468edc2dfe94436f",
+      "visibleBounds": {
+        "x": 22,
+        "y": 31,
+        "width": 431,
+        "height": 412,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 122,
+      "image": "assets/pokemon/artwork/122.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/122.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "9c46e52050633b1ca8ed05ffee09cda121ac338021de0d600b9590c0f8590c53",
+      "visibleBounds": {
+        "x": 22,
+        "y": 32,
+        "width": 431,
+        "height": 411,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 123,
+      "image": "assets/pokemon/artwork/123.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/123.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "0e983e7e5252585364103cd4dddbc015f3d7ca3ead5172a0379e969147709f2f",
+      "visibleBounds": {
+        "x": 46,
+        "y": 22,
+        "width": 382,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 124,
+      "image": "assets/pokemon/artwork/124.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/124.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "c3bf3395798770b69c0686aa1165199de92e5ef4815b07500e11214d235f71e7",
+      "visibleBounds": {
+        "x": 22,
+        "y": 62,
+        "width": 431,
+        "height": 350,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 125,
+      "image": "assets/pokemon/artwork/125.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/125.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "47e0902fb2d49e6286f4878b0bfc67cc5eea4f07755fc65014087fd0656e3e12",
+      "visibleBounds": {
+        "x": 22,
+        "y": 26,
+        "width": 431,
+        "height": 422,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 126,
+      "image": "assets/pokemon/artwork/126.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/126.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "8dc68104e9a1c589e030866c79595dc19da3e40bfa63c9a3b2b5afe9ce662cd7",
+      "visibleBounds": {
+        "x": 22,
+        "y": 27,
+        "width": 431,
+        "height": 420,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 127,
+      "image": "assets/pokemon/artwork/127.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/127.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "badba34a0d5e77e7fa0b553b7e148c157b4bf15ee3c3d44a6ad1de1067c7c447",
+      "visibleBounds": {
+        "x": 30,
+        "y": 22,
+        "width": 414,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 128,
+      "image": "assets/pokemon/artwork/128.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/128.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "04ba885a5e71dc1e6970e7a83a098464e3fa29b83502631772a0f709662887e4",
+      "visibleBounds": {
+        "x": 22,
+        "y": 39,
+        "width": 431,
+        "height": 396,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 129,
+      "image": "assets/pokemon/artwork/129.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/129.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "df8fc8a1d11083f25afa148484737b9d70dd2912a9f9f68913116612353ccf75",
+      "visibleBounds": {
+        "x": 44,
+        "y": 22,
+        "width": 386,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 130,
+      "image": "assets/pokemon/artwork/130.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/130.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "41d17760b81321cc7a3fb2cb1568d3c33010e892b687eeacb3738ba307071f8b",
+      "visibleBounds": {
+        "x": 60,
+        "y": 22,
+        "width": 354,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 131,
+      "image": "assets/pokemon/artwork/131.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/131.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "ffd98849dee0a265bb109d9798dbfd18b35346a1c21ca01aa0dab60a72defbc6",
+      "visibleBounds": {
+        "x": 22,
+        "y": 30,
+        "width": 431,
+        "height": 415,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 132,
+      "image": "assets/pokemon/artwork/132.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/132.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "5f7be2f22d06658a52b4e863a22e37d8904e539d9d8e23f15d4ea869b095e21f",
+      "visibleBounds": {
+        "x": 22,
+        "y": 55,
+        "width": 431,
+        "height": 365,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 133,
+      "image": "assets/pokemon/artwork/133.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/133.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "33ea993d3478ee920062b0bf27792a045b3a2f75d941bdb8cb3912ef50b1fb44",
+      "visibleBounds": {
+        "x": 62,
+        "y": 22,
+        "width": 351,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 134,
+      "image": "assets/pokemon/artwork/134.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/134.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "3f4a86ef2ec064c98dd8fb207046c7202c1669e5fb7fac05fc1acea364d2770f",
+      "visibleBounds": {
+        "x": 41,
+        "y": 22,
+        "width": 393,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 135,
+      "image": "assets/pokemon/artwork/135.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/135.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "bf525c20b899e08398d93d0436d2e592463068d85da8760424ac340c7f8f8ed8",
+      "visibleBounds": {
+        "x": 47,
+        "y": 22,
+        "width": 381,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 136,
+      "image": "assets/pokemon/artwork/136.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/136.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "a11d3f021baf917f9106266d5fec5b6326a2850b130e4560e333fa9f481c41ec",
+      "visibleBounds": {
+        "x": 22,
+        "y": 45,
+        "width": 431,
+        "height": 384,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 137,
+      "image": "assets/pokemon/artwork/137.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/137.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "28a6c05c13e2a1f19dd4fea6e7f89b9ed639421c0f5937e7d6d726b4ce754c5a",
+      "visibleBounds": {
+        "x": 32,
+        "y": 22,
+        "width": 411,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 138,
+      "image": "assets/pokemon/artwork/138.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/138.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "dd3980113e3ba2e0e562bfecf91a2b03b829e3d3059460851fe2a332e0126aed",
+      "visibleBounds": {
+        "x": 48,
+        "y": 22,
+        "width": 378,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 139,
+      "image": "assets/pokemon/artwork/139.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/139.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "3535ad249cda49c3362e1aa1beb53b786984c66350d201ef0e1248adf49f341d",
+      "visibleBounds": {
+        "x": 22,
+        "y": 48,
+        "width": 431,
+        "height": 379,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 140,
+      "image": "assets/pokemon/artwork/140.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/140.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "92bd67e3f5f92a1791ce695aaec07083ea40823f47abd0a6ff412ccf79c370d1",
+      "visibleBounds": {
+        "x": 22,
+        "y": 79,
+        "width": 431,
+        "height": 317,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 141,
+      "image": "assets/pokemon/artwork/141.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/141.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "b651eaec19c1e8ae73b3ae1e5d038f9ca3b3231e9283d37192db8efeeb3e4cdc",
+      "visibleBounds": {
+        "x": 46,
+        "y": 22,
+        "width": 382,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 142,
+      "image": "assets/pokemon/artwork/142.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/142.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "5427b0a9ac5dbf1fee7fcd19f44de1dfb97d577c82262bb961538865a08bc79a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 103,
+        "width": 431,
+        "height": 268,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 143,
+      "image": "assets/pokemon/artwork/143.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/143.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "1afd32e5f6053a50860d67c5d7cc3bc6ca9a174634097fe65880523a0a13a55a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 65,
+        "width": 431,
+        "height": 344,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 144,
+      "image": "assets/pokemon/artwork/144.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/144.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d85d2a2dd08e8f0d797298f9db4bab91a6b0ee6e03999333be55fc5cf09b3043",
+      "visibleBounds": {
+        "x": 46,
+        "y": 22,
+        "width": 382,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 145,
+      "image": "assets/pokemon/artwork/145.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/145.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "6435d62ab354ac4bfc94eaf8dda48a4ea3cb24f5e64d48cab9dafd5194f458cc",
+      "visibleBounds": {
+        "x": 22,
+        "y": 88,
+        "width": 431,
+        "height": 298,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 146,
+      "image": "assets/pokemon/artwork/146.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/146.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "f4d46f40e4fc984ebc5eccdaf11540dd1fdd0a756a629b7bb1da72777d5ff85a",
+      "visibleBounds": {
+        "x": 22,
+        "y": 136,
+        "width": 431,
+        "height": 203,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 147,
+      "image": "assets/pokemon/artwork/147.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/147.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "0172fb6a0c44d0e748e679dc39195d662027aa170fd65ca98bc405eea184cc2d",
+      "visibleBounds": {
+        "x": 22,
+        "y": 28,
+        "width": 431,
+        "height": 419,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 148,
+      "image": "assets/pokemon/artwork/148.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/148.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "9a650c967983f07696a867116617606b05179518024c60fa744491992d160f68",
+      "visibleBounds": {
+        "x": 39,
+        "y": 22,
+        "width": 397,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 149,
+      "image": "assets/pokemon/artwork/149.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/149.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "4bd7549caa15eac43a8197ba53e843a95f2b56c71b1121829ea76764fbf26f9c",
+      "visibleBounds": {
+        "x": 70,
+        "y": 22,
+        "width": 335,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 150,
+      "image": "assets/pokemon/artwork/150.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/150.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "d99adeb9b4523073ca218a6f472ea5b602b047ccd8af8dea6fa7ae051f80366a",
+      "visibleBounds": {
+        "x": 61,
+        "y": 22,
+        "width": 353,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    },
+    {
+      "id": 151,
+      "image": "assets/pokemon/artwork/151.png",
+      "source": "https://raw.githubusercontent.com/PokeAPI/sprites/97a7832d307311c0e1c6ea9035308bf80cc94f81/sprites/pokemon/other/official-artwork/151.png",
+      "sourceRepository": "PokeAPI/sprites",
+      "width": 475,
+      "height": 475,
+      "pngColorType": 6,
+      "alphaChannel": true,
+      "sha256": "9991aee5181178b604b99aec636533b0c5a52a321ce246dd3b9c33243a342a64",
+      "visibleBounds": {
+        "x": 25,
+        "y": 22,
+        "width": 425,
+        "height": 431,
+        "canvasWidth": 475,
+        "canvasHeight": 475
+      },
+      "transparent": true
+    }
+  ],
+  "sourceCommit": "97a7832d307311c0e1c6ea9035308bf80cc94f81"
+}

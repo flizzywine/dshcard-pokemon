@@ -1,0 +1,21 @@
+.battle-camera-pan,.battle-camera-world{position:absolute;inset:0;pointer-events:none;transform-origin:50% 50%}
+.battle-camera-pan{z-index:1;overflow:visible}
+.battle-camera-world{z-index:0}
+.arena.camera-ready .status-card{z-index:7}
+.arena.camera-ready .battle-field-state{z-index:8}
+.arena.camera-ready.is-doubles .battle-camera-world>.pokemon-sprite{display:none!important}
+.arena.camera-ready.impact-super,.arena.camera-ready.impact-critical,.arena.camera-ready.shake-stage,.arena.camera-ready.quake-stage{animation:none}
+body.reduce-effects .battle-camera-pan,body.reduce-effects .battle-camera-world{transform:none!important}
+.kanto-story-reward{font-size:12px;max-width:340px;color:#e7d69c;margin:6px 0 10px}
+.kanto-story-reward summary{cursor:pointer;line-height:1.5}
+.kanto-story-reward p{color:#eef3e8;line-height:1.6;margin:6px 0}
+body.battle-overlay .move-button{min-height:76px;padding:10px 14px;border-radius:10px;border-color:#b8caba;box-shadow:0 2px 0 #243e3010}
+body.battle-overlay .move-name{font-size:clamp(15px,1.3vw,19px);font-weight:800}
+body.battle-overlay .move-bottom{font-size:12px;line-height:1.6}
+body.battle-overlay .move-hint{font-size:11px;line-height:1.5;opacity:.8}
+body.battle-overlay .battle-command-bar button{font-size:15px;min-height:40px}
+body.battle-overlay .dialogue p{font-size:clamp(14px,1.15vw,18px);line-height:1.6}
+body.battle-overlay .status-name strong{font-size:17px}
+.kanto-difficulty-rules{font-size:12px;max-width:320px;position:relative}
+.kanto-difficulty-rules summary{cursor:pointer}
+.kanto-difficulty-rules p{position:absolute;right:0;top:18px;z-index:30;background:#fffdf0;color:#173244;padding:15px;border:1px solid #9ab9a8;border-radius:9px;min-width:240px;box-shadow:0 8px 25px #10271c26;line-height:1.7}

@@ -1,0 +1,17 @@
+{
+  "name": "dshcard-pokemon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DSH Tavern 原生角色卡：火红叶绿关都旅程",
+  "scripts": {
+    "test": "npm --prefix pokemon-kanto test",
+    "start": "npm --prefix pokemon-kanto start",
+    "check": "python scripts/check_repository.py",
+    "build": "python scripts/build_card.py",
+    "setup:assets": "python scripts/fetch_assets.py"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

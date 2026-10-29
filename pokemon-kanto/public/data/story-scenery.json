@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "collection": "Pokémon Masters EX environment backgrounds",
+  "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+  "sourceCommit": "ba912f25a69c5aa99fe813b6e7a7338eb239b4de",
+  "sourceLicenseNote": "Community-indexed extracts of Pokémon Masters EX game assets; this catalogue records provenance and does not imply the scenes are locations from Pokémon FireRed/LeafGreen or Kanto.",
+  "items": [
+    {
+      "id": "illustrated-village",
+      "sceneType": "village",
+      "name": "乡村聚落氛围",
+      "image": "assets/backgrounds/illustrated/village.png",
+      "sourcePath": "UI/Background/s060_010_Village/s060_010_Village_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s060_010_Village/s060_010_Village_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "096770b7fa24d21b78ebc01d45cfe9c683153698c161dd1edcfad41e33d91547",
+      "note": "Masters EX village environment used as a visual analogue for small settlements; not a depiction of Pallet Town."
+    },
+    {
+      "id": "illustrated-downtown",
+      "sceneType": "city",
+      "name": "城市街道氛围",
+      "image": "assets/backgrounds/illustrated/downtown.png",
+      "sourcePath": "UI/Background/s030_010_Downtown/s030_010_Downtown_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s030_010_Downtown/s030_010_Downtown_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "51615607eecd8a9f0a623e671b4b88416febd5c8605e6672b4a7c969556848a4",
+      "note": "Masters EX urban street environment; a city-scene analogue, not a faithful Kanto city map."
+    },
+    {
+      "id": "illustrated-forest",
+      "sceneType": "forest",
+      "name": "森林道路氛围",
+      "image": "assets/backgrounds/illustrated/forest.png",
+      "sourcePath": "UI/Background/s080_010_Forest/s080_010_Forest_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s080_010_Forest/s080_010_Forest_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "234f0525bdb9a7aac3683068dbd39d5cd59396c765bdf37066c4bdbac372c2e3",
+      "note": "Masters EX forest environment; a wooded-route analogue, not a Viridian Forest recreation."
+    },
+    {
+      "id": "illustrated-forest-night",
+      "sceneType": "forest-night",
+      "name": "夜间森林氛围",
+      "image": "assets/backgrounds/illustrated/forest-night.png",
+      "sourcePath": "UI/Background/s081_010_Forest_night/s081_010_Forest_night_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s081_010_Forest_night/s081_010_Forest_night_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "2294d73102c98d10a5c0bb36ed36c6816b31e58e7559021a1ca84c87851c3f7c",
+      "note": "Night forest environment suitable for night-route or campsite mood; not a Kanto location."
+    },
+    {
+      "id": "illustrated-canyon",
+      "sceneType": "rocky-route",
+      "name": "岩谷道路氛围",
+      "image": "assets/backgrounds/illustrated/canyon.png",
+      "sourcePath": "UI/Background/s100_010_Canyon/s100_010_Canyon_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s100_010_Canyon/s100_010_Canyon_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "9265e14f3273b67cacd6595f69e22571396784b6efd5018ceb3ed0ac727898b5",
+      "note": "Masters EX canyon environment; a rocky-route analogue, not a claim about a specific Kanto route."
+    },
+    {
+      "id": "illustrated-cave",
+      "sceneType": "cave",
+      "name": "洞窟氛围",
+      "image": "assets/backgrounds/illustrated/cave.png",
+      "sourcePath": "UI/Background/s110_010_Cave/s110_010_Cave_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s110_010_Cave/s110_010_Cave_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "07baa6316c9c5c290c2dc102fa5117592503c651dc86059a42e7e17bb6a610fd",
+      "note": "Masters EX cave environment; a cave analogue, not a Cerulean Cave map."
+    },
+    {
+      "id": "illustrated-coast",
+      "sceneType": "coast",
+      "name": "海岸氛围",
+      "image": "assets/backgrounds/illustrated/coast.png",
+      "sourcePath": "UI/Background/s130_010_Coast/s130_010_Coast_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s130_010_Coast/s130_010_Coast_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "29bd13c15fb6b2a4877081d625ea4b182789fe3b780ebfb465423c19522e5a89",
+      "note": "Masters EX coast environment; a coastal-scene analogue, not a Seafoam Islands or Cinnabar recreation."
+    },
+    {
+      "id": "illustrated-volcano",
+      "sceneType": "volcanic",
+      "name": "火山地貌氛围",
+      "image": "assets/backgrounds/illustrated/volcano.png",
+      "sourcePath": "UI/Background/s210_240_Volcano/s210_240_Volcano_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s210_240_Volcano/s210_240_Volcano_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "4c13a1133fb917e80cbbff62018a30500764c5cac835641faa435de106a7aece",
+      "note": "Masters EX volcanic environment; a volcanic-scene analogue, not a Cinnabar Island recreation."
+    },
+    {
+      "id": "illustrated-arena",
+      "sceneType": "stadium",
+      "name": "竞技场氛围",
+      "image": "assets/backgrounds/illustrated/arena.png",
+      "sourcePath": "UI/Background/s040_200_Arena/s040_200_Arena_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s040_200_Arena/s040_200_Arena_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "95b5502ff93f82e10125e85415582001c6aadc505f3f2c4897b572f51ccdd7ea",
+      "note": "Masters EX stadium environment; a battle-arena analogue, not a Kanto Gym or Pokémon League venue."
+    },
+    {
+      "id": "illustrated-indoor-classroom",
+      "sceneType": "indoor",
+      "name": "明亮室内空间",
+      "image": "assets/backgrounds/illustrated/classroom.png",
+      "sourcePath": "UI/Background/s600_200_PasioAcademy_Classroom/s600_200_PasioAcademy_Classroom_512_512.png",
+      "sourceUrl": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/ba912f25a69c5aa99fe813b6e7a7338eb239b4de/UI/Background/s600_200_PasioAcademy_Classroom/s600_200_PasioAcademy_Classroom_512_512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "2c98c50cac9ac068f0bd7cc44263c7453d521078267b9b97997e1270a7088a31",
+      "note": "Pokémon Masters EX academy classroom interior; generic indoor ambience only, not a laboratory, Pokémon Center, or shop interior."
+    },
+    {
+      "id": "original-oak-lab",
+      "name": "研究所 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "oak-lab"
+      ],
+      "image": "assets/backgrounds/original/oak-lab-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9f10180adda001d05d71fffec81fcea33ba150a37922b08cc3d75444fac93a7",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-pokemon-center",
+      "name": "宝可梦中心 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "pokemon-center"
+      ],
+      "image": "assets/backgrounds/original/pokemon-center-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b0f0efaa46ef904ed29377e1cc4dc31bb9b32ad67d486f8df592dbb61914c681",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-mart",
+      "name": "友好商店 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "mart"
+      ],
+      "image": "assets/backgrounds/original/mart-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2ff83971edf08b56bef9776f99348d8ac85094e29571000e9c087814dde9bb26",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-ss-anne",
+      "name": "圣安奴号船长室 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "ss-anne"
+      ],
+      "image": "assets/backgrounds/original/ss-anne-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "945960ec4812993724dd088ecf0ec19fc5cf0dca494b4f1953155f7c2e2e531f",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-rock-gym",
+      "name": "尼比岩石道馆 · 原创演绎",
+      "sceneType": "stadium",
+      "sceneTags": [
+        "gym:pewter"
+      ],
+      "image": "assets/backgrounds/original/rock-gym-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d221f10396768d492f1867a2441618a8a69254d0432b7fe5994cd7fd13bfc030",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方画面或GBA逐像素地图。"
+    },
+    {
+      "id": "original-department-store",
+      "name": "玉虹百货大厦 · 原创演绎",
+      "sceneType": "indoor",
+      "sceneTags": [
+        "department-store"
+      ],
+      "locations": [],
+      "image": "assets/backgrounds/original/department-store-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "954dbce78a29c3f5d71413fd812e9571ed950080345568310b513451de23903d",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方截图或逐格地图。"
+    },
+    {
+      "id": "original-safari-zone",
+      "name": "浅红狩猎地带 · 原创演绎",
+      "sceneType": "forest",
+      "sceneTags": [
+        "safari-zone"
+      ],
+      "locations": [],
+      "image": "assets/backgrounds/original/safari-zone-v1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "157af114fdadee25f3f20bb88ab5b0e14662b827237cd8028ea1104b9b0f06b8",
+      "generated": true,
+      "source": "Project-original illustration generated with OpenAI image generation, 2026-10-25",
+      "note": "本项目原创场景演绎；不是官方截图或逐格地图。"
+    }
+  ]
+}

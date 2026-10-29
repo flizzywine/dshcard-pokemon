@@ -1,0 +1,41 @@
+name: 游玩问题 / Bug
+description: 提供能复现问题的信息，帮助定位修复
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传 API Key、完整存档或私人对话；诊断和图片请先脱敏。
+  - type: input
+    id: versions
+    attributes:
+      label: 角色卡版本与 DSH Tavern 版本
+      placeholder: 如角色卡 1.0.0；DSH 具体版本 / API 能力
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: 系统与设备
+      placeholder: Windows / macOS / Linux；桌面 / 窄屏；模型是否参与当前步骤
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最短复现步骤
+      placeholder: 当前地点、队伍状态、新局或旧局、输入原话或按钮、先后操作
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+      placeholder: 卡在 AI 生成 / 后台结算 / 动画？大约耗时多少？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏错误、日志或截图
+      description: 优先贴错误文字和必要片段；不要直接公开完整诊断 ZIP。

@@ -1,0 +1,79 @@
+.kanto-cosmetic-panel{--fx-cyan:#59ebff;--fx-magenta:#fa5daa;--fx-ink:#d7f7ff;--fx-muted:#91b7cb;--fx-line:#24647d;--fx-bg:#061322;color:var(--fx-ink);background:radial-gradient(ellipse at 12% 0%,#123555 0,transparent 48%),linear-gradient(155deg,#091c30,#050b18 70%);border:1px solid #25708d;border-radius:13px;padding:14px;box-shadow:0 0 24px #19b7d233,inset 0 0 22px #3156a020;font:14px/1.45 "Microsoft YaHei",sans-serif}
+.kanto-cosmetic-panel header{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 10px;margin:-4px -4px 12px;border:1px solid #174d67;border-radius:9px;background:#061322ed;box-shadow:0 6px 18px #03091488}
+.kanto-cosmetic-panel header strong{display:block;color:var(--fx-cyan);font-size:18px;letter-spacing:.08em;text-shadow:0 0 14px #27c9ff80}
+.kanto-cosmetic-panel header small{display:block;color:var(--fx-muted);font-size:11px}
+.kanto-cosmetic-panel select{max-width:220px;padding:7px 9px;border:1px solid #317d9c;border-radius:7px;background:#0d2740;color:var(--fx-ink)}
+.kanto-cosmetic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr));gap:11px;max-height:64vh;overflow:auto;padding:2px 3px 8px}
+.kanto-cosmetic-card{position:relative;min-width:0;padding:10px;border:1px solid #16516e;border-radius:10px;background:linear-gradient(145deg,#0d2740e8,#091729e8);box-shadow:inset 0 0 16px #28627b18;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.kanto-cosmetic-card:hover{transform:translateY(-2px);border-color:#4ed8ef;box-shadow:0 0 18px #28c5e633,inset 0 0 18px #a446a01a}
+.kanto-cosmetic-card[data-rarity="传说"]{border-color:#cf68bc;background:linear-gradient(145deg,#25153be8,#091729e8);box-shadow:inset 0 0 24px #bd3f982c,0 0 12px #b74bd31c}
+.kanto-cosmetic-card[data-rarity="传说"] .kanto-cosmetic-canvas{background:radial-gradient(ellipse at 50% 82%,#54244eaa,transparent 60%)}
+.kanto-cosmetic-card h3{margin:0 0 5px;color:#e9fbff;font-size:14px}
+.kanto-cosmetic-card p{min-height:45px;margin:5px 0;color:#a7c7d5;font-size:11px}
+.kanto-cosmetic-card small{display:block;min-height:30px;color:#83d7eb;font-size:11px}
+.kanto-cosmetic-canvas{display:block;width:100%;height:auto;min-height:72px;border-radius:7px;background:radial-gradient(ellipse at 50% 74%,#102b4a88,transparent 56%)}
+.kanto-cosmetic-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.kanto-cosmetic-actions button{min-height:30px;padding:5px 9px;border:1px solid #267894;border-radius:6px;color:#d9fbff;background:linear-gradient(130deg,#10425d,#291a49);cursor:pointer;font-size:11px}
+.kanto-cosmetic-actions button:hover:not(:disabled){border-color:#6affff;box-shadow:0 0 12px #32d9ef50}
+.kanto-cosmetic-actions button:disabled{cursor:not-allowed;opacity:.42}
+.kanto-cosmetic-fx-overlay{position:absolute;inset:0;z-index:4;overflow:visible;pointer-events:none;contain:layout style}
+.kanto-cosmetic-fx-overlay .kanto-cosmetic-canvas{width:100%;height:100%;min-height:0;background:transparent}
+@media(prefers-reduced-motion:reduce){.kanto-cosmetic-card{transition:none}.kanto-cosmetic-card:hover{transform:none}}
+.kanto-cosmetic-canvas{image-rendering:auto}
+.kanto-cosmetic-card-preview{aspect-ratio:16/9;height:auto;min-height:0;background:#08111d;border:1px solid #25415c;border-radius:4px}
+.kanto-cosmetic-viewer{margin:0 0 14px;padding:12px;border:1px solid #3f5871;border-radius:6px;background:#091522}
+.kanto-cosmetic-viewer-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.kanto-cosmetic-viewer-heading h2{margin:0;color:#f2f5ef;font-size:16px}
+.kanto-cosmetic-viewer-heading p{margin:0;color:#a9bac9;font-size:12px}
+.kanto-cosmetic-viewer-search{width:min(100%,220px);padding:7px 9px;border:1px solid #536b83;border-radius:4px;background:#121f2d;color:#f2f5ef}
+.kanto-cosmetic-viewer-select{width:min(100%,420px);margin:10px 0 8px;padding:7px 9px;border:1px solid #536b83;border-radius:4px;background:#121f2d;color:#f2f5ef}
+.kanto-cosmetic-viewer-stage{position:relative;aspect-ratio:16/9;width:100%;max-height:420px;overflow:hidden;border:1px solid #34475c;border-radius:4px;background-color:#07111b;background-repeat:no-repeat;background-size:auto 44%;image-rendering:pixelated}
+.kanto-cosmetic-viewer-stage .kanto-cosmetic-fx-overlay{z-index:1;contain:layout style}
+.kanto-cosmetic-viewer-stage:after{content:"";position:absolute;inset:0;z-index:2;background-image:inherit;background-repeat:no-repeat;background-position:inherit;background-size:inherit;pointer-events:none;image-rendering:inherit}
+.kanto-cosmetic-viewer-stage.has-creature{background-size:0 0}
+.kanto-cosmetic-viewer-stage.has-creature:after{content:none}
+.kanto-cosmetic-viewer-creature{position:absolute;z-index:3;object-fit:contain;image-rendering:pixelated;pointer-events:none}
+.kanto-cosmetic-viewer-creature[data-side="player"]{width:53%;height:58%;left:2%;bottom:9%}
+.kanto-cosmetic-viewer-creature[data-side="opponent"]{width:45%;height:53%;right:7%;top:14%}
+.kanto-cosmetic-viewer-anchor{position:absolute;z-index:2;pointer-events:none}
+.kanto-cosmetic-viewer-stage .kanto-cosmetic-canvas{display:block;width:100%;height:100%;min-height:0;background:transparent;image-rendering:auto}
+.kanto-cosmetic-fx-overlay>.kanto-cosmetic-canvas[data-overscan]{position:absolute;left:-50%;top:-50%;width:200%;height:200%;max-width:none;min-height:0;border-radius:0}
+.kanto-cosmetic-viewer-controls{display:flex;align-items:end;gap:10px;flex-wrap:wrap;margin-top:10px}
+.kanto-cosmetic-control{display:grid;grid-template-columns:auto minmax(76px,130px) 36px;align-items:center;gap:6px;color:#dce7ee;font-size:12px}
+.kanto-cosmetic-control input[type=range]{width:100%;accent-color:#86a7be}
+.kanto-cosmetic-control output{color:#a9bac9;font-variant-numeric:tabular-nums;text-align:right}
+.kanto-cosmetic-seed{grid-template-columns:auto 74px}
+.kanto-cosmetic-seed input{width:74px;padding:5px;border:1px solid #536b83;border-radius:4px;background:#121f2d;color:#f2f5ef}
+.kanto-cosmetic-side{grid-template-columns:auto auto}.kanto-cosmetic-side select{padding:5px;border:1px solid #536b83;border-radius:4px;background:#121f2d;color:#f2f5ef}
+.kanto-cosmetic-loop{display:flex;gap:5px;align-items:center;min-height:32px;color:#dce7ee;font-size:12px}
+.kanto-cosmetic-viewer-buttons{display:flex;gap:6px}
+.kanto-cosmetic-viewer-buttons button{min-height:32px;padding:5px 10px;border:1px solid #627c94;border-radius:4px;background:#192a3a;color:#f2f5ef;cursor:pointer}
+.kanto-cosmetic-viewer-buttons button:hover{background:#263e53}
+.kanto-cosmetic-save{min-height:34px;padding:6px 14px;border:1px solid #82ad91;border-radius:6px;background:#305c4a;color:#f4f3df;font:700 13px inherit;cursor:pointer}.kanto-cosmetic-save:disabled{opacity:.45;cursor:default}.kanto-cosmetic-save-note{font-size:12px;color:#bdcabc}.kanto-cosmetic-panel header>button{padding:7px 12px;border:1px solid #849d88;border-radius:6px;background:#243b30;color:#f1efdc;cursor:pointer}
+.kanto-cosmetic-directory{margin-top:10px;color:#b7c5d0;font-size:11px}
+.kanto-cosmetic-directory summary{cursor:pointer}
+.kanto-cosmetic-directory ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:4px 12px;max-height:150px;overflow:auto;padding:8px 4px 4px 22px}
+.kanto-cosmetic-directory li{padding-right:5px}
+.kanto-cosmetic-directory li small{float:right;min-height:0;color:#9fb0bd}
+@media(max-width:600px){.kanto-cosmetic-viewer-controls{align-items:stretch}.kanto-cosmetic-control{grid-template-columns:65px 1fr 32px;width:100%}.kanto-cosmetic-seed{width:auto}}
+
+/* Quiet gallery surfaces keep the animation, rather than neon chrome, in focus. */
+.kanto-cosmetic-panel{--fx-cyan:#d3bb8e;--fx-magenta:#b08b6e;--fx-ink:#e3e6dd;--fx-muted:#a4afa8;--fx-line:#465851;--fx-bg:#162522;background:#162522;border-color:#465851;box-shadow:none;border-radius:16px}
+.kanto-cosmetic-panel header{background:#1b2b27;border-color:#465851;box-shadow:none}
+.kanto-cosmetic-panel header strong{text-shadow:none;letter-spacing:.02em}
+.kanto-cosmetic-panel select{background:#24362f;border-color:#647565}
+.kanto-cosmetic-card,.kanto-cosmetic-card[data-rarity="传说"]{background:#1c2d29;border-color:#3c5148;box-shadow:none;border-radius:12px}
+.kanto-cosmetic-card:hover,.kanto-cosmetic-card[data-rarity="传说"]:hover{transform:none;border-color:#a68e62;box-shadow:none}
+.kanto-cosmetic-card[data-rarity="传说"]{border-top-color:#ad9467}
+.kanto-cosmetic-card[data-rarity="传说"] .kanto-cosmetic-canvas,.kanto-cosmetic-card-preview{background:#111e22;border-color:#34483f}
+.kanto-cosmetic-card p{color:#a9b8ad;line-height:1.7}.kanto-cosmetic-card small{color:#c1b28f}
+.kanto-cosmetic-actions button{background:#293d32;border-color:#617160;color:#e1e6da;font-size:12px}.kanto-cosmetic-actions button:hover:not(:disabled){border-color:#c4ad7b;box-shadow:none}
+.kanto-cosmetic-viewer{background:#14211f;border-color:#405248;border-radius:12px}.kanto-cosmetic-viewer-stage{background-color:#111e22;border-color:#405248;border-radius:10px}
+
+/* A single subject fills the preview composition; front/back changes its facing,
+   while the real battle keeps its original two-sided positions. */
+.kanto-cosmetic-viewer-creature[data-side="player"],.kanto-cosmetic-viewer-creature[data-side="opponent"]{width:40%;height:55%;left:30%;right:auto;top:auto;bottom:16%}
+.kanto-cosmetic-viewer-stage{background-image:none!important}
+
+.kanto-cosmetic-viewer-stage{max-width:860px;margin-inline:auto}
+.kanto-cosmetic-viewer-creature.is-hd{image-rendering:auto}

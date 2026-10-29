@@ -1,0 +1,187 @@
+.kanto-important-battle {
+  --important-accent: #6b8a71;
+  --important-duration: 1260ms;
+  position: absolute;
+  inset: 0;
+  z-index: 24;
+  overflow: hidden;
+  pointer-events: none;
+  color: #fff9eb;
+  font-family: inherit;
+  opacity: 1;
+  transition: opacity 220ms ease;
+  isolation: isolate;
+}
+.kanto-important-battle.is-idle { opacity: 0; visibility: hidden; }
+.kanto-important-battle::before,
+.kanto-important-battle::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.kanto-important-battle::before {
+  background: linear-gradient(112deg, transparent 0 34%, color-mix(in srgb, var(--important-accent) 25%, transparent) 44%, transparent 62%),
+    radial-gradient(ellipse at 50% 66%, color-mix(in srgb, var(--important-accent) 24%, transparent), transparent 68%);
+  opacity: .85;
+}
+.kanto-important-battle::after {
+  inset: 42% -8% auto;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--important-accent), #fff1bd, var(--important-accent), transparent);
+  box-shadow: 0 0 16px color-mix(in srgb, var(--important-accent) 75%, transparent);
+  transform: rotate(-9deg) scaleX(.15);
+  opacity: 0;
+}
+.kanto-important-battle.is-entering { animation: kanto-important-fade var(--important-duration) ease-out both; }
+.kanto-important-battle.is-entering::after { animation: kanto-important-slash var(--important-duration) cubic-bezier(.2,.8,.2,1) both; }
+.kanto-important-visual { position: absolute; inset: 17% 5% 0; }
+.kanto-important-visual img {
+  position: absolute;
+  bottom: 0;
+  width: min(41%, 310px);
+  height: min(63%, 430px);
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(0 10px 15px #0c1419a8);
+  user-select: none;
+  -webkit-user-drag: none;
+  transition: transform 440ms cubic-bezier(.15,.78,.24,1), opacity 280ms ease;
+}
+.kanto-important-opponent { right: 0; transform: translate(38%, 5%) scale(.91); opacity: 0; }
+.kanto-important-player { left: 0; transform: translate(-38%, 5%) scale(.91); opacity: 0; }
+.kanto-important-battle.is-entering .kanto-important-opponent,
+.kanto-important-battle.is-beat .kanto-important-opponent { transform: translate(0, 0) scale(1); opacity: 1; }
+.kanto-important-battle.is-entering .kanto-important-player,
+.kanto-important-battle.is-beat .kanto-important-player { transform: translate(0, 0) scale(1); opacity: 1; }
+.kanto-important-battle.is-entering[data-scene="rival-diagonal"] .kanto-important-opponent,
+.kanto-important-battle.is-entering[data-scene="rival-diagonal"] .kanto-important-player { transition-duration: var(--important-duration); }
+.kanto-important-crest {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  min-width: 56px;
+  height: 56px;
+  padding: 0 8px;
+  border: 2px solid #fff2c7;
+  border-radius: 50%;
+  background: radial-gradient(circle, #24313bd9, #111a22e8 70%);
+  box-shadow: 0 0 0 5px #111a225c, 0 0 24px color-mix(in srgb, var(--important-accent) 80%, transparent);
+  color: #fff2c7;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: .12em;
+  text-shadow: 0 1px 8px #111;
+  transform: translate(-50%, 10px) scale(.7) rotate(-15deg);
+  opacity: 0;
+  transition: transform 420ms cubic-bezier(.2,.8,.2,1), opacity 220ms ease;
+}
+.kanto-important-battle.is-entering .kanto-important-crest,
+.kanto-important-battle.is-beat .kanto-important-crest { transform: translate(-50%, 0) scale(1) rotate(0); opacity: 1; }
+.kanto-important-copy {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  width: min(78%, 540px);
+  padding: 12px 20px 13px;
+  border: 1px solid color-mix(in srgb, var(--important-accent) 70%, #f7e7c4);
+  border-radius: 10px;
+  background: linear-gradient(100deg, #0e1920e8, #20282ce8 50%, #0e1920e8);
+  box-shadow: 0 10px 28px #07101670, inset 0 0 18px #fff1d01c;
+  text-align: center;
+  transform: translate(-50%, -14px) scale(.96);
+  opacity: 0;
+  transition: transform 360ms cubic-bezier(.2,.8,.2,1), opacity 240ms ease;
+}
+.kanto-important-battle.is-entering .kanto-important-copy,
+.kanto-important-battle.is-beat .kanto-important-copy { transform: translate(-50%, 0) scale(1); opacity: 1; }
+.kanto-important-eyebrow { display: block; color: color-mix(in srgb, var(--important-accent) 78%, #fff6d8); font-size: 11px; font-weight: 800; letter-spacing: .18em; }
+.kanto-important-title { display: block; margin-top: 2px; font-size: clamp(20px, 3.5vw, 30px); line-height: 1.12; text-shadow: 0 2px 8px #000b; }
+.kanto-important-detail { display: block; margin-top: 5px; color: #f0e6d0; font-size: clamp(12px, 2vw, 14px); }
+.kanto-important-beat-line {
+  position: absolute;
+  bottom: 9%;
+  left: 50%;
+  width: min(56%, 360px);
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fff0bd, var(--important-accent), #fff0bd, transparent);
+  transform: translateX(-50%) scaleX(.05);
+  opacity: 0;
+}
+.kanto-important-battle.is-entering .kanto-important-beat-line { animation: kanto-important-line var(--important-duration) ease-out both; }
+.kanto-important-skip {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 7px 11px;
+  border: 1px solid #f1e7ce7a;
+  border-radius: 999px;
+  background: #111a22d9;
+  color: #fff7e7;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.kanto-important-skip:hover { background: #263b43; }
+.kanto-important-battle.is-idle .kanto-important-skip { visibility: hidden; }
+
+/* Gym badge seals and the elemental floor use CSS so each leader stays distinct. */
+.kanto-important-battle[data-kind="gym"]::before {
+  background: radial-gradient(ellipse at 50% 88%, color-mix(in srgb, var(--important-accent) 43%, transparent), transparent 54%),
+    linear-gradient(transparent 68%, color-mix(in srgb, var(--important-accent) 18%, transparent));
+}
+.kanto-important-battle[data-kind="gym"] .kanto-important-crest { border-radius: 18px 18px 50% 50%; }
+.kanto-important-battle[data-kind="gym"] .kanto-important-crest::after { content: ''; position: absolute; inset: 6px; border: 1px solid #fff5d3a6; border-radius: inherit; }
+.kanto-important-battle[data-scene="gym-rock"]::before { background: linear-gradient(150deg, transparent 55%, #c5915440), radial-gradient(ellipse at 50% 94%, #b9794955, transparent 55%); }
+.kanto-important-battle[data-scene="gym-water"]::before { background: repeating-linear-gradient(172deg, transparent 0 24px, #79c9e327 26px 29px), radial-gradient(ellipse at 50% 96%, #438fcb66, transparent 58%); }
+.kanto-important-battle[data-scene="gym-electric"]::after { height: 5px; transform: rotate(-16deg) scaleX(.08); background: linear-gradient(90deg, transparent, #fff5b5, #e8cf52, transparent); }
+.kanto-important-battle[data-scene="gym-grass"]::before { background: repeating-linear-gradient(165deg, transparent 0 31px, #89bd5e20 33px 36px), radial-gradient(ellipse at 50% 92%, #5f9b624d, transparent 60%); }
+.kanto-important-battle[data-scene="gym-poison"]::before { background: radial-gradient(ellipse at 50% 95%, #a35a9e55, transparent 62%), repeating-linear-gradient(90deg, transparent 0 44px, #d8b4e418 45px 47px); }
+.kanto-important-battle[data-scene="gym-psychic"]::before { background: repeating-radial-gradient(ellipse at 50% 56%, transparent 0 34px, #e8a8d31c 36px 38px); }
+.kanto-important-battle[data-scene="gym-fire"]::before { background: linear-gradient(0deg, #e56b3940, transparent 48%), repeating-linear-gradient(178deg, transparent 0 26px, #f4a05b18 28px 31px); }
+.kanto-important-battle[data-scene="gym-earth"]::before { background: repeating-linear-gradient(0deg, transparent 0 23px, #d5c49824 24px 27px), radial-gradient(ellipse at 50% 94%, #687c5455, transparent 61%); }
+
+.kanto-important-battle[data-scene="rival-diagonal"]::after { transform: rotate(-13deg) scaleX(.12); }
+.kanto-important-battle[data-scene="rival-diagonal"].is-entering::after { animation-name: kanto-important-slash, kanto-important-rival-split; }
+.kanto-important-battle[data-kind="champion"] .kanto-important-crest { border-radius: 9px; transform: translate(-50%, 10px) scale(.7) rotate(45deg); }
+.kanto-important-battle[data-scene="rocket-alert"]::before { background: repeating-linear-gradient(0deg, #9d31321b 0 12px, transparent 13px 28px), linear-gradient(110deg, #31171944, transparent 45%, #9c4d522e); }
+.kanto-important-battle[data-scene="rocket-alert"] .kanto-important-crest { border-color: #ff9c88; color: #ffe1d7; font-size: 28px; font-family: Arial, sans-serif; }
+.kanto-important-battle[data-scene="rocket-alert"].is-entering::after { background: linear-gradient(90deg, transparent, #ef4d4c, #ffb7a2, #ef4d4c, transparent); }
+.kanto-important-battle[data-scene="quest-guardian"]::before { background: radial-gradient(ellipse at 50% 80%, #76aa6966, transparent 52%), linear-gradient(0deg, #24453135, transparent 66%); }
+.kanto-important-battle[data-scene="quest-guardian"] .kanto-important-crest { border-radius: 12px 12px 27px 27px; }
+.kanto-important-battle[data-scene="elite-trial"]::before { background: repeating-linear-gradient(145deg, transparent 0 37px, color-mix(in srgb, var(--important-accent) 16%, transparent) 38px 40px); }
+
+.kanto-important-battle.is-paused .kanto-important-visual img { transform: translate(0, 0) scale(1.025); }
+.kanto-important-battle.is-beat[data-beat="ace-reveal"]::before { opacity: 1; }
+.kanto-important-battle.is-beat[data-beat="pressure-turn"]::after { opacity: .88; transform: rotate(-9deg) scaleX(.78); transition: transform 420ms ease, opacity 200ms; }
+.kanto-important-battle.is-beat[data-beat="victory"] .kanto-important-crest { box-shadow: 0 0 0 7px #fff1bd32, 0 0 32px color-mix(in srgb, var(--important-accent) 90%, transparent); }
+.kanto-important-battle.is-beat[data-beat="defeat"] .kanto-important-copy { border-color: #d06b68; }
+.kanto-important-battle.is-beat[data-beat="draw"] .kanto-important-copy { border-color: #d6c7a2; }
+
+@keyframes kanto-important-fade { 0% { opacity: 0; } 12%, 76% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes kanto-important-slash { 0%, 16% { opacity: 0; transform: rotate(-9deg) scaleX(.08); } 42%, 76% { opacity: .92; transform: rotate(-9deg) scaleX(1); } 100% { opacity: .2; transform: rotate(-9deg) scaleX(.42); } }
+@keyframes kanto-important-rival-split { 0%, 16% { opacity: 0; } 40% { opacity: .85; } 100% { opacity: .26; } }
+@keyframes kanto-important-line { 0%, 30% { opacity: 0; transform: translateX(-50%) scaleX(.05); } 60%, 82% { opacity: .85; transform: translateX(-50%) scaleX(1); } 100% { opacity: .25; transform: translateX(-50%) scaleX(.6); } }
+@media (max-width: 620px) {
+  .kanto-important-visual { inset: 25% 2% 4%; }
+  .kanto-important-visual img { width: 48%; height: min(48%, 300px); }
+  .kanto-important-copy { top: 10%; width: min(88%, 520px); padding: 10px 12px; }
+  .kanto-important-crest { top: 38%; min-width: 44px; height: 44px; font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kanto-important-battle, .kanto-important-battle *, .kanto-important-battle::before, .kanto-important-battle::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+.kanto-important-battle.is-reduced,
+.kanto-important-battle.is-reduced *,
+.kanto-important-battle.is-reduced::before,
+.kanto-important-battle.is-reduced::after { animation: none !important; transition: none !important; }

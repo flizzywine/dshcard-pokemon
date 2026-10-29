@@ -1,0 +1,495 @@
+{
+  "1": [
+    "lightscreen",
+    "skullbash",
+    "safeguard",
+    "charm",
+    "petaldance",
+    "magicalleaf",
+    "grasswhistle",
+    "curse"
+  ],
+  "4": [
+    "bellydrum",
+    "ancientpower",
+    "rockslide",
+    "bite",
+    "outrage",
+    "beatup",
+    "swordsdance",
+    "dragondance"
+  ],
+  "7": [
+    "mirrorcoat",
+    "haze",
+    "mist",
+    "foresight",
+    "flail",
+    "refresh",
+    "mudsport",
+    "yawn"
+  ],
+  "16": [
+    "pursuit",
+    "faintattack",
+    "foresight",
+    "steelwing",
+    "aircutter"
+  ],
+  "19": [
+    "screech",
+    "flamewheel",
+    "furyswipes",
+    "bite",
+    "counter",
+    "reversal",
+    "uproar",
+    "swagger"
+  ],
+  "21": [
+    "faintattack",
+    "falseswipe",
+    "scaryface",
+    "quickattack",
+    "triattack",
+    "astonish",
+    "skyattack"
+  ],
+  "23": [
+    "pursuit",
+    "slam",
+    "spite",
+    "beatup",
+    "poisonfang"
+  ],
+  "27": [
+    "flail",
+    "safeguard",
+    "counter",
+    "rapidspin",
+    "rockslide",
+    "metalclaw",
+    "swordsdance",
+    "crushclaw"
+  ],
+  "29": [
+    "supersonic",
+    "disable",
+    "takedown",
+    "focusenergy",
+    "charm",
+    "counter",
+    "beatup"
+  ],
+  "32": [
+    "counter",
+    "disable",
+    "supersonic",
+    "takedown",
+    "amnesia",
+    "confusion",
+    "beatup"
+  ],
+  "37": [
+    "faintattack",
+    "hypnosis",
+    "flail",
+    "spite",
+    "disable",
+    "howl",
+    "psychup",
+    "heatwave"
+  ],
+  "41": [
+    "quickattack",
+    "pursuit",
+    "faintattack",
+    "gust",
+    "whirlwind",
+    "curse"
+  ],
+  "43": [
+    "swordsdance",
+    "razorleaf",
+    "flail",
+    "synthesis",
+    "charm",
+    "ingrain"
+  ],
+  "46": [
+    "falseswipe",
+    "screech",
+    "counter",
+    "psybeam",
+    "flail",
+    "sweetscent",
+    "lightscreen",
+    "pursuit"
+  ],
+  "48": [
+    "batonpass",
+    "screech",
+    "gigadrain",
+    "signalbeam"
+  ],
+  "50": [
+    "faintattack",
+    "screech",
+    "ancientpower",
+    "pursuit",
+    "beatup",
+    "uproar",
+    "rockslide"
+  ],
+  "52": [
+    "spite",
+    "charm",
+    "hypnosis",
+    "amnesia",
+    "psychup",
+    "assist"
+  ],
+  "54": [
+    "hypnosis",
+    "psybeam",
+    "foresight",
+    "lightscreen",
+    "futuresight",
+    "psychic",
+    "crosschop",
+    "refresh"
+  ],
+  "56": [
+    "rockslide",
+    "foresight",
+    "meditate",
+    "counter",
+    "reversal",
+    "beatup",
+    "revenge",
+    "smellingsalt"
+  ],
+  "58": [
+    "bodyslam",
+    "safeguard",
+    "crunch",
+    "thrash",
+    "firespin",
+    "howl",
+    "heatwave"
+  ],
+  "60": [
+    "mist",
+    "splash",
+    "bubblebeam",
+    "haze",
+    "mindreader",
+    "watersport",
+    "iceball"
+  ],
+  "63": [
+    "encore",
+    "barrier",
+    "knockoff",
+    "firepunch",
+    "thunderpunch",
+    "icepunch"
+  ],
+  "66": [
+    "lightscreen",
+    "meditate",
+    "rollingkick",
+    "encore",
+    "smellingsalt",
+    "counter",
+    "rockslide"
+  ],
+  "69": [
+    "swordsdance",
+    "encore",
+    "reflect",
+    "synthesis",
+    "leechlife",
+    "ingrain",
+    "magicalleaf"
+  ],
+  "72": [
+    "aurorabeam",
+    "mirrorcoat",
+    "rapidspin",
+    "haze",
+    "safeguard",
+    "confuseray"
+  ],
+  "74": [
+    "megapunch",
+    "rockslide",
+    "block"
+  ],
+  "77": [
+    "flamewheel",
+    "thrash",
+    "doublekick",
+    "hypnosis",
+    "charm",
+    "doubleedge"
+  ],
+  "79": [
+    "safeguard",
+    "bellydrum",
+    "futuresight",
+    "stomp",
+    "mudsport",
+    "sleeptalk",
+    "snore"
+  ],
+  "83": [
+    "steelwing",
+    "foresight",
+    "mirrormove",
+    "gust",
+    "quickattack",
+    "flail",
+    "featherdance",
+    "curse"
+  ],
+  "84": [
+    "quickattack",
+    "supersonic",
+    "haze",
+    "faintattack",
+    "flail",
+    "endeavor"
+  ],
+  "86": [
+    "lick",
+    "perishsong",
+    "disable",
+    "horndrill",
+    "slam",
+    "encore",
+    "fakeout",
+    "iciclespear"
+  ],
+  "88": [
+    "haze",
+    "meanlook",
+    "lick",
+    "imprison",
+    "curse",
+    "shadowpunch",
+    "explosion"
+  ],
+  "90": [
+    "bubblebeam",
+    "takedown",
+    "barrier",
+    "rapidspin",
+    "screech",
+    "iciclespear"
+  ],
+  "92": [
+    "psywave",
+    "perishsong",
+    "haze",
+    "astonish",
+    "willowisp",
+    "grudge",
+    "explosion"
+  ],
+  "95": [
+    "rockslide",
+    "flail",
+    "explosion",
+    "block"
+  ],
+  "96": [
+    "barrier",
+    "assist",
+    "roleplay",
+    "firepunch",
+    "thunderpunch",
+    "icepunch"
+  ],
+  "98": [
+    "dig",
+    "haze",
+    "amnesia",
+    "flail",
+    "slam",
+    "knockoff",
+    "swordsdance"
+  ],
+  "102": [
+    "synthesis",
+    "moonlight",
+    "reflect",
+    "ancientpower",
+    "psychup",
+    "ingrain",
+    "curse"
+  ],
+  "104": [
+    "rockslide",
+    "ancientpower",
+    "bellydrum",
+    "screech",
+    "skullbash",
+    "perishsong",
+    "swordsdance"
+  ],
+  "108": [
+    "bellydrum",
+    "magnitude",
+    "bodyslam",
+    "curse",
+    "smellingsalt",
+    "sleeptalk",
+    "snore",
+    "substitute"
+  ],
+  "109": [
+    "screech",
+    "psywave",
+    "psybeam",
+    "destinybond",
+    "painsplit",
+    "willowisp"
+  ],
+  "111": [
+    "crunch",
+    "reversal",
+    "rockslide",
+    "counter",
+    "magnitude",
+    "swordsdance",
+    "curse",
+    "crushclaw"
+  ],
+  "113": [
+    "present",
+    "metronome",
+    "healbell",
+    "aromatherapy",
+    "substitute"
+  ],
+  "114": [
+    "flail",
+    "confusion",
+    "megadrain",
+    "reflect",
+    "amnesia",
+    "leechseed",
+    "naturepower"
+  ],
+  "115": [
+    "stomp",
+    "foresight",
+    "focusenergy",
+    "safeguard",
+    "disable",
+    "counter",
+    "crushclaw",
+    "substitute"
+  ],
+  "116": [
+    "flail",
+    "aurorabeam",
+    "octazooka",
+    "disable",
+    "splash",
+    "dragonrage",
+    "dragonbreath"
+  ],
+  "118": [
+    "psybeam",
+    "haze",
+    "hydropump",
+    "sleeptalk",
+    "mudsport"
+  ],
+  "122": [
+    "futuresight",
+    "hypnosis",
+    "mimic",
+    "psychup",
+    "fakeout",
+    "trick"
+  ],
+  "123": [
+    "counter",
+    "safeguard",
+    "batonpass",
+    "razorwind",
+    "reversal",
+    "lightscreen",
+    "endure",
+    "silverwind"
+  ],
+  "127": [
+    "furyattack",
+    "flail",
+    "falseswipe",
+    "faintattack"
+  ],
+  "131": [
+    "foresight",
+    "substitute",
+    "tickle",
+    "refresh",
+    "dragondance",
+    "curse",
+    "sleeptalk",
+    "horndrill"
+  ],
+  "133": [
+    "charm",
+    "flail",
+    "endure",
+    "curse",
+    "tickle",
+    "wish"
+  ],
+  "138": [
+    "bubblebeam",
+    "aurorabeam",
+    "slam",
+    "supersonic",
+    "haze",
+    "rockslide",
+    "spikes"
+  ],
+  "140": [
+    "bubblebeam",
+    "aurorabeam",
+    "rapidspin",
+    "dig",
+    "flail",
+    "knockoff",
+    "confuseray"
+  ],
+  "142": [
+    "whirlwind",
+    "pursuit",
+    "foresight",
+    "steelwing",
+    "dragonbreath",
+    "curse"
+  ],
+  "143": [
+    "lick",
+    "charm",
+    "doubleedge",
+    "curse",
+    "fissure",
+    "substitute"
+  ],
+  "147": [
+    "lightscreen",
+    "mist",
+    "haze",
+    "supersonic",
+    "dragonbreath",
+    "dragondance"
+  ]
+}

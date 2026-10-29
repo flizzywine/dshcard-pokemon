@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d9efb2">
+  <title>宝可梦·火红叶绿</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./map-panzoom.css">
+  <link rel="stylesheet" href="./battle-theme.css">
+  <link rel="stylesheet" href="./tools-panel.css">
+  <link rel="stylesheet" href="./cosmetic-fx.css">
+  <link rel="stylesheet" href="./shiny-fx.css">
+  <link rel="stylesheet" href="./important-battle.css">
+  <link rel="stylesheet" href="./battle-camera.css">
+  <link rel="stylesheet" href="./doubles-ui.css">
+  <link rel="stylesheet" href="./classic-services.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#battle" aria-label="宝可梦·火红叶绿">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span><strong>宝可梦·火红叶绿</strong><small>关都旅程 · MVU 实时状态</small></span>
+      </a>
+      <div class="top-actions">
+        <span class="connection"><i></i><span id="connectionText">正在读取人物卡</span></span>
+        <button class="focus-toggle" id="focusHeader" type="button" aria-pressed="false">专注战斗</button>
+        <label class="battle-speed">演出 <select id="animationSpeed" aria-label="演出速度"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+        <label class="reduce-motion"><input id="reduceEffects" type="checkbox"><span>减少动态</span></label>
+        <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false"><span class="sound-icon" aria-hidden="true"></span><span id="soundLabel">音效 开</span></button>
+        <button class="sound-toggle music-toggle" id="musicToggle" type="button" aria-pressed="false"><span class="music-icon" aria-hidden="true">♫</span><span>音乐 开</span></button>
+      </div>
+    </header>
+
+    <section id="errorPanel" class="error-panel" role="alert" hidden><span id="errorText"></span><button id="retryButton" type="button">重试</button></section>
+
+    <section class="intro-row">
+      <div><p class="eyebrow" id="locationEyebrow">关都地区 · 第 1 轮</p><h1>训练师，<em>新的旅程开始了。</em></h1></div>
+      <p class="intro-note" id="trainerSummary">正在读取人物卡状态…</p>
+    </section>
+
+    <section id="storyScene" class="story-scene" aria-label="剧情舞台">
+      <div id="sceneArt" class="scene-art">
+        <div id="sceneBackground" class="scene-background" aria-hidden="true"></div>
+        <div class="scene-wash" aria-hidden="true"></div>
+        <div class="scene-location"><span id="sceneLocation">真新镇 · 大木研究所</span><small id="sceneRole">旅程序章</small></div>
+        <figure class="scene-npc"><div class="npc-portrait-wrap"><img id="npcSprite" alt="" hidden><span id="npcFallback" aria-hidden="true">NPC</span></div><figcaption><strong id="npcName">大木博士</strong><small id="npcRole">关都宝可梦博士</small></figcaption></figure>
+        <div class="scene-dialogue" id="sceneDialogue" title="点击继续剧情"><span class="dialogue-caret"></span><p id="sceneText">选择一只同行宝可梦，然后开始与小茂对战。</p></div>
+        <div id="sceneOutcome" class="scene-outcome" hidden></div>
+      </div>
+      <div class="scene-entry">
+        <nav class="scene-nav" aria-label="游戏导航"><button id="backStoryButton" type="button">返回剧情</button><button id="startBattleButton" class="start-battle-button" type="button" hidden>进入本轮战斗 <span aria-hidden="true">→</span></button><button id="showMvuButton" type="button">查看队伍与 MVU</button></nav>
+        <div class="starter-picker" id="starterPicker" hidden><p id="starterPickerTitle">真新镇的初次选择</p><div class="starter-options" id="starterOptions"></div><small id="starterChoiceHint" class="starter-choice-hint"></small></div>
+        <div class="encounter-settings" id="encounterSettings" aria-label="对战设置">
+          <label>首领难度<select id="bossTier"><option value="auto" selected>随难度</option><option value="original">原版</option><option value="enhanced">强化</option><option value="extreme">极限</option></select></label>
+          <label>对战形式<select id="battleMode"><option value="singles" selected>单打</option><option value="doubles">双打</option></select></label>
+          <small id="battleModeReason" aria-live="polite"></small>
+        </div>
+      </div>
+    </section>
+
+    <section class="battle-layout" id="battle">
+      <div class="main-column">
+        <section class="battle-card" aria-label="本轮对战场地">
+          <div class="battle-meta"><span id="battleModeLabel">本轮遭遇</span><span id="weatherLabel">天气 —</span><span id="turnLabel">第 1 轮</span><button id="skipBattleEffects" class="battle-presentation-skip" type="button" hidden title="只跳过本次演出，保留完整战报与后台结算">跳过本次演出</button><button id="battleSceneryToggle" class="battle-scenery-toggle" type="button" aria-pressed="true" hidden>显示像素场地</button><label class="battle-sprite-toggle" title="选择本地 GIF；仅本次页面有效">导入动画 GIF<input id="stadiumSpriteFiles" type="file" accept="image/gif,.gif" multiple hidden></label><button id="battleSpriteToggle" class="battle-sprite-toggle" type="button" aria-pressed="true">显示像素精灵</button></div>
+          <div class="arena" id="arena">
+            <canvas id="battleTerrain" class="battle-terrain" aria-hidden="true"></canvas>
+            <div class="arena-backdrop" id="arenaBackdrop" aria-hidden="true"></div>
+            <div class="arena-sun"></div><div class="arena-cloud cloud-one"></div><div class="arena-cloud cloud-two"></div><div class="arena-hills"></div>
+            <div class="platform platform-foe"></div><div class="platform platform-player"></div>
+            <p id="battleFieldState" class="battle-field-state" role="status" hidden></p>
+            <article class="status-card foe-status"><div class="status-name"><strong id="foeName">等待遭遇</strong><span id="foeLevel">Lv. —</span></div><div class="hp-track"><i id="foeHpBar"></i></div><div class="hp-caption"><span>HP</span><b id="foeHpText">— / —</b></div><span id="foeCondition" class="mon-condition">正常</span><small id="foeBoosts" class="boost-label"></small></article>
+            <img id="foeSprite" class="pokemon-sprite foe-sprite" alt="对手宝可梦" hidden>
+            <img id="playerSprite" class="pokemon-sprite player-sprite" alt="我方宝可梦" hidden>
+            <div id="doubleActives" class="double-active-grid" aria-label="双打上场伙伴" hidden></div>
+            <article class="status-card player-status"><div class="status-name"><strong id="playerName">训练家队伍</strong><span id="playerLevel">Lv. —</span></div><div class="hp-track"><i id="playerHpBar"></i></div><div class="hp-caption"><span>HP</span><b id="playerHpText">— / —</b></div><span id="playerCondition" class="mon-condition">正常</span><small id="playerBoosts" class="boost-label"></small></article>
+            <div class="battle-vignette" aria-hidden="true"></div><div id="effectLayer" class="effect-layer" aria-hidden="true"></div>
+          </div>
+          <div class="dialogue" aria-live="polite"><span class="dialogue-caret"></span><p id="battleMessage">正在读取本轮遭遇…</p><span id="eventCounter" class="event-counter"></span></div>
+        </section>
+
+        <section class="action-card" aria-label="对战操作">
+          <div class="action-head"><div><p class="eyebrow">本轮战斗</p><h2 id="actionTitle">等待人物卡状态</h2></div><div class="action-head-tools"><button id="battleMusicResume" class="battle-music-resume" type="button" hidden>播放战斗音乐</button><label class="battle-speed battle-speed-action">演出 <select id="animationSpeedAction" aria-label="战斗演出速度"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><span class="action-hint" id="actionHint">战斗结算由人物卡记录</span><button id="returnStageButton" class="focus-toggle return-stage" type="button" hidden>返回舞台</button><button class="focus-toggle focus-inline" id="focusBattle" type="button" aria-pressed="false">专注战斗</button></div></div>
+          <nav class="battle-command-bar" id="battleCommandBar" aria-label="战斗行动分类">
+            <button type="button" data-battle-tab="moves" aria-selected="true">招式</button><button type="button" data-battle-tab="bag" aria-selected="false">背包</button><button type="button" data-battle-tab="pokemon" aria-selected="false">宝可梦</button><button type="button" data-battle-tab="run" aria-selected="false">逃跑</button>
+          </nav>
+          <section id="battleResult" class="battle-result" aria-live="polite" hidden></section>
+          <div class="action-body" id="battleActionBody">
+            <div id="moveGrid" class="move-grid"><div class="empty-actions">读取人物卡后显示本轮行动。</div></div>
+            <section class="battle-subpanel" id="battleBagPanel" hidden><p class="battle-panel-hint" id="battleBagNote">使用道具会消耗本回合。</p><div class="battle-bag-items" id="battleBagItems"></div><div class="battle-item-confirm" id="battleItemConfirm" hidden><label id="battleItemTargetLabel" for="battleItemTarget">使用对象</label><select id="battleItemTarget"></select><label id="battleItemMoveLabel" for="battleItemMove" hidden>恢复的招式</label><select id="battleItemMove" hidden></select><button type="button" id="battleItemUse">使用道具</button><button type="button" id="battleItemCancel">取消</button></div></section>
+            <section class="battle-subpanel" id="battlePokemonPanel" hidden><p class="battle-panel-hint">更换宝可梦会消耗本回合。</p><button type="button" class="tool-button" id="switchButton" disabled><span class="switch-icon" aria-hidden="true"></span>选择同行替补</button><div class="switch-tray" id="switchTray" hidden></div></section>
+            <section class="battle-subpanel battle-run-panel" id="battleRunPanel" hidden><p>逃跑会消耗本回合，训练家战中不能逃跑。</p><button type="button" class="tool-button run-button" id="runButton" disabled>尝试逃跑</button></section>
+            <div class="action-tools" hidden><button type="button" class="tool-button" id="potionButton" disabled><span class="potion-icon" aria-hidden="true"></span>伤药 <b id="potionCount">—</b></button><button type="button" class="tool-button" id="captureButton" disabled><span class="ball-icon" aria-hidden="true"></span>精灵球 <b id="ballCount">—</b></button></div>
+          </div>
+          <div class="round-footer"><p id="narrativeHint">战斗结果会写回人物卡。</p><div class="round-buttons"><button class="next-round-button" id="nextRoundButton" type="button" hidden>下一轮 <span aria-hidden="true">→</span></button></div></div>
+        </section>
+
+        <details class="battle-log-card"><summary>本场完整战斗记录 <span id="logCounter">0 条记录</span></summary><ol id="battleLog" class="battle-log"></ol></details>
+
+      </div>
+
+      <aside class="setup-column">
+        <section class="trainer-hud" id="trainerHud" aria-label="训练家状态">
+          <div class="trainer-hud-heading"><span class="section-number">训练家</span><div><small>关都旅程 · MVU</small><strong id="hudTrainerName">训练家</strong></div><b id="hudMoney">₽ —</b></div>
+          <div class="trainer-hud-meta"><span id="hudBadges">徽章 0</span><span id="hudLocation">真新镇 · 第 1 轮</span><span id="hudProgression">等级上限 —</span></div>
+        </section>
+        <nav class="hud-tabs" id="hudTabs" aria-label="训练家状态分类">
+          <button type="button" data-hud-tab="team" aria-selected="true">队伍</button><button type="button" data-hud-tab="bag" aria-selected="false">背包</button><button type="button" data-hud-tab="tasks" aria-selected="false">任务</button><button type="button" data-hud-tab="shop" aria-selected="false">商店</button><button type="button" data-hud-tab="map" aria-selected="false">地图</button>
+        </nav>
+        <section class="setup-card mvu-state-card" id="mvuPanel" data-hud-panel="team">
+          <div class="section-title"><span class="section-number">MVU</span><div><p class="eyebrow">唯一游戏状态</p><h2>人物卡状态</h2></div><span class="mvu-state-indicator" id="mvuStateIndicator">正在读取</span></div>
+          <p id="mvuStateSummary" class="mvu-state-summary">正在连接人物卡…</p>
+          <details class="mvu-json-details"><summary>查看完整 JSON</summary><pre id="mvuJson" class="mvu-json">等待人物卡状态。</pre></details>
+          <button id="downloadMvu" class="download-mvu" type="button" disabled>下载 MVU 状态 JSON</button>
+        </section>
+        <section class="setup-card trainer-card" data-hud-panel="team">
+          <div class="section-title"><span class="section-number">人物</span><div><p class="eyebrow">当前 MVU 队伍</p><h2 id="trainerName">训练家</h2></div><span class="badge-count" id="partyCount">0 只同行</span><span class="badge-count" id="badgeCount">0 枚徽章</span><span class="badge-count level-cap-badge" id="levelCapBadge">等级上限 —</span></div>
+          <div id="teamSlots" class="team-slots"><div class="loading-note">正在读取人物卡队伍…</div></div>
+          <div class="team-footer"><span id="partySummary">队伍数据来自当前 MVU 人物卡</span><span id="moneyText">₽ —</span></div>
+        </section>
+
+        <section class="setup-card inventory-card" data-hud-panel="bag">
+          <div class="section-title"><span class="section-number">背包</span><div><p class="eyebrow">人物卡物品</p><h2>背包</h2></div></div>
+          <section id="toolsPanel" aria-label="永久机制工具"></section><div class="inventory-list" id="inventoryList"><div class="loading-note">正在读取背包…</div></div>
+          <details id="cosmeticDisclosure" class="cosmetic-disclosure"><summary>舞台幻彩工坊</summary><div id="cosmeticsPanel"></div></details>
+          <div class="key-items" id="keyItems"></div>
+        </section>
+
+        <section class="setup-card pc-card" data-hud-panel="team">
+          <div class="section-title"><span class="section-number">电脑</span><div><p class="eyebrow">人物卡存放</p><h2>宝可梦电脑</h2></div><span class="badge-count" id="pcCount">0 只</span></div>
+          <div id="pcList" class="pc-list"><div class="loading-note">正在读取电脑…</div></div>
+        </section>
+
+        <section class="setup-card center-card" id="centerCard" data-hud-panel="shop" hidden>
+          <div class="section-title"><span class="section-number">城镇</span><div><p class="eyebrow">宝可梦中心与商店</p><h2 id="centerName">当前地点</h2></div></div>
+          <p class="center-copy">中心会恢复同行队伍的HP和异常状态。伤药恢复20 HP。</p>
+          <div class="service-buttons"><button id="healButton" class="service-button" type="button">宝可梦中心 <small>免费治疗</small></button><button id="buyPotionButton" class="service-button" type="button">购买伤药 <small>₽300 · 1个</small></button><button id="buyBallButton" class="service-button" type="button">购买精灵球 <small>₽200 · 1个</small></button></div>
+          <div id="classicServicesPanel"></div>
+          <div class="shop-quantity"><label for="shopCount">购买数量</label><select id="shopCount"><option value="1">1</option><option value="5">5</option><option value="10">10</option></select></div>
+          <div id="shopItems" class="shop-items"></div><button class="shop-return-story" id="shopReturnStory" type="button" hidden>返回剧情</button>
+        </section>
+
+        <section class="setup-card story-card" data-hud-panel="tasks">
+          <div class="section-title"><span class="section-number">剧情</span><div><p class="eyebrow">旅程进度</p><h2>继续旅程</h2></div></div>
+          <p class="round-summary" id="roundSummary">等待本轮结算。</p>
+          <div id="tasksList" class="tasks-list"><p class="loading-note">正在读取 MVU 任务…</p></div>
+          <div id="rocketEventsPanel"></div>
+          <p class="story-copy" id="storyCopy">每轮遭遇由人物卡推进。完成本轮战斗后返回正文继续。</p>
+          <button class="story-button" id="storyButton" type="button" disabled>完成战斗后回正文继续</button>
+          <p class="rules-note" id="rulesNote">第三世代伤害分类按属性决定。</p>
+        </section>
+
+        <section class="setup-card dex-card">
+          <div class="section-title"><span class="section-number">图鉴</span><div><p class="eyebrow">关都宝可梦</p><h2>宝可梦图鉴</h2></div></div>
+          <label class="search-box"><span class="search-icon" aria-hidden="true"></span><input id="dexSearch" type="search" placeholder="搜索名称或编号" autocomplete="off"><kbd>/</kbd></label>
+          <div id="dexResults" class="dex-results" aria-label="只读图鉴搜索结果"></div>
+        </section>
+        <section class="map-card setup-card" id="mapCard" data-hud-panel="map">
+          <div class="section-title"><span class="section-number">关都</span><div><p class="eyebrow">路线图</p><h2 id="mapTitle">关都地区</h2></div><span class="map-current" id="mapCurrent">读取地点…</span></div>
+          <div class="map-wrap"><img class="map-art" src="./assets/maps/kanto-region-painted-v1.png" alt="" aria-hidden="true"><svg id="mapSvg" viewBox="0 0 100 100" role="img" aria-label="关都地区路线图"></svg></div>
+          <div class="map-legend"><span><i class="legend-town"></i>城镇</span><span><i class="legend-route"></i>路线</span><span><i class="legend-cave"></i>洞窟</span><span><i class="legend-gym"></i>道馆</span><span><i class="legend-current"></i>当前位置</span><span><i class="legend-locked"></i>未开放</span></div>
+          <p class="map-note" id="mapNote">本轮结算后可查看相邻地点。</p>
+        </section>
+      </aside>
+    </section>
+    <footer class="page-footer"><span>关都地区 · 人物卡 MVU 状态</span><span>完成每轮战斗后回正文继续</span></footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </main>
+  <script src="./terrain.js" defer></script>
+  <script src="./audio.js" defer></script>
+  <script src="./battle-fx-map.js" defer></script>
+  <script src="./cosmetic-fx.js" defer></script>
+  <script src="./shiny-fx.js" defer></script>
+  <script src="./important-battle.js" defer></script>
+  <script src="./battle-camera.js" defer></script>
+  <script src="./doubles-ui.js" defer></script>
+  <script src="./classic-services-ui.js" defer></script>
+  <script src="./tools-panel.js" defer></script>
+  <script src="./stadium-sprites.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>

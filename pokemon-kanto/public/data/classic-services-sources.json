@@ -1,0 +1,20 @@
+{
+  "title": "关都经典设施与NPC交换资料来源",
+  "gameRules": "Pokémon FireRed/LeafGreen, Generation III",
+  "sources": [
+    {"path":"src/data/ingame_trades.h","usedFor":"9项原版NPC交换：请求种类、收服种类、昵称、原训练家、原训练家编号及性别、能力个体值、性格值、特性槽、华丽度与携带物。按火红版本分支。"},
+    {"path":"src/data/pokemon/species_info.h","usedFor":"关都151种蛋孵化周期与性别比例；整理成classic-pokemon-biology.json。"},
+    {"path":"src/data/pokemon/egg_moves.h","usedFor":"关都宝可梦的第三世代蛋招式目录；整理成classic-egg-moves.json。"},
+    {"path":"src/data/pokemon/tutor_learnsets.h","usedFor":"Counter导师兼容种类；整理成classic-counter-species.json。"},
+    {"path":"src/daycare.c","usedFor":"培育屋生蛋、遗传与孵化规则依据。"},
+    {"path":"src/slot_machine.c","usedFor":"三轴依次停止、下注与中奖线/赔率的交互参考；此实现使用确定种子表，不声称复现ROM随机序列。"},
+    {"path":"data/scripts/move_tutors.inc","usedFor":"玉虹百货3F Counter一次授课标记与选择精灵流程。"},
+    {"path":"data/maps/CeladonCity_DepartmentStore_3F/scripts.inc","usedFor":"百货3F导师位置。"}
+  ],
+  "boundaries": [
+    "只包含关都图鉴1—151；若原版配对的后代属于151以外（例如皮丘），不会虚构一个已支持的后代。",
+    "火红叶绿只有一只宝可梦的关都托管位；第五枚徽章开启的五岛双亲培育屋是本项目扩展，不增添七岛地图。",
+    "游戏内三个计数器独立于主线叙事；只有宿主在真实行走步骤时调用tick，培育步数与孵化才推进。",
+    "老虎机使用逐轴停轮和本地确定性赔率结算；不完全复刻原ROM的机器偏置或PRNG。"
+  ]
+}

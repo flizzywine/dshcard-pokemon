@@ -1,0 +1,908 @@
+[
+  {
+    "id": 1,
+    "name": "BULBASAUR",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 2,
+    "name": "IVYSAUR",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 3,
+    "name": "VENUSAUR",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 4,
+    "name": "CHARMANDER",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 5,
+    "name": "CHARMELEON",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 6,
+    "name": "CHARIZARD",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 7,
+    "name": "SQUIRTLE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 8,
+    "name": "WARTORTLE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 9,
+    "name": "BLASTOISE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 10,
+    "name": "CATERPIE",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 11,
+    "name": "METAPOD",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 12,
+    "name": "BUTTERFREE",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 13,
+    "name": "WEEDLE",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 14,
+    "name": "KAKUNA",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 15,
+    "name": "BEEDRILL",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 16,
+    "name": "PIDGEY",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 17,
+    "name": "PIDGEOTTO",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 18,
+    "name": "PIDGEOT",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 19,
+    "name": "RATTATA",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 20,
+    "name": "RATICATE",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 21,
+    "name": "SPEAROW",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 22,
+    "name": "FEAROW",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 23,
+    "name": "EKANS",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 24,
+    "name": "ARBOK",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 25,
+    "name": "PIKACHU",
+    "eggCycles": 10,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 26,
+    "name": "RAICHU",
+    "eggCycles": 10,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 27,
+    "name": "SANDSHREW",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 28,
+    "name": "SANDSLASH",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 29,
+    "name": "NIDORAN_F",
+    "eggCycles": 20,
+    "genderRatio": "MON_FEMALE"
+  },
+  {
+    "id": 30,
+    "name": "NIDORINA",
+    "eggCycles": 20,
+    "genderRatio": "MON_FEMALE"
+  },
+  {
+    "id": 31,
+    "name": "NIDOQUEEN",
+    "eggCycles": 20,
+    "genderRatio": "MON_FEMALE"
+  },
+  {
+    "id": 32,
+    "name": "NIDORAN_M",
+    "eggCycles": 20,
+    "genderRatio": "MON_MALE"
+  },
+  {
+    "id": 33,
+    "name": "NIDORINO",
+    "eggCycles": 20,
+    "genderRatio": "MON_MALE"
+  },
+  {
+    "id": 34,
+    "name": "NIDOKING",
+    "eggCycles": 20,
+    "genderRatio": "MON_MALE"
+  },
+  {
+    "id": 35,
+    "name": "CLEFAIRY",
+    "eggCycles": 10,
+    "genderRatio": "PERCENT_FEMALE(75)"
+  },
+  {
+    "id": 36,
+    "name": "CLEFABLE",
+    "eggCycles": 10,
+    "genderRatio": "PERCENT_FEMALE(75)"
+  },
+  {
+    "id": 37,
+    "name": "VULPIX",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(75)"
+  },
+  {
+    "id": 38,
+    "name": "NINETALES",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(75)"
+  },
+  {
+    "id": 39,
+    "name": "JIGGLYPUFF",
+    "eggCycles": 10,
+    "genderRatio": "PERCENT_FEMALE(75)"
+  },
+  {
+    "id": 40,
+    "name": "WIGGLYTUFF",
+    "eggCycles": 10,
+    "genderRatio": "PERCENT_FEMALE(75)"
+  },
+  {
+    "id": 41,
+    "name": "ZUBAT",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 42,
+    "name": "GOLBAT",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 43,
+    "name": "ODDISH",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 44,
+    "name": "GLOOM",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 45,
+    "name": "VILEPLUME",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 46,
+    "name": "PARAS",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 47,
+    "name": "PARASECT",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 48,
+    "name": "VENONAT",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 49,
+    "name": "VENOMOTH",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 50,
+    "name": "DIGLETT",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 51,
+    "name": "DUGTRIO",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 52,
+    "name": "MEOWTH",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 53,
+    "name": "PERSIAN",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 54,
+    "name": "PSYDUCK",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 55,
+    "name": "GOLDUCK",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 56,
+    "name": "MANKEY",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 57,
+    "name": "PRIMEAPE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 58,
+    "name": "GROWLITHE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 59,
+    "name": "ARCANINE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 60,
+    "name": "POLIWAG",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 61,
+    "name": "POLIWHIRL",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 62,
+    "name": "POLIWRATH",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 63,
+    "name": "ABRA",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 64,
+    "name": "KADABRA",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 65,
+    "name": "ALAKAZAM",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 66,
+    "name": "MACHOP",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 67,
+    "name": "MACHOKE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 68,
+    "name": "MACHAMP",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 69,
+    "name": "BELLSPROUT",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 70,
+    "name": "WEEPINBELL",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 71,
+    "name": "VICTREEBEL",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 72,
+    "name": "TENTACOOL",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 73,
+    "name": "TENTACRUEL",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 74,
+    "name": "GEODUDE",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 75,
+    "name": "GRAVELER",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 76,
+    "name": "GOLEM",
+    "eggCycles": 15,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 77,
+    "name": "PONYTA",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 78,
+    "name": "RAPIDASH",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 79,
+    "name": "SLOWPOKE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 80,
+    "name": "SLOWBRO",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 81,
+    "name": "MAGNEMITE",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 82,
+    "name": "MAGNETON",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 83,
+    "name": "FARFETCHD",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 84,
+    "name": "DODUO",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 85,
+    "name": "DODRIO",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 86,
+    "name": "SEEL",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 87,
+    "name": "DEWGONG",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 88,
+    "name": "GRIMER",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 89,
+    "name": "MUK",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 90,
+    "name": "SHELLDER",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 91,
+    "name": "CLOYSTER",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 92,
+    "name": "GASTLY",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 93,
+    "name": "HAUNTER",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 94,
+    "name": "GENGAR",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 95,
+    "name": "ONIX",
+    "eggCycles": 25,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 96,
+    "name": "DROWZEE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 97,
+    "name": "HYPNO",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 98,
+    "name": "KRABBY",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 99,
+    "name": "KINGLER",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 100,
+    "name": "VOLTORB",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 101,
+    "name": "ELECTRODE",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 102,
+    "name": "EXEGGCUTE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 103,
+    "name": "EXEGGUTOR",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 104,
+    "name": "CUBONE",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 105,
+    "name": "MAROWAK",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 106,
+    "name": "HITMONLEE",
+    "eggCycles": 25,
+    "genderRatio": "MON_MALE"
+  },
+  {
+    "id": 107,
+    "name": "HITMONCHAN",
+    "eggCycles": 25,
+    "genderRatio": "MON_MALE"
+  },
+  {
+    "id": 108,
+    "name": "LICKITUNG",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 109,
+    "name": "KOFFING",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 110,
+    "name": "WEEZING",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 111,
+    "name": "RHYHORN",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 112,
+    "name": "RHYDON",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 113,
+    "name": "CHANSEY",
+    "eggCycles": 40,
+    "genderRatio": "MON_FEMALE"
+  },
+  {
+    "id": 114,
+    "name": "TANGELA",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 115,
+    "name": "KANGASKHAN",
+    "eggCycles": 20,
+    "genderRatio": "MON_FEMALE"
+  },
+  {
+    "id": 116,
+    "name": "HORSEA",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 117,
+    "name": "SEADRA",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 118,
+    "name": "GOLDEEN",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 119,
+    "name": "SEAKING",
+    "eggCycles": 20,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 120,
+    "name": "STARYU",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 121,
+    "name": "STARMIE",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 122,
+    "name": "MR_MIME",
+    "eggCycles": 25,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 123,
+    "name": "SCYTHER",
+    "eggCycles": 25,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 124,
+    "name": "JYNX",
+    "eggCycles": 25,
+    "genderRatio": "MON_FEMALE"
+  },
+  {
+    "id": 125,
+    "name": "ELECTABUZZ",
+    "eggCycles": 25,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 126,
+    "name": "MAGMAR",
+    "eggCycles": 25,
+    "genderRatio": "PERCENT_FEMALE(25)"
+  },
+  {
+    "id": 127,
+    "name": "PINSIR",
+    "eggCycles": 25,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 128,
+    "name": "TAUROS",
+    "eggCycles": 20,
+    "genderRatio": "MON_MALE"
+  },
+  {
+    "id": 129,
+    "name": "MAGIKARP",
+    "eggCycles": 5,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 130,
+    "name": "GYARADOS",
+    "eggCycles": 5,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 131,
+    "name": "LAPRAS",
+    "eggCycles": 40,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 132,
+    "name": "DITTO",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 133,
+    "name": "EEVEE",
+    "eggCycles": 35,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 134,
+    "name": "VAPOREON",
+    "eggCycles": 35,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 135,
+    "name": "JOLTEON",
+    "eggCycles": 35,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 136,
+    "name": "FLAREON",
+    "eggCycles": 35,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 137,
+    "name": "PORYGON",
+    "eggCycles": 20,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 138,
+    "name": "OMANYTE",
+    "eggCycles": 30,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 139,
+    "name": "OMASTAR",
+    "eggCycles": 30,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 140,
+    "name": "KABUTO",
+    "eggCycles": 30,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 141,
+    "name": "KABUTOPS",
+    "eggCycles": 30,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 142,
+    "name": "AERODACTYL",
+    "eggCycles": 35,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 143,
+    "name": "SNORLAX",
+    "eggCycles": 40,
+    "genderRatio": "PERCENT_FEMALE(12.5)"
+  },
+  {
+    "id": 144,
+    "name": "ARTICUNO",
+    "eggCycles": 80,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 145,
+    "name": "ZAPDOS",
+    "eggCycles": 80,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 146,
+    "name": "MOLTRES",
+    "eggCycles": 80,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 147,
+    "name": "DRATINI",
+    "eggCycles": 40,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 148,
+    "name": "DRAGONAIR",
+    "eggCycles": 40,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 149,
+    "name": "DRAGONITE",
+    "eggCycles": 40,
+    "genderRatio": "PERCENT_FEMALE(50)"
+  },
+  {
+    "id": 150,
+    "name": "MEWTWO",
+    "eggCycles": 120,
+    "genderRatio": "MON_GENDERLESS"
+  },
+  {
+    "id": 151,
+    "name": "MEW",
+    "eggCycles": 120,
+    "genderRatio": "MON_GENDERLESS"
+  }
+]

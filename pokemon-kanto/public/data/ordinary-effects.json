@@ -1,0 +1,335 @@
+[
+  {
+    "id": "rising-star",
+    "key": "fossil-sand",
+    "title": "化石砂流",
+    "quest": "mtmoon-fossil-witness",
+    "theme": "Ancient spiral ammonite fossils and fern imprints emerge from an asymmetric river of ochre sand along the bottom and outer left. Small sandstone fragments lift, rotate and fall back. Four poses: sand gathers, fossils reveal, fern dust streams outward, sand settles into the first pose. Museum fieldwork reward, warm chalk and muted honey; no giant rocks, no stars, no crowns.",
+    "unlock": {
+      "kind": "quest",
+      "id": "mtmoon-fossil-witness",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-fossil-sand.png",
+      "poster": "ordinary-fossil-sand-poster.png",
+      "title": "化石砂流",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "present",
+    "key": "harbor-beacon",
+    "title": "回航信标",
+    "quest": "vermilion-harbor-triage",
+    "theme": "A small nautical brass lantern floats OUTSIDE the upper right of the empty center, its soft amber beam sweeps across low teal sea mist and a looping ivory rescue rope along the bottom edge. Four poses show lantern rocking, beam sweeping left, rope wake rising, lantern returning. Harbour rescue reward; weathered brass, textile rope and sea glass, no gift box, no stars.",
+    "unlock": {
+      "kind": "quest",
+      "id": "vermilion-harbor-triage",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-harbor-beacon.png",
+      "poster": "ordinary-harbor-beacon-poster.png",
+      "title": "回航信标",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "spiders-web",
+    "key": "seed-bank",
+    "title": "留种之庭",
+    "quest": "erika-seed-bank",
+    "theme": "A miniature botanical cycle at the outer corners: translucent jade seed pods open, delicate winged seeds fly upward, unfurl into tiny leaves, and drift back into the pods. Rich moss, pale sage and a few warm ivory stamens. Four visibly different growth poses, airy asymmetry, cultivated seed-bank reward. No spiderweb, no circular wreath, no large flower covering the center.",
+    "unlock": {
+      "kind": "quest",
+      "id": "erika-seed-bank",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-seed-bank.png",
+      "poster": "ordinary-seed-bank-poster.png",
+      "title": "留种之庭",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "pungent-stench",
+    "key": "trace-free",
+    "title": "林间无痕",
+    "quest": "koga-no-trace-camp",
+    "theme": "Fine pale fern fronds and a low stream of morning fog part as invisible footsteps travel from lower left to lower right. Tiny dew droplets cling then fall, grass springs back after each footstep. Four poses show the trail opening, passing, dew falling, and the forest regaining its undisturbed shape. Quiet nature stewardship reward; silver sage, wet jade, no poisonous sludge, no footprints in center, no ring.",
+    "unlock": {
+      "kind": "quest",
+      "id": "koga-no-trace-camp",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-trace-free.png",
+      "poster": "ordinary-trace-free-poster.png",
+      "title": "林间无痕",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "zodiac",
+    "key": "trail-markers",
+    "title": "归途路标",
+    "quest": "victoryroad-safety-rope",
+    "theme": "A flowing ivory climbing rope and three small weathered copper trail markers at the lower outside edges, with amber cairn dust. Four poses: a rope loop unfurls around the empty center's lower edge, markers catch travelling light in sequence, wind tugs a short red cloth tab, rope settles. Mountain safety reward, reassuring and adventurous, no zodiac symbols or stars, no closed circular frame.",
+    "unlock": {
+      "kind": "quest",
+      "id": "victoryroad-safety-rope",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-trail-markers.png",
+      "poster": "ordinary-trail-markers-poster.png",
+      "title": "归途路标",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "kings-fall",
+    "key": "moonstone-bloom",
+    "title": "月石微花",
+    "quest": "hiker-mtmoon-footprints",
+    "theme": "A few raw pale lilac moonstones float near the outside left and right; thin opalescent mineral lamellae open like tiny geological flowers, sending soft lavender dust downward to a narrow crescent of chalk sand at the bottom. Four poses show mineral layers opening, turning, closing, and returning. Archaeological mountain reward, natural rough crystals rather than jewels, no crown, no huge bright moon.",
+    "unlock": {
+      "kind": "quest",
+      "id": "hiker-mtmoon-footprints",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-moonstone-bloom.png",
+      "poster": "ordinary-moonstone-bloom-poster.png",
+      "title": "月石微花",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "pumpkids-treat",
+    "key": "ember-letter",
+    "title": "余烬书简",
+    "quest": "blaine-community-lab",
+    "theme": "Three narrow cream laboratory paper strips with abstract illegible ink strokes fold into graceful warm ember birds OUTSIDE the center, glide on curling burnt orange smoke along the side edges, unfold back to paper. Four transformation poses, crisp paper folds and delicate glowing burnt edges. Fire laboratory safety reward, no readable text, no pumpkin, no candy, no phoenix covering center.",
+    "unlock": {
+      "kind": "quest",
+      "id": "blaine-community-lab",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-ember-letter.png",
+      "poster": "ordinary-ember-letter-poster.png",
+      "title": "余烬书简",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "witchs-cat",
+    "key": "camp-tea",
+    "title": "篝火茶会",
+    "trust": 60,
+    "theme": "A small low camping kettle at bottom-left and a folded woven blanket edge at bottom-right; thin tea steam forms two gently meeting ribbons above the kettle but outside the large empty center. A few soft warm camp embers rise. Four poses show steam curling, leaning towards the companion, unrolling and repeating. Friendship camping reward, earthenware, oat linen, sage herbs, intimate not spectacular; no cat, no magic portal.",
+    "unlock": {
+      "kind": "trust",
+      "count": 60
+    },
+    "profile": {
+      "file": "ordinary-camp-tea.png",
+      "poster": "ordinary-camp-tea-poster.png",
+      "title": "篝火茶会",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "pumpcat",
+    "key": "herbal-chimes",
+    "title": "药草风铃",
+    "quest": "joy-triage-ledger",
+    "theme": "Three delicate clear glass wind chimes holding pale mint leaves hang from fine ivory threads along the top OUTER corners, never across the center. Four poses show delayed alternating swings, leaves turning inside glass, small dew notes falling and catching warm reflected light. Healing volunteer reward, sea glass green and warm cream, no medical cross, no cat, no glowing neon musical symbols.",
+    "unlock": {
+      "kind": "quest",
+      "id": "joy-triage-ledger",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-herbal-chimes.png",
+      "poster": "ordinary-herbal-chimes-poster.png",
+      "title": "药草风铃",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "white-kitty",
+    "key": "tidal-shells",
+    "title": "潮汐回声",
+    "quest": "route19-tide-rescue",
+    "theme": "Two pearly spiral seashells and a few blue sea-glass fragments ride a low shallow shore ripple, the outer left wave rolls right and returns with ivory foam, a thin rescue cord follows the water at the bottom. Four genuinely changing water/foam poses, open center. Coastal rescue reward, aquamarine and mother-of-pearl, no cat, no giant tsunami or fixed circular frame.",
+    "unlock": {
+      "kind": "quest",
+      "id": "route19-tide-rescue",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-tidal-shells.png",
+      "poster": "ordinary-tidal-shells-poster.png",
+      "title": "潮汐回声",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "anniversary-cake",
+    "key": "migration-wings",
+    "title": "季风蝶信",
+    "story": "vermilion-butterfree-migration",
+    "theme": "A small migrating flock of six ORIGINAL lilac-and-ivory butterflies flies in a loose diagonal arc OUTSIDE the center, with tiny pollen specks and a few wind-blown grass seeds; real wing-up, wing-level, wing-down, gliding four poses and a changing flight path. Bittersweet migration story reward, no identifiable Pokémon, no cake, no stars, no halo ring; rich velvet wings, very restrained glow.",
+    "unlock": {
+      "kind": "story",
+      "id": "vermilion-butterfree-migration"
+    },
+    "profile": {
+      "file": "ordinary-migration-wings.png",
+      "poster": "ordinary-migration-wings-poster.png",
+      "title": "季风蝶信",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "menacing-spirit",
+    "key": "grid-echo",
+    "title": "电网回声",
+    "quest": "powerplant-grid-witness",
+    "theme": "Small aged copper induction coils appear at opposite lower outer corners; warm copper filings arc gently between their tips with short branching pale cyan electrical sparks that travel around, not across, the empty center. Four poses show current charging left, travelling low, charging right, fading back. Restored power station investigation reward, mechanical weight and fine wire detail, no giant lightning storm or neon circle.",
+    "unlock": {
+      "kind": "quest",
+      "id": "powerplant-grid-witness",
+      "exact": true,
+      "count": 1
+    },
+    "profile": {
+      "file": "ordinary-grid-echo.png",
+      "poster": "ordinary-grid-echo-poster.png",
+      "title": "电网回声",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  },
+  {
+    "id": "bond-canopy",
+    "key": "bond-companions",
+    "title": "双羽同行",
+    "trust": 100,
+    "bond": true,
+    "theme": "Two complementary flowing feathered pennants, one deep teal with ivory underside and one warm russet with pale gold underside, move like living wings on the outer left and right, their fine silk tails briefly meet beneath the large empty center and separate. Four poses: each side lifts, wings open in mutual rhythm, tails brush softly, wings fold back. Highest trust companionship reward, emotionally warm, elegant tactile feathers, no stars, no hearts, no Pokémon or human, no crown or closed ring.",
+    "unlock": {
+      "kind": "trust",
+      "count": 100
+    },
+    "profile": {
+      "file": "ordinary-bond-companions.png",
+      "poster": "ordinary-bond-companions-poster.png",
+      "title": "双羽同行",
+      "cols": 2,
+      "rows": 2,
+      "frames": 4,
+      "fps": 3.2,
+      "width": 111,
+      "height": 74,
+      "y": 0,
+      "crossfade": true
+    }
+  }
+]

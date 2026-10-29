@@ -1,0 +1,9 @@
+# FRLG wild encounter pool source
+
+`frlg-encounters.json` is a normalized extract of `src/data/wild_encounters.json` from `pret/pokefirered` commit `ce6406d8c2eaf46d543c8a2606de0c3cb1951982`. The file records the immutable raw URL and SHA-256 (`a6399199987e1bdf8502e9bfdcfc9d8ad57d74df206d22ba20f020492bd3bf7c`). Its land, water, and fishing slot weights and encounter-rate values come from that file's corresponding encounter groups. Fishing rod slot groups follow its `old_rod`, `good_rod`, and `super_rod` field indices.
+
+`nodeSourceMap` binds the simplified map nodes to exact pret map constants. Route 21 uses `MAP_ROUTE21_NORTH` as its representative source map. The shared cave nodes use a documented representative section: Mt. Moon 1F, Rock Tunnel 1F, Diglett's Cave B1F, Pokémon Tower 3F, Safari Zone Center, Seafoam Islands 1F, Victory Road 1F, and Cerulean Cave 1F. For towns that have a matching original map table, the module only exposes its recorded water/fishing pools; it does not invent a land table. Pewter, Lavender, Saffron, and Indigo have no matching source encounter table and return `null`.
+
+Only species 1–151 are exposed. In the selected Kanto maps, the upstream source contains Wobbuffet (species 202) in Cerulean Cave. Its slots are excluded from the normalized table; the remaining legal slots keep their upstream weights. `pool` reports those raw weights and the source table's `encounter_rate`. It does not model grass tiles, movement checks, or the game's encounter-trigger probability; this workspace has no tile-movement simulation. `roll` is a deterministic seeded sampler over the returned legal slots and their source weights, with uniformly selected levels within the chosen slot's inclusive range.
+
+Source: [pret/pokefirered wild_encounters.json at the pinned commit](https://github.com/pret/pokefirered/blob/ce6406d8c2eaf46d543c8a2606de0c3cb1951982/src/data/wild_encounters.json).

@@ -1,0 +1,265 @@
+{
+  "tracks": {
+    "pallet": {
+      "file": "assets/audio/story-pallet.ogg",
+      "track": "FRLG 06 Pallet Town Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2006%20Pallet%20Town%20Theme.ogg"
+    },
+    "oak": {
+      "file": "assets/audio/story-oak.ogg",
+      "track": "FRLG 07 Prof. Oak",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2007%20Prof.%20Oak.ogg"
+    },
+    "oak-lab": {
+      "file": "assets/audio/story-oak-lab.ogg",
+      "track": "FRLG 08 Oak Research Institute",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2008%20Oak%20Research%20Institute.ogg"
+    },
+    "rival-entry": {
+      "file": "assets/audio/story-rival-entry.ogg",
+      "track": "FRLG 10 Rival Appears",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2010%20Rival%20Appears.ogg"
+    },
+    "route-1": {
+      "file": "assets/audio/story-route-1.ogg",
+      "track": "FRLG 13 Route 1",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2013%20Route%201.ogg"
+    },
+    "pewter": {
+      "file": "assets/audio/story-pewter.ogg",
+      "track": "FRLG 15 Pewter City Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2015%20Pewter%20City%20Theme.ogg"
+    },
+    "viridian-forest": {
+      "file": "assets/audio/story-viridian-forest.ogg",
+      "track": "FRLG 17 Viridian Forest",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2017%20Viridian%20Forest.ogg"
+    },
+    "pokemon-center": {
+      "file": "assets/audio/story-pokemon-center.ogg",
+      "track": "FRLG 21 Pokemon Center",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2021%20Pokemon%20Center.ogg"
+    },
+    "gym": {
+      "file": "assets/audio/story-gym.ogg",
+      "track": "FRLG 25 Pokemon Gym",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2025%20Pokemon%20Gym.ogg"
+    },
+    "cerulean-road": {
+      "file": "assets/audio/story-cerulean-road.ogg",
+      "track": "FRLG 32 Road to Cerulean City - From Mt. Moon",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2032%20Road%20to%20Cerulean%20City%20-%20From%20Mt.%20Moon.ogg"
+    },
+    "mt-moon": {
+      "file": "assets/audio/story-mt-moon.ogg",
+      "track": "FRLG 34 Mt. Moon",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2034%20Mt.%20Moon.ogg"
+    },
+    "vermilion": {
+      "file": "assets/audio/story-vermilion.ogg",
+      "track": "FRLG 35 Vermilion City Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2035%20Vermilion%20City%20Theme.ogg"
+    },
+    "lavender": {
+      "file": "assets/audio/story-lavender.ogg",
+      "track": "FRLG 38 Lavender Town Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2038%20Lavender%20Town%20Theme.ogg"
+    },
+    "celadon": {
+      "file": "assets/audio/story-celadon.ogg",
+      "track": "FRLG 40 Celadon City Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2040%20Celadon%20City%20Theme.ogg"
+    },
+    "rocket-hideout": {
+      "file": "assets/audio/story-rocket-hideout.ogg",
+      "track": "FRLG 45 Rocket Hideout",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2045%20Rocket%20Hideout.ogg"
+    },
+    "rocket-entry": {
+      "file": "assets/audio/story-rocket-entry.ogg",
+      "track": "FRLG 46 A Trainer Appears (Bad Guy Version)",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2046%20A%20Trainer%20Appears%20(Bad%20Guy%20Version).ogg"
+    },
+    "silph-co": {
+      "file": "assets/audio/story-silph-co.ogg",
+      "track": "FRLG 47 Silph Co.",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2047%20Silph%20Co..ogg"
+    },
+    "fuchsia-road": {
+      "file": "assets/audio/story-fuchsia-road.ogg",
+      "track": "FRLG 48 Road to Fuchsia City - Leaving Lavender Town",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2048%20Road%20to%20Fuchsia%20City%20-%20Leaving%20Lavender%20Town.ogg"
+    },
+    "fuchsia": {
+      "file": "assets/audio/story-fuchsia.ogg",
+      "track": "FRLG 50 Fuchsia City Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2050%20Fuchsia%20City%20Theme.ogg"
+    },
+    "cinnabar": {
+      "file": "assets/audio/story-cinnabar.ogg",
+      "track": "FRLG 55 Cinnabar Island Theme",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2055%20Cinnabar%20Island%20Theme.ogg"
+    },
+    "last-road": {
+      "file": "assets/audio/story-last-road.ogg",
+      "track": "FRLG 69 The Last Road",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2069%20The%20Last%20Road.ogg"
+    },
+    "starter-fanfare": {
+      "file": "assets/audio/story-starter-fanfare.ogg",
+      "track": "FRLG 09 Fanfare! Pokemon Obtained",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2009%20Fanfare!%20Pokemon%20Obtained.ogg"
+    },
+    "ss-anne": {
+      "file": "assets/audio/story-ss-anne.ogg",
+      "track": "FRLG 36 The S.S. Anne",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2036%20The%20S.S.%20Anne.ogg"
+    },
+    "cycling": {
+      "file": "assets/audio/story-cycling.ogg",
+      "track": "FRLG 37 Cycling",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2037%20Cycling.ogg"
+    },
+    "surfing": {
+      "file": "assets/audio/story-surfing.ogg",
+      "track": "FRLG 52 Surfing",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2052%20Surfing.ogg"
+    },
+    "pokemon-mansion": {
+      "file": "assets/audio/story-pokemon-mansion.ogg",
+      "track": "FRLG 56 Pokemon Mansion",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2056%20Pokemon%20Mansion.ogg"
+    },
+    "tower": {
+      "file": "assets/audio/story-tower.ogg",
+      "track": "FRLG 39 Pokemon Tower",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2039%20Pokemon%20Tower.ogg"
+    },
+    "game-corner": {
+      "file": "assets/audio/story-game-corner.ogg",
+      "track": "FRLG 41 Rocket Game Corner",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2041%20Rocket%20Game%20Corner.ogg",
+      "sha256": "8331cfd02236d441c56d16b613f96e5a938300c138d3dde1173967ec3b1af7ee",
+      "note": "ENLS prelooped recording of the original FRLG composition; not project-original music."
+    },
+    "quest-guide": {
+      "file": "assets/audio/story-quest-guide.ogg",
+      "track": "FRLG 24 Guide",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2024%20Guide.ogg",
+      "sha256": "692a77126d02bad9c161ea0c0e90610f9670e124690243d7521f14d165242b0e",
+      "note": "ENLS prelooped recording of the original FRLG composition; not project-original music."
+    },
+    "tense-story": {
+      "file": "assets/audio/story-tense-story.ogg",
+      "track": "FRLG 26 Tense Battle!",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2026%20Tense%20Battle%21.ogg",
+      "sha256": "586980d2be18719c857bf2757a6fea7bad2c2d992d48906ad6ef5c2e3293d5ce",
+      "note": "ENLS prelooped recording of the original FRLG composition; not project-original music."
+    },
+    "camp-epilogue": {
+      "file": "assets/audio/story-camp-epilogue.ogg",
+      "track": "FRLG 71 Epilogue",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2071%20Epilogue.ogg",
+      "sha256": "0824afd43daae4a1325bf993e32f335c482499a8164ccf4a93c1796f4ce47a9f",
+      "note": "ENLS prelooped recording of the original FRLG composition; not project-original music."
+    },
+    "lighthouse-flute": {
+      "file": "assets/audio/story-lighthouse-flute.ogg",
+      "track": "FRLG 49 The Poke Flute",
+      "source": "https://enls.eu/prelooped/downloads/FRLG/FRLG%2049%20The%20Poke%20Flute.ogg",
+      "sha256": "fe032f057c24215f2ae462860dab68bf7620257182e053a6f55463dcda819ac7",
+      "note": "ENLS prelooped recording of the original FRLG composition; not project-original music."
+    }
+  },
+  "locations": {
+    "pallet": "pallet",
+    "viridian": "pewter",
+    "pewter": "pewter",
+    "cerulean": "fuchsia",
+    "saffron": "pewter",
+    "vermilion": "vermilion",
+    "lavender": "lavender",
+    "celadon": "celadon",
+    "fuchsia": "fuchsia",
+    "cinnabar": "cinnabar",
+    "indigo": "last-road",
+    "route1": "route-1",
+    "route3": "cerulean-road",
+    "route5": "cerulean-road",
+    "route6": "cerulean-road",
+    "route7": "cerulean-road",
+    "route8": "cerulean-road",
+    "route11": "fuchsia-road",
+    "route16": "cycling",
+    "route17": "cycling",
+    "route18": "cycling",
+    "route19": "surfing",
+    "route20": "surfing",
+    "route21": "surfing",
+    "route22": "cerulean-road",
+    "route2": "route-1",
+    "route4": "cerulean-road",
+    "route24": "cerulean-road",
+    "route25": "cerulean-road",
+    "route9": "cerulean-road",
+    "route10": "cerulean-road",
+    "route12": "fuchsia-road",
+    "route13": "fuchsia-road",
+    "route14": "fuchsia-road",
+    "route15": "fuchsia-road",
+    "route23": "last-road",
+    "viridian-forest": "viridian-forest",
+    "mt-moon": "mt-moon",
+    "rock-tunnel": "mt-moon",
+    "diglett-cave": "mt-moon",
+    "seafoam": "mt-moon",
+    "power-plant": "pokemon-mansion",
+    "cerulean-cave": "rocket-hideout",
+    "pokemon-tower": "tower",
+    "safari": "fuchsia-road",
+    "victory-road": "mt-moon"
+  },
+  "events": {
+    "opening": "oak-lab",
+    "oakSpeaks": "oak",
+    "starterObtained": "starter-fanfare",
+    "rivalAppears": "rival-entry",
+    "rocketAppears": "rocket-entry",
+    "pokemonCenter": "pokemon-center",
+    "recovery": "pokemon-center",
+    "gymInterior": "gym",
+    "rocketHideout": "rocket-hideout",
+    "silphCo": "silph-co",
+    "leagueRoad": "last-road",
+    "pokemonTower": "tower",
+    "ssAnne": "ss-anne",
+    "cycling": "cycling",
+    "surfing": "surfing",
+    "pokemonMansion": "pokemon-mansion",
+    "rocketBase": "rocket-hideout",
+    "tournament": "last-road",
+    "quietReflection": "camp-epilogue",
+    "gameCorner": "game-corner",
+    "questBriefing": "quest-guide",
+    "rocketInvestigation": "tense-story",
+    "campRest": "camp-epilogue",
+    "lighthouseMystery": "lighthouse-flute"
+  },
+  "locationNotes": {
+    "route24": "The pinned FRLG map source assigns MUS_ROUTE24; that specific route cue is absent from the selected 27 local recordings, so cerulean-road is a documented nearby mood fallback.",
+    "route25": "The pinned FRLG map source assigns MUS_ROUTE24; that specific route cue is absent from the selected 27 local recordings, so cerulean-road is a documented nearby mood fallback.",
+    "safari": "The pinned FRLG map source assigns MUS_EVOLUTION; no matching cue is in the selected recordings, so fuchsia-road remains a documented travel-scene fallback.",
+    "indigo": "The pinned FRLG map source assigns MUS_INDIGO_PLATEAU; no matching cue is in the selected recordings, so last-road remains a documented endgame-mood fallback.",
+    "route16": "FRLG assigns MUS_ROUTE3 on the map; the original Cycling cue is retained for the game’s bicycle travel context.",
+    "route17": "FRLG assigns MUS_ROUTE3 on the map; the original Cycling cue is retained for the game’s bicycle travel context.",
+    "route18": "FRLG assigns MUS_ROUTE3 on the map; the original Cycling cue is retained for the game’s bicycle travel context.",
+    "route19": "FRLG assigns MUS_ROUTE3 on the map; the original Surfing cue is retained for the water-travel context.",
+    "route20": "FRLG assigns MUS_ROUTE3 on the map; the original Surfing cue is retained for the water-travel context.",
+    "route21": "FRLG assigns MUS_ROUTE3 on the map; the original Surfing cue is retained for the water-travel context."
+  },
+  "eventNotes": {
+    "rocketBase": "Uses the exact selected FRLG Rocket Hideout track; this aligns with MUS_ROCKET_HIDEOUT.",
+    "tournament": "Mood fallback only: the selected 27 tracks do not include the Indigo Plateau cue (MUS_INDIGO_PLATEAU); last-road is used for endgame tension, not claimed as the original tournament theme.",
+    "quietReflection": "Project mood assignment to the original FRLG Epilogue recording, not a cartridge generic camp track."
+  }
+}

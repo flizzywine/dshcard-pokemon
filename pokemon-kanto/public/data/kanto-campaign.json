@@ -1,0 +1,1113 @@
+{
+  "version": 1,
+  "id": "kanto-original-campaign",
+  "title": "关都：路还很长",
+  "prologue": {
+    "id": "departure",
+    "title": "同一本图鉴，不同的路线",
+    "location": "pallet",
+    "sceneTag": "village",
+    "musicEvent": "oakSpeaks",
+    "speakers": [
+      {
+        "id": "oak",
+        "name": "大木博士",
+        "portraitId": "oak"
+      },
+      {
+        "id": "ash",
+        "name": "小智",
+        "portraitId": "trainer_ash"
+      },
+      {
+        "id": "gary",
+        "name": "小茂",
+        "portraitId": "rival_early"
+      }
+    ],
+    "summary": "大木博士把一册新的栖境记录簿交给玩家：除图鉴编号外，还要留下发现地点、伙伴状态和可复核的环境线索。小智想边旅行边补记，小茂觉得徽章和胜负才是更可靠的成长刻度。博士提到另有三位特别篇改编训练家正在关都做独立观察，彼此交换记录但不混为同一段旧旅程。",
+    "trigger": "首次选择伙伴后开启；博士刚收到常青森林的分散目击记录。",
+    "conflict": "记录越精确越能保护栖息地，也越容易被人拿去定位和捕捉。",
+    "continuity": {
+      "threadId": "kanto-habitat-ledger",
+      "evidence": "博士的路线本中有几条重复的采样编号，尚未证明彼此相关。",
+      "next": "尼比的岩层样本将检验这些编号是不是同一批采样留下的。"
+    },
+    "conversation": {
+      "focus": "大木博士想让图鉴同时保护生态与留下可核查证据，却不愿把精确坐标公开成捕捉指南。小智相信并肩旅行本身能补足记录；小茂把徽章和胜负看作更可靠的刻度，担心温和说法掩盖失败。小茂是小智的劲敌，青绿（特别篇）是另一位独立观察者。",
+      "beats": [
+        "博士交给玩家的路线簿有一页被折起，折痕旁重复写着常青森林的采样编号。",
+        "小智想马上去看目击地点，小茂先问记录是否能被另一位训练家复核；博士没有替两人裁决。",
+        "小黄抱着一卷地图在门口等人，地图上标着她认为不该打扰的林缘。"
+      ],
+      "questions": [
+        "谁能查看完整坐标，谁只需要安全范围？",
+        "一条路线的价值由胜负证明，还是由后来者能否安全复查证明？"
+      ],
+      "revisit": "尼比会对照本章留下的样本公开范围；如果玩家愿意，小黄会解释她在地图上留下空白的原因。"
+    },
+    "reward": {
+      "items": {
+        "potion": 2
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "pewter-afterglow",
+      "badgeCount": 1,
+      "title": "石阶下的编号",
+      "location": "pewter",
+      "sceneTag": "gym:pewter",
+      "musicEvent": "quietReflection",
+      "speakers": [
+        {
+          "id": "brock",
+          "name": "小刚",
+          "portraitId": "brock"
+        },
+        {
+          "id": "ash",
+          "name": "小智",
+          "portraitId": "trainer_ash"
+        },
+        {
+          "id": "manga-red",
+          "name": "赤红（特别篇）",
+          "portraitId": "manga-red"
+        }
+      ],
+      "trigger": "刚取得岩石徽章，常青森林和月见山的图鉴记录都出现相同的三角形采样记号；特别篇赤红带来另一册独立路线观察，记号笔迹与博士收到的拓片相似。",
+      "conflict": "小刚认为先确认洞口岩层与伙伴足迹，避免调查打扰野生栖地；小智想立刻沿记号追下去。赤红指出两边都还缺能够复核的样本。",
+      "summary": "小刚在道馆石阶下找到一枚嵌进矿粉里的采样封条，编号不属于道馆或研究室。赤红把记录本合上，要求先辨认样本再谈地点；小智看着封条上的新泥，担心采样者还在附近。小刚坚持先让同行伙伴休息，再核对岩层与足迹。你必须决定样本与坐标怎样进入记录簿。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "月见山封条编号与常青森林的重复目击标记同源，但样本去向未知。",
+        "next": "小霞和小蓝会用水道记录检查标记是否追随宝可梦迁徙。"
+      },
+      "choices": [
+        {
+          "id": "listen-first",
+          "label": "发布带风险说明的岩层与足迹记录",
+          "tradeoff": "公开后能请更多训练家核对编号，但精确洞口也可能被采样者再次找到。",
+          "consequence": "小刚负责加上避让条件，赤红把样本编号抄入独立副本。",
+          "echo": "尼比公开页列出三处可复核的岩层特征，洞口坐标被改成安全范围。",
+          "followup": {
+            "chapterId": "cerulean-crossing",
+            "text": "小霞收到公开的三处岩层范围，却发现同号记号也出现在华蓝水位记录；小刚坚持先对照环境，不能据此追捕任何宝可梦。"
+          },
+          "bonds": {
+            "brock": 1,
+            "ash": 1,
+            "manga-red": 1
+          },
+          "flags": [
+            "pewter-public-range"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "trainingTerminal"
+            ],
+            "fallbackItemsByGadget": {
+              "trainingTerminal": {
+                "softsand": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "keep-moving",
+          "label": "封存坐标，只交出编号和样本",
+          "tradeoff": "保护洞口免受围观，但少了外部观察者，验证结果会更慢。",
+          "consequence": "赤红保管封存坐标，小刚只发布能安全复查的岩层编号。",
+          "echo": "尼比档案没有公布洞口位置；样本编号仍可供研究室比对。",
+          "followup": {
+            "chapterId": "cerulean-crossing",
+            "text": "小霞拿到匿名编号，却缺少能直接对应的地点。她不催你公开坐标，而是安排一次由水道居民陪同的现场测量。"
+          },
+          "bonds": {
+            "brock": 1,
+            "manga-red": 1
+          },
+          "flags": [
+            "pewter-redacted-coordinates"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "trainingTerminal"
+            ],
+            "fallbackItemsByGadget": {
+              "trainingTerminal": {
+                "softsand": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "小刚不想让调查惊扰栖地，小智怕采样者已经离开；赤红（特别篇）习惯分开保存现场记录和推测，三人的意见不是同一条路线。小刚把伙伴休息当成调查前提。",
+        "beats": [
+          "矿粉里压着一枚不属于道馆的封条，旁边的爪印在岩壁前折返。",
+          "赤红先问封条能否复核，小刚要求记下足迹而不继续追进洞口。",
+          "记录簿留有空格：公开安全范围，或封存坐标并留下取阅规则。"
+        ],
+        "questions": [
+          "怎样让别人复核编号而不暴露洞口？",
+          "你要先追采样者，还是先确认伙伴没有受惊？"
+        ],
+        "revisit": "华蓝会检验同号记号是否跟随水道变化；公开范围或封存坐标都会改变小霞和小蓝能拿到的证据。"
+      }
+    },
+    {
+      "id": "cerulean-crossing",
+      "badgeCount": 2,
+      "title": "桥下的水位线",
+      "location": "cerulean",
+      "sceneTag": "gym:cerulean",
+      "musicEvent": "surfing",
+      "speakers": [
+        {
+          "id": "misty",
+          "name": "小霞",
+          "portraitId": "misty"
+        },
+        {
+          "id": "ash",
+          "name": "小智",
+          "portraitId": "trainer_ash"
+        },
+        {
+          "id": "manga-blue",
+          "name": "小蓝（特别篇）",
+          "portraitId": "manga-blue"
+        }
+      ],
+      "trigger": "水道巡查员在桥墩发现与月见山相同的采样编号；如你公开了尼比坐标，小霞已有三处待核对范围；若封存，她只能从居民报来的水位变化开始。",
+      "conflict": "小霞担心追编号会让迁徙中的水系伙伴再次受惊；小智觉得必须尽快确认编号是否对应同一批试验。特别篇小蓝愿意追查器材来源，但反对把观察到的伙伴位置直接写进公开图。",
+      "summary": "小霞把水位线与图鉴目击记录叠在一起，发现编号出现后，几种水边伙伴改变了活动时段。她先把桥边临时通行时间写给居民；小蓝辨认出封条材质，并提醒公开目击位置会把伙伴再次推回人群视线。要查明原因，就得在沿岸居民的安全和追查器材来源之间分配时间。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "水道编号与岩层封条同批；有未授权采样发生过，但暂不能证明采样伤害了伙伴。",
+        "next": "枯叶停电记录与货运清单可验证器材由谁运送。"
+      },
+      "choices": [
+        {
+          "id": "clear-the-bank",
+          "label": "让水道居民参与测线并共享安全范围",
+          "tradeoff": "居民能补齐潮位证据，但临时封闭浅滩会打乱渡口与训练安排。",
+          "consequence": "小霞组织轮班测量，小蓝把伙伴的具体出现点从副本中删去。",
+          "echo": "水位记录把采样时间锁定到两次异常波动之间，沿岸通道短暂改道。",
+          "followup": {
+            "chapterId": "vermilion-current",
+            "text": "马志士看到你们愿意调整通道以保护水道，也看到那两次异常波动都发生在供电切换之后；他愿意先给你查维修日志。"
+          },
+          "bonds": {
+            "misty": 1,
+            "manga-blue": 1
+          },
+          "flags": [
+            "cerulean-community-survey"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "trainingTerminal",
+              "terminalArchive"
+            ],
+            "fallbackItemsByGadget": {
+              "trainingTerminal": {
+                "tm13": 1
+              },
+              "terminalArchive": {
+                "nevermeltice": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "settle-by-match",
+          "label": "先取器材封条比对，再补公开水位图",
+          "tradeoff": "追设备能更快找到责任人，但居民暂时拿不到完整避让图。",
+          "consequence": "小蓝保留封条副本，小霞坚持先把每日安全通行时段贴在桥边。",
+          "echo": "器材批次对上了旧电力维护记录；公开水位图只标注可以通行的时段。",
+          "followup": {
+            "chapterId": "vermilion-current",
+            "text": "马志士从器材批次认出枯叶港口的维护格式；小霞要求他先证明供电切换与采样时间相关，而不是凭印象指向火箭队。"
+          },
+          "bonds": {
+            "ash": 1,
+            "manga-blue": 1
+          },
+          "flags": [
+            "cerulean-seal-trace"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "trainingTerminal",
+              "terminalArchive"
+            ],
+            "fallbackItemsByGadget": {
+              "trainingTerminal": {
+                "tm13": 1
+              },
+              "terminalArchive": {
+                "nevermeltice": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "小霞把居民与迁徙伙伴的安全放在追查速度前；小智怕线索消失；小蓝（特别篇）擅长从器材来源追踪，却不愿公布野外位置。水位记录还不能证明谁造成变化。",
+        "beats": [
+          "桥墩水线比居民的旧记录低了一指，旁边的采样封条却没有被水浸过。",
+          "小霞先把临时通行时段告诉居民，小蓝确认封条和尼比同批，却拒绝从编号推断伤害。",
+          "巡查员提出陪同测量，代价是错过下一班货运记录的交接。"
+        ],
+        "questions": [
+          "你们应当先测水位，还是追问谁运来了器材？",
+          "能否把目击时段公开而隐去伙伴的具体位置？"
+        ],
+        "revisit": "枯叶港的停电记录会与此处的批次交叉；居民测线的分支保留更多水位对照，封存分支则需要现场陪同。"
+      }
+    },
+    {
+      "id": "vermilion-current",
+      "badgeCount": 3,
+      "title": "港口断电的七分钟",
+      "location": "vermilion",
+      "sceneTag": "city",
+      "musicEvent": "rocketAppears",
+      "speakers": [
+        {
+          "id": "lt_surge",
+          "name": "马志士",
+          "portraitId": "lt_surge"
+        },
+        {
+          "id": "ash",
+          "name": "小智",
+          "portraitId": "trainer_ash"
+        },
+        {
+          "id": "manga-red",
+          "name": "赤红（特别篇）",
+          "portraitId": "manga-red"
+        }
+      ],
+      "trigger": "华蓝封条批次与枯叶维修目录吻合；若上一章选择居民测线，马志士已收到异常时段表；若优先比对封条，他先从器材编号认出维护格式。",
+      "conflict": "港口短暂停电时，一组没有市政许可的采样箱被移走。马志士要先隔离电路，避免伙伴受伤；小智想沿搬运路线追踪，小赤要求留下能证明箱子内容的证据链。",
+      "summary": "港务复核确认批号遭改写；原始日志保存下来，但采样箱已不在港区。马志士先封住仍带电的检修段，小智按他划出的安全边界追问搬运路线，赤红逐页登记交接记录。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "港口电力切换、华蓝封条批次和一份改写货单指向同一段运输；货物内容未明。",
+        "next": "玉虹温室与仓库记录能证实货运目的地，不能只凭一张编号定罪。"
+      },
+      "choices": [
+        {
+          "id": "inspect-grid",
+          "label": "先封存维修日志并交由港务复核",
+          "tradeoff": "留下正式证据链会给采样者时间转移设备，也会让港口短时停运。",
+          "consequence": "马志士保证原始日志不可覆盖，赤红负责把水道批号交叉登记。",
+          "echo": "港务复核确认批号遭改写；原始日志保存下来，但采样箱已不在港区。",
+          "followup": {
+            "chapterId": "celadon-greenhouse",
+            "text": "莉佳拿到的是经过认证的原始批号，不是采样箱本体。她因此要求在温室现场先盘点损坏与植物记录，再谈谁该负责。"
+          },
+          "bonds": {
+            "surge": 1,
+            "manga-red": 1
+          },
+          "flags": [
+            "vermilion-preserved-log"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "campKit"
+            ],
+            "fallbackItemsByGadget": {
+              "campKit": {
+                "quickclaw": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "scout-together",
+          "label": "在马志士隔离线路后沿搬运痕迹追查",
+          "tradeoff": "你可能找到箱子，却要承担追踪途中失去原始监控副本的风险。",
+          "consequence": "小智与赤红按安全手势分段行动，马志士留下断电原始记录。",
+          "echo": "路线留下玉虹的仓库转运号，同行伙伴没有进入带电隔离区。",
+          "followup": {
+            "chapterId": "celadon-greenhouse",
+            "text": "莉佳先看到转运号而非正式货单；她担心这是把仓库工人当成替罪羊的捷径，坚持核对温室损失和签收记录。"
+          },
+          "bonds": {
+            "ash": 1,
+            "manga-red": 1
+          },
+          "flags": [
+            "vermilion-traced-cargo"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "campKit"
+            ],
+            "fallbackItemsByGadget": {
+              "campKit": {
+                "quickclaw": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "马志士把电路隔离和救人放在追踪之前；小智愿意沿路线追问；赤红需要保持签收链。港口职员担心断电会影响生计，不能被写成阻挠调查的反派。",
+        "beats": [
+          "港灯熄灭七分钟，备用电源切换记录却显示有人提前打开检修门。",
+          "马志士先拉开带电区，小智等到边界确认才追问货箱去向。",
+          "值班员拿出两本不同的交接簿，其中一本被雨水泡软，签名仍可辨认。"
+        ],
+        "questions": [
+          "你愿意为保存交接簿停下追踪吗？",
+          "断电是意外、违规搬运的掩护，还是两者同时发生？"
+        ],
+        "revisit": "玉虹仓库可以核对批号；若枯叶分支选择公开维修目录，莉佳会更快找到货单第二联。"
+      }
+    },
+    {
+      "id": "celadon-greenhouse",
+      "badgeCount": 4,
+      "title": "温室货单的第二联",
+      "location": "celadon",
+      "sceneTag": "city",
+      "musicEvent": "rocketAppears",
+      "speakers": [
+        {
+          "id": "erika",
+          "name": "莉佳",
+          "portraitId": "erika"
+        },
+        {
+          "id": "jessie",
+          "name": "武藏",
+          "portraitId": "trainer_jessie"
+        },
+        {
+          "id": "james",
+          "name": "小次郎",
+          "portraitId": "trainer_james"
+        },
+        {
+          "id": "manga-green",
+          "name": "青绿（特别篇）",
+          "portraitId": "manga-green"
+        }
+      ],
+      "trigger": "枯叶的日志或转运号都落到玉虹温室的仓库。特别篇青绿明确说明自己不是小茂；他从独立图鉴的采样标签中认出一组重复编号，但没有权限读取公司档案。",
+      "conflict": "温室有一批植物被移出记录，武藏和小次郎承认替人搬过封箱，却说自己以为里面是实验器材。莉佳要先修复损坏的温室；青绿希望保留签收凭证，免得线索只剩口供。",
+      "summary": "盘点记录证实采样箱经过温室，签收副本把旧代码指向西尔佛。莉佳将受损苗床划为修复区，拒绝把它改作临时陈列；青绿坚持代码必须能让外部复查，不能只靠两名队员的口供。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "玉虹温室、枯叶港口批号与西尔佛旧仓代码形成三段可核验链；货物用途仍被涂掉。",
+        "next": "浅红的保管箱和采访记录会确认武藏、小次郎的说法，并提供西尔佛门禁线索。"
+      },
+      "choices": [
+        {
+          "id": "check-evidence",
+          "label": "先核对温室损伤、第二联与签收时间",
+          "tradeoff": "莉佳要暂停一部分培育工作作盘点；武藏和小次郎必须等证据核对，不能立刻离开。",
+          "consequence": "青绿把公司代码抄入特别篇图鉴副本，莉佳确认损失后才决定谁负责修复。",
+          "echo": "盘点记录证实采样箱经过温室，签收副本把旧代码指向西尔佛。",
+          "followup": {
+            "chapterId": "fuchsia-traces",
+            "text": "阿桔得到的是经过莉佳盘点的签收副本；他仍要确认浅红保管箱中的物证与武藏、小次郎的口供一致。"
+          },
+          "bonds": {
+            "erika": 1,
+            "jessie": 1,
+            "james": 1,
+            "manga-green": 1
+          },
+          "flags": [
+            "celadon-verified-copy"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "fieldRadar",
+              "fieldRadarPlus"
+            ],
+            "fallbackItemsByGadget": {
+              "fieldRadar": {
+                "sitrusberry": 1
+              },
+              "fieldRadarPlus": {
+                "hardstone": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "protect-the-greenhouse",
+          "label": "先修复温室，再让武藏、小次郎陪同追问",
+          "tradeoff": "恢复工作会占用调查时间；两人继续参与意味着要在现场行为中检验他们的说法。",
+          "consequence": "青绿只记录能公开复查的代码，莉佳把温室修复责任写进约定。",
+          "echo": "温室恢复供种，武藏和小次郎带你找到一张指向浅红保管柜的临时收条。",
+          "followup": {
+            "chapterId": "fuchsia-traces",
+            "text": "阿桔看到武藏和小次郎兑现了修复约定，但收条尚未证明箱内物证。他先让两人指出保管柜，不接受口头保证作结论。"
+          },
+          "bonds": {
+            "erika": 1,
+            "jessie": 1,
+            "james": 1
+          },
+          "flags": [
+            "celadon-repaired-first"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "fieldRadar",
+              "fieldRadarPlus"
+            ],
+            "fallbackItemsByGadget": {
+              "fieldRadar": {
+                "sitrusberry": 1
+              },
+              "fieldRadarPlus": {
+                "hardstone": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "莉佳要修复受损苗床，不让植物变成证据布景；武藏和小次郎承认搬过封箱，但他们的解释不能替代凭证；青绿（特别篇）要求外部复核，不等于小茂的竞争逻辑。",
+        "beats": [
+          "温室里一排幼苗的叶面朝向不一致，像是被箱体挡光后重新转向。",
+          "莉佳先划出修复区，拒绝让调查者踩入苗床；武藏只记得货箱很轻，小次郎记得签收时钟停过。",
+          "仓库第二联能证明批次经过这里，但目的栏被擦掉，青绿要求保留擦除痕迹。"
+        ],
+        "questions": [
+          "你先修复苗床，还是核对货箱签名？",
+          "两名队员的口供能否和一张有缺口的收条相互印证？"
+        ],
+        "revisit": "浅红保管柜将确认设备序号；若温室修复优先，阿桔会先看到环境变化，若证据优先则先看到签收链。"
+      }
+    },
+    {
+      "id": "fuchsia-traces",
+      "badgeCount": 5,
+      "title": "保管柜里的样本壳",
+      "location": "fuchsia",
+      "sceneTag": "city",
+      "musicEvent": "rocketAppears",
+      "speakers": [
+        {
+          "id": "koga",
+          "name": "阿桔",
+          "portraitId": "koga"
+        },
+        {
+          "id": "james",
+          "name": "小次郎",
+          "portraitId": "trainer_james"
+        },
+        {
+          "id": "manga-blue",
+          "name": "小蓝（特别篇）",
+          "portraitId": "manga-blue"
+        }
+      ],
+      "trigger": "玉虹第二联指向浅红的一只旧保管柜。若上一章先盘点，阿桔已有签收副本；若先修复温室，他得先验证武藏、小次郎指认的收条和位置。",
+      "conflict": "样本壳留下非致伤的环境数据探头，但记录显示有人用强光和噪声逼迫伙伴改变活动路线。阿桔主张先保护目击伙伴；小蓝认为必须保住设备序号，才能证明这不是一次偶发的野外观察。",
+      "summary": "柜内没有宝可梦，只有拆过的定位环和记录采样强度的薄片。小次郎承认组织曾要求他们寻找反应明显的个体，却不知道数据送往哪里；阿桔先把目击伙伴带离柜房，小蓝则要求把设备序号封存。你要选择先公开保护范围，还是先保全能追到买家的证据。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "定位环与华蓝编号同源；强光/噪声记录表明采样已改变伙伴行为，买家仍未确认。",
+        "next": "西尔佛的访问日志和研究索引能把设备买家与实验目的连接起来。"
+      },
+      "choices": [
+        {
+          "id": "share-clue",
+          "label": "先公布受影响范围并让阿桔保护目击点",
+          "tradeoff": "公开避让区能马上减少干扰，但设备序号暂不公开，追查买家的速度会下降。",
+          "consequence": "小蓝拿走脱敏设备副本，阿桔派巡查员守住不公开的核心栖息点。",
+          "echo": "浅红发布的是避让范围，不是宝可梦坐标；栖息点当晚停止了新的采样。",
+          "followup": {
+            "chapterId": "saffron-reflection",
+            "text": "娜姿收到保护范围和脱敏编号。西尔佛档案中的访问号若要公开，仍需说明它不会泄露被保护的栖息点。"
+          },
+          "bonds": {
+            "koga": 1,
+            "manga-blue": 1
+          },
+          "flags": [
+            "fuchsia-protected-range"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "campKit",
+              "campKitPlus"
+            ],
+            "fallbackItemsByGadget": {
+              "campKit": {
+                "rawstberry": 1
+              },
+              "campKitPlus": {
+                "laxincense": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "follow-the-marks",
+          "label": "先封存完整设备序号，延后公布具体范围",
+          "tradeoff": "完整编号可追到买家，却让当地训练家暂时不知道哪里应当绕行。",
+          "consequence": "阿桔设置临时巡查，小蓝保留原始设备副本并标记未验证部分。",
+          "echo": "原始序号与西尔佛访客通行格式一致；浅红巡查只能暂用临时边界。",
+          "followup": {
+            "chapterId": "saffron-reflection",
+            "text": "娜姿拿到完整通行格式，因此能定位一段西尔佛访问记录；她要求你先遮蔽对应栖息点，再讨论公开公司名称。"
+          },
+          "bonds": {
+            "koga": 1,
+            "manga-blue": 1
+          },
+          "flags": [
+            "fuchsia-full-serial"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "campKit",
+              "campKitPlus"
+            ],
+            "fallbackItemsByGadget": {
+              "campKit": {
+                "rawstberry": 1
+              },
+              "campKitPlus": {
+                "laxincense": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "阿桔优先保护受惊伙伴，小蓝（特别篇）必须保全设备序号，武藏和小次郎面对自己曾执行的命令。样本壳测到的是环境数据，不应被描述成致伤装置；强光和噪声记录显示后来的使用越界。",
+        "beats": [
+          "保管柜打开后没有宝可梦，只有拆过的定位环和一片被折弯的薄膜。",
+          "小次郎承认组织让他们找反应明显的个体，却没有被告知数据的买家。",
+          "阿桔先带伙伴离开柜房，小蓝把序号抄进独立副本，两人对是否立即公开保护范围意见不同。"
+        ],
+        "questions": [
+          "保护范围公开得越具体，是否越可能再次暴露伙伴？",
+          "先拿序号追买家，会不会让受惊的伙伴继续等待帮助？"
+        ],
+        "revisit": "西尔佛访问日志将确认设备去向；公开保护范围会让娜姿先收到求助，封存序号则让青绿先追权限。"
+      }
+    },
+    {
+      "id": "saffron-reflection",
+      "badgeCount": 6,
+      "title": "西尔佛访问日志",
+      "location": "saffron",
+      "sceneTag": "city",
+      "musicEvent": "silphCo",
+      "speakers": [
+        {
+          "id": "sabrina",
+          "name": "娜姿",
+          "portraitId": "sabrina"
+        },
+        {
+          "id": "gary",
+          "name": "小茂",
+          "portraitId": "rival_late"
+        },
+        {
+          "id": "manga-green",
+          "name": "青绿（特别篇）",
+          "portraitId": "manga-green"
+        },
+        {
+          "id": "manga-blue",
+          "name": "小蓝（特别篇）",
+          "portraitId": "manga-blue"
+        }
+      ],
+      "trigger": "浅红的保护范围或完整序号为西尔佛访问日志提供索引。小茂（动画/游戏线）独自追查竞争者名单；青绿（特别篇）则带来独立图鉴中的代码对照，两人不是同一个人。",
+      "conflict": "娜姿可以调阅一次门禁记录，但公开员工身份会影响无关职员；小茂不愿让火箭队借“保护隐私”继续抹掉证据。小蓝希望先确定访问日志覆盖哪段采样时间。",
+      "summary": "西尔佛日志显示，有人用研发部旧权限下载栖境适应试验索引。文件没有宝可梦名字，却把样本号、运输批次和红莲研究室连在一起。小茂把空白处视为可能被抹去的责任，要求留住完整日志；青绿坚持先验证授权记录，娜姿提醒公开整段门禁会牵连无关职员。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "西尔佛门禁、玉虹货单和红莲档案编号相连；目前能证明未授权访问，尚不能确定谁批准了试验。",
+        "next": "夏伯的旧档案解释试验最初目的，并判断后来如何改了用途。"
+      },
+      "choices": [
+        {
+          "id": "name-the-fear",
+          "label": "交出完整日志，由西尔佛与警方共同调查",
+          "tradeoff": "全量日志能最快锁定权限滥用者，也会暴露同一时段所有进出员工。",
+          "consequence": "小茂要求名单不得直接公开，青绿留存哈希与访问时间供外部复核。",
+          "echo": "完整日志锁定了红莲档案的访问日期，职员姓名暂交独立调查组保管。",
+          "followup": {
+            "chapterId": "cinnabar-records",
+            "text": "夏伯看到准确访问日期后承认旧档案曾被调阅；小茂要求他解释当年授权范围，不能只交一份删节摘要。"
+          },
+          "bonds": {
+            "sabrina": 1,
+            "gary": 1,
+            "manga-green": 1
+          },
+          "flags": [
+            "silph-full-audit"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "bondLens"
+            ],
+            "fallbackItemsByGadget": {
+              "bondLens": {
+                "brightpowder": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "choose-the-next-step",
+          "label": "先由娜姿和青绿交叉验证，公开权限异常不公开姓名",
+          "tradeoff": "先做脱敏核验保护无关职员，但调查组需要额外时间才能取得完整日志。",
+          "consequence": "小蓝用采样时间验证访问号，青绿保留独立副本；小茂暂时接受延迟。",
+          "echo": "脱敏日志确认了红莲访问日期，却仍留下一个未解释的授权空档。",
+          "followup": {
+            "chapterId": "cinnabar-records",
+            "text": "夏伯只能看到被核对过的日期而看不到授权者姓名；他先交出完整研究原册，供你判断删去姓名是否会抹掉自己的责任。"
+          },
+          "bonds": {
+            "sabrina": 1,
+            "manga-green": 1,
+            "manga-blue": 1
+          },
+          "flags": [
+            "silph-redacted-audit"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "bondLens"
+            ],
+            "fallbackItemsByGadget": {
+              "bondLens": {
+                "brightpowder": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "小茂（劲敌）追问谁批准了访问，不等同于青绿（特别篇）的权限核验；小蓝关注名单覆盖范围；娜姿只愿调阅一次，不能替职员承担公开身份的后果。",
+        "beats": [
+          "门禁日志只显示旧权限下载了栖境索引，没有出现宝可梦名字。",
+          "小茂把空白处当作被抹去的责任，青绿坚持先比对授权时间，小蓝查日志覆盖的日期边界。",
+          "娜姿把可调阅的单次授权放在桌上，要求先说明需要哪一段，不会重开整层档案。"
+        ],
+        "questions": [
+          "先查完整时间线，还是先核对谁有权访问？",
+          "公开门禁记录时，如何避免把无关员工变成调查对象？"
+        ],
+        "revisit": "红莲档案解释索引用途；完整名单会让夏伯先面对签名责任，脱敏记录则要由研究室另行确认时间线。"
+      }
+    },
+    {
+      "id": "cinnabar-records",
+      "badgeCount": 7,
+      "title": "红莲档案的前后两页",
+      "location": "cinnabar",
+      "sceneTag": "coast",
+      "musicEvent": "pokemonMansion",
+      "speakers": [
+        {
+          "id": "blaine",
+          "name": "夏伯",
+          "portraitId": "blaine"
+        },
+        {
+          "id": "manga-red",
+          "name": "赤红（特别篇）",
+          "portraitId": "manga-red"
+        },
+        {
+          "id": "jessie",
+          "name": "武藏",
+          "portraitId": "trainer_jessie"
+        }
+      ],
+      "trigger": "西尔佛日志把采样索引连到红莲研究室。完整名单或脱敏日志会决定夏伯先看到访问者身份，还是先看到被改写的试验时间线。",
+      "conflict": "夏伯承认早期项目原意是研究迁徙压力与安全转移，后来有人删掉休息与同意流程，把恢复数据改作筛选“服从性”的指标。赤红要求同时保留研究者责任和后来篡改记录；武藏担心公开完整姓名会让受胁迫的临时雇员承担全部后果。",
+      "summary": "研究室保存着被拆开的原始记录：前页是夏伯设计的观察指标，后页换成火箭队采样表，签名栏被刮掉，删改日期仍在。夏伯没有为旧流程辩解，主动把两版并排交出；赤红要求责任与篡改同时留档，武藏指出受胁迫的雇员不该替真正下令者承担全部后果。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "红莲原册证实合法观察项目被改成压力测试；火箭队样本与西尔佛权限记录属于后续篡改。",
+        "next": "常青公开会上将决定研究档案和比赛数据以什么条件留给公众。"
+      },
+      "choices": [
+        {
+          "id": "rebuild-record",
+          "label": "公开完整时间线并由夏伯署名承担早期疏漏",
+          "tradeoff": "完整公开最有利于审计，也会使夏伯的早期流程缺陷无法回避。",
+          "consequence": "赤红把改写页与原始页并列保存，武藏交出自己的任务批次记录。",
+          "echo": "红莲报告没有删去夏伯的签名，也明确区分了早期疏漏和后来的强迫试验。",
+          "followup": {
+            "chapterId": "viridian-cedar",
+            "text": "小茂看见夏伯署名承担早期疏漏，便不再要求公开无关员工名单；他转而要求大会也公开裁判与伙伴休息规则。"
+          },
+          "bonds": {
+            "blaine": 1,
+            "manga-red": 1,
+            "jessie": 1
+          },
+          "flags": [
+            "cinnabar-full-timeline"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "trainingTerminal",
+              "terminalArchive",
+              "moveMemory"
+            ],
+            "fallbackItemsByGadget": {
+              "trainingTerminal": {
+                "tm22": 1
+              },
+              "terminalArchive": {
+                "mentalherb": 1
+              },
+              "moveMemory": {
+                "scopelens": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "protect-private-data",
+          "label": "公开试验链条，封存受胁迫雇员姓名",
+          "tradeoff": "保护姓名能降低报复风险，但读者暂时无法独立确认每一笔交接的经手人。",
+          "consequence": "夏伯署名确认流程责任，青绿的独立副本记录封存编号和复核期限。",
+          "echo": "红莲公开页保留了全部实验改写过程；姓名被封存并设定复核日期。",
+          "followup": {
+            "chapterId": "viridian-cedar",
+            "text": "小茂接受姓名封存，但要求大会数据公开复核期限；青绿愿意以独立副本监督封存没有变成永久遮掩。"
+          },
+          "bonds": {
+            "blaine": 1,
+            "manga-green": 1
+          },
+          "flags": [
+            "cinnabar-sealed-names"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "trainingTerminal",
+              "terminalArchive",
+              "moveMemory"
+            ],
+            "fallbackItemsByGadget": {
+              "trainingTerminal": {
+                "tm22": 1
+              },
+              "terminalArchive": {
+                "mentalherb": 1
+              },
+              "moveMemory": {
+                "scopelens": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "夏伯承认早期观察流程被改写，不以原意替后果免责；赤红要求同时保留设计与篡改证据；武藏担心受胁迫的临时雇员承受全部处分。",
+        "beats": [
+          "前页写着休息与同意，后页删去两项流程，签名栏被刮掉但日期仍留在纸纤维里。",
+          "夏伯将两版并排交出，没有要求你先听他的解释；赤红坚持把设计者责任和后续篡改分开写。",
+          "武藏想从名单里划掉临时雇员，青绿提醒这样会抹掉是谁命令他们搬运。"
+        ],
+        "questions": [
+          "如何同时承认最初研究的目的和后来的伤害？",
+          "完整公开姓名能追责，封存姓名又会不会保护真正下令者？"
+        ],
+        "revisit": "常青公开会上将引用这份档案；你保留的字段决定报告能否说明改写责任而不泄露无关员工。"
+      }
+    },
+    {
+      "id": "viridian-cedar",
+      "badgeCount": 8,
+      "title": "常青树下的公开规则",
+      "location": "viridian",
+      "sceneTag": "village",
+      "musicEvent": "tournament",
+      "speakers": [
+        {
+          "id": "giovanni",
+          "name": "坂木",
+          "portraitId": "giovanni"
+        },
+        {
+          "id": "gary",
+          "name": "小茂",
+          "portraitId": "rival_late"
+        },
+        {
+          "id": "ash",
+          "name": "小智",
+          "portraitId": "trainer_ash"
+        },
+        {
+          "id": "manga-green",
+          "name": "青绿（特别篇）",
+          "portraitId": "manga-green"
+        }
+      ],
+      "trigger": "八枚徽章齐全，博士提议在报名大会前公开栖境记录簿。红莲原册的完整时间线或封存姓名方案，连同七地证据，成为公开条款的基础。",
+      "conflict": "坂木主张把资料改成短时表演，借大会展示火箭队的“管理效率”；小茂想用公平赛程证明实力；小智要求不把同行伙伴当宣传道具。青绿坚持公布数据更正流程，但提醒精确栖息点不能成为观众地图。",
+      "summary": "常青研究所准备发布采样、运输和试验改写报告。坂木提议把证据剪成宣传短片，小茂要求赛程和判分仍可复核，小智拒绝让伙伴成为大会布景；青绿补上栖息地使用规则。你可以发布含原始地点的完整副本，或先发脱敏结论并登记解封期限。石英大会照常报名，选择不会决定参赛资格。",
+      "continuity": {
+        "threadId": "kanto-habitat-ledger",
+        "evidence": "七地编号、玉虹货单、西尔佛访问日志和红莲原册形成一条可审计证据链；剩余争议是公开的边界。",
+        "next": "无论选择哪种公开方式，六轮大会都按现有规则独立进行；分支只改变人物对公开责任的看法。"
+      },
+      "choices": [
+        {
+          "id": "set-clear-terms",
+          "label": "发布完整证据和原始地点，附加栖息地使用规则",
+          "tradeoff": "最高透明度让研究者可立即复核，也会让敏感地点暴露给不负责任的观察者。",
+          "consequence": "小智与青绿共同公布禁止捕捉/骚扰的使用条款，小茂要求大会裁判公开判分依据。",
+          "echo": "报告连同坐标公开，但坐标页附上访问约束和持续巡查承诺。",
+          "followup": {
+            "chapterId": "tournament",
+            "text": "大会开幕时，小茂会要求所有参赛记录按公开规则登记；小智提醒观众，坐标公开不代表可以闯入栖息地。"
+          },
+          "bonds": {
+            "giovanni": 1,
+            "gary": 1,
+            "ash": 1,
+            "manga-green": 1
+          },
+          "flags": [
+            "ledger-open-with-terms"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "leagueNotes"
+            ],
+            "fallbackItemsByGadget": {
+              "leagueNotes": {
+                "berryjuice": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "refuse-the-spectacle",
+          "label": "先发布脱敏摘要，设置独立复核与解封期限",
+          "tradeoff": "保护栖息地和证人，但公众不能立刻查看全部原始地点与姓名。",
+          "consequence": "青绿负责监督解封期限，小茂同意在大会公开赛程和裁判标准，不把胜负替代调查。",
+          "echo": "脱敏摘要先行发布；封存清单、监督人和解封日期同步登记，不能无限期搁置。",
+          "followup": {
+            "chapterId": "tournament",
+            "text": "大会开幕时，青绿会提醒观众复核期限已经登记；小茂依据公开判分争胜，小智则关注伙伴是否按约定休息。"
+          },
+          "bonds": {
+            "ash": 1,
+            "gary": 1,
+            "manga-green": 1
+          },
+          "flags": [
+            "ledger-redacted-with-review"
+          ],
+          "reward": {
+            "gadgetIds": [
+              "leagueNotes"
+            ],
+            "fallbackItemsByGadget": {
+              "leagueNotes": {
+                "berryjuice": 1
+              }
+            }
+          }
+        }
+      ],
+      "conversation": {
+        "focus": "坂木试图把证据包装成效率宣传，小茂希望公开规则证明竞赛公平，小智拒绝让伙伴成为布景；青绿（特别篇）要求纠错流程并保护精确栖息点。大会资格和支线选择彼此独立。",
+        "beats": [
+          "研究所外的常青树下摆着两份报告：完整地点副本和脱敏结论，均未附上伙伴姓名。",
+          "坂木提议把材料剪成短片，小茂要求保留可复核原档，小智把宣传牌从伙伴休息区移开。",
+          "青绿补上更正入口，研究员提醒公众：提交异议不等于能立即公开敏感坐标。"
+        ],
+        "questions": [
+          "可以公开结论，却不公开原始地点吗？",
+          "若报告留有解封期限，谁负责在期限到来时复核？"
+        ],
+        "revisit": "无论选择完整副本还是脱敏结论，石英大会仍按原赛程进行；大会之后人物会回来回应公众质疑和档案复核。"
+      }
+    }
+  ],
+  "tournament": {
+    "id": "indigo-tournament",
+    "title": "石英大会",
+    "entryNode": "indigo",
+    "requiredBadges": 8,
+    "bracketSize": 64,
+    "winsToChampion": 6,
+    "reward": {
+      "id": "indigo-champion-banner",
+      "name": "石英大会优胜纪念旗",
+      "description": "石英大会优胜纪念；记录首次夺冠，不提供战斗效果。",
+      "type": "纪念品"
+    },
+    "rounds": [
+      {
+        "number": 1,
+        "label": "64强",
+        "trainer": "矢岛",
+        "portraitId": "cool_trainer_m",
+        "levels": [
+          38,
+          39
+        ],
+        "species": [
+          16,
+          19
+        ]
+      },
+      {
+        "number": 2,
+        "label": "32强",
+        "trainer": "小霞",
+        "portraitId": "misty",
+        "levels": [
+          41,
+          42,
+          43
+        ],
+        "species": [
+          120,
+          54,
+          121
+        ]
+      },
+      {
+        "number": 3,
+        "label": "16强",
+        "trainer": "小刚",
+        "portraitId": "brock",
+        "levels": [
+          44,
+          45,
+          45,
+          46
+        ],
+        "species": [
+          95,
+          74,
+          111,
+          95
+        ]
+      },
+      {
+        "number": 4,
+        "label": "8强",
+        "trainer": "小智",
+        "portraitId": "trainer_ash",
+        "levels": [
+          47,
+          47,
+          48,
+          48,
+          49
+        ],
+        "species": [
+          25,
+          1,
+          7,
+          6,
+          58
+        ]
+      },
+      {
+        "number": 5,
+        "label": "半决赛",
+        "trainer": "小茂",
+        "portraitId": "rival_late",
+        "levels": [
+          53,
+          54,
+          54,
+          55,
+          56
+        ],
+        "species": [
+          18,
+          65,
+          112,
+          103,
+          130
+        ]
+      },
+      {
+        "number": 6,
+        "label": "决赛",
+        "trainer": "小茂",
+        "portraitId": "rival_late",
+        "levels": [
+          59,
+          57,
+          59,
+          59,
+          61,
+          63
+        ],
+        "species": [
+          18,
+          65,
+          112,
+          103,
+          130,
+          6
+        ]
+      }
+    ]
+  },
+  "leagueUnlock": {
+    "requiresTournamentChampion": true,
+    "eliteFourBattles": 4,
+    "championRematchAfterEliteFour": true
+  },
+  "continuity": {
+    "id": "kanto-habitat-ledger",
+    "title": "关都栖境记录簿",
+    "premise": "大木博士发起跨路线图鉴观察，几处重复出现的采样编号把野外生态、火箭队试验、玉虹与西尔佛的物流证据、红莲旧实验档案连成一条调查线。玩家的分支决定证据如何取得、谁承担公开代价；不决定徽章和石英大会资格。",
+    "evidencePath": [
+      "pewter-afterglow",
+      "cerulean-crossing",
+      "vermilion-current",
+      "celadon-greenhouse",
+      "fuchsia-traces",
+      "saffron-reflection",
+      "cinnabar-records",
+      "viridian-cedar",
+      "tournament"
+    ],
+    "identityRules": [
+      "小智是无印篇旅行主角，portraitId trainer_ash；小茂是游戏/动画线劲敌，portraitId rival_early 或 rival_late。",
+      "赤红（特别篇）使用 manga-red，是独立漫画改编角色，不替代小智或玩家。",
+      "青绿（特别篇）使用 manga-green，是独立漫画改编角色，不等于小茂，也不使用 rival_early。",
+      "小蓝（特别篇）使用 manga-blue，是独立漫画改编角色，不等于火红叶绿中的青绿/小茂。",
+      "这条融合主线是项目原创的独立关都冒险；只借人物身份与旅行伙伴关系，不声称拼接动画和漫画的官方时间线。"
+    ],
+    "promptContract": {
+      "scene": "scene.id、location、sceneTag、musicEvent、speakers、summary",
+      "continuity": "threadId、evidence、next；scene.trigger / scene.conflict 描述前因和立场冲突",
+      "branch": "branchEchoes 仅包含已选分支针对当前章/大会的后续回响；选择由 campaign-choice API 原样校验。"
+    }
+  }
+}

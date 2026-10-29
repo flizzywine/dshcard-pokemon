@@ -1,0 +1,5378 @@
+[
+  {
+    "id": "oak",
+    "name": "大木博士",
+    "role": "博士",
+    "image": "assets/trainers/official/professor_oak.png",
+    "aliases": [
+      "大木",
+      "大木博士"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/professor_oak.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Professor%20Oak%20%5Bch0137%5D/Professor%20Oak%20%5Bch0137_00%5D/Professor%20Oak%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 348,
+      "y": 225,
+      "width": 333,
+      "height": 799,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "red",
+    "name": "赤红",
+    "role": "主角",
+    "image": "assets/trainers/official/red.png",
+    "aliases": [
+      "赤红",
+      "小赤"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/red.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Red%20%5Bch0000%5D/Red%20%5Bch0000_80%5D/Red%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 327,
+      "y": 222,
+      "width": 360,
+      "height": 802,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "leaf",
+    "name": "叶子",
+    "role": "主角",
+    "image": "assets/trainers/official/leaf.png",
+    "aliases": [
+      "叶子",
+      "小叶"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/leaf.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Leaf%20%5Bch0017%5D/Leaf%20%5Bch0017_00%5D/Leaf%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 359,
+      "y": 235,
+      "width": 303,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "rival_early",
+    "name": "小茂",
+    "role": "劲敌",
+    "aliases": [
+      "小茂",
+      "劲敌",
+      "Blue",
+      "Gary",
+      "Blue (game rival)",
+      "Gary (game)"
+    ],
+    "image": "assets/trainers/project-original/gary-v3.png",
+    "art": "assets/trainers/project-original/gary-v3.png",
+    "spriteType": "project-original-art",
+    "fullBody": true,
+    "generated": true,
+    "overrideStageArt": true,
+    "ageGroup": "teen",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "463657e7ccbbe6e3ff4db19df4c7765448c09a3a5fc8e4c0efd615ddd160869d",
+    "artBounds": {
+      "x": 228,
+      "y": 13,
+      "width": 619,
+      "height": 1510,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "sourceRepository": "Project-original",
+    "generationTool": "built-in image_gen",
+    "generationSourcePath": "<LOCAL_HOME>/.codex\\generated_images\\01a17204-0162-7ed2-a536-36d0aff29c2d\\exec-b820b1eb-a1e7-4b99-9835-d33371274544.png",
+    "generationPrompt": "Use case: illustration-story\nAsset type: transparent full-body stage character illustration for a Pokémon Kanto fan game\nPrimary request: an original anime cel-shaded full-body illustration of Gary Oak as the young Kanto game rival, with a confident handsome teenage design that reads clearly as Gary rather than game Green/Blue\nSubject: a self-assured teenage boy with distinctive chestnut brown spiky hair, purple top, a small green pendant necklace, blue trousers, and practical sneakers; natural relaxed upright standing pose, friendly competitive expression\nStyle/medium: clean high-quality anime cel shading, refined expressive eyes, crisp linework, careful fabric folds and clothing details, polished character art\nComposition/framing: single full-body figure centered, head and both shoes entirely visible, balanced silhouette with modest margins; transparent background\nLighting/mood: soft even studio-like character lighting, confident and approachable\nConstraints: actual transparent alpha background; no backdrop, no floor, no shadow plate, no card frame, no text, no logos, no watermark, no props, no other characters; age-appropriate ordinary standing pose, fully clothed",
+    "generationNotes": "原创无印小茂游戏劲敌演绎，刻意区别于游戏青绿/Blue；透明背景。artBounds 按 alpha > 16 统计。",
+    "alphaThreshold": 16,
+    "gender": "male",
+    "age": "teen",
+    "portraitFallbacks": [
+      {
+        "image": "assets/trainers/official/blue.png",
+        "fullBody": false,
+        "bounds": {
+          "x": 398,
+          "y": 195,
+          "width": 269,
+          "height": 829,
+          "canvasWidth": 1024,
+          "canvasHeight": 1024
+        }
+      }
+    ],
+    "stagePixel": false
+  },
+  {
+    "id": "rival_late",
+    "name": "小茂",
+    "role": "冠军",
+    "aliases": [
+      "小茂",
+      "冠军小茂",
+      "Blue",
+      "Gary",
+      "Blue (game rival)",
+      "Gary (game)"
+    ],
+    "image": "assets/trainers/project-original/gary-v3.png",
+    "art": "assets/trainers/project-original/gary-v3.png",
+    "spriteType": "project-original-art",
+    "fullBody": true,
+    "generated": true,
+    "overrideStageArt": true,
+    "ageGroup": "teen",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "463657e7ccbbe6e3ff4db19df4c7765448c09a3a5fc8e4c0efd615ddd160869d",
+    "artBounds": {
+      "x": 228,
+      "y": 13,
+      "width": 619,
+      "height": 1510,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "sourceRepository": "Project-original",
+    "generationTool": "built-in image_gen",
+    "generationSourcePath": "<LOCAL_HOME>/.codex\\generated_images\\01a17204-0162-7ed2-a536-36d0aff29c2d\\exec-b820b1eb-a1e7-4b99-9835-d33371274544.png",
+    "generationPrompt": "Use case: illustration-story\nAsset type: transparent full-body stage character illustration for a Pokémon Kanto fan game\nPrimary request: an original anime cel-shaded full-body illustration of Gary Oak as the young Kanto game rival, with a confident handsome teenage design that reads clearly as Gary rather than game Green/Blue\nSubject: a self-assured teenage boy with distinctive chestnut brown spiky hair, purple top, a small green pendant necklace, blue trousers, and practical sneakers; natural relaxed upright standing pose, friendly competitive expression\nStyle/medium: clean high-quality anime cel shading, refined expressive eyes, crisp linework, careful fabric folds and clothing details, polished character art\nComposition/framing: single full-body figure centered, head and both shoes entirely visible, balanced silhouette with modest margins; transparent background\nLighting/mood: soft even studio-like character lighting, confident and approachable\nConstraints: actual transparent alpha background; no backdrop, no floor, no shadow plate, no card frame, no text, no logos, no watermark, no props, no other characters; age-appropriate ordinary standing pose, fully clothed",
+    "generationNotes": "原创无印小茂游戏劲敌演绎，刻意区别于游戏青绿/Blue；透明背景。artBounds 按 alpha > 16 统计。",
+    "alphaThreshold": 16,
+    "gender": "male",
+    "age": "teen",
+    "portraitFallbacks": [
+      {
+        "image": "assets/trainers/official/blue.png",
+        "fullBody": false,
+        "bounds": {
+          "x": 398,
+          "y": 195,
+          "width": 269,
+          "height": 829,
+          "canvasWidth": 1024,
+          "canvasHeight": 1024
+        }
+      }
+    ],
+    "stagePixel": false
+  },
+  {
+    "id": "brock",
+    "name": "小刚",
+    "role": "尼比道馆馆主",
+    "image": "assets/trainers/official/brock.png",
+    "aliases": [
+      "小刚",
+      "武能"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/brock.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Brock%20%5Bch0015%5D/Brock%20%5Bch0015_00%5D/Brock%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 334,
+      "y": 220,
+      "width": 343,
+      "height": 804,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "misty",
+    "name": "小霞",
+    "role": "华蓝道馆馆主",
+    "image": "assets/trainers/official/misty.png",
+    "aliases": [
+      "小霞"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/misty.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Misty%20%5Bch0110%5D/Misty%20(Swimsuit)%20%5Bch0110_00%5D/Misty%20(Swimsuit)%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 338,
+      "y": 217,
+      "width": 323,
+      "height": 807,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "lt_surge",
+    "name": "马志士",
+    "role": "枯叶道馆馆主",
+    "image": "assets/trainers/official/lt_surge.png",
+    "aliases": [
+      "马志士",
+      "雷电"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/lt_surge.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lt.%20Surge%20%5Bch0035%5D/Lt.%20Surge%20%5Bch0035_00%5D/Lt.%20Surge%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 336,
+      "y": 223,
+      "width": 326,
+      "height": 801,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "erika",
+    "name": "莉佳",
+    "role": "玉虹道馆馆主",
+    "image": "assets/trainers/official/erika.png",
+    "aliases": [
+      "莉佳"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/erika.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Erika%20%5Bch0008%5D/Erika%20%5Bch0008_00%5D/Erika%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 410,
+      "y": 235,
+      "width": 268,
+      "height": 786,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "koga",
+    "name": "阿桔",
+    "role": "浅红道馆馆主",
+    "image": "assets/trainers/official/koga.png",
+    "aliases": [
+      "阿桔"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/koga.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Koga%20%5Bch0054%5D/Koga%20%5Bch0054_00%5D/Koga%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 378,
+      "y": 196,
+      "width": 251,
+      "height": 828,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "sabrina",
+    "name": "娜姿",
+    "role": "金黄道馆馆主",
+    "image": "assets/trainers/official/sabrina.png",
+    "aliases": [
+      "娜姿"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/sabrina.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Sabrina%20%5Bch0114%5D/Sabrina%20%5Bch0114_00%5D/Sabrina%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 389,
+      "y": 238,
+      "width": 352,
+      "height": 786,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "blaine",
+    "name": "夏伯",
+    "role": "红莲道馆馆主",
+    "image": "assets/trainers/official/blaine.png",
+    "aliases": [
+      "夏伯"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/blaine.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Blaine%20%5Bch0059%5D/Blaine%20%5Bch0059_00%5D/Blaine%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 338,
+      "y": 237,
+      "width": 348,
+      "height": 787,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "giovanni",
+    "name": "坂木",
+    "role": "常青道馆馆主",
+    "image": "assets/trainers/official/giovanni.png",
+    "aliases": [
+      "坂木",
+      "火箭队首领"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/giovanni.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Giovanni%20%5Bch0140%5D/Giovanni%20%5Bch0140_00%5D/Giovanni%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 358,
+      "y": 230,
+      "width": 304,
+      "height": 794,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "lorelei",
+    "name": "科拿",
+    "role": "四天王",
+    "image": "assets/trainers/official/lorelei.png",
+    "aliases": [
+      "科拿"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/lorelei.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lorelei%20%5Bch0005%5D/Lorelei%20%5Bch0005_00%5D/Lorelei%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 344,
+      "y": 229,
+      "width": 355,
+      "height": 795,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "bruno",
+    "name": "希巴",
+    "role": "四天王",
+    "image": "assets/trainers/official/bruno.png",
+    "aliases": [
+      "希巴"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/bruno.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Bruno%20%5Bch0057%5D/Bruno%20%5Bch0057_00%5D/Bruno%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 273,
+      "y": 228,
+      "width": 352,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "agatha",
+    "name": "菊子",
+    "role": "四天王",
+    "image": "assets/trainers/official/agatha.png",
+    "aliases": [
+      "菊子"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/agatha.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Agatha%20%5Bch0061%5D/Agatha%20%5Bch0061_00%5D/Agatha%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 291,
+      "y": 234,
+      "width": 355,
+      "height": 708,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "lance",
+    "name": "渡",
+    "role": "四天王",
+    "image": "assets/trainers/official/lance.png",
+    "aliases": [
+      "渡"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/lance.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lance%20%5Bch0111%5D/Lance%20%5Bch0111_00%5D/Lance%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 242,
+      "y": 206,
+      "width": 422,
+      "height": 818,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "nurse_joy",
+    "name": "乔伊小姐",
+    "role": "宝可梦中心护士",
+    "aliases": [
+      "乔伊",
+      "乔伊小姐"
+    ],
+    "image": "assets/trainers/project-original/nurse-joy-v1.png",
+    "art": "assets/trainers/project-original/nurse-joy-v1.png",
+    "spriteType": "project-original-art",
+    "fullBody": true,
+    "generated": true,
+    "overrideStageArt": true,
+    "ageGroup": "adult",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "21ef67a3e890e64b8455cfe9955351cb2d612e59a377369024c31ae0cb2e29fe",
+    "artBounds": {
+      "x": 260,
+      "y": 11,
+      "width": 504,
+      "height": 1507,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "sourceRepository": "Project-original",
+    "generationTool": "built-in image_gen",
+    "generationSourcePath": "<LOCAL_HOME>/.codex\\generated_images\\01a17204-0162-7ed2-a536-36d0aff29c2d\\exec-c7ac33cc-bdd9-4c8c-896e-64582c41574c.png",
+    "generationPrompt": "Use case: illustration-story\nAsset type: transparent full-body stage character illustration for a Pokémon Kanto fan game\nPrimary request: original polished anime cel-shaded full-body illustration of Nurse Joy, an adult Pokémon Center nurse\nSubject: kind adult woman with soft pink side-curled hair gathered into a rounded side bun, a neat white nurse cap, modest pink short-sleeve nurse uniform dress with white apron and white shoes, warm gentle smile; adult proportions and refined eye detail\nStyle/medium: clean detailed anime cel shading, crisp linework, polished hair and fabric folds, natural anatomy\nComposition/framing: single figure facing mostly forward in a simple relaxed standing pose; entire cap, head, hands, both legs and both shoes visible; full figure occupies about 80 percent of canvas height with generous transparent margin above cap, below shoes, and beside elbows; centered; transparent background\nLighting/mood: even soft light only on the character, no aura or floor shadow\nConstraints: actual transparent alpha background; all space outside the figure must be fully transparent; no background color, no glow, no vignette, no floor, no shadow, no card frame, no text, no logo, no watermark, no props, no cropping",
+    "generationNotes": "乔伊成年护士原创全身演绎，保持原有身份别名；透明背景。artBounds 按 alpha > 16 统计。",
+    "alphaThreshold": 16,
+    "gender": "female",
+    "age": "adult",
+    "portraitFallbacks": [
+      {
+        "image": "assets/trainers/official/nurse_joy.png",
+        "fullBody": true
+      }
+    ],
+    "stagePixel": false
+  },
+  {
+    "id": "bug_catcher",
+    "name": "捕虫少年",
+    "role": "训练家",
+    "image": "assets/trainers/project-original/bug-catcher-v1.png",
+    "aliases": [
+      "捕虫少年",
+      "捕虫小子",
+      "虫捕少年"
+    ],
+    "spriteType": "project-original-art",
+    "gender": "male",
+    "age": "child",
+    "art": "assets/trainers/project-original/bug-catcher-v1.png",
+    "stageArt": "assets/trainers/project-original/bug-catcher-v1.png",
+    "legacySprite": "assets/trainers/bug_catcher.png",
+    "sourceRepository": "Project-original",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "generated": true,
+    "overrideStageArt": true,
+    "ageGroup": "child",
+    "portraitRoles": [
+      "bug-catcher",
+      "youngster",
+      "child-trainer",
+      "trainer"
+    ],
+    "fullBody": true,
+    "width": 1024,
+    "height": 1536,
+    "sha256": "315f9199382bf4049a735a39fa9ac919b75ca9139151ef6033b2ccf9e9ed05d1",
+    "artBounds": {
+      "x": 106,
+      "y": 9,
+      "width": 820,
+      "height": 1509,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "alphaThreshold": 16,
+    "generationTool": "built-in image_gen",
+    "generationNotes": "原创捕虫少年职业全身立绘，透明背景，经alpha>16检测。完整虫网与双脚入画。"
+  },
+  {
+    "id": "youngster",
+    "name": "短裤小子",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/youngster.png",
+    "aliases": [
+      "短裤小子",
+      "短裤少年"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/youngster.png",
+    "artBounds": {
+      "x": 346,
+      "y": 226,
+      "width": 284,
+      "height": 555,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Youngster%20%5Bch0074%5D/Parker%20%5Bch0074_00%5D/Parker%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Youngster [ch0074]/Parker [ch0074_00]/Parker - 1024.png",
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/youngster-v2.png",
+    "gender": "male",
+    "age": "boy",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 217,
+      "y": 18,
+      "width": 638,
+      "height": 1490,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "youngster",
+      "child-trainer"
+    ]
+  },
+  {
+    "id": "lass",
+    "name": "迷你裙",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/lass.png",
+    "aliases": [
+      "迷你裙",
+      "迷你裙少女"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/lass.png",
+    "artBounds": {
+      "x": 324,
+      "y": 225,
+      "width": 326,
+      "height": 799,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Lass%20%5Bch0079%5D/Lass%20%5Bch0079_00%5D/Lass%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Lass [ch0079]/Lass [ch0079_00]/Lass - 1024.png",
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/lass-v2.png",
+    "gender": "female",
+    "age": "girl",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 242,
+      "y": 12,
+      "width": 511,
+      "height": 1498,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "lass",
+      "teen-trainer"
+    ],
+    "portraitFallbacks": [
+      {
+        "image": "assets/trainers/project-original/npc/picnicker-v2.png",
+        "fullBody": true
+      }
+    ]
+  },
+  {
+    "id": "hiker",
+    "name": "登山男",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/hiker.png",
+    "aliases": [
+      "登山男",
+      "登山客"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/hiker.png",
+    "artBounds": {
+      "x": 330,
+      "y": 240,
+      "width": 420,
+      "height": 643,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Hiker%20%5Bch0080%5D/Hiker%20%5Bch0080_00%5D/Hiker%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Hiker [ch0080]/Hiker [ch0080_00]/Hiker - 1024.png",
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/hiker-v2.png",
+    "gender": "male",
+    "age": "adult",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 168,
+      "y": 3,
+      "width": 676,
+      "height": 1514,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "hiker",
+      "outdoors"
+    ]
+  },
+  {
+    "id": "sailor",
+    "name": "水手",
+    "role": "训练家",
+    "image": "assets/trainers/sailor.png",
+    "aliases": [
+      "水手",
+      "船员"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "sailor",
+      "outdoors",
+      "trainer"
+    ]
+  },
+  {
+    "id": "camper",
+    "name": "露营少年",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/camper.png",
+    "aliases": [
+      "露营少年",
+      "露营者"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/camper.png",
+    "artBounds": {
+      "x": 378,
+      "y": 229,
+      "width": 242,
+      "height": 684,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Camper%20%5Bch0086%5D/Camper%20%5Bch0086_00%5D/Camper%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Camper [ch0086]/Camper [ch0086_00]/Camper - 1024.png",
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/camper-v2.png",
+    "gender": "male",
+    "age": "boy",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 226,
+      "y": 10,
+      "width": 596,
+      "height": 1512,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "camper",
+      "child-trainer",
+      "outdoors"
+    ],
+    "alphaThreshold": 0
+  },
+  {
+    "id": "picnicker",
+    "name": "野餐少女",
+    "role": "训练家",
+    "image": "assets/trainers/picnicker.png",
+    "aliases": [
+      "野餐少女",
+      "野餐者"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": false,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "female",
+    "age": "teen",
+    "ageGroup": "teen",
+    "portraitRoles": [
+      "picnicker",
+      "camper",
+      "outdoors",
+      "trainer"
+    ],
+    "stageArt": "assets/trainers/project-original/npc/picnicker-v2.png",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 206,
+      "y": 11,
+      "width": 635,
+      "height": 1476,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    }
+  },
+  {
+    "id": "super_nerd",
+    "name": "理科男",
+    "role": "训练家",
+    "image": "assets/trainers/super_nerd.png",
+    "aliases": [
+      "理科男",
+      "理科生"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "scientist",
+      "researcher",
+      "trainer"
+    ]
+  },
+  {
+    "id": "pokemaniac",
+    "name": "精灵迷",
+    "role": "训练家",
+    "image": "assets/trainers/pokemaniac.png",
+    "aliases": [
+      "精灵迷",
+      "宝可梦迷"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "collector",
+      "hobbyist",
+      "trainer"
+    ]
+  },
+  {
+    "id": "swimmer_m",
+    "name": "游泳者（男）",
+    "role": "训练家",
+    "image": "assets/trainers/swimmer_m.png",
+    "aliases": [
+      "游泳者",
+      "男性游泳者"
+    ],
+    "spriteType": "portrait",
+    "stageArt": "assets/trainers/masters-npc/swimmer_male.png",
+    "gender": "male",
+    "age": "adult",
+    "displayCrop": {
+      "x": 339,
+      "y": 232,
+      "width": 358,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "swimmer_f",
+    "name": "游泳者（女）",
+    "role": "训练家",
+    "image": "assets/trainers/swimmer_f.png",
+    "aliases": [
+      "女性游泳者",
+      "游泳少女"
+    ],
+    "spriteType": "portrait",
+    "stageArt": "assets/trainers/masters-npc/swimmer_female.png",
+    "gender": "female",
+    "age": "adult",
+    "displayCrop": {
+      "x": 371,
+      "y": 228,
+      "width": 362,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "beauty",
+    "name": "香氛姐姐",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/beauty.png",
+    "aliases": [
+      "香氛姐姐",
+      "美女",
+      "妈妈",
+      "母亲",
+      "成年女性"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/beauty.png",
+    "artBounds": {
+      "x": 339,
+      "y": 227,
+      "width": 355,
+      "height": 797,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Beauty%20%5Bch0071%5D/Beauty%20%5Bch0071_00%5D/Beauty%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Beauty [ch0071]/Beauty [ch0071_00]/Beauty - 1024.png",
+    "stagePixel": false
+  },
+  {
+    "id": "biker",
+    "name": "暴走族",
+    "role": "训练家",
+    "image": "assets/trainers/biker.png",
+    "aliases": [
+      "暴走族",
+      "机车族"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "street-thug",
+      "urban",
+      "trainer"
+    ]
+  },
+  {
+    "id": "scientist",
+    "name": "研究员",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/scientist.png",
+    "aliases": [
+      "研究员",
+      "科学家"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/scientist.png",
+    "artBounds": {
+      "x": 327,
+      "y": 228,
+      "width": 430,
+      "height": 708,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Scientist%20%5Bch0084%5D/Scientist%20%5Bch0084_00%5D/Scientist%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Scientist [ch0084]/Scientist [ch0084_00]/Scientist - 1024.png",
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/scientist-v2.png",
+    "gender": "male",
+    "age": "adult",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 265,
+      "y": 5,
+      "width": 499,
+      "height": 1511,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "scientist",
+      "researcher"
+    ]
+  },
+  {
+    "id": "rocket_grunt_m",
+    "name": "火箭队员",
+    "role": "火箭队",
+    "image": "assets/trainers/masters-npc/rocket_grunt_m.png",
+    "aliases": [
+      "火箭队员",
+      "男性火箭队员",
+      "火箭队"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/masters-npc/rocket_grunt_m.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Team%20Rocket%20Grunt%20%5Bch0640%5D/Team%20Rocket%20Grunt%20%5Bch0640_20%5D%20-%20shitappam/Team%20Rocket%20Grunt%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668",
+    "sourcePath": "UI/Actor/Trainer/Team Rocket Grunt [ch0640]/Team Rocket Grunt [ch0640_20] - shitappam/Team Rocket Grunt - 1024.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "30f76b64eb5e910d652eabfa9db5006e28097444b836a2808ffe14198065e5ec",
+    "artBounds": {
+      "x": 366,
+      "y": 232,
+      "width": 303,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "tags": [
+      "generic-trainer-class",
+      "masters-ex",
+      "transparent-fullbody-render",
+      "portrait-does-not-name-the-story-npc"
+    ],
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/rocket-grunt-male-v2.png",
+    "gender": "male",
+    "age": "adult",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 238,
+      "y": 8,
+      "width": 570,
+      "height": 1510,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "villain-grunt",
+      "team-rocket"
+    ]
+  },
+  {
+    "id": "rocket_grunt_f",
+    "name": "火箭队女队员",
+    "role": "火箭队",
+    "image": "assets/trainers/masters-npc/rocket_grunt_f.png",
+    "aliases": [
+      "火箭队女队员",
+      "女性火箭队员"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/masters-npc/rocket_grunt_f.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Team%20Rocket%20Grunt%20%5Bch0641%5D/Team%20Rocket%20Grunt%20%5Bch0641_20%5D%20-%20shitappaf/Team%20Rocket%20Grunt%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceCommit": "a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668",
+    "sourcePath": "UI/Actor/Trainer/Team Rocket Grunt [ch0641]/Team Rocket Grunt [ch0641_20] - shitappaf/Team Rocket Grunt - 1024.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "26acf4ab076a9a8ee9c1f689d10722d294edd52b6b68d43f33f78a37ca2f8bf2",
+    "artBounds": {
+      "x": 363,
+      "y": 228,
+      "width": 281,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "tags": [
+      "generic-trainer-class",
+      "masters-ex",
+      "transparent-fullbody-render",
+      "portrait-does-not-name-the-story-npc"
+    ],
+    "stagePixel": false,
+    "stageArt": "assets/trainers/project-original/npc/rocket-grunt-female-v2.png",
+    "gender": "female",
+    "age": "adult",
+    "fullBody": true,
+    "overrideStageArt": true,
+    "displayCrop": {
+      "x": 281,
+      "y": 8,
+      "width": 514,
+      "height": 1513,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "portraitRoles": [
+      "villain-grunt",
+      "team-rocket"
+    ]
+  },
+  {
+    "id": "gentleman",
+    "name": "绅士",
+    "role": "训练家",
+    "image": "assets/trainers/pokewiki-npc/gentleman_oras.png",
+    "aliases": [
+      "绅士",
+      "老绅士",
+      "狩猎地带园长"
+    ],
+    "spriteType": "generic-class-art",
+    "art": "assets/trainers/pokewiki-npc/gentleman_oras.png",
+    "artBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 142,
+      "height": 405,
+      "canvasWidth": 142,
+      "canvasHeight": 405
+    },
+    "width": 142,
+    "height": 405,
+    "sha256": "d7b79149d73b330f08392bc4a1332f3b5db220215d292356eddde7be6230e435",
+    "source": "https://www.pokewiki.de/images/5/5d/Gentleman_Artwork_ORAS.png",
+    "sourcePage": "https://www.pokewiki.de/Datei:Gentleman_Artwork_ORAS.png",
+    "sourceRepository": "PokéWiki (German)",
+    "adapted": true,
+    "adaptationNote": "通用老绅士职业插画，用于园长等同类NPC的形象参考；不宣称是关都园长的官方专属立绘。",
+    "stagePixel": false
+  },
+  {
+    "id": "channeler",
+    "name": "祈祷师",
+    "role": "训练家",
+    "image": "assets/trainers/channeler.png",
+    "aliases": [
+      "祈祷师",
+      "灵媒"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "female",
+    "age": "adult",
+    "portraitRoles": [
+      "channeler",
+      "spiritualist",
+      "citizen"
+    ]
+  },
+  {
+    "id": "cool_trainer_m",
+    "name": "精英训练家（男）",
+    "role": "训练家",
+    "image": "assets/trainers/cool_trainer_m.png",
+    "aliases": [
+      "精英训练家",
+      "男性精英训练家"
+    ],
+    "spriteType": "portrait",
+    "stageArt": "assets/trainers/project-original/npc/ace-male-v2.png",
+    "gender": "male",
+    "age": "adult",
+    "displayCrop": {
+      "x": 247,
+      "y": 5,
+      "width": 567,
+      "height": 1520,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "stagePixel": false,
+    "fullBody": true,
+    "overrideStageArt": true,
+    "portraitRoles": [
+      "ace-trainer",
+      "trainer"
+    ]
+  },
+  {
+    "id": "cool_trainer_f",
+    "name": "精英训练家（女）",
+    "role": "训练家",
+    "image": "assets/trainers/cool_trainer_f.png",
+    "aliases": [
+      "女性精英训练家",
+      "女精英训练家"
+    ],
+    "spriteType": "portrait",
+    "stageArt": "assets/trainers/project-original/npc/ace-female-v2.png",
+    "gender": "female",
+    "age": "adult",
+    "displayCrop": {
+      "x": 249,
+      "y": 9,
+      "width": 586,
+      "height": 1517,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "stagePixel": false,
+    "fullBody": true,
+    "overrideStageArt": true,
+    "portraitRoles": [
+      "ace-trainer",
+      "trainer"
+    ]
+  },
+  {
+    "id": "psychic_m",
+    "name": "超能力者（男）",
+    "role": "训练家",
+    "image": "assets/trainers/psychic_m.png",
+    "aliases": [
+      "超能力者",
+      "男性超能力者"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "psychic",
+      "trainer",
+      "citizen"
+    ]
+  },
+  {
+    "id": "psychic_f",
+    "name": "超能力者（女）",
+    "role": "训练家",
+    "image": "assets/trainers/psychic_f.png",
+    "aliases": [
+      "女性超能力者",
+      "女超能力者"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "female",
+    "age": "adult",
+    "portraitRoles": [
+      "psychic",
+      "trainer",
+      "citizen"
+    ]
+  },
+  {
+    "id": "black_belt",
+    "name": "空手道王",
+    "role": "训练家",
+    "image": "assets/trainers/masters-npc/black_belt.png",
+    "aliases": [
+      "空手道王",
+      "格斗家"
+    ],
+    "spriteType": "masters-generic-class",
+    "art": "assets/trainers/masters-npc/black_belt.png",
+    "artBounds": {
+      "x": 366,
+      "y": 232,
+      "width": 368,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/a7fef5f34b9007ff7b8e4ab2dc92f44940fbd668/UI/Actor/Trainer/Black%20Belt%20%5Bch0073%5D/Black%20Belt%20%5Bch0073_00%5D/Black%20Belt%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourcePath": "UI/Actor/Trainer/Black Belt [ch0073]/Black Belt [ch0073_00]/Black Belt - 1024.png",
+    "stagePixel": false
+  },
+  {
+    "id": "burglar",
+    "name": "小偷",
+    "role": "训练家",
+    "image": "assets/trainers/burglar.png",
+    "aliases": [
+      "小偷",
+      "窃贼"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "burglar",
+      "urban",
+      "thug"
+    ]
+  },
+  {
+    "id": "bird_keeper",
+    "name": "鸟宝可梦训练家",
+    "role": "训练家",
+    "image": "assets/trainers/bird_keeper.png",
+    "aliases": [
+      "鸟宝可梦训练家",
+      "鸟类训练家"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "bird-keeper",
+      "outdoors",
+      "trainer"
+    ]
+  },
+  {
+    "id": "cue_ball",
+    "name": "路霸",
+    "role": "训练家",
+    "image": "assets/trainers/cue_ball.png",
+    "aliases": [
+      "路霸"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "street-thug",
+      "thug",
+      "trainer"
+    ]
+  },
+  {
+    "id": "engineer",
+    "name": "工程师",
+    "role": "训练家",
+    "image": "assets/trainers/engineer.png",
+    "aliases": [
+      "工程师"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "engineer",
+      "scientist",
+      "worker"
+    ]
+  },
+  {
+    "id": "juggler",
+    "name": "魔术师",
+    "role": "训练家",
+    "image": "assets/trainers/juggler.png",
+    "aliases": [
+      "魔术师",
+      "杂耍师"
+    ],
+    "spriteType": "portrait",
+    "stagePixel": true,
+    "stagePixelWidth": 64,
+    "stagePixelHeight": 64,
+    "gender": "male",
+    "age": "adult",
+    "portraitRoles": [
+      "juggler",
+      "entertainer",
+      "trainer"
+    ]
+  },
+  {
+    "id": "fisherman",
+    "name": "钓鱼人",
+    "role": "训练家",
+    "image": "assets/trainers/fisherman.png",
+    "aliases": [
+      "钓鱼人",
+      "垂钓者"
+    ],
+    "spriteType": "portrait",
+    "stageArt": "assets/trainers/project-original/npc/fisherman-v2.png",
+    "gender": "male",
+    "age": "adult",
+    "displayCrop": {
+      "x": 232,
+      "y": 12,
+      "width": 596,
+      "height": 1510,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "stagePixel": false,
+    "fullBody": true,
+    "overrideStageArt": true,
+    "portraitRoles": [
+      "fisherman",
+      "outdoors"
+    ]
+  },
+  {
+    "id": "trainer_aaron",
+    "name": "Aaron",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/aaron.png",
+    "art": "assets/trainers/official/aaron.png",
+    "aliases": [
+      "Aaron"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Aaron%20%5Bch0152%5D/Aaron%20%5Bch0152_00%5D/Aaron%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 388,
+      "y": 159,
+      "width": 283,
+      "height": 865,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_acerola",
+    "name": "Acerola",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/acerola.png",
+    "art": "assets/trainers/official/acerola.png",
+    "aliases": [
+      "Acerola"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Acerola%20%5Bch0007%5D/Acerola%20%5Bch0007_00%5D/Acerola%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 322,
+      "y": 201,
+      "width": 426,
+      "height": 713,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_adaman",
+    "name": "Adaman",
+    "role": "训练家/重要人物",
+    "region": "Hisui",
+    "image": "assets/trainers/official/adaman.png",
+    "art": "assets/trainers/official/adaman.png",
+    "aliases": [
+      "Adaman"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Adaman%20%5Bch0284%5D/Adaman%20%5Bch0284_00%5D/Adaman%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 307,
+      "y": 137,
+      "width": 452,
+      "height": 887,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_akari",
+    "name": "Akari",
+    "role": "训练家/重要人物",
+    "region": "Hisui",
+    "image": "assets/trainers/official/akari.png",
+    "art": "assets/trainers/official/akari.png",
+    "aliases": [
+      "Akari"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Akari%20%5Bch0291%5D/Akari%20%5Bch0291_00%5D/Akari%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 370,
+      "y": 233,
+      "width": 328,
+      "height": 780,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_alder",
+    "name": "Alder",
+    "role": "冠军/联盟首脑",
+    "region": "Unova",
+    "image": "assets/trainers/official/alder.png",
+    "art": "assets/trainers/official/alder.png",
+    "aliases": [
+      "Alder",
+      "阿戴克"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Alder%20%5Bch0132%5D/Alder%20%5Bch0132_00%5D/Alder%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 252,
+      "y": 158,
+      "width": 533,
+      "height": 866,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_allister",
+    "name": "Allister",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/allister.png",
+    "art": "assets/trainers/official/allister.png",
+    "aliases": [
+      "Allister"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Allister%20%5Bch0251%5D/Allister%20%5Bch0251_00%5D/Allister%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 334,
+      "y": 202,
+      "width": 354,
+      "height": 679,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_anabel",
+    "name": "Anabel",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/anabel.png",
+    "art": "assets/trainers/official/anabel.png",
+    "aliases": [
+      "Anabel"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Anabel%20%5Bch0178%5D/Anabel%20%5Bch0178_00%5D/Anabel%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 385,
+      "y": 196,
+      "width": 220,
+      "height": 828,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_archer",
+    "name": "Archer",
+    "role": "反派组织成员",
+    "region": "跨世代",
+    "image": "assets/trainers/official/archer.png",
+    "art": "assets/trainers/official/archer.png",
+    "aliases": [
+      "Archer",
+      "阿波罗",
+      "Apollo"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Archer%20%5Bch0141%5D/Archer%20%5Bch0141_00%5D/Archer%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 373,
+      "y": 227,
+      "width": 309,
+      "height": 797,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_archie",
+    "name": "Archie",
+    "role": "反派组织成员",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/archie.png",
+    "art": "assets/trainers/official/archie.png",
+    "aliases": [
+      "Archie",
+      "水梧桐"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Archie%20%5Bch0193%5D/Archie%20%5Bch0193_00%5D/Archie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 276,
+      "y": 228,
+      "width": 435,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_arezu",
+    "name": "Arezu",
+    "role": "训练家/重要人物",
+    "region": "Hisui",
+    "image": "assets/trainers/official/arezu.png",
+    "art": "assets/trainers/official/arezu.png",
+    "aliases": [
+      "Arezu"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Arezu%20%5Bch0312%5D/Arezu%20%5Bch0312_00%5D/Arezu%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 361,
+      "y": 235,
+      "width": 300,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_arven",
+    "name": "Arven",
+    "role": "训练家/重要人物",
+    "region": "Paldea",
+    "image": "assets/trainers/official/arven.png",
+    "art": "assets/trainers/official/arven.png",
+    "aliases": [
+      "Arven"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Arven%20%5Bch0317%5D/Arven%20%5Bch0317_00%5D/Arven%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 308,
+      "y": 226,
+      "width": 406,
+      "height": 798,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_ash",
+    "name": "Ash",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/project-original/ash-anime-v1.png",
+    "art": "assets/trainers/project-original/ash-anime-v1.png",
+    "aliases": [
+      "Ash",
+      "小智",
+      "Satoshi"
+    ],
+    "spriteType": "project-original-art",
+    "source": "Project-original illustration created with the built-in image_gen tool, 2026-10-26",
+    "sourceRepository": "Project original",
+    "artBounds": {
+      "x": 157,
+      "y": 5,
+      "width": 746,
+      "height": 1518,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "stagePixel": false,
+    "generationTool": "built-in image_gen",
+    "generated": true,
+    "gender": "male",
+    "age": "child",
+    "ageGroup": "child",
+    "fullBody": true,
+    "width": 1024,
+    "height": 1536,
+    "transparent": true,
+    "alphaChannel": true,
+    "alphaThreshold": 16,
+    "sha256": "74d7383e6dbff4a550e043af49d49a74e3a9fbcbcc3c744e554e89b702123f83",
+    "generationSourcePath": "<LOCAL_HOME>/.codex/generated_images/01a17560-bb55-7b00-b8ae-2362c3842d92/exec-aaee4dae-f979-4a30-ae4a-9668fff9ac60.png",
+    "generationPrompt": "Use case: illustration-story\nAsset type: original full-body game character portrait, transparent PNG cutout\nPrimary request: Ash Ketchum from the original Pokémon anime, depicted as a 10-year-old boy. Classic red-and-white cap with green emblem, blue short jacket over a white T-shirt, green fingerless gloves, blue jeans, red-and-white sneakers. Recognizable bright youthful face, energetic confident expression, relaxed ready-for-adventure stance.\nStyle/medium: polished original 2D anime cel-shaded character art, clean refined linework, smooth confident shapes, vivid but balanced colors; non-pixel art.\nComposition/framing: single character centered, full body with entire cap and both shoes visible, upright portrait proportions, clean silhouette, generous transparent margin.\nScene/backdrop: truly transparent background.\nLighting/mood: even soft illustration lighting, no cast shadow.\nConstraints: age 10, unmistakably a child; preserve the classic outfit details. No background, no halo, no floor, no card frame, no text, no logo, no watermark, no extra props or characters.",
+    "generationEditPrompt": "Preserve Ash Ketchum exactly: same age 10, face, outfit, full-body pose and cel-shaded style. Remove every backdrop effect; keep only the clean character cutout. Everything outside the character silhouette must be truly transparent, including between arms/body and legs. Keep cap and both shoes uncropped. No halo or text.",
+    "portraitFallbacks": [
+      {
+        "image": "assets/trainers/official/ash.png",
+        "fullBody": false,
+        "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Ash%20%5Bch0264%5D/Ash%20%5Bch0264_00%5D/Ash%20-%201024.png"
+      }
+    ],
+    "ageYears": 10
+  },
+  {
+    "id": "trainer_atticus",
+    "name": "Atticus",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/atticus.png",
+    "art": "assets/trainers/official/atticus.png",
+    "aliases": [
+      "Atticus"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Atticus%20%5Bch0328%5D/Atticus%20%5Bch0328_00%5D/Atticus%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 343,
+      "y": 222,
+      "width": 394,
+      "height": 802,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_avery",
+    "name": "Avery",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/avery.png",
+    "art": "assets/trainers/official/avery.png",
+    "aliases": [
+      "Avery"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Avery%20%5Bch0273%5D/Avery%20%5Bch0273_00%5D/Avery%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 364,
+      "y": 24,
+      "width": 343,
+      "height": 1000,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_barry",
+    "name": "Barry",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/barry.png",
+    "art": "assets/trainers/official/barry.png",
+    "aliases": [
+      "Barry",
+      "阿驭"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Barry%20%5Bch0099%5D/Barry%20%5Bch0099_00%5D/Barry%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 346,
+      "y": 212,
+      "width": 331,
+      "height": 812,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_bea",
+    "name": "Bea",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/bea.png",
+    "art": "assets/trainers/official/bea.png",
+    "aliases": [
+      "Bea",
+      "彩豆"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Bea%20%5Bch0250%5D/Bea%20%5Bch0250_00%5D/Bea%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 340,
+      "y": 211,
+      "width": 329,
+      "height": 813,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_bede",
+    "name": "Bede",
+    "role": "训练家/重要人物",
+    "region": "Galar",
+    "image": "assets/trainers/official/bede.png",
+    "art": "assets/trainers/official/bede.png",
+    "aliases": [
+      "Bede",
+      "彼特"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Bede%20%5Bch0246%5D/Bede%20%5Bch0246_00%5D/Bede%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 397,
+      "y": 207,
+      "width": 254,
+      "height": 817,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_benga",
+    "name": "Benga",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/benga.png",
+    "art": "assets/trainers/official/benga.png",
+    "aliases": [
+      "Benga"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Benga%20%5Bch0212%5D/Benga%20%5Bch0212_00%5D/Benga%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 320,
+      "y": 119,
+      "width": 385,
+      "height": 905,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_bertha",
+    "name": "Bertha",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/bertha.png",
+    "art": "assets/trainers/official/bertha.png",
+    "aliases": [
+      "Bertha"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Bertha%20%5Bch0154%5D/Bertha%20%5Bch0154_00%5D/Bertha%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 403,
+      "y": 242,
+      "width": 254,
+      "height": 730,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_bianca",
+    "name": "Bianca",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/bianca.png",
+    "art": "assets/trainers/official/bianca.png",
+    "aliases": [
+      "Bianca",
+      "白露"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Bianca%20%5Bch0102%5D/Bianca%20%5Bch0102_00%5D/Bianca%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 361,
+      "y": 234,
+      "width": 330,
+      "height": 790,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_brandon",
+    "name": "Brandon",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/brandon.png",
+    "art": "assets/trainers/official/brandon.png",
+    "aliases": [
+      "Brandon"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Brandon%20%5Bch0201%5D/Brandon%20%5Bch0201_00%5D/Brandon%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 355,
+      "y": 234,
+      "width": 318,
+      "height": 790,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_brassius",
+    "name": "Brassius",
+    "role": "道馆馆主",
+    "region": "Paldea",
+    "image": "assets/trainers/official/brassius.png",
+    "art": "assets/trainers/official/brassius.png",
+    "aliases": [
+      "Brassius"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Brassius%20%5Bch0337%5D/Brassius%20%5Bch0337_00%5D/Brassius%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 362,
+      "y": 227,
+      "width": 307,
+      "height": 797,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_brawly",
+    "name": "Brawly",
+    "role": "道馆馆主",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/brawly.png",
+    "art": "assets/trainers/official/brawly.png",
+    "aliases": [
+      "Brawly"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Brawly%20%5Bch0043%5D/Brawly%20%5Bch0043_00%5D/Brawly%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 264,
+      "y": 198,
+      "width": 367,
+      "height": 717,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_brendan",
+    "name": "Brendan",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/brendan.png",
+    "art": "assets/trainers/official/brendan.png",
+    "aliases": [
+      "Brendan",
+      "悠人"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Brendan%20%5Bch0019%5D/Brendan%20%5Bch0019_00%5D/Brendan%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 347,
+      "y": 233,
+      "width": 394,
+      "height": 710,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_brycen",
+    "name": "Brycen",
+    "role": "道馆馆主",
+    "region": "跨世代",
+    "image": "assets/trainers/official/brycen.png",
+    "art": "assets/trainers/official/brycen.png",
+    "aliases": [
+      "Brycen"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Brycen%20%5Bch0040%5D/Brycen%20%5Bch0040_00%5D/Brycen%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 308,
+      "y": 168,
+      "width": 504,
+      "height": 856,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_bugsy",
+    "name": "Bugsy",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/bugsy.png",
+    "art": "assets/trainers/official/bugsy.png",
+    "aliases": [
+      "Bugsy",
+      "阿笔"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Bugsy%20%5Bch0045%5D/Bugsy%20%5Bch0045_00%5D/Bugsy%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 68,
+      "y": 228,
+      "width": 655,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_burgh",
+    "name": "Burgh",
+    "role": "道馆馆主",
+    "region": "Unova",
+    "image": "assets/trainers/official/burgh.png",
+    "art": "assets/trainers/official/burgh.png",
+    "aliases": [
+      "Burgh",
+      "亚堤"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Burgh%20%5Bch0170%5D/Burgh%20%5Bch0170_00%5D/Burgh%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 338,
+      "y": 224,
+      "width": 284,
+      "height": 800,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_caitlin",
+    "name": "Caitlin",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/caitlin.png",
+    "art": "assets/trainers/official/caitlin.png",
+    "aliases": [
+      "Caitlin",
+      "嘉德丽雅"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Caitlin%20%5Bch0095%5D/Caitlin%20%5Bch0095_00%5D/Caitlin%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 24,
+      "y": 117,
+      "width": 976,
+      "height": 907,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_calem",
+    "name": "Calem",
+    "role": "训练家/重要人物",
+    "region": "Kalos",
+    "image": "assets/trainers/official/calem.png",
+    "art": "assets/trainers/official/calem.png",
+    "aliases": [
+      "Calem"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Calem%20%5Bch0003%5D/Calem%20%5Bch0003_00%5D/Calem%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 373,
+      "y": 229,
+      "width": 307,
+      "height": 795,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_candice",
+    "name": "Candice",
+    "role": "道馆馆主",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/candice.png",
+    "art": "assets/trainers/official/candice.png",
+    "aliases": [
+      "Candice",
+      "小菘"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Candice%20%5Bch0025%5D/Candice%20%5Bch0025_00%5D/Candice%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 364,
+      "y": 235,
+      "width": 303,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_carmine",
+    "name": "Carmine",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/carmine.png",
+    "art": "assets/trainers/official/carmine.png",
+    "aliases": [
+      "Carmine"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Carmine%20%5Bch0356%5D/Carmine%20%5Bch0356_00%5D/Carmine%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 363,
+      "y": 232,
+      "width": 273,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_chase",
+    "name": "Chase",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/chase.png",
+    "art": "assets/trainers/official/chase.png",
+    "aliases": [
+      "Chase"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Chase%20%5Bch0279%5D/Chase%20%5Bch0279_00%5D/Chase%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 333,
+      "y": 231,
+      "width": 351,
+      "height": 770,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_cheryl",
+    "name": "Cheryl",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/cheryl.png",
+    "art": "assets/trainers/official/cheryl.png",
+    "aliases": [
+      "Cheryl"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Cheryl%20%5Bch0023%5D/Cheryl%20%5Bch0023_00%5D/Cheryl%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 378,
+      "y": 235,
+      "width": 271,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_chili",
+    "name": "Chili",
+    "role": "道馆馆主",
+    "region": "Unova",
+    "image": "assets/trainers/official/chili.png",
+    "art": "assets/trainers/official/chili.png",
+    "aliases": [
+      "Chili"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Chili%20%5Bch0145%5D/Chili%20%5Bch0145_00%5D/Chili%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 339,
+      "y": 191,
+      "width": 327,
+      "height": 833,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_cilan",
+    "name": "Cilan",
+    "role": "道馆馆主",
+    "region": "Unova",
+    "image": "assets/trainers/official/cilan.png",
+    "art": "assets/trainers/official/cilan.png",
+    "aliases": [
+      "Cilan",
+      "天桐"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Cilan%20%5Bch0107%5D/Cilan%20%5Bch0107_00%5D/Cilan%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 416,
+      "y": 200,
+      "width": 206,
+      "height": 824,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_clair",
+    "name": "Clair",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/clair.png",
+    "art": "assets/trainers/official/clair.png",
+    "aliases": [
+      "Clair",
+      "小椿"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Clair%20%5Bch0028%5D/Clair%20%5Bch0028_00%5D/Clair%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 308,
+      "y": 211,
+      "width": 685,
+      "height": 813,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_clavell",
+    "name": "Clavell",
+    "role": "训练家/重要人物",
+    "region": "Paldea",
+    "image": "assets/trainers/official/clavell.png",
+    "art": "assets/trainers/official/clavell.png",
+    "aliases": [
+      "Clavell"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Clavell%20%5Bch0318%5D/Clavell%20%5Bch0318_00%5D/Clavell%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 362,
+      "y": 237,
+      "width": 290,
+      "height": 787,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_clemont",
+    "name": "Clemont",
+    "role": "道馆馆主",
+    "region": "Kalos",
+    "image": "assets/trainers/official/clemont.png",
+    "art": "assets/trainers/official/clemont.png",
+    "aliases": [
+      "Clemont",
+      "希特隆"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Clemont%20%5Bch0131%5D/Clemont%20%5Bch0131_00%5D/Clemont%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 365,
+      "y": 144,
+      "width": 287,
+      "height": 812,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_colress",
+    "name": "Colress",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/colress.png",
+    "art": "assets/trainers/official/colress.png",
+    "aliases": [
+      "Colress",
+      "阿克罗玛"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Colress%20%5Bch0191%5D/Colress%20%5Bch0191_00%5D/Colress%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 335,
+      "y": 185,
+      "width": 473,
+      "height": 839,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_courtney",
+    "name": "Courtney",
+    "role": "反派组织成员",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/courtney.png",
+    "art": "assets/trainers/official/courtney.png",
+    "aliases": [
+      "Courtney"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Courtney%20%5Bch0222%5D/Courtney%20%5Bch0222_00%5D/Courtney%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 276,
+      "y": 227,
+      "width": 466,
+      "height": 797,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_crasher_wake",
+    "name": "Crasher Wake",
+    "role": "道馆馆主",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/crasher_wake.png",
+    "art": "assets/trainers/official/crasher_wake.png",
+    "aliases": [
+      "Crasher Wake"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Crasher%20Wake%20%5Bch0010%5D/Crasher%20Wake%20%5Bch0010_00%5D/Crasher%20Wake%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 234,
+      "y": 238,
+      "width": 473,
+      "height": 786,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_cynthia",
+    "name": "Cynthia",
+    "role": "冠军/联盟首脑",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/cynthia.png",
+    "art": "assets/trainers/official/cynthia.png",
+    "aliases": [
+      "Cynthia",
+      "竹兰"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Cynthia%20%5Bch0091%5D/Cynthia%20%5Bch0091_00%5D/Cynthia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 317,
+      "y": 231,
+      "width": 425,
+      "height": 793,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_cyrus",
+    "name": "Cyrus",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/cyrus.png",
+    "art": "assets/trainers/official/cyrus.png",
+    "aliases": [
+      "Cyrus",
+      "赤日"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Cyrus%20%5Bch0194%5D/Cyrus%20%5Bch0194_00%5D/Cyrus%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 345,
+      "y": 213,
+      "width": 343,
+      "height": 811,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_dahlia",
+    "name": "Dahlia",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/dahlia.png",
+    "art": "assets/trainers/official/dahlia.png",
+    "aliases": [
+      "Dahlia"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Dahlia%20%5Bch0202%5D/Dahlia%20%5Bch0202_00%5D/Dahlia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 360,
+      "y": 211,
+      "width": 358,
+      "height": 813,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_dana",
+    "name": "Dana",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/dana.png",
+    "art": "assets/trainers/official/dana.png",
+    "aliases": [
+      "Dana"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Dana%20%5Bch0206%5D/Dana%20%5Bch0206_00%5D/Dana%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 318,
+      "y": 148,
+      "width": 484,
+      "height": 876,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_darach",
+    "name": "Darach",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/darach.png",
+    "art": "assets/trainers/official/darach.png",
+    "aliases": [
+      "Darach"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Darach%20%5Bch0159%5D/Darach%20%5Bch0159_00%5D/Darach%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 281,
+      "y": 229,
+      "width": 385,
+      "height": 795,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_dawn",
+    "name": "Dawn",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/dawn.png",
+    "art": "assets/trainers/official/dawn.png",
+    "aliases": [
+      "Dawn",
+      "小光"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Dawn%20%5Bch0116%5D/Dawn%20%5Bch0116_00%5D/Dawn%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 381,
+      "y": 232,
+      "width": 281,
+      "height": 773,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_diantha",
+    "name": "Diantha",
+    "role": "冠军/联盟首脑",
+    "region": "Kalos",
+    "image": "assets/trainers/official/diantha.png",
+    "art": "assets/trainers/official/diantha.png",
+    "aliases": [
+      "Diantha"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Diantha%20%5Bch0158%5D/Diantha%20%5Bch0158_00%5D/Diantha%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 344,
+      "y": 220,
+      "width": 390,
+      "height": 804,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_drake",
+    "name": "Drake",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/drake.png",
+    "art": "assets/trainers/official/drake.png",
+    "aliases": [
+      "Drake"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Drake%20%5Bch0094%5D/Drake%20%5Bch0094_00%5D/Drake%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 243,
+      "y": 216,
+      "width": 445,
+      "height": 808,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_drasna",
+    "name": "Drasna",
+    "role": "训练家/重要人物",
+    "region": "Kalos",
+    "image": "assets/trainers/official/drasna.png",
+    "art": "assets/trainers/official/drasna.png",
+    "aliases": [
+      "Drasna"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Drasna%20%5Bch0155%5D/Drasna%20%5Bch0155_00%5D/Drasna%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 263,
+      "y": 234,
+      "width": 442,
+      "height": 790,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_elesa",
+    "name": "Elesa",
+    "role": "道馆馆主",
+    "region": "Unova",
+    "image": "assets/trainers/official/elesa.png",
+    "art": "assets/trainers/official/elesa.png",
+    "aliases": [
+      "Elesa",
+      "小菊儿"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Elesa%20%5Bch0106%5D/Elesa%20%5Bch0106_00%5D/Elesa%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 296,
+      "y": 174,
+      "width": 442,
+      "height": 850,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_elio",
+    "name": "Elio",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/elio.png",
+    "art": "assets/trainers/official/elio.png",
+    "aliases": [
+      "Elio"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Elio%20%5Bch0122%5D/Elio%20%5Bch0122_00%5D/Elio%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 337,
+      "y": 233,
+      "width": 373,
+      "height": 747,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_emma",
+    "name": "Emma",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/emma.png",
+    "art": "assets/trainers/official/emma.png",
+    "aliases": [
+      "Emma"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Emma%20%5Bch0220%5D/Emma%20%5Bch0220_00%5D/Emma%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 344,
+      "y": 239,
+      "width": 337,
+      "height": 785,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_emmet",
+    "name": "Emmet",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/emmet.png",
+    "art": "assets/trainers/official/emmet.png",
+    "aliases": [
+      "Emmet"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Emmet%20%5Bch0109%5D/Emmet%20%5Bch0109_00%5D/Emmet%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 301,
+      "y": 215,
+      "width": 433,
+      "height": 809,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_eri",
+    "name": "Eri",
+    "role": "训练家/重要人物",
+    "region": "Paldea",
+    "image": "assets/trainers/official/eri.png",
+    "art": "assets/trainers/official/eri.png",
+    "aliases": [
+      "Eri"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Eri%20%5Bch0330%5D/Eri%20%5Bch0330_00%5D/Eri%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 263,
+      "y": 181,
+      "width": 490,
+      "height": 843,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_ethan",
+    "name": "Ethan",
+    "role": "训练家/重要人物",
+    "region": "Johto",
+    "image": "assets/trainers/official/ethan.png",
+    "art": "assets/trainers/official/ethan.png",
+    "aliases": [
+      "Ethan",
+      "阿响"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Ethan%20%5Bch0112%5D/Ethan%20%5Bch0112_00%5D/Ethan%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 296,
+      "y": 231,
+      "width": 394,
+      "height": 765,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_eusine",
+    "name": "Eusine",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/eusine.png",
+    "art": "assets/trainers/official/eusine.png",
+    "aliases": [
+      "Eusine"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Eusine%20%5Bch0216%5D/Eusine%20%5Bch0216_00%5D/Eusine%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 300,
+      "y": 234,
+      "width": 331,
+      "height": 790,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_falkner",
+    "name": "Falkner",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/falkner.png",
+    "art": "assets/trainers/official/falkner.png",
+    "aliases": [
+      "Falkner",
+      "阿速"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Falkner%20%5Bch0150%5D/Falkner%20%5Bch0150_00%5D/Falkner%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 364,
+      "y": 227,
+      "width": 321,
+      "height": 797,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_fantina",
+    "name": "Fantina",
+    "role": "道馆馆主",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/fantina.png",
+    "art": "assets/trainers/official/fantina.png",
+    "aliases": [
+      "Fantina",
+      "梅丽莎"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Fantina%20%5Bch0151%5D/Fantina%20%5Bch0151_00%5D/Fantina%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 276,
+      "y": 186,
+      "width": 543,
+      "height": 838,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_flannery",
+    "name": "Flannery",
+    "role": "道馆馆主",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/flannery.png",
+    "art": "assets/trainers/official/flannery.png",
+    "aliases": [
+      "Flannery",
+      "亚莎"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Flannery%20%5Bch0029%5D/Flannery%20%5Bch0029_00%5D/Flannery%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 324,
+      "y": 154,
+      "width": 439,
+      "height": 870,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_flint",
+    "name": "Flint",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/flint.png",
+    "art": "assets/trainers/official/flint.png",
+    "aliases": [
+      "Flint"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Flint%20%5Bch0006%5D/Flint%20%5Bch0006_00%5D/Flint%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 285,
+      "y": 209,
+      "width": 421,
+      "height": 815,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_florian",
+    "name": "Florian",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/florian.png",
+    "art": "assets/trainers/official/florian.png",
+    "aliases": [
+      "Florian"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Florian%20%5Bch0286%5D/Florian%20%5Bch0286_00%5D/Florian%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 365,
+      "y": 226,
+      "width": 293,
+      "height": 798,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_gardenia",
+    "name": "Gardenia",
+    "role": "道馆馆主",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/gardenia.png",
+    "art": "assets/trainers/official/gardenia.png",
+    "aliases": [
+      "Gardenia"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Gardenia%20%5Bch0027%5D/Gardenia%20%5Bch0027_00%5D/Gardenia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 337,
+      "y": 232,
+      "width": 309,
+      "height": 791,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_geeta",
+    "name": "Geeta",
+    "role": "冠军/联盟首脑",
+    "region": "Paldea",
+    "image": "assets/trainers/official/geeta.png",
+    "art": "assets/trainers/official/geeta.png",
+    "aliases": [
+      "Geeta"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Geeta%20%5Bch0295%5D/Geeta%20%5Bch0295_00%5D/Geeta%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 316,
+      "y": 235,
+      "width": 437,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_ghetsis",
+    "name": "Ghetsis",
+    "role": "反派组织成员",
+    "region": "Unova",
+    "image": "assets/trainers/official/ghetsis.png",
+    "art": "assets/trainers/official/ghetsis.png",
+    "aliases": [
+      "Ghetsis"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Ghetsis%20%5Bch0195%5D/Ghetsis%20%5Bch0195_00%5D/Ghetsis%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 335,
+      "y": 183,
+      "width": 430,
+      "height": 841,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_glacia",
+    "name": "Glacia",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/glacia.png",
+    "art": "assets/trainers/official/glacia.png",
+    "aliases": [
+      "Glacia"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Glacia%20%5Bch0153%5D/Glacia%20%5Bch0153_00%5D/Glacia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 311,
+      "y": 219,
+      "width": 447,
+      "height": 805,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_gladion",
+    "name": "Gladion",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/gladion.png",
+    "art": "assets/trainers/official/gladion.png",
+    "aliases": [
+      "Gladion"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Gladion%20%5Bch0119%5D/Gladion%20%5Bch0119_00%5D/Gladion%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 301,
+      "y": 187,
+      "width": 440,
+      "height": 786,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_gloria",
+    "name": "Gloria",
+    "role": "训练家/重要人物",
+    "region": "Galar",
+    "image": "assets/trainers/official/gloria.png",
+    "art": "assets/trainers/official/gloria.png",
+    "aliases": [
+      "Gloria"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Gloria%20%5Bch0243%5D/Gloria%20%5Bch0243_00%5D/Gloria%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 373,
+      "y": 226,
+      "width": 299,
+      "height": 798,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_gordie",
+    "name": "Gordie",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/gordie.png",
+    "art": "assets/trainers/official/gordie.png",
+    "aliases": [
+      "Gordie"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Gordie%20%5Bch0254%5D/Gordie%20%5Bch0254_00%5D/Gordie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 314,
+      "y": 201,
+      "width": 380,
+      "height": 823,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_grant",
+    "name": "Grant",
+    "role": "道馆馆主",
+    "region": "Kalos",
+    "image": "assets/trainers/official/grant.png",
+    "art": "assets/trainers/official/grant.png",
+    "aliases": [
+      "Grant"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Grant%20%5Bch0053%5D/Grant%20%5Bch0053_00%5D/Grant%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 366,
+      "y": 190,
+      "width": 262,
+      "height": 834,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_greta",
+    "name": "Greta",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/greta.png",
+    "art": "assets/trainers/official/greta.png",
+    "aliases": [
+      "Greta"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Greta%20%5Bch0199%5D/Greta%20%5Bch0199_00%5D/Greta%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 353,
+      "y": 235,
+      "width": 405,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_grimsley",
+    "name": "Grimsley",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/grimsley.png",
+    "art": "assets/trainers/official/grimsley.png",
+    "aliases": [
+      "Grimsley",
+      "越橘"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Grimsley%20%5Bch0048%5D/Grimsley%20%5Bch0048_00%5D/Grimsley%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 362,
+      "y": 189,
+      "width": 301,
+      "height": 835,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_grusha",
+    "name": "Grusha",
+    "role": "道馆馆主",
+    "region": "Paldea",
+    "image": "assets/trainers/official/grusha.png",
+    "art": "assets/trainers/official/grusha.png",
+    "aliases": [
+      "Grusha"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Grusha%20%5Bch0294%5D/Grusha%20%5Bch0294_00%5D/Grusha%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 361,
+      "y": 232,
+      "width": 323,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_guzma",
+    "name": "Guzma",
+    "role": "反派组织成员",
+    "region": "Alola",
+    "image": "assets/trainers/official/guzma.png",
+    "art": "assets/trainers/official/guzma.png",
+    "aliases": [
+      "Guzma",
+      "古兹马"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Guzma%20%5Bch0125%5D/Guzma%20%5Bch0125_00%5D/Guzma%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 322,
+      "y": 203,
+      "width": 351,
+      "height": 620,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_hala",
+    "name": "Hala",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/hala.png",
+    "art": "assets/trainers/official/hala.png",
+    "aliases": [
+      "Hala"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Hala%20%5Bch0161%5D/Hala%20%5Bch0161_00%5D/Hala%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 214,
+      "y": 214,
+      "width": 551,
+      "height": 810,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_hau",
+    "name": "Hau",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/hau.png",
+    "art": "assets/trainers/official/hau.png",
+    "aliases": [
+      "Hau"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Hau%20%5Bch0098%5D/Hau%20%5Bch0098_00%5D/Hau%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 386,
+      "y": 199,
+      "width": 275,
+      "height": 753,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_hilbert",
+    "name": "Hilbert",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/hilbert.png",
+    "art": "assets/trainers/official/hilbert.png",
+    "aliases": [
+      "Hilbert",
+      "斗也"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Hilbert%20%5Bch0020%5D/Hilbert%20%5Bch0020_00%5D/Hilbert%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 364,
+      "y": 225,
+      "width": 274,
+      "height": 799,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_hilda",
+    "name": "Hilda",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/hilda.png",
+    "art": "assets/trainers/official/hilda.png",
+    "aliases": [
+      "Hilda",
+      "斗子"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Hilda%20%5Bch0004%5D/Hilda%20%5Bch0004_00%5D/Hilda%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 362,
+      "y": 181,
+      "width": 286,
+      "height": 843,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_hop",
+    "name": "Hop",
+    "role": "训练家/重要人物",
+    "region": "Galar",
+    "image": "assets/trainers/official/hop.png",
+    "art": "assets/trainers/official/hop.png",
+    "aliases": [
+      "Hop"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Hop%20%5Bch0244%5D/Hop%20%5Bch0244_00%5D/Hop%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 380,
+      "y": 224,
+      "width": 269,
+      "height": 767,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_hugh",
+    "name": "Hugh",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/hugh.png",
+    "art": "assets/trainers/official/hugh.png",
+    "aliases": [
+      "Hugh",
+      "赫宇"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Hugh%20%5Bch0147%5D/Hugh%20%5Bch0147_00%5D/Hugh%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 291,
+      "y": 193,
+      "width": 405,
+      "height": 831,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_ilima",
+    "name": "Ilima",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/ilima.png",
+    "art": "assets/trainers/official/ilima.png",
+    "aliases": [
+      "Ilima"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Ilima%20%5Bch0182%5D/Ilima%20%5Bch0182_00%5D/Ilima%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 356,
+      "y": 244,
+      "width": 276,
+      "height": 780,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_ingo",
+    "name": "Ingo",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/ingo.png",
+    "art": "assets/trainers/official/ingo.png",
+    "aliases": [
+      "Ingo"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Ingo%20%5Bch0108%5D/Ingo%20%5Bch0108_00%5D/Ingo%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 278,
+      "y": 217,
+      "width": 468,
+      "height": 807,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_iono",
+    "name": "Iono",
+    "role": "道馆馆主",
+    "region": "Paldea",
+    "image": "assets/trainers/official/iono.png",
+    "art": "assets/trainers/official/iono.png",
+    "aliases": [
+      "Iono"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Iono%20%5Bch0296%5D/Iono%20%5Bch0296_00%5D/Iono%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 80,
+      "y": 184,
+      "width": 818,
+      "height": 840,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_irida",
+    "name": "Irida",
+    "role": "训练家/重要人物",
+    "region": "Hisui",
+    "image": "assets/trainers/official/irida.png",
+    "art": "assets/trainers/official/irida.png",
+    "aliases": [
+      "Irida"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Irida%20%5Bch0285%5D/Irida%20%5Bch0285_00%5D/Irida%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 345,
+      "y": 228,
+      "width": 327,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_iris",
+    "name": "Iris",
+    "role": "冠军/联盟首脑",
+    "region": "Unova",
+    "image": "assets/trainers/official/iris.png",
+    "art": "assets/trainers/official/iris.png",
+    "aliases": [
+      "Iris",
+      "艾莉丝"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Iris%20%5Bch0092%5D/Iris%20%5Bch0092_00%5D/Iris%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 266,
+      "y": 150,
+      "width": 434,
+      "height": 846,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_jacq",
+    "name": "Jacq",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/jacq.png",
+    "art": "assets/trainers/official/jacq.png",
+    "aliases": [
+      "Jacq"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Jacq%20%5Bch0298%5D/Jacq%20%5Bch0298_00%5D/Jacq%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 347,
+      "y": 159,
+      "width": 326,
+      "height": 865,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_james",
+    "name": "James",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/james.png",
+    "art": "assets/trainers/official/james.png",
+    "aliases": [
+      "James",
+      "小次郎"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/James%20%5Bch0241%5D/James%20%5Bch0241_00%5D/James%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 371,
+      "y": 228,
+      "width": 271,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_janine",
+    "name": "Janine",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/janine.png",
+    "art": "assets/trainers/official/janine.png",
+    "aliases": [
+      "Janine",
+      "阿杏"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Janine%20%5Bch0060%5D/Janine%20%5Bch0060_00%5D/Janine%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 348,
+      "y": 199,
+      "width": 510,
+      "height": 677,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_jasmine",
+    "name": "Jasmine",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/jasmine.png",
+    "art": "assets/trainers/official/jasmine.png",
+    "aliases": [
+      "Jasmine",
+      "阿蜜"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Jasmine%20%5Bch0113%5D/Jasmine%20%5Bch0113_00%5D/Jasmine%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 313,
+      "y": 160,
+      "width": 320,
+      "height": 864,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_jessie",
+    "name": "Jessie",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/jessie.png",
+    "art": "assets/trainers/official/jessie.png",
+    "aliases": [
+      "Jessie",
+      "武藏"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Jessie%20%5Bch0240%5D/Jessie%20%5Bch0240_00%5D/Jessie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 367,
+      "y": 225,
+      "width": 275,
+      "height": 799,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_jupiter",
+    "name": "Jupiter",
+    "role": "反派组织成员",
+    "region": "跨世代",
+    "image": "assets/trainers/official/jupiter.png",
+    "art": "assets/trainers/official/jupiter.png",
+    "aliases": [
+      "Jupiter"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Jupiter%20%5Bch0226%5D/Jupiter%20%5Bch0226_00%5D/Jupiter%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 315,
+      "y": 190,
+      "width": 419,
+      "height": 834,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_kabu",
+    "name": "Kabu",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/kabu.png",
+    "art": "assets/trainers/official/kabu.png",
+    "aliases": [
+      "Kabu"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Kabu%20%5Bch0252%5D/Kabu%20%5Bch0252_00%5D/Kabu%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 270,
+      "y": 232,
+      "width": 478,
+      "height": 688,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_kahili",
+    "name": "Kahili",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/kahili.png",
+    "art": "assets/trainers/official/kahili.png",
+    "aliases": [
+      "Kahili"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Kahili%20%5Bch0058%5D/Kahili%20%5Bch0058_00%5D/Kahili%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 351,
+      "y": 125,
+      "width": 325,
+      "height": 647,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_karen",
+    "name": "Karen",
+    "role": "训练家/重要人物",
+    "region": "Johto",
+    "image": "assets/trainers/official/karen.png",
+    "art": "assets/trainers/official/karen.png",
+    "aliases": [
+      "Karen",
+      "梨花"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Karen%20%5Bch0062%5D/Karen%20%5Bch0062_00%5D/Karen%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 359,
+      "y": 224,
+      "width": 332,
+      "height": 800,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_kiawe",
+    "name": "Kiawe",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/kiawe.png",
+    "art": "assets/trainers/official/kiawe.png",
+    "aliases": [
+      "Kiawe"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Kiawe%20%5Bch0149%5D/Kiawe%20%5Bch0149_00%5D/Kiawe%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 366,
+      "y": 189,
+      "width": 303,
+      "height": 835,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_kieran",
+    "name": "Kieran",
+    "role": "训练家/重要人物",
+    "region": "Paldea",
+    "image": "assets/trainers/official/kieran.png",
+    "art": "assets/trainers/official/kieran.png",
+    "aliases": [
+      "Kieran"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Kieran%20%5Bch0357%5D/Kieran%20%5Bch0357_00%5D/Kieran%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 370,
+      "y": 195,
+      "width": 276,
+      "height": 829,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_klara",
+    "name": "Klara",
+    "role": "训练家/重要人物",
+    "region": "Galar",
+    "image": "assets/trainers/official/klara.png",
+    "art": "assets/trainers/official/klara.png",
+    "aliases": [
+      "Klara"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Klara%20%5Bch0272%5D/Klara%20%5Bch0272_00%5D/Klara%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 373,
+      "y": 141,
+      "width": 317,
+      "height": 883,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_korrina",
+    "name": "Korrina",
+    "role": "道馆馆主",
+    "region": "Kalos",
+    "image": "assets/trainers/official/korrina.png",
+    "art": "assets/trainers/official/korrina.png",
+    "aliases": [
+      "Korrina"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Korrina%20%5Bch0012%5D/Korrina%20%5Bch0012_00%5D/Korrina%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 336,
+      "y": 178,
+      "width": 316,
+      "height": 846,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_kris",
+    "name": "Kris",
+    "role": "训练家/重要人物",
+    "region": "Johto",
+    "image": "assets/trainers/official/kris.png",
+    "art": "assets/trainers/official/kris.png",
+    "aliases": [
+      "Kris",
+      "水晶"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Kris%20%5Bch0018%5D/Kris%20%5Bch0018_00%5D/Kris%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 335,
+      "y": 233,
+      "width": 371,
+      "height": 734,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_kukui",
+    "name": "Kukui",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/kukui.png",
+    "art": "assets/trainers/official/kukui.png",
+    "aliases": [
+      "Kukui"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Kukui%20%5Bch0001%5D/Kukui%20%5Bch0001_00%5D/Kukui%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 298,
+      "y": 236,
+      "width": 446,
+      "height": 788,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lacey",
+    "name": "Lacey",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/lacey.png",
+    "art": "assets/trainers/official/lacey.png",
+    "aliases": [
+      "Lacey"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lacey%20%5Bch0352%5D/Lacey%20%5Bch0352_00%5D/Lacey%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 384,
+      "y": 245,
+      "width": 254,
+      "height": 779,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lana",
+    "name": "Lana",
+    "role": "道馆馆主",
+    "region": "Alola",
+    "image": "assets/trainers/official/lana.png",
+    "art": "assets/trainers/official/lana.png",
+    "aliases": [
+      "Lana"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lana%20%5Bch0160%5D/Lana%20%5Bch0160_00%5D/Lana%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 393,
+      "y": 243,
+      "width": 239,
+      "height": 743,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_larry",
+    "name": "Larry",
+    "role": "道馆馆主",
+    "region": "Paldea",
+    "image": "assets/trainers/official/larry.png",
+    "art": "assets/trainers/official/larry.png",
+    "aliases": [
+      "Larry"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Larry%20%5Bch0304%5D/Larry%20%5Bch0304_00%5D/Larry%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 346,
+      "y": 195,
+      "width": 322,
+      "height": 829,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lear",
+    "name": "Lear",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/lear.png",
+    "art": "assets/trainers/official/lear.png",
+    "aliases": [
+      "Lear"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lear%20%5Bch0066%5D/Lear%20%5Bch0066_00%5D/Lear%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 211,
+      "y": 239,
+      "width": 545,
+      "height": 785,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lenora",
+    "name": "Lenora",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/lenora.png",
+    "art": "assets/trainers/official/lenora.png",
+    "aliases": [
+      "Lenora"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lenora%20%5Bch0169%5D/Lenora%20%5Bch0169_00%5D/Lenora%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 302,
+      "y": 150,
+      "width": 434,
+      "height": 874,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_leon",
+    "name": "Leon",
+    "role": "冠军/联盟首脑",
+    "region": "Galar",
+    "image": "assets/trainers/official/leon.png",
+    "art": "assets/trainers/official/leon.png",
+    "aliases": [
+      "Leon",
+      "丹帝"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Leon%20%5Bch0247%5D/Leon%20%5Bch0247_00%5D/Leon%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 341,
+      "y": 200,
+      "width": 608,
+      "height": 824,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lillie",
+    "name": "Lillie",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/lillie.png",
+    "art": "assets/trainers/official/lillie.png",
+    "aliases": [
+      "Lillie",
+      "莉莉艾"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lillie%20%5Bch0118%5D/Lillie%20%5Bch0118_00%5D/Lillie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 379,
+      "y": 204,
+      "width": 286,
+      "height": 777,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lisia",
+    "name": "Lisia",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/lisia.png",
+    "art": "assets/trainers/official/lisia.png",
+    "aliases": [
+      "Lisia"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lisia%20%5Bch0215%5D/Lisia%20%5Bch0215_00%5D/Lisia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 281,
+      "y": 195,
+      "width": 461,
+      "height": 806,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_liza",
+    "name": "Liza",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/liza.png",
+    "art": "assets/trainers/official/liza.png",
+    "aliases": [
+      "Liza"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Liza%20%5Bch0030%5D/Liza%20%5Bch0030_00%5D/Liza%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 394,
+      "y": 184,
+      "width": 264,
+      "height": 664,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_looker",
+    "name": "Looker",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/looker.png",
+    "art": "assets/trainers/official/looker.png",
+    "aliases": [
+      "Looker"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Looker%20%5Bch0217%5D/Looker%20%5Bch0217_00%5D/Looker%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 372,
+      "y": 231,
+      "width": 298,
+      "height": 793,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lucas",
+    "name": "Lucas",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/lucas.png",
+    "art": "assets/trainers/official/lucas.png",
+    "aliases": [
+      "Lucas",
+      "光辉"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lucas%20%5Bch0162%5D/Lucas%20%5Bch0162_00%5D/Lucas%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 342,
+      "y": 244,
+      "width": 358,
+      "height": 756,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lucian",
+    "name": "Lucian",
+    "role": "训练家/重要人物",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/lucian.png",
+    "art": "assets/trainers/official/lucian.png",
+    "aliases": [
+      "Lucian"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lucian%20%5Bch0176%5D/Lucian%20%5Bch0176_00%5D/Lucian%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 328,
+      "y": 236,
+      "width": 331,
+      "height": 788,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lusamine",
+    "name": "Lusamine",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/lusamine.png",
+    "art": "assets/trainers/official/lusamine.png",
+    "aliases": [
+      "Lusamine"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lusamine%20%5Bch0120%5D/Lusamine%20%5Bch0120_00%5D/Lusamine%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 330,
+      "y": 230,
+      "width": 407,
+      "height": 794,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lyra",
+    "name": "Lyra",
+    "role": "训练家/重要人物",
+    "region": "Johto",
+    "image": "assets/trainers/official/lyra.png",
+    "art": "assets/trainers/official/lyra.png",
+    "aliases": [
+      "Lyra",
+      "琴音"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lyra%20%5Bch0002%5D/Lyra%20%5Bch0002_00%5D/Lyra%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 318,
+      "y": 228,
+      "width": 314,
+      "height": 775,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_lysandre",
+    "name": "Lysandre",
+    "role": "反派组织成员",
+    "region": "Kalos",
+    "image": "assets/trainers/official/lysandre.png",
+    "art": "assets/trainers/official/lysandre.png",
+    "aliases": [
+      "Lysandre"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Lysandre%20%5Bch0196%5D/Lysandre%20%5Bch0196_00%5D/Lysandre%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 328,
+      "y": 190,
+      "width": 369,
+      "height": 834,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_mai",
+    "name": "Mai",
+    "role": "训练家/重要人物",
+    "region": "Hisui",
+    "image": "assets/trainers/official/mai.png",
+    "art": "assets/trainers/official/mai.png",
+    "aliases": [
+      "Mai"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Mai%20%5Bch0311%5D/Mai%20%5Bch0311_00%5D/Mai%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 354,
+      "y": 230,
+      "width": 307,
+      "height": 794,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_mallow",
+    "name": "Mallow",
+    "role": "道馆馆主",
+    "region": "Alola",
+    "image": "assets/trainers/official/mallow.png",
+    "art": "assets/trainers/official/mallow.png",
+    "aliases": [
+      "Mallow"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Mallow%20%5Bch0124%5D/Mallow%20%5Bch0124_00%5D/Mallow%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 396,
+      "y": 241,
+      "width": 273,
+      "height": 783,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_malva",
+    "name": "Malva",
+    "role": "训练家/重要人物",
+    "region": "Kalos",
+    "image": "assets/trainers/official/malva.png",
+    "art": "assets/trainers/official/malva.png",
+    "aliases": [
+      "Malva"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Malva%20%5Bch0177%5D/Malva%20%5Bch0177_00%5D/Malva%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 368,
+      "y": 239,
+      "width": 240,
+      "height": 785,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_marley",
+    "name": "Marley",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/marley.png",
+    "art": "assets/trainers/official/marley.png",
+    "aliases": [
+      "Marley"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Marley%20%5Bch0097%5D/Marley%20%5Bch0097_00%5D/Marley%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 399,
+      "y": 210,
+      "width": 269,
+      "height": 814,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_marlon",
+    "name": "Marlon",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/marlon.png",
+    "art": "assets/trainers/official/marlon.png",
+    "aliases": [
+      "Marlon"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Marlon%20%5Bch0052%5D/Marlon%20%5Bch0052_00%5D/Marlon%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 308,
+      "y": 128,
+      "width": 370,
+      "height": 896,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_marnie",
+    "name": "Marnie",
+    "role": "训练家/重要人物",
+    "region": "Galar",
+    "image": "assets/trainers/official/marnie.png",
+    "art": "assets/trainers/official/marnie.png",
+    "aliases": [
+      "Marnie",
+      "玛俐"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Marnie%20%5Bch0245%5D/Marnie%20%5Bch0245_00%5D/Marnie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 353,
+      "y": 231,
+      "width": 329,
+      "height": 781,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_mars",
+    "name": "Mars",
+    "role": "反派组织成员",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/mars.png",
+    "art": "assets/trainers/official/mars.png",
+    "aliases": [
+      "Mars"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Mars%20%5Bch0225%5D/Mars%20%5Bch0225_00%5D/Mars%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 364,
+      "y": 213,
+      "width": 295,
+      "height": 811,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_marshal",
+    "name": "Marshal",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/marshal.png",
+    "art": "assets/trainers/official/marshal.png",
+    "aliases": [
+      "Marshal"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Marshal%20%5Bch0063%5D/Marshal%20%5Bch0063_00%5D/Marshal%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 281,
+      "y": 217,
+      "width": 544,
+      "height": 807,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_melony",
+    "name": "Melony",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/melony.png",
+    "art": "assets/trainers/official/melony.png",
+    "aliases": [
+      "Melony"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Melony%20%5Bch0255%5D/Melony%20%5Bch0255_00%5D/Melony%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 349,
+      "y": 215,
+      "width": 353,
+      "height": 804,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_mina",
+    "name": "Mina",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/mina.png",
+    "art": "assets/trainers/official/mina.png",
+    "aliases": [
+      "Mina"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Mina%20%5Bch0034%5D/Mina%20%5Bch0034_00%5D/Mina%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 367,
+      "y": 235,
+      "width": 289,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_morty",
+    "name": "Morty",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/morty.png",
+    "art": "assets/trainers/official/morty.png",
+    "aliases": [
+      "Morty",
+      "松叶"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Morty%20%5Bch0148%5D/Morty%20%5Bch0148_00%5D/Morty%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 366,
+      "y": 200,
+      "width": 301,
+      "height": 824,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_n",
+    "name": "N",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/n.png",
+    "art": "assets/trainers/official/n.png",
+    "aliases": [
+      "N",
+      "N"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/N%20%5Bch0089%5D/N%20%5Bch0089_00%5D/N%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 336,
+      "y": 215,
+      "width": 335,
+      "height": 809,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_nessa",
+    "name": "Nessa",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/nessa.png",
+    "art": "assets/trainers/official/nessa.png",
+    "aliases": [
+      "Nessa"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Nessa%20%5Bch0249%5D/Nessa%20%5Bch0249_00%5D/Nessa%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 369,
+      "y": 237,
+      "width": 318,
+      "height": 787,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_noland",
+    "name": "Noland",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/noland.png",
+    "art": "assets/trainers/official/noland.png",
+    "aliases": [
+      "Noland"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Noland%20%5Bch0046%5D/Noland%20%5Bch0046_00%5D/Noland%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 325,
+      "y": 228,
+      "width": 356,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_norman",
+    "name": "Norman",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/norman.png",
+    "art": "assets/trainers/official/norman.png",
+    "aliases": [
+      "Norman",
+      "千里"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Norman%20%5Bch0009%5D/Norman%20%5Bch0009_00%5D/Norman%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 383,
+      "y": 221,
+      "width": 243,
+      "height": 803,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_olivia",
+    "name": "Olivia",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/olivia.png",
+    "art": "assets/trainers/official/olivia.png",
+    "aliases": [
+      "Olivia"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Olivia%20%5Bch0051%5D/Olivia%20%5Bch0051_00%5D/Olivia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 387,
+      "y": 199,
+      "width": 214,
+      "height": 825,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_piers",
+    "name": "Piers",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/piers.png",
+    "art": "assets/trainers/official/piers.png",
+    "aliases": [
+      "Piers"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Piers%20%5Bch0256%5D/Piers%20%5Bch0256_00%5D/Piers%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 334,
+      "y": 212,
+      "width": 376,
+      "height": 812,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_plumeria",
+    "name": "Plumeria",
+    "role": "反派组织成员",
+    "region": "Alola",
+    "image": "assets/trainers/official/plumeria.png",
+    "art": "assets/trainers/official/plumeria.png",
+    "aliases": [
+      "Plumeria"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Plumeria%20%5Bch0121%5D/Plumeria%20%5Bch0121_00%5D/Plumeria%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 348,
+      "y": 246,
+      "width": 358,
+      "height": 778,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_pryce",
+    "name": "Pryce",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/pryce.png",
+    "art": "assets/trainers/official/pryce.png",
+    "aliases": [
+      "Pryce"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Pryce%20%5Bch0032%5D/Pryce%20%5Bch0032_00%5D/Pryce%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 381,
+      "y": 212,
+      "width": 325,
+      "height": 812,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_raihan",
+    "name": "Raihan",
+    "role": "道馆馆主",
+    "region": "Galar",
+    "image": "assets/trainers/official/raihan.png",
+    "art": "assets/trainers/official/raihan.png",
+    "aliases": [
+      "Raihan",
+      "奇巴纳"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Raihan%20%5Bch0257%5D/Raihan%20%5Bch0257_00%5D/Raihan%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 351,
+      "y": 227,
+      "width": 357,
+      "height": 797,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_rose",
+    "name": "Rose",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/rose.png",
+    "art": "assets/trainers/official/rose.png",
+    "aliases": [
+      "Rose"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Rose%20%5Bch0262%5D/Rose%20%5Bch0262_00%5D/Rose%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 337,
+      "y": 226,
+      "width": 323,
+      "height": 798,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_roxanne",
+    "name": "Roxanne",
+    "role": "道馆馆主",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/roxanne.png",
+    "art": "assets/trainers/official/roxanne.png",
+    "aliases": [
+      "Roxanne",
+      "杜鹃"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Roxanne%20%5Bch0044%5D/Roxanne%20%5Bch0044_00%5D/Roxanne%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 374,
+      "y": 231,
+      "width": 336,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_saturn",
+    "name": "Saturn",
+    "role": "反派组织成员",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/saturn.png",
+    "art": "assets/trainers/official/saturn.png",
+    "aliases": [
+      "Saturn"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Saturn%20%5Bch0227%5D/Saturn%20%5Bch0227_00%5D/Saturn%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 428,
+      "y": 210,
+      "width": 217,
+      "height": 814,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_shauntal",
+    "name": "Shauntal",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/shauntal.png",
+    "art": "assets/trainers/official/shauntal.png",
+    "aliases": [
+      "Shauntal"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Shauntal%20%5Bch0024%5D/Shauntal%20%5Bch0024_00%5D/Shauntal%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 250,
+      "y": 232,
+      "width": 432,
+      "height": 792,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_shelly",
+    "name": "Shelly",
+    "role": "反派组织成员",
+    "region": "跨世代",
+    "image": "assets/trainers/official/shelly.png",
+    "art": "assets/trainers/official/shelly.png",
+    "aliases": [
+      "Shelly"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Shelly%20%5Bch0224%5D/Shelly%20%5Bch0224_00%5D/Shelly%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 330,
+      "y": 239,
+      "width": 423,
+      "height": 785,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_sidney",
+    "name": "Sidney",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/sidney.png",
+    "art": "assets/trainers/official/sidney.png",
+    "aliases": [
+      "Sidney"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Sidney%20%5Bch0135%5D/Sidney%20%5Bch0135_00%5D/Sidney%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 345,
+      "y": 196,
+      "width": 349,
+      "height": 828,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_siebold",
+    "name": "Siebold",
+    "role": "训练家/重要人物",
+    "region": "Kalos",
+    "image": "assets/trainers/official/siebold.png",
+    "art": "assets/trainers/official/siebold.png",
+    "aliases": [
+      "Siebold"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Siebold%20%5Bch0096%5D/Siebold%20%5Bch0096_00%5D/Siebold%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 386,
+      "y": 218,
+      "width": 249,
+      "height": 806,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_silver",
+    "name": "Silver",
+    "role": "训练家/重要人物",
+    "region": "Johto",
+    "image": "assets/trainers/official/silver.png",
+    "art": "assets/trainers/official/silver.png",
+    "aliases": [
+      "Silver",
+      "小银"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Silver%20%5Bch0133%5D/Silver%20%5Bch0133_00%5D/Silver%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 355,
+      "y": 208,
+      "width": 290,
+      "height": 816,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_skyla",
+    "name": "Skyla",
+    "role": "道馆馆主",
+    "region": "Unova",
+    "image": "assets/trainers/official/skyla.png",
+    "art": "assets/trainers/official/skyla.png",
+    "aliases": [
+      "Skyla",
+      "风露"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Skyla%20%5Bch0016%5D/Skyla%20%5Bch0016_00%5D/Skyla%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 295,
+      "y": 171,
+      "width": 384,
+      "height": 853,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_sophocles",
+    "name": "Sophocles",
+    "role": "训练家/重要人物",
+    "region": "Alola",
+    "image": "assets/trainers/official/sophocles.png",
+    "art": "assets/trainers/official/sophocles.png",
+    "aliases": [
+      "Sophocles"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Sophocles%20%5Bch0036%5D/Sophocles%20%5Bch0036_00%5D/Sophocles%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 336,
+      "y": 230,
+      "width": 317,
+      "height": 537,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_volkner",
+    "name": "Volkner",
+    "role": "道馆馆主",
+    "region": "Sinnoh",
+    "image": "assets/trainers/official/volkner.png",
+    "art": "assets/trainers/official/volkner.png",
+    "aliases": [
+      "Volkner"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Volkner%20%5Bch0115%5D/Volkner%20%5Bch0115_00%5D/Volkner%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 422,
+      "y": 203,
+      "width": 209,
+      "height": 821,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_wally",
+    "name": "Wally",
+    "role": "训练家/重要人物",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/wally.png",
+    "art": "assets/trainers/official/wally.png",
+    "aliases": [
+      "Wally",
+      "满充"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Wally%20%5Bch0128%5D/Wally%20%5Bch0128_00%5D/Wally%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 400,
+      "y": 195,
+      "width": 226,
+      "height": 763,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_whitney",
+    "name": "Whitney",
+    "role": "道馆馆主",
+    "region": "Johto",
+    "image": "assets/trainers/official/whitney.png",
+    "art": "assets/trainers/official/whitney.png",
+    "aliases": [
+      "Whitney",
+      "小茜"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Whitney%20%5Bch0026%5D/Whitney%20%5Bch0026_00%5D/Whitney%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 368,
+      "y": 223,
+      "width": 277,
+      "height": 693,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_will",
+    "name": "Will",
+    "role": "训练家/重要人物",
+    "region": "Johto",
+    "image": "assets/trainers/official/will.png",
+    "art": "assets/trainers/official/will.png",
+    "aliases": [
+      "Will"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Will%20%5Bch0047%5D/Will%20%5Bch0047_00%5D/Will%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 283,
+      "y": 221,
+      "width": 514,
+      "height": 803,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_winona",
+    "name": "Winona",
+    "role": "道馆馆主",
+    "region": "Hoenn",
+    "image": "assets/trainers/official/winona.png",
+    "art": "assets/trainers/official/winona.png",
+    "aliases": [
+      "Winona",
+      "娜琪"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Winona%20%5Bch0042%5D/Winona%20%5Bch0042_00%5D/Winona%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 203,
+      "y": 213,
+      "width": 574,
+      "height": 811,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_wulfric",
+    "name": "Wulfric",
+    "role": "道馆馆主",
+    "region": "Kalos",
+    "image": "assets/trainers/official/wulfric.png",
+    "art": "assets/trainers/official/wulfric.png",
+    "aliases": [
+      "Wulfric"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Wulfric%20%5Bch0022%5D/Wulfric%20%5Bch0022_00%5D/Wulfric%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 292,
+      "y": 229,
+      "width": 556,
+      "height": 795,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_viola",
+    "name": "Viola",
+    "role": "道馆馆主",
+    "region": "Kalos",
+    "image": "assets/trainers/official/viola.png",
+    "art": "assets/trainers/official/viola.png",
+    "aliases": [
+      "Viola"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Viola%20%5Bch0039%5D/Viola%20%5Bch0039_00%5D/Viola%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 360,
+      "y": 240,
+      "width": 274,
+      "height": 784,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_valerie",
+    "name": "Valerie",
+    "role": "道馆馆主",
+    "region": "Kalos",
+    "image": "assets/trainers/official/valerie.png",
+    "art": "assets/trainers/official/valerie.png",
+    "aliases": [
+      "Valerie"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Valerie%20%5Bch0157%5D/Valerie%20%5Bch0157_00%5D/Valerie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 324,
+      "y": 243,
+      "width": 687,
+      "height": 781,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_olympia",
+    "name": "Olympia",
+    "role": "训练家/重要人物",
+    "region": "跨世代",
+    "image": "assets/trainers/official/olympia.png",
+    "art": "assets/trainers/official/olympia.png",
+    "aliases": [
+      "Olympia"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Olympia%20%5Bch0175%5D/Olympia%20%5Bch0175_00%5D/Olympia%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 303,
+      "y": 212,
+      "width": 497,
+      "height": 812,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_milo",
+    "name": "Milo",
+    "role": "道馆馆主",
+    "region": "跨世代",
+    "image": "assets/trainers/official/milo.png",
+    "art": "assets/trainers/official/milo.png",
+    "aliases": [
+      "Milo"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Milo%20%5Bch0248%5D/Milo%20%5Bch0248_00%5D/Milo%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 298,
+      "y": 203,
+      "width": 417,
+      "height": 821,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_roxie",
+    "name": "Roxie",
+    "role": "训练家/重要人物",
+    "region": "Unova",
+    "image": "assets/trainers/official/roxie.png",
+    "art": "assets/trainers/official/roxie.png",
+    "aliases": [
+      "Roxie"
+    ],
+    "spriteType": "official-art",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Roxie%20%5Bch0011%5D/Roxie%20%5Bch0011_00%5D/Roxie%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 108,
+      "y": 65,
+      "width": 710,
+      "height": 796,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "manga-red",
+    "name": "赤红（特别篇）",
+    "role": "宝可梦特别篇角色",
+    "image": "assets/trainers/official/red.png",
+    "art": "assets/trainers/official/red.png",
+    "aliases": [
+      "Red (Pokémon Adventures)",
+      "特别篇赤红",
+      "赤红（特别篇）"
+    ],
+    "spriteType": "adapted-art",
+    "adapted": true,
+    "adaptedCharacter": "Red (Pokémon Adventures)",
+    "adaptedFromId": "red",
+    "sourceIdentity": "赤红",
+    "adaptationNote": "Adapt the official game Red render for the separate Pokémon Adventures Red identity; this record does not merge manga and game continuity.",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Red%20%5Bch0000%5D/Red%20%5Bch0000_80%5D/Red%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceRef": "main",
+    "sourcePath": "UI/Actor/Trainer/Red [ch0000]/Red [ch0000_80]/Red - 1024.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "87b2e268808beddd38ea173220099c47ed5e5c045c801d99ee064b96235dbe10",
+    "artBounds": {
+      "x": 327,
+      "y": 222,
+      "width": 360,
+      "height": 802,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "manga-green",
+    "name": "青绿（特别篇）",
+    "role": "宝可梦特别篇角色",
+    "image": "assets/trainers/official/blue.png",
+    "art": "assets/trainers/official/blue.png",
+    "aliases": [
+      "Green (Pokémon Adventures)",
+      "Pokémon Adventures Green",
+      "特别篇青绿",
+      "青绿",
+      "青绿（特别篇）",
+      "小绿",
+      "小绿（特别篇）"
+    ],
+    "spriteType": "adapted-art",
+    "adapted": true,
+    "adaptedCharacter": "Green (Pokémon Adventures)",
+    "adaptedFromId": "game-blue-reference",
+    "sourceIdentity": "Blue (game art reference)",
+    "adaptationNote": "Distinct manga Green identity using the documented game Blue artwork reference. Gary now uses a separate original-series anime image; their portrait files are not shared.",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Blue%20%5Bch0021%5D/Blue%20%5Bch0021_00%5D/Blue%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceRef": "main",
+    "sourcePath": "UI/Actor/Trainer/Blue [ch0021]/Blue [ch0021_00]/Blue - 1024.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "9e7c69b4dab345648eee7cb76d0a236314b1617ddd6ca86bead3cb97fe1e8fb8",
+    "artBounds": {
+      "x": 398,
+      "y": 195,
+      "width": 269,
+      "height": 829,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "gender": "female",
+    "age": "teen",
+    "stagePixel": false
+  },
+  {
+    "id": "manga-blue",
+    "name": "小蓝（特别篇）",
+    "role": "宝可梦特别篇角色",
+    "image": "assets/trainers/official/leaf.png",
+    "art": "assets/trainers/official/leaf.png",
+    "aliases": [
+      "特别篇小蓝",
+      "小蓝",
+      "小蓝（漫画）",
+      "Pokémon Adventures female dex-holder"
+    ],
+    "spriteType": "adapted-art",
+    "adapted": true,
+    "adaptedCharacter": "Blue (Pokémon Adventures)",
+    "adaptedFromId": "leaf",
+    "sourceIdentity": "叶子",
+    "adaptationNote": "Adapt the official game Leaf render as a visual reference for the distinct manga Blue. This does not rename or identify the game protagonist Leaf as manga Blue.",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Leaf%20%5Bch0017%5D/Leaf%20%5Bch0017_00%5D/Leaf%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "sourceRef": "main",
+    "sourcePath": "UI/Actor/Trainer/Leaf [ch0017]/Leaf [ch0017_00]/Leaf - 1024.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "bde49da46aa228b69ec36ba5396fdb4c478601b0e09c797f7c897e5de11faf83",
+    "artBounds": {
+      "x": 359,
+      "y": 235,
+      "width": 303,
+      "height": 789,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "manga-yellow",
+    "name": "小黄（特别篇）",
+    "role": "特别篇训练家",
+    "image": "assets/trainers/project-original/yellow-child-v2.png",
+    "art": "assets/trainers/project-original/yellow-child-v2.png",
+    "aliases": [
+      "小黄",
+      "小黄（特别篇）",
+      "Yellow (Pokémon Adventures)",
+      "特别篇小黄"
+    ],
+    "spriteType": "project-original-art",
+    "generated": true,
+    "adapted": true,
+    "fullBody": true,
+    "ageGroup": "child",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "sourceRepository": "Project-original",
+    "generationTool": "built-in image_gen",
+    "generationNotes": "新绘人物参考，不是官方素材；小黄采用年幼女孩比例。",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "673aa6fb44552c699b66aab1fef9b982b7c0ec5f1cb630d9adbfed7013decc4f",
+    "artBounds": {
+      "x": 25,
+      "y": 13,
+      "width": 993,
+      "height": 1489,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "stageScale": 0.72,
+    "gender": "female",
+    "age": "child",
+    "stagePixel": false
+  },
+  {
+    "id": "bill",
+    "name": "正辉",
+    "role": "研究员",
+    "image": "assets/trainers/project-original/bill-v1.png",
+    "art": "assets/trainers/project-original/bill-v1.png",
+    "aliases": [
+      "正辉",
+      "比尔",
+      "Bill"
+    ],
+    "spriteType": "project-original-art",
+    "generated": true,
+    "adapted": true,
+    "fullBody": true,
+    "ageGroup": "adult",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "sourceRepository": "Project-original",
+    "generationTool": "built-in image_gen",
+    "generationNotes": "项目原创新绘人物参考，不是官方素材。",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b138646b22dc6a02b7dd995a4a899653893666fb0c60090bfb1e7ca64a046d0f",
+    "artBounds": {
+      "x": 25,
+      "y": 24,
+      "width": 905,
+      "height": 1494,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "gender": "male",
+    "age": "adult",
+    "stagePixel": false
+  },
+  {
+    "id": "fuji",
+    "name": "富士老人",
+    "role": "宝可梦照护者",
+    "image": "assets/trainers/project-original/fuji-v1.png",
+    "art": "assets/trainers/project-original/fuji-v1.png",
+    "aliases": [
+      "富士老人",
+      "富士老爷爷",
+      "Mr. Fuji"
+    ],
+    "spriteType": "project-original-art",
+    "generated": true,
+    "adapted": true,
+    "fullBody": true,
+    "ageGroup": "older-adult",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-25",
+    "sourceRepository": "Project-original",
+    "generationTool": "built-in image_gen",
+    "generationNotes": "项目原创新绘人物参考，不是官方素材。",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b6b83bc9111944c8e55eb69dc49ed07f974e2ad48ce273671dcb6fddd4664747",
+    "artBounds": {
+      "x": 33,
+      "y": 15,
+      "width": 953,
+      "height": 1507,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "gender": "male",
+    "age": "elder",
+    "stagePixel": false
+  },
+  {
+    "id": "game-blue-reference",
+    "name": "青绿（游戏版参考）",
+    "role": "游戏版人物形象参考",
+    "image": "assets/trainers/official/blue.png",
+    "aliases": [
+      "青绿（游戏版参考）",
+      "Blue (game art reference)"
+    ],
+    "spriteType": "portrait",
+    "art": "assets/trainers/official/blue.png",
+    "source": "https://media.githubusercontent.com/media/MaNeRz/Pokemon-Masters-EX-Asset-Library/main/UI/Actor/Trainer/Blue%20%5Bch0021%5D/Blue%20%5Bch0021_00%5D/Blue%20-%201024.png",
+    "sourceRepository": "MaNeRz/Pokemon-Masters-EX-Asset-Library",
+    "artBounds": {
+      "x": 398,
+      "y": 195,
+      "width": 269,
+      "height": 829,
+      "canvasWidth": 1024,
+      "canvasHeight": 1024
+    },
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_ariana",
+    "name": "雅典娜",
+    "role": "火箭队干部",
+    "region": "关都",
+    "aliases": [
+      "雅典娜",
+      "阿黛娜",
+      "Ariana",
+      "Athena"
+    ],
+    "image": "assets/trainers/project-original/ariana-rocket-v1.png",
+    "art": "assets/trainers/project-original/ariana-rocket-v1.png",
+    "spriteType": "project-original-art",
+    "generated": true,
+    "adapted": true,
+    "fullBody": true,
+    "overrideStageArt": true,
+    "ageGroup": "adult",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+    "sourceRepository": "Project original art",
+    "generationTool": "built-in image_gen",
+    "generationSourcePath": "<LOCAL_HOME>/.codex\\generated_images\\01a17560-7a1c-7431-ae1d-b49cd00c227a\\exec-6783cedb-303f-4300-b24c-fd278d9b18f8.png",
+    "generationPrompt": "Original adult female Rocket executive: crisp short red bob, calm composed expression, tailored white executive uniform over dark underlayer, black gloves and tall black boots, upright controlled pose; refined anime cel shading, centered full body, actual transparent background, head and shoes entirely visible, no floor, backdrop, glow, logo, text, watermark, props or other characters. A follow-up built-in image edit preserved the figure and extracted the transparent background.",
+    "generationNotes": "独立命名的火箭队故事角色立绘；仅用于该角色，不进入匿名市民/训练家通用肖像池。完整头部与鞋底，RGBA 透明画布。",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "eb95799913500eff896025cecb01e358677fdd2ca77d2335730ab9d58e22bf96",
+    "artBounds": {
+      "x": 277,
+      "y": 15,
+      "width": 556,
+      "height": 1498,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "alphaThreshold": 16,
+    "transparent": true,
+    "alphaChannel": true,
+    "gender": "female",
+    "age": "adult",
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_proton",
+    "name": "兰斯",
+    "role": "火箭队干部",
+    "region": "关都",
+    "aliases": [
+      "兰斯",
+      "Lance (Rocket)",
+      "Proton"
+    ],
+    "image": "assets/trainers/project-original/proton-rocket-v1.png",
+    "art": "assets/trainers/project-original/proton-rocket-v1.png",
+    "spriteType": "project-original-art",
+    "generated": true,
+    "adapted": true,
+    "fullBody": true,
+    "overrideStageArt": true,
+    "ageGroup": "adult",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+    "sourceRepository": "Project original art",
+    "generationTool": "built-in image_gen",
+    "generationSourcePath": "<LOCAL_HOME>/.codex\\generated_images\\01a17560-7a1c-7431-ae1d-b49cd00c227a\\exec-16e30035-5f8f-4019-8cac-171ad334c135.png",
+    "generationPrompt": "Original adult male Rocket executive Proton, visually distinct from the Kanto Elite Four member 渡/Lance: short teal-green hair, dark trainer cap, white executive uniform jacket over a black shirt, black gloves, dark trousers and black boots; refined anime cel shading, full body, transparent background, no floor/backdrop/glow/logo/text/props. Follow-up built-in edit removed the chest letter mark and preserved the transparent canvas.",
+    "generationNotes": "独立命名的火箭队故事角色立绘；仅用于该角色，不进入匿名市民/训练家通用肖像池。完整头部与鞋底，RGBA 透明画布。",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "f87a80c059c23bafe6b258bdf5342a36418071229cd8f9a80b10677531981c7d",
+    "artBounds": {
+      "x": 225,
+      "y": 9,
+      "width": 625,
+      "height": 1518,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "alphaThreshold": 16,
+    "transparent": true,
+    "alphaChannel": true,
+    "gender": "male",
+    "age": "adult",
+    "stagePixel": false
+  },
+  {
+    "id": "trainer_petrel",
+    "name": "拉姆达",
+    "role": "火箭队干部",
+    "region": "关都",
+    "aliases": [
+      "拉姆达",
+      "Petrel"
+    ],
+    "image": "assets/trainers/project-original/petrel-rocket-v1.png",
+    "art": "assets/trainers/project-original/petrel-rocket-v1.png",
+    "spriteType": "project-original-art",
+    "generated": true,
+    "adapted": true,
+    "fullBody": true,
+    "overrideStageArt": true,
+    "ageGroup": "adult",
+    "source": "Project-original fan illustration generated with OpenAI image generation, 2026-10-26",
+    "sourceRepository": "Project original art",
+    "generationTool": "built-in image_gen",
+    "generationSourcePath": "<LOCAL_HOME>/.codex\\generated_images\\01a17560-7a1c-7431-ae1d-b49cd00c227a\\exec-adba4314-f70f-4ab0-a28b-ee33343e2f5f.png",
+    "generationPrompt": "Original adult male Rocket executive Petrel: short purple hair, pointed goatee and sly crafty smile, white executive coat over dark shirt, black gloves, dark trousers and black boots; relaxed upright stance, refined anime cel shading, centered full body, actual transparent background, head and both shoes visible, no floor, backdrop, glow, logo, text, watermark, weapons or props.",
+    "generationNotes": "独立命名的火箭队故事角色立绘；仅用于该角色，不进入匿名市民/训练家通用肖像池。完整头部与鞋底，RGBA 透明画布。",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "a6a8bd7d4012663ed41b125d24326389cbaf8a1807470623a25630d75c64f8f0",
+    "artBounds": {
+      "x": 249,
+      "y": 5,
+      "width": 621,
+      "height": 1523,
+      "canvasWidth": 1024,
+      "canvasHeight": 1536
+    },
+    "alphaThreshold": 16,
+    "transparent": true,
+    "alphaChannel": true,
+    "gender": "male",
+    "age": "adult",
+    "stagePixel": false
+  }
+]
