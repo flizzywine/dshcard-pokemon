@@ -201,6 +201,12 @@ function finishStoryAction(variables,input,turn) {
     const previousAction=world.剧情.最近行动;
     world.剧情.最近行动={action:last?.action||'sequence',turn,text:String(input).slice(0,1200),...(pending?.id?{id:pending.id}:Object.hasOwn(previousAction||{},'id')?{id:''}:{})};
     world.剧情.行动提示='';
+    // 遭遇一旦成立，就把「该写什么」放进下一轮喂给模型的行动提示里：否则模型
+    // 常在正文里打完一场却不写【进入本轮战斗】，玩家只能点那个必然报错的按钮。
+    if(world.战斗?.状态==='pending'&&world.遭遇){
+      const lead=world.遭遇.队伍?.[0];
+      world.剧情.行动提示=`已遭遇${world.遭遇.训练家||'对手'}${lead?`（${lead.昵称} Lv.${lead.等级}）`:''}：本轮正文让对手现身、写清交手前的准备，并在正文最后单独一行写【进入本轮战斗】；不要替玩家出招，也不要写战斗结果。`;
+    }
     if(last?.action==='quest-inquire'&&world.委托?.上次生成故事轮次!==turn){
       const context=quests.generationContext(world);
       if(context.eligible){

@@ -93,9 +93,12 @@ function diffJson(before,after,path,operations){
  if(Object.is(before,after))return;
  const beforeObject=object(before),afterObject=object(after);
  if(beforeObject&&afterObject){
-  // New schema keys require replacing an existing container under strictSet.
+  // New OR removed schema keys require replacing the whole container under
+  // strictSet: adding one needs a container replace, and removing one would
+  // emit {op:'remove'} which strictSet rejects ("cannot delete required key"),
+  // failing the entire settlement batch. Replace the container instead.
   // Normal scalar changes can stay small instead of replacing the whole world.
-  if(Object.keys(after).some(key=>!Object.hasOwn(before,key))){
+  if(Object.keys(after).some(key=>!Object.hasOwn(before,key))||Object.keys(before).some(key=>!Object.hasOwn(after,key))){
    operations.push({op:'replace',path,value:clone(after)});return;
   }
   const keys=new Set([...Object.keys(before),...Object.keys(after)]);
@@ -159,6 +162,8 @@ function settle({baselineVariables,input='',storyText='',turn=1,textVersion=0,si
  }
  let variables=withInitialWorld(before,turn);
  let world=variables.stat_data.宝可梦;
+ // 行动提示只活一轮：上一轮「已遭遇…」之类的引导不该压住这一轮的判断。
+ if(object(world.剧情))delete world.剧情.行动提示;
  variables=mvu.recalculateDerived(variables);
  world=variables.stat_data.宝可梦;
 

@@ -59,6 +59,42 @@ const elite = [
  {name:'阿渡',ids:[130,148,148,142,149],levels:[56,54,54,58,60]},
  {name:'冠军小茂',ids:[18,65,112,103,130,6],levels:[59,57,59,59,61,63]},
 ];
+// 具名训练家的友谊对战队伍（关都 1—151）。等级随徽章数与所在节点成长；
+// 没配对的角色仍用所在路段的路人队伍，名字照用玩家/正文给的。
+const NAMED_TRAINER_TEAMS = {
+ '小智':[25,1,7,4,58,6],
+ '赤红':[1,4,7,25,130,6],
+ '小黄':[25,35,113,26,131,103],
+ '小蓝':[18,65,112,103,130,6],
+ '小绿':[1,4,7,18,65,112],
+ '大木博士':[16,19,21,25],
+ '正辉':[81,82,137],
+ '富士老人':[92,93,94],
+ '武藏':[23,24,110,71],
+ '小次郎':[52,109,110,71],
+};
+function namedTrainerTeam(name, world, node) {
+ const badgeCount = world.训练家?.徽章?.length || 0;
+ const base = Math.max(5, Number(node?.level) || 5, badgeCount * 4 + 3);
+ // 小茂按玩家的初始御三家取克制的那只，随徽章成长（与劲敌线一致的规则）。
+ if (name === '小茂') {
+  const starter = {1:4,4:7,7:1}[world.剧情?.初始御三家编号 || world.队伍?.[0]?.图鉴编号] || 4;
+  const evolved = starter + (badgeCount >= 5 ? 2 : badgeCount >= 2 ? 1 : 0);
+  const ids = badgeCount >= 5 ? [18,65,112,evolved] : badgeCount >= 2 ? [17,64,evolved] : badgeCount >= 1 ? [16,evolved] : [evolved];
+  return ids.map((id, index) => [id, Math.min(100, base + index)]);
+ }
+ const ids = NAMED_TRAINER_TEAMS[name];
+ if (Array.isArray(ids) && ids.length) {
+  const count = Math.min(ids.length, badgeCount >= 6 ? 6 : badgeCount >= 3 ? 4 : badgeCount >= 1 ? 3 : 2);
+  return ids.slice(0, count).map((id, index) => [id, Math.min(100, base + index)]);
+ }
+ // 馆主与四天王的友谊战用他们自己的招牌队伍，等级随徽章走（正式道馆战仍走 challenge-gym）。
+ const gym = catalog.gyms.find(item => item.name === name);
+ if (gym) return gym.ids.map((id, index) => [id, Math.min(100, base + index)]);
+ const eliteRow = elite.find(item => item.name === name);
+ if (eliteRow) return eliteRow.ids.map((id, index) => [id, Math.min(100, base + index)]);
+ return null;
+}
 function integer(n, low, high, label) {
  if (!Number.isInteger(n) || n < low || n > high) throw Error(`${label}须为${low}—${high}整数。`);
  return n;
@@ -796,7 +832,9 @@ function theaterAction(variables,action,args={}){
   w=root(next);const node=byNode.get(w.地图.节点),turn=w.地图.轮次+1;
   const roster=node.id==='viridian-forest'?['捕虫少年',[10,13]]:node.kind==='cave'?['登山男',[74,95]]:node.kind==='route'?['短裤小子',[19,21]]:['迷你裙',[16,39]];
   const index=createHash('sha256').update(`${node.id}:${turn}`).digest()[0]%roster[1].length;
-  w.地图.轮次=turn;w.遭遇={类型:'trainer',训练家:payload.trainerName||roster[0],itemInventory:node.level>=20?{superpotion:1}:{potion:1},itemPolicy:{maxUses:1},队伍:(w.设置.battleMode==='doubles'?[0,1]:[0]).map((_,slot)=>makeMon(roster[1][(index+slot)%roster[1].length],Math.max(3,node.level||5),`trainer-${node.id}-${turn}-${slot}`))};
+  const named=namedTrainerTeam(payload.trainerName,w,node);
+  const pairs=named||(w.设置.battleMode==='doubles'?[0,1]:[0]).map(slot=>[roster[1][(index+slot)%roster[1].length],Math.max(3,node.level||5)]);
+  w.地图.轮次=turn;w.遭遇={类型:'trainer',训练家:payload.trainerName||roster[0],itemInventory:node.level>=20?{superpotion:1}:{potion:1},itemPolicy:{maxUses:1},队伍:pairs.map(([speciesId,level],slot)=>makeMon(speciesId,level,`trainer-${node.id}-${turn}-${slot}`))};
   w.战斗={轮次:turn,状态:'pending',结果:'',摘要:`${roster[0]}向你发起了友谊挑战。`,操作序号:0};
  }
  else if(action==='hell-rematch'){
