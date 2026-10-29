@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "sourceCommit": "633962e61ead907597f808c1b351d972f817d77b",
+  "workflow": "https://github.com/weixinlll/dshcard-pokemon/actions/runs/40865365321",
+  "event": "release",
+  "jobs": {
+    "ubuntu-latest": "success",
+    "windows-latest": "success"
+  },
+  "checks": [
+    "fresh checkout",
+    "download pinned release and verify SHA256",
+    "prepare media",
+    "validate references and screenshots",
+    "full regression tests"
+  ],
+  "note": "A redundant manually dispatched run was cancelled; the release validation above completed successfully."
+}

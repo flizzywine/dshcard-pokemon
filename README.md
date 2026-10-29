@@ -1,6 +1,6 @@
 # dshcard-pokemon · 宝可梦火红叶绿：关都旅程
 
-[![测试](https://github.com/weixinlll/dshcard-pokemon/actions/workflows/ci.yml/badge.svg)](https://github.com/weixinlll/dshcard-pokemon/actions/workflows/ci.yml)
+[![测试](https://github.com/weixinlll/dshcard-pokemon/actions/workflows/ci.yml/badge.svg?event=release)](https://github.com/weixinlll/dshcard-pokemon/actions/workflows/ci.yml)
 [![角色卡下载](https://img.shields.io/github/v/release/weixinlll/dshcard-pokemon?label=角色卡)](https://github.com/weixinlll/dshcard-pokemon/releases/latest)
 [![代码许可 MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 
