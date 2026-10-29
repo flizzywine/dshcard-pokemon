@@ -22,6 +22,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      # A `release: published` run starts before the 545 MiB asset finishes
+      # uploading, so the pinned download 404s. Wait for the exact artifact the
+      # manifest names instead of failing on a race.
+      - name: Wait for the pinned release asset
+        shell: bash
+        run: |
+          url=$(python -c "import json;print(json.load(open('release-manifest.json'))['url'])")
+          echo "waiting for $url"
+          for i in $(seq 1 40); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L -r 0-1023 "$url" || true)
+            if [ "$code" = "206" ] || [ "$code" = "200" ]; then
+              echo "asset ready (HTTP $code) after attempt $i"
+              exit 0
+            fi
+            echo "attempt $i: HTTP $code, retrying in 15s"
+            sleep 15
+          done
+          echo "release asset never became downloadable" >&2
+          exit 1
       - name: Prepare pinned media
         run: python scripts/fetch_assets.py
       - name: Check repository
