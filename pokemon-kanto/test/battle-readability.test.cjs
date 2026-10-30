@@ -61,7 +61,7 @@ test('battle log retains and renders every real event beyond the previous 100-en
 test('battle lines stay on screen long enough to read who used what', () => {
   // At 1× a move line is held after its animation and every other line before the next replaces it;
   // 演出速度 divides these and 跳过 skips them (wait() resolves at once while fast-forwarding).
-  assert.match(app, /await animateMove\(p, moveResult\.outcome === 'hit', moveResult\); \}\n[^\n]*\n\s*await wait\(560\);/);
-  assert.match(app, /if \(text && kind !== 'move'\) await wait\(380\);/);
+  assert.match(app, /await animateMove\(p, moveResult\.outcome === 'hit', moveResult\); \}\n[^\n]*\n\s*await wait\(900\);/);
+  assert.match(app, /if \(text && kind !== 'move'\) await wait\(650\);/);
   assert.match(app, /function wait\(ms\) \{\n\s*if\(state\.fastForward\)return Promise\.resolve\(\);/);
 });

@@ -2937,7 +2937,7 @@
         pendingImpact[targetSide] = {};
         if (!moveResult.charging && moveResult.outcome !== 'fail') { await wait(110); await animateMove(p, moveResult.outcome === 'hit', moveResult); }
         // Hold 「X使出了Y！」 long enough to read before the next line replaces it (scaled by 演出速度; 跳过 skips it).
-        await wait(560);
+        await wait(900);
       }
       applyHpEvent(line);
       if (kind === '-damage' && side) {
@@ -2973,7 +2973,7 @@
         }
       }
       // Each battle line stays readable for a moment, as in the cartridge's text box.
-      if (text && kind !== 'move') await wait(380);
+      if (text && kind !== 'move') await wait(650);
       if (kind === 'faint') { const side = actorSide(p[2]), img = side === 'player' ? els.playerSprite : els.foeSprite; img.classList.add('faint-out'); await wait(360); }
       if (kind === 'switch' || kind === 'drag') {
         const side = actorSide(p[2]), species = speciesByEnglish(p[3]), party = nextSnapshot?.sides?.[side === 'player' ? 0 : 1], finalMon = activeMon(party);
