@@ -167,6 +167,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
 .kanto-theater-controls .dsh-tavern-stage-controls{display:flex;align-items:center;gap:7px;flex-wrap:wrap;width:100%;color:inherit}
 .kanto-theater-controls .dsh-tavern-spacer{flex:1}
 .kanto-gameover{position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:16px;background:rgba(6,14,20,.76);color:#fff;text-align:center}.kanto-gameover strong{font-size:34px;letter-spacing:.4em}.kanto-gameover p{margin:0;font-size:16px}.kanto-gameover div{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}.kanto-gameover small{opacity:.8}
+.kanto-continue{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 8px}.kanto-continue p{margin:0;font-weight:600}
 .kanto-defeat{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 8px}.kanto-defeat p{margin:0;font-weight:600}
 .kanto-note{position:absolute;left:4%;top:14px;max-width:90%;margin:0;font-size:13px;color:#fff;background:#132e40d9;padding:6px 12px;border-radius:6px;pointer-events:none}
 .kanto-safari-prop{position:absolute;left:22%;top:53%;z-index:3;pointer-events:none;width:32px;height:32px;border-radius:50%;background:linear-gradient(#61945a 0 43%,#172e36 44% 56%,#fcf8de 57%);border:2px solid #172e36;box-shadow:0 0 20px #fff5;animation:kanto-safari-arc .85s cubic-bezier(.2,.6,.55,1) both}
@@ -500,7 +501,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
         h('button',{type:'button',className:'kanto-action',disabled:busy,onClick:onAccept},'接受失败，继续剧情')),
       onRetry?null:h('small',null,'这一战请从原来的入口再次挑战。'));
   }
-  function TheaterScene({ctx,gameId,stage,theater,stageAssets,beat,beats,index,advance,footer,notice,onMode,onServiceChoice,sceneRef,scene,service,busy,playerName,battleOver=false,defeat=null,gameOver=null,reducedMotion=false}){
+  function TheaterScene({ctx,gameId,stage,theater,stageAssets,beat,beats,index,advance,footer,notice,onMode,onServiceChoice,sceneRef,scene,service,busy,playerName,battleOver=false,defeat=null,gameOver=null,continueStory=null,reducedMotion=false}){
     const current=service||beat||(beats||[])[index],raw=String(current?.text||''),hidden=isStageDataRow(current,beats);
     const beatText=stripStagePayload(hidden?'':raw),theaterText=String(theater?.dialogue||'').trim();
     let text=beatText||theaterText||'……',narration='';
@@ -536,6 +537,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
       notice?h('p',{className:'kanto-note',role:'status'},notice):null,
       gameOver&&!service?h(GameOver,{...gameOver,busy}):null,
       h('div',{className:'kanto-theater-box',onClick:e=>e.stopPropagation()},
+        continueStory&&!service?h('div',{className:'kanto-continue',role:'status'},h('p',null,continueStory.summary),h('button',{type:'button',className:'kanto-action',disabled:busy,onClick:continueStory.run},'继续剧情')):null,
         defeat&&!service?h('div',{className:'kanto-defeat',role:'status'},h('p',null,'队伍全部倒下了。'),defeat.heal?h('button',{type:'button',className:'kanto-action',disabled:busy,onClick:defeat.heal},'去宝可梦中心恢复'):h('p',null,'这里没有宝可梦中心，在输入框写下一步，让剧情带你去找。')):null,
         speaker?h('span',{className:'kanto-theater-name'},speaker):null,
         service?.summary?h('p',{className:'kanto-service-summary'},service.summary):null,
@@ -571,8 +573,18 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
     const lostId=battleOver&&world.战斗.结果==='lose'?String(world.战斗.最近战斗ID||world.战斗.轮次||'lost'):'';
     const ackKey='kanto-defeat-ack:'+gameId;
     const accepted=(()=>{try{return globalThis.localStorage?.getItem(ackKey)===lostId;}catch{return false;}})()||shared.acceptedLoss===lostId;
-    const gameOverShown=Boolean(lostId)&&!accepted;
-    const acceptLoss=()=>{try{globalThis.localStorage?.setItem(ackKey,lostId);}catch{}sessions.set(gameId,{...(sessions.get(gameId)||{}),acceptedLoss:lostId});paint(v=>v+1);};
+    // This turn's battle has ended (the battle journal belongs to the turn on screen): the story waits for the
+    // player's next line, so offer one that tells the model how it went. It goes out as an ordinary input.
+    const battleThisTurn=data?.battle?.ended===true&&mode==='story';
+    const opponent=world?.遭遇?.训练家||'对手';
+    const outcomeLine=({win:`赢下了和${opponent}的对战。`,lose:`输给了${opponent}，接受这次失败。`,caught:`收服了${opponent}。`,escaped:`从和${opponent}的战斗中脱身了。`,draw:`和${opponent}打成了平手。`})[world?.战斗?.结果]||`和${opponent}的战斗结束了。`;
+    const continueAfterBattle=async()=>{
+      if(busy)return;setBusy(true);setError('');
+      try{if(typeof ui.submitInput==='function')await ui.submitInput({gameId,text:outcomeLine});else ui.setInput?.({gameId,text:outcomeLine});refresh();}
+      catch(error){setError(error.message||'未能继续剧情。');}finally{setBusy(false);}
+    };
+    const gameOverShown=Boolean(lostId)&&!accepted&&battleThisTurn;
+    const acceptLoss=()=>{try{globalThis.localStorage?.setItem(ackKey,lostId);}catch{}sessions.set(gameId,{...(sessions.get(gameId)||{}),acceptedLoss:lostId});paint(v=>v+1);return continueAfterBattle();};
     // Mirrors mvu.lostBattleRetryable: encounters with their own attempts are re-entered where they began.
     const retryable=(e=>Boolean(e&&Array.isArray(e.队伍)&&e.队伍.length&&!e.specialId&&!e.storyEventId&&!e.campaignId&&!e.hellRematchKey&&e.联盟===undefined))(world?.遭遇);
     const retryLoss=async()=>{
@@ -743,7 +755,7 @@ window.__ModuleLoader__.load({id:'dsh-card-pokemon-frlg-stage',factory:require=>
             h('label',null,h('input',{type:'checkbox',checked:world?.设置?.bondBattleEffects!==false,disabled:busy||!data?.writable||world?.战斗?.状态==='active',onChange:e=>setting({bondBattleEffects:e.target.checked})}),'羁绊闪避与要害辅助'),
             h('label',null,h('input',{type:'checkbox',checked:world?.设置?.道馆等级上限!==false,disabled:busy||!data?.writable||world?.战斗?.状态==='active',onChange:e=>setting({levelCap:e.target.checked})}),'道馆前等级上限'))))),
       h('div',{className:'kanto-stage-viewport'},mode==='story'
-        ?h(TheaterScene,{ctx,gameId,stage,theater,stageAssets,beat,beats,index,battleOver,gameOver:gameOverShown?{trainer:world.遭遇?.训练家||'',onRetry:retryable&&data?.writable?retryLoss:null,onAccept:acceptLoss}:null,defeat:defeated?{heal:(heal=>heal?()=>prepare(heal):null)(options.find(option=>option.id==='heal'&&option.enabled!==false))}:null,scene:data?.presentation?.scene,service:shared.serviceScene,busy,reducedMotion:reducedEffects,playerName:world?.训练家?.姓名,onServiceChoice:prepare,advance:advanceScene,footer:readableStageFooter(footer,beats,index),notice:defeated||gameOverShown?'':journal,onMode:requestMode,sceneRef})
+        ?h(TheaterScene,{ctx,gameId,stage,theater,stageAssets,beat,beats,index,battleOver,continueStory:battleThisTurn&&!gameOverShown&&data?.writable?{summary:outcomeLine,run:continueAfterBattle}:null,gameOver:gameOverShown?{trainer:world.遭遇?.训练家||'',onRetry:retryable&&data?.writable?retryLoss:null,onAccept:acceptLoss}:null,defeat:defeated?{heal:(heal=>heal?()=>prepare(heal):null)(options.find(option=>option.id==='heal'&&option.enabled!==false))}:null,scene:data?.presentation?.scene,service:shared.serviceScene,busy,reducedMotion:reducedEffects,playerName:world?.训练家?.姓名,onServiceChoice:prepare,advance:advanceScene,footer:readableStageFooter(footer,beats,index),notice:defeated||gameOverShown?'':journal,onMode:requestMode,sceneRef})
         :h(BattleFrame,{ctx,gameId,mode,musicEnabled,musicManaged,effectsEnabled,animationSpeed,reducedEffects,onChange:change,onRefresh:refresh,onPrepare:prepare,onPreferences:value=>{if([1,2,4].includes(value.speed))setSpeed(value.speed);if(typeof value.effects==='boolean')setEffects(value.effects);if(typeof value.reducedEffects==='boolean')setReduced(value.reducedEffects);}})),
       h('div',{className:'kanto-stage-dock',onClick:e=>e.stopPropagation()},
         mode==='story'&&preview?h('div',{className:'kanto-stage-prompt',role:'region','aria-label':'准备行动'},h('label',{className:'kanto-draft-label'},'编辑这次行动',h('textarea',{'aria-label':'行动草稿',value:preview.text,maxLength:4000,onChange:e=>setPreview({...preview,text:e.target.value}),disabled:busy})),h('div',{className:'kanto-draft-actions'},h('small',null,'可以改写。只有点发送，剧情才会继续。'),button(busy?'正在发送…':'发送并继续剧情',confirm,busy||!data?.writable||!preview.text.trim(),'kanto-action is-primary'),button('放到输入框',()=>{ui.setInput?.({gameId,text:preview.text});setPreview(null);}),button('取消',()=>setPreview(null)))):null,

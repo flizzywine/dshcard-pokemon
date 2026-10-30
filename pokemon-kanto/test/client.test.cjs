@@ -235,9 +235,9 @@ test('the in-stage battle marker is disabled once this battle is settled',async(
   assert.equal(app.apiCalls.some(call=>call.route.endsWith('/enter-battle')),false);
 });
 
-function lostStage(party,encounter={类型:'trainer',训练家:'小茂',队伍:[{uid:'rival-1',当前HP:3}]}){
-  const world={训练家:{金钱:100,徽章:[]},地图:{节点:'pallet',地点:'真新镇'},队伍:party,遭遇:encounter,战斗:{状态:'finished',结果:'lose',已奖励:true,最近战斗ID:'b-1'},剧情:{行动提示:'当前场景不允许这个操作。'}};
-  const app=browserPlugin({mvu:{writable:true,turn:4,world,theater:{options:[{id:'heal',label:'宝可梦中心恢复',enabled:true}],dialogue:'小茂把精灵球收了回去。'}}});
+function lostStage(party,encounter={类型:'trainer',训练家:'小茂',队伍:[{uid:'rival-1',当前HP:3}]},{result='lose',thisTurn=true}={}){
+  const world={训练家:{金钱:100,徽章:[]},地图:{节点:'pallet',地点:'真新镇'},队伍:party,遭遇:encounter,战斗:{状态:'finished',结果:result,已奖励:true,最近战斗ID:'b-1'},剧情:{行动提示:'当前场景不允许这个操作。'}};
+  const app=browserPlugin({mvu:{writable:true,turn:4,battle:thisTurn?{ended:true,storyTurn:4}:null,world,theater:{options:[{id:'heal',label:'宝可梦中心恢复',enabled:true}],dialogue:'小茂把精灵球收了回去。'}}});
   const beat={kind:'line',text:'小茂笑了。',turn:4},input={gameId:'game-1',stage:{},beats:[beat],index:0,beat};
   const scene=async()=>{let stage=app.ui.stageView.render(input);app.render(stage.type,stage.props,'direct-stage');await tick();
     stage=app.ui.stageView.render(input);const tree=app.render(stage.type,stage.props,'direct-stage');return walk(tree,node=>node.type?.name==='TheaterScene')[0];};
@@ -262,7 +262,8 @@ test('a lost battle opens the game-over screen and retries the same battle',asyn
 test('accepting the loss leaves the game-over screen and offers the center when the party is down',async()=>{
   const {app,scene}=lostStage([{uid:'a',当前HP:0}]);
   let theater=await scene();
-  theater.props.gameOver.onAccept();
+  await theater.props.gameOver.onAccept();await tick();
+  assert.deepEqual(app.submissions.map(item=>item.text),['输给了小茂，接受这次失败。'],'accepting the loss goes on with the story');
   theater=await scene();
   assert.equal(theater.props.gameOver,null);
   assert.equal(theater.props.notice,'','the stale action hint gives way to the defeat notice');
@@ -270,6 +271,24 @@ test('accepting the loss leaves the game-over screen and offers the center when 
   assert.ok(walk(sceneTree,node=>node.type==='p'&&[].concat(node.props.children).join('')==='队伍全部倒下了。').length);
   buttonNamed(sceneTree,'去宝可梦中心恢复').props.onClick();await tick();
   assert.ok(app.apiCalls.some(call=>call.route.endsWith('/scene')&&call.data.action==='heal'));
+});
+
+test('after this turn\'s battle the stage offers to continue the story with how it went',async()=>{
+  const {app,scene}=lostStage([{uid:'a',当前HP:12}],undefined,{result:'win'});
+  const theater=await scene();
+  assert.equal(theater.props.gameOver,null);
+  assert.equal(theater.props.continueStory.summary,'赢下了和小茂的对战。');
+  const tree=app.render(theater.type,theater.props,'direct-scene');
+  buttonNamed(tree,'继续剧情').props.onClick();await tick();
+  assert.deepEqual(app.submissions.map(item=>item.text),['赢下了和小茂的对战。']);
+});
+
+test('a battle from an earlier turn offers neither the game-over screen nor continue',async()=>{
+  const {scene}=lostStage([{uid:'a',当前HP:0}],undefined,{thisTurn:false});
+  const theater=await scene();
+  assert.equal(theater.props.gameOver,null);
+  assert.equal(theater.props.continueStory,null);
+  assert.ok(theater.props.defeat,'the party-down notice still points to the center');
 });
 
 test('a loss in an encounter with its own attempts offers no retry',async()=>{
