@@ -632,6 +632,20 @@ function chooseStarter(variables,id,options={}) {
  w.遭遇.队伍=[makeMon({1:4,4:7,7:1}[id],5,'rival-1')];updateDexStats(w);syncTasks(w);validateMvu(next);return next;
 }
 function center(variables){const w=root(variables);if(byNode.get(w.地图.节点)?.kind!=='town'||w.战斗.状态==='active')throw Error('请在城镇且战斗外使用宝可梦中心。');return w;}
+// 战败画面「重新挑战这一战」: the lost battle again, from the start. Both teams are restored (HP, status,
+// PP) and the same opponent waits as a new pending round; nothing is charged. Encounters that run their own
+// attempts (campaign, Rocket story, special, hell rematch, League) keep their own entries instead.
+function lostBattleRetryable(encounter){return Boolean(encounter&&Array.isArray(encounter.队伍)&&encounter.队伍.length&&!encounter.specialId&&!encounter.storyEventId&&!encounter.campaignId&&!encounter.hellRematchKey&&encounter.联盟===undefined);}
+function retryLostBattle(variables,battleId){
+ const next=ensureMvuDefaults(variables),w=root(next);
+ if(w.战斗.状态!=='finished'||w.战斗.结果!=='lose')throw Error('只有刚输掉的战斗可以重新挑战。');
+ if(battleId!==undefined&&battleId!==w.战斗.最近战斗ID)throw Error('战斗状态已变化，请刷新后再操作。');
+ if(!lostBattleRetryable(w.遭遇))throw Error('这一战请从原来的入口再次挑战。');
+ for(const m of [...w.队伍,...w.遭遇.队伍]){if(m.能力值?.hp)m.当前HP=m.能力值.hp;m.状态='';for(const move of m.招式||[])if(move&&typeof move==='object'&&Number.isFinite(move.PP上限))move.PP=move.PP上限;}
+ const turn=w.地图.轮次+1;w.地图.轮次=turn;
+ w.战斗={轮次:turn,状态:'pending',结果:'',摘要:`再次挑战${w.遭遇.训练家||'对手'}。`,操作序号:0};
+ validateMvu(next);return next;
+}
 function healAtCenter(variables){const next=ensureMvuDefaults(variables),w=center(next);for(const m of w.队伍){m.当前HP=m.能力值.hp;m.状态='';for(const move of m.招式)move.PP=move.PP上限;}w.剧情.剧场={...(w.剧情.剧场||{}),地点:w.地图.节点,轮次:w.地图.轮次,最近动作:'heal',角色:'nurse_joy',对白:'乔伊小姐：大家都恢复健康了。旅途中也要记得照顾好伙伴。'};return next;}
 function buyItem(variables,item,count=1){const next=ensureMvuDefaults(variables),w=center(next),definition=itemsById.get(item),shop=shopFor(w);if(!definition||!shop.available||!shop.items.includes(item))throw Error('这家商店没有出售这种物品。');integer(count,1,99,'购买数量');if(w.训练家.金钱<definition.price*count)throw Error('金钱不足。');if(w.背包.物品[item]+count>999)throw Error('物品已达到上限。');w.训练家.金钱-=definition.price*count;w.背包.物品[item]+=count;npcQuests.recordPurchase(w,item,count,w.地图?.轮次);npcQuests.refresh(w,{storyTurn:w.地图?.轮次});validateMvu(next);return next;}
 function useItem(variables,itemId,uid,options={}){
@@ -915,5 +929,5 @@ function worldView(variables,{storyTurn,includeTileWorld=false,stageOnly=false}=
  if(includeTileWorld)syncTileLocation(world);
  return {world,classicServices:classicServices.view(world,{storyTurn}),...(includeTileWorld?{tileWorld:tileWorld.view(world)}:{}),cosmetics:cosmetics.view(world),rocketEvents:rocketEvents.options(world),locations:locations.map(node=>({...clone(node),encounters:wildEncounters.habitat(world,node.id)?.species||[]})),items:clone(itemCatalog),tmhm:clone(tmhmCatalog),shop:shopFor(world),facilities:cityFacilities.view(world),fieldServices:{options:fieldServices.options(world,{storyTurn})},companionship:companionship.view(world),battleEffects:{bondBattleEffects:world.设置.bondBattleEffects,description:'自定义羁绊战斗辅助：信赖60时对己方接受普通命中检定的攻击命中率乘0.97；信赖100时乘0.95；信赖80时己方攻击要害等级+1。可在设置关闭。'},campaign:{state:clone(world.剧情.关都主线),data:campaign.data(),context:campaign.view(world)},storyEvents:storyEvents.view(world),storyConversation:storyConversation.view(world),gadgets:gadgets.view(world),tools:require('./gadget-actions.cjs').view(world,{storyTurn}),field:{actions:fieldSkills.fieldActions(world),travel:locations.filter(node=>byNode.get(world.地图.节点).links.includes(node.id)).map(node=>({node:node.id,...fieldSkills.travelInfo(world,node.id)}))},progression:{levelCap:levelCap(world),nextGym:world.训练家.徽章.length<8?world.训练家.徽章.length:null,badges:world.训练家.徽章.length,leagueProgress:world.剧情.联盟进度||0,difficultyDescription:encounterBalance.DIFFICULTY_INFO[world.设置.对手难度]},theater:scenes.buildTheater(world,{storyTurn})};
 }
-module.exports={updateDexStats,toolAction,flyToTown,createInitialMvu,validateMvu,recalculateDerived,ensureMvuDefaults,inventoryFromRecord,ensureEncounter,startFromMvu,applyBattleResult,learnBattleMove,travel,worldView,theaterView,theaterAction,chooseStarter,restoreStarterOptions,healAtCenter,buyItem,useItem,moveBox,learnMove,stats,makeMon,expAt,applyLevelGrowth,grantExperience,grantLevel};
+module.exports={lostBattleRetryable,retryLostBattle,updateDexStats,toolAction,flyToTown,createInitialMvu,validateMvu,recalculateDerived,ensureMvuDefaults,inventoryFromRecord,ensureEncounter,startFromMvu,applyBattleResult,learnBattleMove,travel,worldView,theaterView,theaterAction,chooseStarter,restoreStarterOptions,healAtCenter,buyItem,useItem,moveBox,learnMove,stats,makeMon,expAt,applyLevelGrowth,grantExperience,grantLevel};
 

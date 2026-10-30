@@ -907,6 +907,8 @@ async function loadSession(gameId, head, variables) {
   register('travel', move);
   register('starter', (gameId, args) => updateMvu(gameId, args, 'chooseStarter', [args.id ?? args.starter ?? args.pokemonId,args.starterOptions]));
   register('heal', (gameId, args) => updateMvu(gameId, args, 'healAtCenter', []));
+  // 战败画面: restore the lost battle as a new pending round, then start it at once.
+  register('retry-battle', async (gameId, args) => { await updateMvu(gameId, args, 'retryLostBattle', [args.battleId]); return startBattle(gameId, args, true); });
   register('shop', (gameId, args) => updateMvu(gameId, args, 'buyItem', [args.item, args.count]));
   register('item', (gameId, args) => updateMvu(gameId, args, 'useItem', [args.item, args.uid,{slot:args.slot}]));
   register('box', (gameId, args) => updateMvu(gameId, args, 'moveBox', [args.uids??args.uid, args.direction]));
